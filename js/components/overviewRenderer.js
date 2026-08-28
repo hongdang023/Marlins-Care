@@ -287,41 +287,37 @@ function renderCorePrinciples() {
       </div>
     </div>
 
-    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-6) 0 var(--space-3);">
+    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-6) 0 var(--space-4);">
       Operating Principles
     </h2>
-    <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: var(--space-3);">
-      Bộ 3 nguyên tắc bất biến định hướng mọi quyết định và hành vi tương tác với phụ huynh:
-    </p>
 
-    <div style="overflow-x: auto; margin-bottom: var(--space-8);">
-      <table class="sop-table">
-        <thead>
-          <tr>
-            <th style="width: 80px;">Trụ cột</th>
-            <th style="width: 250px;">Nguyên tắc Cốt lõi (Principle)</th>
-            <th>Diễn giải chi tiết & Chuẩn mực hành vi (Explanation)</th>
-          </tr>
-        </thead>
-        <tbody>
-          ${rules.map(r => `
-            <tr>
-              <td><span class="badge badge-system" style="font-weight: 800;">${r.id}</span></td>
-              <td>
-                <div style="font-size: 14.5px; font-weight: 700; color: var(--text-primary); margin-bottom: 4px;">
-                  ${r.title}
-                </div>
-                <div style="font-size: 12px; color: var(--color-primary-600); font-weight: 600;">
-                  ${r.summary}
-                </div>
-              </td>
-              <td style="font-size: 13.5px; line-height: 1.6; color: var(--text-secondary);">
-                ${r.explanation}
-              </td>
-            </tr>
-          `).join('')}
-        </tbody>
-      </table>
+    <div style="display: flex; flex-direction: column; gap: var(--space-4); margin-bottom: var(--space-8);">
+      <div style="border-left: 3px solid var(--color-system); padding: var(--space-2) var(--space-4); background: var(--bg-surface-subtle); border-radius: 0 var(--radius-md) var(--radius-md) 0;">
+        <div style="font-size: 16px; font-weight: 700; color: var(--text-primary); margin-bottom: 4px;">
+          Machines detect; humans judge.
+        </div>
+        <div style="font-size: 14px; color: var(--text-secondary); line-height: 1.6;">
+          Máy móc đảm nhiệm dữ liệu chính xác và phát hiện tín hiệu bất thường. Con người (Mentor & Marlins Care) thấu cảm bối cảnh, phán đoán chuyên môn và kết nối chân thành.
+        </div>
+      </div>
+
+      <div style="border-left: 3px solid var(--color-mentor); padding: var(--space-2) var(--space-4); background: var(--bg-surface-subtle); border-radius: 0 var(--radius-md) var(--radius-md) 0;">
+        <div style="font-size: 16px; font-weight: 700; color: var(--text-primary); margin-bottom: 4px;">
+          Optimize value, not frequency.
+        </div>
+        <div style="font-size: 14px; color: var(--text-secondary); line-height: 1.6;">
+          Sự hiện diện của con người phải mang lại giá trị độc bản. Tập trung tạo chuyển biến trong từng khoảnh khắc ý nghĩa thay vì gửi tin nhắn định kỳ rập khuôn.
+        </div>
+      </div>
+
+      <div style="border-left: 3px solid var(--color-marlins); padding: var(--space-2) var(--space-4); background: var(--bg-surface-subtle); border-radius: 0 var(--radius-md) var(--radius-md) 0;">
+        <div style="font-size: 16px; font-weight: 700; color: var(--text-primary); margin-bottom: 4px;">
+          Job-driven & family-centric.
+        </div>
+        <div style="font-size: 14px; color: var(--text-secondary); line-height: 1.6;">
+          Mọi điểm chạm đều phải trực tiếp giải quyết một bài toán cụ thể của phụ huynh (Parent Job) và thấu hiểu bối cảnh riêng của từng gia đình.
+        </div>
+      </div>
     </div>
   `;
 }
