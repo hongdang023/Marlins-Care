@@ -273,13 +273,6 @@ function renderCorePrinciples() {
         </div>
       `).join('')}
     </div>
-
-    <div class="callout callout-warning" style="margin-top: var(--space-8);">
-      <div class="callout-title">📌 Kênh giao tiếp: "Zalo is a Channel, Not a Touchpoint"</div>
-      <div class="callout-content">
-        Zalo chỉ là phương tiện truyền dẫn. Không ép Mentor gửi tin nhắn định kỳ hàng tuần nếu không có quan sát sâu sắc mang lại giá trị thực sự cho gia đình.
-      </div>
-    </div>
   `;
 }
 
@@ -309,20 +302,6 @@ function renderCapabilityMap() {
           <div class="feature-card-desc">${st.desc}</div>
         </div>
       `).join('')}
-    </div>
-
-    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-4);">
-      Failure Modes
-    </h2>
-    <div class="do-dont-grid">
-      <div class="dont-box">
-        <div class="dont-title">⚠️ Bẫy Vận Hành 1: Gửi Tin Nhắn Máy Móc Rập Khuôn</div>
-        <div>Mentor copy-paste nhận xét chung chung chỉ thay tên học sinh ➔ Làm xói mòn niềm tin quan hệ (Relational Trust).</div>
-      </div>
-      <div class="dont-box">
-        <div class="dont-title">⚠️ Bẫy Vận Hành 2: Báo Động Tự Động Sai Ngữ Cảnh</div>
-        <div>Hệ thống tự động nhắn tin phụ huynh khi thấy điểm bài tập giảm ➔ Gây hoang mang và áp lực tiêu cực lên học sinh.</div>
-      </div>
     </div>
   `;
 }
