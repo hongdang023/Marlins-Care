@@ -184,16 +184,16 @@ export function renderPlaybook(slug, onNavigate) {
         <!-- Accordion Container -->
         <div class="accordion-group" data-accordion-group="${tp.id}">
 
-          <!-- 1. CORE MINDSET & PHILOSOPHY (Open by default) -->
+          <!-- 1. CORE MINDSET (Open by default) -->
           ${tp.mindset ? `
             <div class="accordion-card open">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
                   <span class="accordion-icon">🎯</span>
-                  <span class="accordion-title">Triết lý & Tư duy cốt lõi (Mindset)</span>
+                  <span class="accordion-title">Core Mindset</span>
                 </div>
                 <div class="accordion-meta">
-                  <span class="accordion-badge">${tp.mindset.priorities ? tp.mindset.priorities.length + ' Trụ cột' : 'Core'}</span>
+                  <span class="accordion-badge">${tp.mindset.priorities ? tp.mindset.priorities.length + ' Pillars' : 'Core'}</span>
                   <span class="accordion-chevron">▼</span>
                 </div>
               </button>
@@ -218,16 +218,16 @@ export function renderPlaybook(slug, onNavigate) {
             </div>
           ` : ''}
 
-          <!-- 2. STAKEHOLDER JTBD MAPPING (Collapsed by default) -->
+          <!-- 2. STAKEHOLDER MAPPING (Collapsed by default) -->
           ${tp.stakeholderJTBD ? `
             <div class="accordion-card">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
                   <span class="accordion-icon">👥</span>
-                  <span class="accordion-title">Stakeholder Analysis & JTBD Mapping</span>
+                  <span class="accordion-title">Stakeholder Mapping</span>
                 </div>
                 <div class="accordion-meta">
-                  <span class="accordion-badge">${tp.stakeholderJTBD.length} Stakeholders</span>
+                  <span class="accordion-badge">${tp.stakeholderJTBD.length} Roles</span>
                   <span class="accordion-chevron">▼</span>
                 </div>
               </button>
@@ -262,10 +262,10 @@ export function renderPlaybook(slug, onNavigate) {
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
                   <span class="accordion-icon">⏱️</span>
-                  <span class="accordion-title">Session Agenda Flow</span>
+                  <span class="accordion-title">Session Agenda</span>
                 </div>
                 <div class="accordion-meta">
-                  <span class="accordion-badge">${tp.agendaFlow.length} Chặng</span>
+                  <span class="accordion-badge">${tp.agendaFlow.length} Stages</span>
                   <span class="accordion-chevron">▼</span>
                 </div>
               </button>
@@ -294,13 +294,13 @@ export function renderPlaybook(slug, onNavigate) {
             </div>
           ` : ''}
 
-          <!-- 4. MENTOR FACILITATION GUIDES (Open by default) -->
+          <!-- 4. MENTOR GUIDES (Open by default) -->
           ${tp.mentorGuides ? `
             <div class="accordion-card open">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
                   <span class="accordion-icon">🧠</span>
-                  <span class="accordion-title">Mentor Facilitation Guides (Question Bank & Observation)</span>
+                  <span class="accordion-title">Mentor Guides</span>
                 </div>
                 <div class="accordion-meta">
                   <span class="badge badge-mentor" style="font-size: 11px;">${tp.mentorGuides.rule}</span>
@@ -312,7 +312,7 @@ export function renderPlaybook(slug, onNavigate) {
                   <!-- Question Bank -->
                   <div>
                     <div style="font-weight: 700; font-size: 13.5px; color: var(--color-slate-800); margin-bottom: var(--space-2); display:flex; align-items:center; gap:6px;">
-                      <span>💬 Question Bank (Bộ câu hỏi gợi mở)</span>
+                      <span>💬 Question Bank</span>
                     </div>
                     <div style="display: flex; flex-direction: column; gap: var(--space-2);">
                       ${tp.mentorGuides.questionBank.map(q => `
@@ -327,7 +327,7 @@ export function renderPlaybook(slug, onNavigate) {
                   <!-- Observation Guide -->
                   <div>
                     <div style="font-weight: 700; font-size: 13.5px; color: var(--color-slate-800); margin-bottom: var(--space-2);">
-                      👁️ Observation Guide (Tiêu chí quan sát)
+                      👁️ Observation Guide
                     </div>
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-2);">
                       ${tp.mentorGuides.observationGuide.map(ob => `
@@ -342,7 +342,7 @@ export function renderPlaybook(slug, onNavigate) {
                   <!-- Exit Checklist -->
                   <div style="background: rgba(245, 158, 11, 0.06); border: 1px dashed var(--color-amber-500); border-radius: var(--radius-md); padding: var(--space-3);">
                     <div style="font-weight: 700; font-size: 13px; color: #b45309; margin-bottom: var(--space-2);">
-                      ☑️ Exit Checklist (Điều kiện hoàn thành buổi gặp)
+                      ☑️ Exit Checklist
                     </div>
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 6px;">
                       ${tp.mentorGuides.exitChecklist.map(ex => `
@@ -357,13 +357,13 @@ export function renderPlaybook(slug, onNavigate) {
             </div>
           ` : ''}
 
-          <!-- 5. FAMILY NOTES TEMPLATE & CASE (Collapsed by default) -->
+          <!-- 5. FAMILY NOTES (Collapsed by default) -->
           ${tp.familyNotesTemplate ? `
             <div class="accordion-card">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
                   <span class="accordion-icon">📝</span>
-                  <span class="accordion-title">Family Notes Template & Case Study</span>
+                  <span class="accordion-title">Family Notes</span>
                 </div>
                 <div class="accordion-meta">
                   <span class="accordion-badge">${tp.familyNotesTemplate.version || 'Template'}</span>
@@ -373,13 +373,13 @@ export function renderPlaybook(slug, onNavigate) {
               <div class="accordion-body">
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-3);">
                   <div style="background: #ffffff; border: 1px solid var(--color-slate-200); border-radius: var(--radius-md); padding: var(--space-3);">
-                    <div style="font-size: 13px; font-weight: 700; color: var(--color-slate-800); margin-bottom: var(--space-2);">Cấu trúc Template:</div>
+                    <div style="font-size: 13px; font-weight: 700; color: var(--color-slate-800); margin-bottom: var(--space-2);">Template Structure:</div>
                     <ul style="padding-left: var(--space-4); margin: 0; font-size: 12px; color: var(--color-slate-600); line-height: 1.6;">
                       ${tp.familyNotesTemplate.structure.map(st => `<li>${st}</li>`).join('')}
                     </ul>
                   </div>
                   <div style="background: #f8fafc; border: 1px solid var(--color-blue-200); border-radius: var(--radius-md); padding: var(--space-3);">
-                    <div style="font-size: 13px; font-weight: 700; color: var(--color-blue-700); margin-bottom: var(--space-2);">💡 Ví dụ Case Study thực tế:</div>
+                    <div style="font-size: 13px; font-weight: 700; color: var(--color-blue-700); margin-bottom: var(--space-2);">💡 Case Study:</div>
                     <div style="font-size: 12px; color: var(--color-slate-700); line-height: 1.5; display:flex; flex-direction:column; gap:3px;">
                       <div><strong>🎯 Goal:</strong> ${tp.familyNotesTemplate.exampleCase.goal}</div>
                       <div><strong>💡 3 Insights:</strong> ${tp.familyNotesTemplate.exampleCase.insights.join(' | ')}</div>
@@ -393,23 +393,23 @@ export function renderPlaybook(slug, onNavigate) {
             </div>
           ` : ''}
 
-          <!-- 6. SOP STEPS, DO'S & DON'TS, TEMPLATES (Collapsed by default) -->
+          <!-- 6. SOP WORKFLOW (Collapsed by default) -->
           ${tp.sopSteps || tp.doGuidelines || tp.template ? `
             <div class="accordion-card">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
                   <span class="accordion-icon">📋</span>
-                  <span class="accordion-title">Quy trình tác nghiệp SOP & Mẫu tin nhắn</span>
+                  <span class="accordion-title">SOP Workflow</span>
                 </div>
                 <div class="accordion-meta">
-                  <span class="accordion-badge">SOP & Do/Don't</span>
+                  <span class="accordion-badge">SOP & Templates</span>
                   <span class="accordion-chevron">▼</span>
                 </div>
               </button>
               <div class="accordion-body">
                 <!-- SOP Steps -->
                 ${tp.sopSteps ? `
-                  <h4 style="font-size: 13.5px; font-weight: 700; margin: 0 0 var(--space-2);">📋 Các bước thực hiện (SOP Steps)</h4>
+                  <h4 style="font-size: 13.5px; font-weight: 700; margin: 0 0 var(--space-2);">📋 SOP Steps</h4>
                   <div style="overflow-x:auto; margin-bottom: var(--space-4);">
                     <table class="sop-table">
                       <thead>
@@ -468,13 +468,13 @@ export function renderPlaybook(slug, onNavigate) {
             </div>
           ` : ''}
 
-          <!-- 7. ASSESSMENT RUBRICS 3x5 (Collapsed by default) -->
+          <!-- 7. ASSESSMENT RUBRICS (Collapsed by default) -->
           ${tp.rubric && tp.rubric.length > 0 ? `
             <div class="accordion-card">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
                   <span class="accordion-icon">⭐</span>
-                  <span class="accordion-title">Assessment Rubrics Matrix</span>
+                  <span class="accordion-title">Assessment Rubrics</span>
                 </div>
                 <div class="accordion-meta">
                   <span class="badge badge-system" style="font-size:11px;">Level 3 = DoD Standard ⭐</span>

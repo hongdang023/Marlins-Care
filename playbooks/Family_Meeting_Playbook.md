@@ -12,7 +12,7 @@
 ---
 
 <details open>
-<summary><h3>🎯 1. Triết Lý & Tư Duy Cốt Lõi (Mindset)</h3></summary>
+<summary><h3>🎯 Core Mindset</h3></summary>
 
 > **"Đến để hiểu, không phải để đánh giá."**
 
@@ -30,7 +30,7 @@ Trước khi mentor hiểu học sinh, mentor cần hiểu gia đình. Trước 
 ---
 
 <details>
-<summary><h3>👥 2. Stakeholders Analysis & JTBD Mapping (3 Nhóm)</h3></summary>
+<summary><h3>👥 Stakeholder Mapping</h3></summary>
 
 | Stakeholder | Job cần giải quyết (JTBD) | Family Tour mang lại gì? (Delivered Value) |
 | :--- | :--- | :--- |
@@ -43,7 +43,7 @@ Trước khi mentor hiểu học sinh, mentor cần hiểu gia đình. Trước 
 ---
 
 <details>
-<summary><h3>📋 3. Family Tour SOP Checklist (Trước - Trong - Sau)</h3></summary>
+<summary><h3>📋 SOP Checklist</h3></summary>
 
 | Giai đoạn | Checklist Hành động | Bottleneck (Nếu có) | Mục đích | Deliverable / Trạng thái |
 | :--- | :--- | :--- | :--- | :--- |
