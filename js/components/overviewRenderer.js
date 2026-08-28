@@ -194,48 +194,75 @@ function renderParentJobs() {
     <h2 style="font-size: 18px; font-weight: 700; color: var(--color-system); margin: var(--space-6) 0 var(--space-3); display:flex; align-items:center; gap:6px;">
       <span>🛠️ Functional Jobs</span>
     </h2>
-    <div class="card-grid-2">
-      ${functional.map(j => `
-        <div class="feature-card">
-          <div class="feature-card-header">
-            <span class="badge badge-system">${j.id}</span>
-            <strong style="font-size:14.5px; color:var(--text-primary);">${j.title}</strong>
-          </div>
-          <div class="feature-card-desc">${j.desc}</div>
-        </div>
-      `).join('')}
+    <div style="overflow-x: auto; margin-bottom: var(--space-6);">
+      <table class="sop-table">
+        <thead>
+          <tr>
+            <th style="width: 80px;">Mã</th>
+            <th style="width: 240px;">Job Statement</th>
+            <th>Mô tả chi tiết nhu cầu thực tế</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${functional.map(j => `
+            <tr>
+              <td><span class="badge badge-system">${j.id}</span></td>
+              <td><strong>${j.title}</strong></td>
+              <td>${j.desc}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
     </div>
 
     <!-- Emotional Jobs -->
     <h2 style="font-size: 18px; font-weight: 700; color: var(--color-mentor); margin: var(--space-8) 0 var(--space-3); display:flex; align-items:center; gap:6px;">
       <span>💖 Emotional Jobs</span>
     </h2>
-    <div class="card-grid-2">
-      ${emotional.map(j => `
-        <div class="feature-card">
-          <div class="feature-card-header">
-            <span class="badge badge-mentor">${j.id}</span>
-            <strong style="font-size:14.5px; color:var(--text-primary);">${j.title}</strong>
-          </div>
-          <div class="feature-card-desc">${j.desc}</div>
-        </div>
-      `).join('')}
+    <div style="overflow-x: auto; margin-bottom: var(--space-6);">
+      <table class="sop-table">
+        <thead>
+          <tr>
+            <th style="width: 80px;">Mã</th>
+            <th style="width: 240px;">Job Statement</th>
+            <th>Mô tả chi tiết cảm xúc an tâm</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${emotional.map(j => `
+            <tr>
+              <td><span class="badge badge-mentor">${j.id}</span></td>
+              <td><strong>${j.title}</strong></td>
+              <td>${j.desc}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
     </div>
 
     <!-- Social Jobs -->
     <h2 style="font-size: 18px; font-weight: 700; color: var(--color-marlins); margin: var(--space-8) 0 var(--space-3); display:flex; align-items:center; gap:6px;">
       <span>🌱 Social Jobs</span>
     </h2>
-    <div class="card-grid-2">
-      ${social.map(j => `
-        <div class="feature-card">
-          <div class="feature-card-header">
-            <span class="badge badge-marlins">${j.id}</span>
-            <strong style="font-size:14.5px; color:var(--text-primary);">${j.title}</strong>
-          </div>
-          <div class="feature-card-desc">${j.desc}</div>
-        </div>
-      `).join('')}
+    <div style="overflow-x: auto; margin-bottom: var(--space-6);">
+      <table class="sop-table">
+        <thead>
+          <tr>
+            <th style="width: 80px;">Mã</th>
+            <th style="width: 240px;">Job Statement</th>
+            <th>Mô tả chi tiết giá trị xã hội & gia đình</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${social.map(j => `
+            <tr>
+              <td><span class="badge badge-marlins">${j.id}</span></td>
+              <td><strong>${j.title}</strong></td>
+              <td>${j.desc}</td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
     </div>
   `;
 }
