@@ -5,14 +5,24 @@ export const KNOWLEDGE_HUB_DATA = {
     "date": "2026-08-28",
     "corePhilosophy": "Automate the evidence. Humanize the meaning.",
     "rules": [
-      "Do not make humans report what machines already know.",
-      "Machines detect; humans judge.",
-      "Human touch must add something the system cannot.",
-      "Personalization is not inserting the student's name; it means showing meaningful understanding of that learner/family.",
-      "Optimize human value, not human frequency.",
-      "Minimize low-value human work, not human relationship.",
-      "Every touchpoint must solve a specific Parent Job.",
-      "Family-Centric: Mentors observe, tag (pain, jtbd, need, belief, goal, fact) and follow whole families in Dolphin Workspace."
+      {
+        "id": "P1",
+        "title": "Machines Detect; Humans Judge.",
+        "summary": "Tự động hóa bằng chứng để giải phóng con người; con người chịu trách nhiệm thấu cảm và phán đoán bối cảnh.",
+        "explanation": "Hệ thống máy móc đảm nhiệm việc thu thập log dữ liệu, đo lường năng lực và phát hiện các bất thường (sụt giảm nỗ lực, điểm số). Tuyệt đối không bắt con người báo cáo những gì máy đã biết. Con người (Mentors & Marlins Care) chỉ can thiệp để thấu hiểu nguyên nhân sâu xa, phán đoán bối cảnh gia đình và đưa ra giải pháp sư phạm phù hợp."
+      },
+      {
+        "id": "P2",
+        "title": "Optimize Value, Not Frequency.",
+        "summary": "Sự hiện diện của con người phải mang lại giá trị độc bản; cá nhân hóa thực chất thay vì hình thức rập khuôn.",
+        "explanation": "Cá nhân hóa không phải là việc chèn tên học sinh vào các tin nhắn gửi hàng tuần rập khuôn. Tối ưu hóa chất lượng trong từng khoảnh khắc ý nghĩa (High-touch Meaningful Moments) thay vì chạy theo số lượng bề nổi. Nếu một thông tin không mang lại sự thấu cảm hay tiến bộ thực sự, đừng làm phiền phụ huynh."
+      },
+      {
+        "id": "P3",
+        "title": "Job-Driven & Family-Centric.",
+        "summary": "Lấy cả gia đình làm trung tâm; mọi điểm chạm đều phải giải quyết một bài toán (JTBD) thực chất của phụ huynh.",
+        "explanation": "Trước khi mentor hiểu học sinh, mentor cần hiểu bối cảnh gia đình và kỳ vọng của cha mẹ. Mọi tương tác, báo cáo hay buổi gặp đều phải trực tiếp giải quyết một bài toán cụ thể của phụ huynh (an tâm về môi trường, giải tỏa lo lắng, định hướng lộ trình), giúp củng cố niềm tin và mối quan hệ đồng hành dài hạn."
+      }
     ]
   },
   "stakeholders": [

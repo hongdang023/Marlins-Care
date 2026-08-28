@@ -276,29 +276,52 @@ function renderCorePrinciples() {
         Core Principles
       </h1>
       <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6; margin-top: var(--space-2);">
-        7 Nguyên tắc kim chỉ nam định hình hành vi và chuẩn mực vận hành của toàn bộ Mentors, Operators và Marlins Care.
+        3 Trụ cột nguyên tắc kim chỉ nam định hình hành vi và chuẩn mực vận hành của toàn bộ Mentors, Operators và Marlins Care.
       </p>
     </div>
 
-    <div class="philosophy-banner">
-      <div class="philosophy-quote">"Do not make humans report what machines already know."</div>
+    <div class="philosophy-banner" style="margin-bottom: var(--space-6);">
+      <div class="philosophy-quote">"Automate the evidence. Humanize the meaning."</div>
       <div class="philosophy-desc">
-        Hệ thống đảm nhiệm tính chính xác, tính nhất quán và quy mô. Con người đảm nhiệm bối cảnh, phán đoán và quan hệ chân thành.
+        Hệ thống đảm nhiệm tính chính xác, tính nhất quán và quy mô. Con người đảm nhiệm bối cảnh, phán đoán chuyên môn và kết nối chân thành.
       </div>
     </div>
 
-    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-6) 0 var(--space-4);">
+    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-6) 0 var(--space-3);">
       Operating Principles
     </h2>
-    <div style="display:flex; flex-direction:column; gap:var(--space-4);">
-      ${rules.map((rule, idx) => `
-        <div class="feature-card" style="flex-direction:row; align-items:flex-start; gap:var(--space-4); padding:var(--space-4) var(--space-5);">
-          <span class="badge badge-system" style="font-size:13px; font-weight:800; width:28px; height:28px; border-radius:50%; justify-content:center;">${idx + 1}</span>
-          <div style="font-size:15px; font-weight:600; color:var(--text-primary); line-height:1.5;">
-            ${rule}
-          </div>
-        </div>
-      `).join('')}
+    <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: var(--space-3);">
+      Bộ 3 nguyên tắc bất biến định hướng mọi quyết định và hành vi tương tác với phụ huynh:
+    </p>
+
+    <div style="overflow-x: auto; margin-bottom: var(--space-8);">
+      <table class="sop-table">
+        <thead>
+          <tr>
+            <th style="width: 80px;">Trụ cột</th>
+            <th style="width: 250px;">Nguyên tắc Cốt lõi (Principle)</th>
+            <th>Diễn giải chi tiết & Chuẩn mực hành vi (Explanation)</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${rules.map(r => `
+            <tr>
+              <td><span class="badge badge-system" style="font-weight: 800;">${r.id}</span></td>
+              <td>
+                <div style="font-size: 14.5px; font-weight: 700; color: var(--text-primary); margin-bottom: 4px;">
+                  ${r.title}
+                </div>
+                <div style="font-size: 12px; color: var(--color-primary-600); font-weight: 600;">
+                  ${r.summary}
+                </div>
+              </td>
+              <td style="font-size: 13.5px; line-height: 1.6; color: var(--text-secondary);">
+                ${r.explanation}
+              </td>
+            </tr>
+          `).join('')}
+        </tbody>
+      </table>
     </div>
   `;
 }

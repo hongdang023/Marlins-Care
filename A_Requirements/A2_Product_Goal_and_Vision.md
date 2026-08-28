@@ -28,23 +28,19 @@ Hệ thống trả lời 6 câu hỏi vận hành cốt lõi:
 
 ---
 
-## 2. Triết Lý Cốt Lõi & Nguyên Tắc Vận Hành
+## 2. Triết Lý Cốt Lõi & 3 Nguyên Tắc Vận Hành Bất Biến
 
 ### Triết lý chủ đạo:
 > **"Automate the evidence. Humanize the meaning."**  
 > *(Tự động hóa bằng chứng. Nhân văn hóa ý nghĩa.)*
 
-- **Nemo12 System:** Đảm nhiệm Dữ liệu + Quy mô + Tính nhất quán (Data + Scale + Consistency).
-- **Mentor:** Đảm nhiệm Bối cảnh + Phán đoán + Mối quan hệ cá nhân hóa (Context + Judgment + Relationship).
-- **Marlins Host:** Thấu cảm + Phá vỡ định kiến/hiểu lầm + Định hướng đồng hành (Parent Reflection + Misconception Resolution + Deeper Support).
+### 3 Trụ cột Nguyên tắc Vận hành (Golden Principles):
 
-### Các nguyên tắc hỗ trợ bất biến:
-1. **Không bắt con người báo cáo những gì máy móc đã biết:** Dữ liệu điểm danh, nộp bài, thời lượng học tập phải do hệ thống tự động trích xuất.
-2. **Machines detect; humans judge:** Máy móc dò tìm tín hiệu bất thường/tiến bộ; Mentor thấu hiểu bối cảnh và đưa ra phán đoán.
-3. **Sự hiện diện của con người phải mang lại giá trị độc bản:** Nếu một tin nhắn hay báo cáo máy có thể làm tốt hơn thì không dùng nhân sự.
-4. **Cá nhân hóa thực chất:** Cá nhân hóa không phải là chèn tên học sinh vào mẫu tin nhắn, mà là thể hiện sự thấu hiểu sâu sắc về bối cảnh và sự tiến bộ riêng biệt của đứa trẻ.
-5. **Tối ưu hóa giá trị con người, không tối ưu tần suất:** Gặp ít nhưng sâu sắc và đúng thời điểm ý nghĩa, thay vì nhắn tin spam hàng tuần vô nghĩa.
-6. **Mọi tương tác đều phải giải quyết một Job cụ thể của phụ huynh.**
+| Trụ cột | Nguyên tắc Cốt lõi | Diễn giải & Chuẩn mực Hành vi |
+| :---: | :--- | :--- |
+| **P1** | **Machines Detect; Humans Judge.** | Hệ thống tự động thu thập log dữ liệu, đo lường năng lực và cảnh báo tín hiệu bất thường. Tuyệt đối không bắt con người báo cáo những gì máy đã biết. Con người (Mentor & Marlins Care) chỉ can thiệp để thấu cảm bối cảnh, phán đoán chuyên môn và đưa ra giải pháp phù hợp. |
+| **P2** | **Optimize Value, Not Frequency.** | Sự hiện diện của con người phải mang lại giá trị độc bản. Cá nhân hóa là thấu hiểu bối cảnh sâu sắc của gia đình, không phải chèn tên học sinh vào tin nhắn hàng tuần rập khuôn. Tối ưu hóa chất lượng trong từng khoảnh khắc ý nghĩa (High-touch Meaningful Moments) thay vì chạy theo tần suất bề nổi. |
+| **P3** | **Job-Driven & Family-Centric.** | Lấy cả gia đình làm trung tâm. Trước khi mentor hiểu học sinh, mentor cần hiểu bối cảnh gia đình. Mọi tương tác, báo cáo hay buổi gặp đều phải trực tiếp giải quyết một bài toán cụ thể của phụ huynh (Parent Job), giúp củng cố niềm tin và mối quan hệ đồng hành dài hạn. |
 
 ---
 
