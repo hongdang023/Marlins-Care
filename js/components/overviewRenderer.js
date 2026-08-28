@@ -331,7 +331,7 @@ function renderCapabilityMap() {
         Capability Map
       </h1>
       <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6; margin-top: var(--space-2);">
-        Phân định ranh giới trách nhiệm rõ ràng: Máy móc phát hiện (Detect) ➔ Con người phán đoán (Judge) ➔ Marlins định hướng (Guide).
+        Phân định ranh giới trách nhiệm rõ ràng: Máy móc phát hiện (Detect) ➔ Mentor phán đoán và đồng hành (Judge & Relate).
       </p>
     </div>
 

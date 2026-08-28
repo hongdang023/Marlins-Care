@@ -49,12 +49,6 @@ export const KNOWLEDGE_HUB_DATA = {
       "name": "Dolphin Mentor",
       "role": "Human Layer (Context + Judgment + Relationship)",
       "desc": "Quan sát định tính, phán đoán bối cảnh, đối thoại thấu cảm, gắn Dory tags và chăm sóc theo gia đình (family_mentors)."
-    },
-    {
-      "id": "marlins",
-      "name": "Marlins Care (Anh Đắc)",
-      "role": "Guidance Layer (Reflection + Misconception Resolution)",
-      "desc": "Năng lực hỗ trợ thường trực chiều Chủ Nhật; tháo gỡ ngộ nhận và trang bị mô hình tư duy giáo dục."
     }
   ],
   "guardrails": [
