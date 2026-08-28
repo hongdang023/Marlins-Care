@@ -104,7 +104,7 @@ export function renderDecisionLogs(slug, onNavigate) {
 
     <!-- Context & Problem -->
     <h2 style="font-size: 18px; font-weight: 700; margin: var(--space-6) 0 var(--space-3);">
-      🔍 Problem Statement & Context
+      🔍 Problem Statement
     </h2>
     <p style="font-size: 14.5px; color: var(--text-secondary); line-height: 1.6; margin-bottom: var(--space-6);">
       ${detail.context || 'Vấn đề tối ưu hóa trải nghiệm của phụ huynh và phân bổ nguồn lực con người hiệu quả.'}
@@ -124,7 +124,7 @@ export function renderDecisionLogs(slug, onNavigate) {
 
     <!-- Trade-offs -->
     <div class="callout callout-tip">
-      <div class="callout-title">⚖️ Trade-offs & Accepted Costs</div>
+      <div class="callout-title">⚖️ Trade-off Analysis</div>
       <div class="callout-content">
         ${detail.tradeoffs || 'Tối ưu chất lượng mối quan hệ và sự an tâm bền vững thay vì chạy theo số lượng bề nổi.'}
       </div>

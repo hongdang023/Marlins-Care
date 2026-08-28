@@ -34,7 +34,7 @@ function renderWhyParentCare() {
     <div style="margin-bottom: var(--space-6);">
       <span class="badge badge-system">OVERVIEW §1</span>
       <h1 style="font-size: 28px; font-weight: 800; color: var(--text-primary); margin-top: var(--space-2);">
-        Why Parent Care? (Lý do tồn tại)
+        Why Parent Care
       </h1>
       <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6; margin-top: var(--space-2);">
         Định vị lý do vì sao Nemo12 & Marlins Care xây dựng hệ thống chăm sóc phụ huynh chuyên sâu song hành cùng 12 buổi học của học sinh.
@@ -49,7 +49,7 @@ function renderWhyParentCare() {
     </div>
 
     <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-4);">
-      1. Bối Cảnh Vận Hành: 12 Buổi Học + Marlins Day
+      Operational Context
     </h2>
     <div class="card-grid-2">
       <div class="feature-card">
@@ -74,7 +74,7 @@ function renderWhyParentCare() {
     </div>
 
     <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-4);">
-      2. Bộ Rào Chắn Nguyên Tắc (Guardrails)
+      Core Guardrails
     </h2>
     ${KNOWLEDGE_HUB_DATA.guardrails.map(g => `
       <div class="callout callout-coral">
@@ -91,7 +91,7 @@ function renderParentJobs() {
     <div style="margin-bottom: var(--space-6);">
       <span class="badge badge-mentor">OVERVIEW §2</span>
       <h1 style="font-size: 28px; font-weight: 800; color: var(--text-primary); margin-top: var(--space-2);">
-        Parent Jobs To Be Done (JTBD Matrix)
+        Parent JTBD Matrix
       </h1>
       <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6; margin-top: var(--space-2);">
         Ma trận 3 tầng nhu cầu cốt lõi của phụ huynh: Nhu cầu thực tế (Functional), Cảm xúc an tâm (Emotional) và Giá trị xã hội/gia đình (Social).
@@ -117,7 +117,7 @@ function renderParentJobs() {
 
     <!-- Functional Jobs -->
     <h2 style="font-size: 18px; font-weight: 700; color: var(--color-system); margin: var(--space-6) 0 var(--space-3); display:flex; align-items:center; gap:6px;">
-      <span>🛠️ 1. Functional Jobs</span>
+      <span>🛠️ Functional Jobs</span>
     </h2>
     <div class="card-grid-2">
       ${functional.map(j => `
@@ -133,7 +133,7 @@ function renderParentJobs() {
 
     <!-- Emotional Jobs -->
     <h2 style="font-size: 18px; font-weight: 700; color: var(--color-mentor); margin: var(--space-8) 0 var(--space-3); display:flex; align-items:center; gap:6px;">
-      <span>💖 2. Emotional Jobs</span>
+      <span>💖 Emotional Jobs</span>
     </h2>
     <div class="card-grid-2">
       ${emotional.map(j => `
@@ -149,7 +149,7 @@ function renderParentJobs() {
 
     <!-- Social Jobs -->
     <h2 style="font-size: 18px; font-weight: 700; color: var(--color-marlins); margin: var(--space-8) 0 var(--space-3); display:flex; align-items:center; gap:6px;">
-      <span>🌱 3. Social Jobs</span>
+      <span>🌱 Social Jobs</span>
     </h2>
     <div class="card-grid-2">
       ${social.map(j => `
@@ -171,7 +171,7 @@ function renderCorePrinciples() {
     <div style="margin-bottom: var(--space-6);">
       <span class="badge badge-system">OVERVIEW §3</span>
       <h1 style="font-size: 28px; font-weight: 800; color: var(--text-primary); margin-top: var(--space-2);">
-        Core Principles & Operating Philosophy
+        Core Principles
       </h1>
       <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6; margin-top: var(--space-2);">
         7 Nguyên tắc kim chỉ nam định hình hành vi và chuẩn mực vận hành của toàn bộ Mentors, Operators và Marlins Care.
@@ -186,7 +186,7 @@ function renderCorePrinciples() {
     </div>
 
     <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-6) 0 var(--space-4);">
-      7 Nguyên Tắc Vận Hành Bất Biến
+      Operating Principles
     </h2>
     <div style="display:flex; flex-direction:column; gap:var(--space-4);">
       ${rules.map((rule, idx) => `
@@ -200,7 +200,7 @@ function renderCorePrinciples() {
     </div>
 
     <div class="callout callout-warning" style="margin-top: var(--space-8);">
-      <div class="callout-title">📌 Nguyên tắc Kênh giao tiếp: "Zalo is a Channel, Not a Touchpoint"</div>
+      <div class="callout-title">📌 Kênh giao tiếp: "Zalo is a Channel, Not a Touchpoint"</div>
       <div class="callout-content">
         Zalo chỉ là phương tiện truyền dẫn. Không ép Mentor gửi tin nhắn định kỳ hàng tuần nếu không có quan sát sâu sắc mang lại giá trị thực sự cho gia đình.
       </div>
@@ -214,7 +214,7 @@ function renderCapabilityMap() {
     <div style="margin-bottom: var(--space-6);">
       <span class="badge badge-hybrid">OVERVIEW §4</span>
       <h1 style="font-size: 28px; font-weight: 800; color: var(--text-primary); margin-top: var(--space-2);">
-        Capability Map: System vs Mentor vs Marlins Care
+        Capability Map
       </h1>
       <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6; margin-top: var(--space-2);">
         Phân định ranh giới trách nhiệm rõ ràng: Máy móc phát hiện (Detect) ➔ Con người phán đoán (Judge) ➔ Marlins định hướng (Guide).
@@ -237,7 +237,7 @@ function renderCapabilityMap() {
     </div>
 
     <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-4);">
-      Bẫy Vận Hành & Failure Modes Cần Phòng Tránh
+      Failure Modes
     </h2>
     <div class="do-dont-grid">
       <div class="dont-box">
