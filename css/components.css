@@ -1,0 +1,813 @@
+/* Component Specifications: Badges, Callouts, Rubrics 3x5, Template Copy, Journey Pipeline, Timeline, Cards */
+
+/* ==========================================================================
+   1. BADGES & PILL TAGS
+   ========================================================================== */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 8px;
+  border-radius: var(--radius-full);
+  font-size: 11.5px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.badge-system {
+  background: rgba(2, 132, 199, 0.12);
+  color: var(--color-system);
+  border: 1px solid rgba(2, 132, 199, 0.25);
+}
+
+.badge-mentor {
+  background: rgba(13, 148, 136, 0.12);
+  color: var(--color-mentor);
+  border: 1px solid rgba(13, 148, 136, 0.25);
+}
+
+.badge-marlins {
+  background: rgba(234, 88, 12, 0.12);
+  color: var(--color-marlins);
+  border: 1px solid rgba(234, 88, 12, 0.25);
+}
+
+.badge-hybrid {
+  background: rgba(124, 58, 237, 0.12);
+  color: var(--color-hybrid);
+  border: 1px solid rgba(124, 58, 237, 0.25);
+}
+
+.badge-risk {
+  background: rgba(220, 38, 38, 0.12);
+  color: var(--color-risk);
+  border: 1px solid rgba(220, 38, 38, 0.25);
+}
+
+.badge-milestone {
+  background: rgba(5, 150, 105, 0.12);
+  color: var(--color-milestone);
+  border: 1px solid rgba(5, 150, 105, 0.25);
+}
+
+.badge-tag {
+  background: var(--bg-surface-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-subtle);
+}
+
+.badge-aarrr-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+}
+
+.badge-aarrr-pill.acq {
+  background: #ffedd5 !important;
+  color: #c2410c !important;
+  border: 1px solid #fdba74 !important;
+}
+
+.badge-aarrr-pill.act {
+  background: #e0f2fe !important;
+  color: #0369a1 !important;
+  border: 1px solid #7dd3fc !important;
+}
+
+.badge-aarrr-pill.ret {
+  background: #ccfbf1 !important;
+  color: #0f766e !important;
+  border: 1px solid #5eead4 !important;
+}
+
+.badge-aarrr-pill.ref {
+  background: #f3e8ff !important;
+  color: #7e22ce !important;
+  border: 1px solid #d8b4fe !important;
+}
+
+.badge-aarrr-pill.rev {
+  background: #dcfce7 !important;
+  color: #15803d !important;
+  border: 1px solid #86efac !important;
+}
+
+/* ==========================================================================
+   2. CALLOUT CONTAINERS (Tips, Warnings, Quotes)
+   ========================================================================== */
+.callout {
+  padding: var(--space-4) var(--space-5);
+  border-radius: var(--radius-md);
+  margin: var(--space-6) 0;
+  border-left: 4px solid var(--color-primary-600);
+  background: var(--bg-surface-subtle);
+}
+
+.callout-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: var(--space-2);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.callout-content {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.callout-tip {
+  border-left-color: var(--color-primary-600);
+  background: rgba(15, 118, 110, 0.06);
+}
+
+.callout-coral {
+  border-left-color: var(--color-accent-600);
+  background: rgba(234, 88, 12, 0.06);
+}
+
+.callout-warning {
+  border-left-color: #F59E0B;
+  background: rgba(245, 158, 11, 0.08);
+}
+
+.callout-danger {
+  border-left-color: var(--color-risk);
+  background: rgba(220, 38, 38, 0.08);
+}
+
+/* Philosophy Banner */
+.philosophy-banner {
+  background: linear-gradient(135deg, rgba(15, 118, 110, 0.1), rgba(234, 88, 12, 0.08));
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  margin-bottom: var(--space-8);
+  position: relative;
+  overflow: hidden;
+}
+
+.philosophy-quote {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-primary-700);
+  font-style: italic;
+  margin-bottom: var(--space-2);
+}
+
+[data-theme="dark"] .philosophy-quote {
+  color: var(--color-primary-300);
+}
+
+.philosophy-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+}
+
+/* ==========================================================================
+   3. ASSESSMENT RUBRIC MATRIX (3 Criteria × 5 Levels, DoD ⭐ Highlight)
+   ========================================================================== */
+.rubric-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  margin: var(--space-6) 0;
+  overflow: hidden;
+}
+
+.rubric-header {
+  padding: var(--space-4) var(--space-5);
+  background: var(--bg-surface-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rubric-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.rubric-table-wrapper {
+  overflow-x: auto;
+  width: 100%;
+}
+
+.rubric-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  min-width: 780px;
+}
+
+.rubric-table th, .rubric-table td {
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--border-subtle);
+  vertical-align: top;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.rubric-table th {
+  background: var(--bg-surface-subtle);
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.rubric-col-crit {
+  width: 18%;
+  font-weight: 600;
+  background: var(--bg-surface-subtle);
+  color: var(--text-primary);
+}
+
+.rubric-col-l1, .rubric-col-l2, .rubric-col-l4, .rubric-col-l5 {
+  width: 16%;
+}
+
+/* Definition of Done (L3 ⭐) Highlight */
+.rubric-col-l3-head {
+  width: 18%;
+  background: rgba(15, 118, 110, 0.12) !important;
+  color: var(--color-primary-700) !important;
+  border-top: 3px solid var(--color-primary-600) !important;
+  font-weight: 700 !important;
+}
+
+.rubric-cell-l3 {
+  background: rgba(15, 118, 110, 0.04);
+  border-left: 2px solid var(--color-primary-600) !important;
+  border-right: 2px solid var(--color-primary-600) !important;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+[data-theme="dark"] .rubric-col-l3-head {
+  background: rgba(20, 184, 166, 0.15) !important;
+  color: var(--color-primary-300) !important;
+}
+
+/* ==========================================================================
+   4. TEMPLATE COPY BOX (1-Click Copy with Tooltip)
+   ========================================================================== */
+.template-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+  margin: var(--space-4) 0;
+  overflow: hidden;
+}
+
+.template-header {
+  padding: var(--space-3) var(--space-4);
+  background: var(--bg-surface-subtle);
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.template-channel-tag {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--color-accent-600);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  border: 1px solid var(--border-strong);
+  color: var(--text-secondary);
+  transition: all var(--transition-fast);
+}
+
+.btn-copy:hover {
+  background: var(--color-primary-50);
+  border-color: var(--color-primary-600);
+  color: var(--color-primary-700);
+}
+
+.template-content {
+  padding: var(--space-4);
+  font-family: var(--font-mono);
+  font-size: 12.5px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  border: none;
+}
+
+/* ==========================================================================
+   5. INTERACTIVE PARENT JOURNEY PIPELINE (7 STAGES)
+   ========================================================================== */
+.journey-pipeline-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-6);
+  margin: var(--space-6) 0;
+}
+
+.journey-stepper {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  padding: var(--space-2) 0;
+  gap: var(--space-2);
+  scrollbar-width: thin;
+}
+
+.journey-step-node {
+  flex: 1;
+  min-width: 130px;
+  padding: var(--space-3);
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+  border: 2px solid var(--border-subtle);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  text-align: center;
+  position: relative;
+}
+
+.journey-step-node:hover {
+  border-color: var(--color-primary-400);
+  transform: translateY(-2px);
+}
+
+.journey-step-node.active {
+  border-color: var(--color-primary-600);
+  background: var(--color-primary-50);
+  box-shadow: var(--shadow-glow-teal);
+}
+
+[data-theme="dark"] .journey-step-node.active {
+  background: var(--color-primary-950);
+}
+
+.journey-step-num {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-accent-600);
+  margin-bottom: 2px;
+}
+
+.journey-step-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.journey-arrow {
+  color: var(--text-muted);
+  font-size: 16px;
+}
+
+/* Stage Inspector Panel */
+.stage-inspector-panel {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  box-shadow: var(--shadow-md);
+  border-top: 4px solid var(--color-primary-600);
+  animation: fadeIn 200ms ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.stage-inspector-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-4);
+}
+
+.stage-inspector-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.inspector-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+  margin-top: var(--space-4);
+}
+
+@media (max-width: 768px) {
+  .inspector-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.inspector-block-title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: var(--space-2);
+}
+
+.inspector-block-content {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* ==========================================================================
+   6. CARDS & GRID
+   ========================================================================== */
+.card-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  gap: var(--space-6);
+  margin: var(--space-6) 0;
+}
+
+@media (max-width: 640px) {
+  .card-grid-2 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.feature-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  transition: all var(--transition-fast);
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-card:hover {
+  border-color: var(--color-primary-400);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+.feature-card-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-bottom: var(--space-3);
+}
+
+.feature-card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.feature-card-desc {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: var(--space-4);
+  flex: 1;
+}
+
+/* SOP Table & Timeline Steps */
+.sop-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-4) 0;
+  font-size: 13.5px;
+}
+
+.sop-table th, .sop-table td {
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--border-subtle);
+  text-align: left;
+}
+
+.sop-table th {
+  background: var(--bg-surface-subtle);
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+/* Do / Don't Grid */
+.do-dont-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-4);
+  margin: var(--space-4) 0;
+}
+
+@media (max-width: 640px) {
+  .do-dont-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.do-box, .dont-box {
+  padding: var(--space-4);
+  border-radius: var(--radius-md);
+  font-size: 13.5px;
+  line-height: 1.5;
+}
+
+.do-box {
+  background: rgba(5, 150, 105, 0.08);
+  border-left: 4px solid var(--color-milestone);
+}
+
+.dont-box {
+  background: rgba(220, 38, 38, 0.08);
+  border-left: 4px solid var(--color-risk);
+}
+
+.do-title {
+  font-weight: 700;
+  color: var(--color-milestone);
+  margin-bottom: var(--space-2);
+}
+
+.dont-title {
+  font-weight: 700;
+  color: var(--color-risk);
+  margin-bottom: var(--space-2);
+}
+
+/* Search Modal Dialog */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+  z-index: 200;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 100px var(--space-4) var(--space-4);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-fast);
+}
+
+.modal-overlay.open {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.search-modal {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-xl);
+  width: 100%;
+  max-width: 640px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-modal-header {
+  padding: var(--space-4);
+  border-bottom: 1px solid var(--border-subtle);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.search-input {
+  flex: 1;
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.search-results-list {
+  max-height: 380px;
+  overflow-y: auto;
+  padding: var(--space-2);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.search-result-item {
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+
+.search-result-item:hover, .search-result-item.selected {
+  background: var(--bg-surface-subtle);
+}
+
+.search-result-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.search-result-snippet {
+  font-size: 12.5px;
+  color: var(--text-muted);
+}
+
+/* ==========================================================================
+   8. PLAYBOOK ACCORDION & PROGRESSIVE DISCLOSURE (OPTION 4)
+   ========================================================================== */
+.playbook-accordion-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-3);
+  padding: 8px 12px;
+  background: var(--bg-surface-subtle);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-subtle);
+}
+
+.btn-accordion-toggle-all {
+  background: #ffffff;
+  border: 1px solid var(--border-default);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.2s ease;
+}
+
+.btn-accordion-toggle-all:hover {
+  background: var(--bg-surface-hover);
+  color: var(--text-primary);
+  border-color: var(--color-primary-500);
+}
+
+.accordion-group {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin-top: var(--space-2);
+}
+
+.accordion-card {
+  background: #ffffff;
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.accordion-card:hover {
+  border-color: var(--border-default);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-card.open {
+  border-color: rgba(59, 130, 246, 0.35);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.06);
+}
+
+.accordion-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  user-select: none;
+  transition: background-color 0.15s ease;
+}
+
+.accordion-card.open .accordion-header {
+  background: #f8fafc;
+  border-bottom: 1px solid var(--border-subtle);
+}
+
+.accordion-header:hover {
+  background: #f8fafc;
+}
+
+.accordion-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.accordion-icon {
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.accordion-title {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.accordion-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.accordion-badge {
+  font-size: 11px;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--bg-surface-subtle);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-subtle);
+  font-weight: 500;
+}
+
+.accordion-chevron {
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  transition: transform 0.2s ease;
+  font-size: 11px;
+}
+
+.accordion-card.open .accordion-chevron {
+  transform: rotate(180deg);
+  color: var(--color-primary-600);
+}
+
+.accordion-body {
+  display: none;
+  padding: 16px;
+  background: #ffffff;
+  animation: accordionFadeIn 0.2s ease-out;
+}
+
+.accordion-card.open .accordion-body {
+  display: block;
+}
+
+@keyframes accordionFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
