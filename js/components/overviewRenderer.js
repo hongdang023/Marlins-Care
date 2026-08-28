@@ -70,83 +70,92 @@ function renderWhyParentCare() {
     <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-3);">
       Operational Questions
     </h2>
-    <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: var(--space-4);">
-      Website này được thiết kế để trả lời trực tiếp 6 câu hỏi vận hành cốt lõi của bạn:
+    <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: var(--space-3);">
+      Hub này được thiết kế để giải quyết 6 câu hỏi tác nghiệp cốt lõi cho mọi thành viên trong team:
     </p>
-    <div class="card-grid-2" style="margin-bottom: var(--space-6);">
-      <div class="feature-card">
-        <div class="feature-card-header">
-          <span class="badge badge-system">Q1</span>
-          <strong style="font-size: 14px; color: var(--text-primary);">Nhu cầu thực sự của Phụ huynh?</strong>
-        </div>
-        <div class="feature-card-desc">Giải mã toàn diện 3 tầng JTBD: Nhu cầu thực tế (Functional), Cảm xúc an tâm (Emotional) và Giá trị xã hội (Social).</div>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-card-header">
-          <span class="badge badge-mentor">Q2</span>
-          <strong style="font-size: 14px; color: var(--text-primary);">Máy làm gì & Người làm gì?</strong>
-        </div>
-        <div class="feature-card-desc">Phân định ranh giới năng lực rõ ràng: Máy móc phát hiện tín hiệu ➔ Mentor phán đoán bối cảnh ➔ Marlins hỗ trợ chuyên sâu.</div>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-card-header">
-          <span class="badge badge-marlins">Q3</span>
-          <strong style="font-size: 14px; color: var(--text-primary);">Hành trình trải nghiệm ra sao?</strong>
-        </div>
-        <div class="feature-card-desc">Bản đồ tương tác trực quan 7 giai đoạn xuyên suốt từ lúc đăng ký đến kết thúc khóa học và kích hoạt đại sứ.</div>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-card-header">
-          <span class="badge badge-hybrid">Q4</span>
-          <strong style="font-size: 14px; color: var(--text-primary);">Khi nào con người cần can thiệp?</strong>
-        </div>
-        <div class="feature-card-desc">Tiêu chí kích hoạt High-touch dựa trên Khoảnh khắc ý nghĩa (Meaningful Moments) và tín hiệu học tập bất thường.</div>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-card-header">
-          <span class="badge badge-risk">Q5</span>
-          <strong style="font-size: 14px; color: var(--text-primary);">Thế nào là tương tác Đạt chuẩn (DoD)?</strong>
-        </div>
-        <div class="feature-card-desc">Bộ tiêu chí đánh giá Rubrics 3x5 định lượng rõ ràng Level 3 = Chuẩn tối thiểu cần đạt cho mỗi điểm chạm.</div>
-      </div>
-
-      <div class="feature-card">
-        <div class="feature-card-header">
-          <span class="badge badge-milestone">Q6</span>
-          <strong style="font-size: 14px; color: var(--text-primary);">Kịch bản & Mẫu tin nhắn ở đâu?</strong>
-        </div>
-        <div class="feature-card-desc">9 Playbooks tác nghiệp thực chiến kèm Question Bank, Do/Don't và Mẫu tin nhắn sẵn sàng copy 1-click.</div>
-      </div>
+    <div style="overflow-x: auto; margin-bottom: var(--space-6);">
+      <table class="sop-table">
+        <thead>
+          <tr>
+            <th style="width: 70px;">Mã</th>
+            <th style="width: 250px;">Câu hỏi cốt lõi của Bạn</th>
+            <th>Giải pháp & Nội dung chuẩn hóa trong Hub</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="badge badge-system">Q1</span></td>
+            <td><strong>Nhu cầu thực sự của Phụ huynh?</strong></td>
+            <td>Giải mã toàn diện 3 tầng JTBD: Nhu cầu thực tế (Functional), Cảm xúc an tâm (Emotional) và Giá trị xã hội (Social).</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-mentor">Q2</span></td>
+            <td><strong>Máy làm gì & Người làm gì?</strong></td>
+            <td>Phân định ranh giới năng lực rõ ràng: Máy móc phát hiện tín hiệu ➔ Mentor phán đoán bối cảnh ➔ Marlins hỗ trợ chuyên sâu.</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-marlins">Q3</span></td>
+            <td><strong>Hành trình trải nghiệm ra sao?</strong></td>
+            <td>Bản đồ tương tác trực quan 7 giai đoạn xuyên suốt từ lúc đăng ký đến kết thúc khóa học và kích hoạt đại sứ.</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-hybrid">Q4</span></td>
+            <td><strong>Khi nào con người cần can thiệp?</strong></td>
+            <td>Tiêu chí kích hoạt High-touch dựa trên Khoảnh khắc ý nghĩa (Meaningful Moments) và tín hiệu học tập bất thường.</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-risk">Q5</span></td>
+            <td><strong>Thế nào là tương tác Đạt chuẩn (DoD)?</strong></td>
+            <td>Bộ tiêu chí đánh giá Rubrics 3x5 định lượng rõ ràng Level 3 = Chuẩn tối thiểu cần đạt cho mỗi điểm chạm.</td>
+          </tr>
+          <tr>
+            <td><span class="badge badge-milestone">Q6</span></td>
+            <td><strong>Kịch bản & Mẫu tin nhắn ở đâu?</strong></td>
+            <td>9 Playbooks tác nghiệp thực chiến kèm Question Bank, Do/Don't và Mẫu tin nhắn sẵn sàng copy 1-click.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <!-- 4. Hub Architecture -->
     <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-3);">
       Hub Architecture
     </h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-3); margin-bottom: var(--space-8);">
-      <div class="feature-card" style="padding: var(--space-4);">
-        <div style="font-weight: 700; font-size: 14px; color: var(--color-system); margin-bottom: 4px;">1. Overview</div>
-        <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5;">Nền tảng tư duy, Ma trận JTBD, 7 Nguyên tắc vận hành và Bản đồ phân định năng lực.</div>
-      </div>
-
-      <div class="feature-card" style="padding: var(--space-4);">
-        <div style="font-weight: 700; font-size: 14px; color: var(--color-mentor); margin-bottom: 4px;">2. Parent Journey</div>
-        <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5;">Pipeline 7 giai đoạn tương tác trực quan gắn với từng Touchpoint và công cụ điều phối.</div>
-      </div>
-
-      <div class="feature-card" style="padding: var(--space-4);">
-        <div style="font-weight: 700; font-size: 14px; color: var(--color-marlins); margin-bottom: 4px;">3. Playbooks</div>
-        <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5;">9 Quy trình tác nghiệp chuẩn hóa (SOP), Timeline chi tiết, Bộ câu hỏi và Tiêu chuẩn Rubrics.</div>
-      </div>
-
-      <div class="feature-card" style="padding: var(--space-4);">
-        <div style="font-weight: 700; font-size: 14px; color: var(--color-hybrid); margin-bottom: 4px;">4. Decision Logs</div>
-        <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5;">Ghi chép minh bạch các quyết định kiến trúc (DAR) và phân tích đánh đổi thực tế.</div>
-      </div>
+    <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: var(--space-3);">
+      Bản đồ 4 phân hệ chính giúp bạn tra cứu nhanh theo đúng ngữ cảnh công việc:
+    </p>
+    <div style="overflow-x: auto; margin-bottom: var(--space-8);">
+      <table class="sop-table">
+        <thead>
+          <tr>
+            <th style="width: 180px;">Phân hệ</th>
+            <th style="width: 220px;">Trọng tâm nội dung</th>
+            <th>Cách khai thác khi làm việc</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong style="color: var(--color-system);">1. Overview</strong></td>
+            <td>Định vị, Ma trận JTBD, 7 Nguyên tắc vận hành, Capability Map</td>
+            <td>Đọc khi onboarding thành viên mới hoặc cần nắm vững ranh giới giữa Hệ thống và Con người.</td>
+          </tr>
+          <tr>
+            <td><strong style="color: var(--color-mentor);">2. Parent Journey</strong></td>
+            <td>Bản đồ tương tác 7 giai đoạn (AARRR Pipeline)</td>
+            <td>Tra cứu bức tranh tổng thể dòng đời học sinh và vị trí các điểm chạm (Touchpoints).</td>
+          </tr>
+          <tr>
+            <td><strong style="color: var(--color-marlins);">3. Playbooks</strong></td>
+            <td>9 Quy trình tác nghiệp chuẩn hóa (SOP), Timeline, Kịch bản & Mẫu tin nhắn</td>
+            <td>Mở hàng ngày trước mỗi buổi Live Class, Trial Class, Family Meeting để lấy checklist và script.</td>
+          </tr>
+          <tr>
+            <td><strong style="color: var(--color-hybrid);">4. Decision Logs</strong></td>
+            <td>5 Bản ghi quyết định kiến trúc vận hành (DAR)</td>
+            <td>Tra cứu lý do và các phân tích đánh đổi (Trade-offs) đằng sau mỗi chính sách vận hành.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
   `;
 }
