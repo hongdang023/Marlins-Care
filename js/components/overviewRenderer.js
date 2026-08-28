@@ -31,57 +31,123 @@ export function renderOverview(slug, onNavigate) {
 
 function renderWhyParentCare() {
   return `
+    <!-- Page Header -->
     <div style="margin-bottom: var(--space-6);">
       <span class="badge badge-system">OVERVIEW §1</span>
       <h1 style="font-size: 28px; font-weight: 800; color: var(--text-primary); margin-top: var(--space-2);">
         Why Parent Care
       </h1>
       <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6; margin-top: var(--space-2);">
-        Định vị lý do vì sao Nemo12 & Marlins Care xây dựng hệ thống chăm sóc phụ huynh chuyên sâu song hành cùng 12 buổi học của học sinh.
+        Cẩm nang chuẩn hóa trải nghiệm đồng hành phụ huynh toàn diện dành cho toàn bộ đội ngũ Mentors, Operators và Quản lý tại Nemo12.
       </p>
     </div>
 
-    <div class="philosophy-banner">
+    <!-- 1. Hub Mission -->
+    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-6) 0 var(--space-3);">
+      Hub Mission
+    </h2>
+    <div class="feature-card" style="padding: var(--space-5); margin-bottom: var(--space-6); background: var(--bg-surface-subtle); border-color: var(--border-default);">
+      <div style="font-size: 15px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-2);">
+        🎯 Trung tâm Tri thức Chuẩn hóa (Single Source of Truth)
+      </div>
+      <p style="font-size: 14px; color: var(--text-secondary); line-height: 1.6; margin: 0;">
+        Marlins Care Knowledge Hub được xây dựng nhằm giúp Nemo12 thiết kế, chuẩn hóa và thực thi công tác đồng hành cùng phụ huynh một cách <strong>nhất quán, trung thực và tối ưu hóa tối đa giá trị con người</strong>. Website này loại bỏ hoàn toàn sự cảm tính và mơ hồ trong quy trình vận hành, giúp mọi thành viên hiểu rõ trách nhiệm của mình tại từng điểm chạm.
+      </p>
+    </div>
+
+    <!-- 2. Core Philosophy (Placed right below Purpose/Mission) -->
+    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-3);">
+      Core Philosophy
+    </h2>
+    <div class="philosophy-banner" style="margin-bottom: var(--space-6);">
       <div class="philosophy-quote">"Automate the evidence. Humanize the meaning."</div>
       <div class="philosophy-desc">
-        Hệ thống tự động hóa toàn bộ việc thu thập và chứng minh dữ liệu học tập khách quan. Con người (Mentors & Marlins Care) tập trung toàn lực vào việc truyền tải ý nghĩa, thấu cảm và kiến tạo mối quan hệ tin cậy.
+        Hệ thống đảm nhiệm dữ liệu chính xác, tính nhất quán và quy mô tự động. Con người (Mentors & Marlins Care) tập trung toàn lực vào việc thấu cảm bối cảnh, phán đoán chuyên môn và kiến tạo mối quan hệ tin cậy dài hạn.
       </div>
     </div>
 
-    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-4);">
-      Operational Context
+    <!-- 3. Operational Questions -->
+    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-3);">
+      Operational Questions
     </h2>
-    <div class="card-grid-2">
+    <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: var(--space-4);">
+      Website này được thiết kế để trả lời trực tiếp 6 câu hỏi vận hành cốt lõi của bạn:
+    </p>
+    <div class="card-grid-2" style="margin-bottom: var(--space-6);">
       <div class="feature-card">
         <div class="feature-card-header">
-          <div class="feature-card-title">12 Buổi Học Học Sinh</div>
-          <span class="badge badge-system">Nemo12 Core</span>
+          <span class="badge badge-system">Q1</span>
+          <strong style="font-size: 14px; color: var(--text-primary);">Nhu cầu thực sự của Phụ huynh?</strong>
         </div>
-        <div class="feature-card-desc">
-          Học sinh trải nghiệm không gian học tập công nghệ, thuật toán và tư duy giải quyết vấn đề. Mọi nỗ lực, thử nghiệm và bước tiến đều được hệ thống ghi nhận trung thực.
-        </div>
+        <div class="feature-card-desc">Giải mã toàn diện 3 tầng JTBD: Nhu cầu thực tế (Functional), Cảm xúc an tâm (Emotional) và Giá trị xã hội (Social).</div>
       </div>
 
       <div class="feature-card">
         <div class="feature-card-header">
-          <div class="feature-card-title">Marlins Day Chiều Chủ Nhật</div>
-          <span class="badge badge-marlins">Marlins Care</span>
+          <span class="badge badge-mentor">Q2</span>
+          <strong style="font-size: 14px; color: var(--text-primary);">Máy làm gì & Người làm gì?</strong>
         </div>
-        <div class="feature-card-desc">
-          Không gian dành riêng cho phụ huynh trao đổi trực tiếp cùng Anh Đắc. Giúp gia đình tháo gỡ ngộ nhận giáo dục và xây dựng tâm thế đồng hành lành mạnh cùng con.
+        <div class="feature-card-desc">Phân định ranh giới năng lực rõ ràng: Máy móc phát hiện tín hiệu ➔ Mentor phán đoán bối cảnh ➔ Marlins hỗ trợ chuyên sâu.</div>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-header">
+          <span class="badge badge-marlins">Q3</span>
+          <strong style="font-size: 14px; color: var(--text-primary);">Hành trình trải nghiệm ra sao?</strong>
         </div>
+        <div class="feature-card-desc">Bản đồ tương tác trực quan 7 giai đoạn xuyên suốt từ lúc đăng ký đến kết thúc khóa học và kích hoạt đại sứ.</div>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-header">
+          <span class="badge badge-hybrid">Q4</span>
+          <strong style="font-size: 14px; color: var(--text-primary);">Khi nào con người cần can thiệp?</strong>
+        </div>
+        <div class="feature-card-desc">Tiêu chí kích hoạt High-touch dựa trên Khoảnh khắc ý nghĩa (Meaningful Moments) và tín hiệu học tập bất thường.</div>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-header">
+          <span class="badge badge-risk">Q5</span>
+          <strong style="font-size: 14px; color: var(--text-primary);">Thế nào là tương tác Đạt chuẩn (DoD)?</strong>
+        </div>
+        <div class="feature-card-desc">Bộ tiêu chí đánh giá Rubrics 3x5 định lượng rõ ràng Level 3 = Chuẩn tối thiểu cần đạt cho mỗi điểm chạm.</div>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-card-header">
+          <span class="badge badge-milestone">Q6</span>
+          <strong style="font-size: 14px; color: var(--text-primary);">Kịch bản & Mẫu tin nhắn ở đâu?</strong>
+        </div>
+        <div class="feature-card-desc">9 Playbooks tác nghiệp thực chiến kèm Question Bank, Do/Don't và Mẫu tin nhắn sẵn sàng copy 1-click.</div>
       </div>
     </div>
 
-    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-4);">
-      Core Guardrails
+    <!-- 4. Hub Architecture -->
+    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-3);">
+      Hub Architecture
     </h2>
-    ${KNOWLEDGE_HUB_DATA.guardrails.map(g => `
-      <div class="callout callout-coral">
-        <div class="callout-title">🛡️ [${g.id}] ${g.title}</div>
-        <div class="callout-content">${g.content}</div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-3); margin-bottom: var(--space-8);">
+      <div class="feature-card" style="padding: var(--space-4);">
+        <div style="font-weight: 700; font-size: 14px; color: var(--color-system); margin-bottom: 4px;">1. Overview</div>
+        <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5;">Nền tảng tư duy, Ma trận JTBD, 7 Nguyên tắc vận hành và Bản đồ phân định năng lực.</div>
       </div>
-    `).join('')}
+
+      <div class="feature-card" style="padding: var(--space-4);">
+        <div style="font-weight: 700; font-size: 14px; color: var(--color-mentor); margin-bottom: 4px;">2. Parent Journey</div>
+        <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5;">Pipeline 7 giai đoạn tương tác trực quan gắn với từng Touchpoint và công cụ điều phối.</div>
+      </div>
+
+      <div class="feature-card" style="padding: var(--space-4);">
+        <div style="font-weight: 700; font-size: 14px; color: var(--color-marlins); margin-bottom: 4px;">3. Playbooks</div>
+        <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5;">9 Quy trình tác nghiệp chuẩn hóa (SOP), Timeline chi tiết, Bộ câu hỏi và Tiêu chuẩn Rubrics.</div>
+      </div>
+
+      <div class="feature-card" style="padding: var(--space-4);">
+        <div style="font-weight: 700; font-size: 14px; color: var(--color-hybrid); margin-bottom: 4px;">4. Decision Logs</div>
+        <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5;">Ghi chép minh bạch các quyết định kiến trúc (DAR) và phân tích đánh đổi thực tế.</div>
+      </div>
+    </div>
   `;
 }
 
