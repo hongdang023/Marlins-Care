@@ -1,4 +1,4 @@
-import { KNOWLEDGE_HUB_DATA } from '../data.js';
+import { KNOWLEDGE_HUB_DATA, SITEMAP_CONFIG } from '../data.js';
 import { copyToClipboard } from '../utils/copyClipboard.js';
 
 // Mapping Playbooks slug -> Touchpoints IDs & Metadata (theo chuẩn AARRR)
@@ -120,7 +120,10 @@ const PLAYBOOKS_MAP = {
 };
 
 export function renderPlaybook(slug, onNavigate) {
-  const playbookKey = slug.replace('/playbooks/', '');
+  const parts = slug.replace('/playbooks/', '').split('/');
+  const playbookKey = parts[0];
+  const activeSectionSlug = parts[1] || 'overview';
+
   const config = PLAYBOOKS_MAP[playbookKey];
 
   if (!config) {
@@ -136,381 +139,35 @@ export function renderPlaybook(slug, onNavigate) {
   const container = document.createElement('div');
   container.className = 'playbook-page-wrapper';
 
+  // Find parent playbook definition from SITEMAP_CONFIG
+  const playbooksNav = SITEMAP_CONFIG.navigation.find(n => n.id === 'playbooks');
+  const currentPlaybookMeta = playbooksNav ? playbooksNav.items.find(i => i.id === playbookKey) : null;
+  const sectionsList = currentPlaybookMeta ? currentPlaybookMeta.sections : [];
+
+  // Match current section
+  const currentSectionMeta = sectionsList.find(s => s.slug.endsWith('/' + activeSectionSlug)) || sectionsList[0] || { name: 'Overview', slug: `/playbooks/${playbookKey}/overview` };
+
   container.innerHTML = `
-    <!-- Header -->
-    <div style="margin-bottom: var(--space-6);">
+    <!-- Top Header & Breadcrumbs Context -->
+    <div style="margin-bottom: var(--space-5);">
       <div style="display:flex; align-items:center; gap:var(--space-2); margin-bottom:var(--space-2);">
         <span class="badge ${config.badge}">NHÓM: ${config.group.toUpperCase()}</span>
         <span class="badge badge-tag">MÃ: ${config.touchpointIds.join(' · ')}</span>
+        <span class="badge badge-system" style="font-size:10px;">${currentPlaybookMeta ? currentPlaybookMeta.tier : 'Modular'}</span>
       </div>
-      <h1 style="font-size: 28px; font-weight: 800; color: var(--text-primary); letter-spacing: -0.02em;">
+      <h1 style="font-size: 26px; font-weight: 800; color: var(--text-primary); letter-spacing: -0.02em; margin-bottom: var(--space-1);">
         ${config.title}
       </h1>
-      <p style="font-size: 15px; color: var(--text-secondary); line-height: 1.6; margin-top: var(--space-2);">
+      <p style="font-size: 14.5px; color: var(--text-secondary); line-height: 1.5; margin: 0;">
         ${config.summary}
       </p>
     </div>
 
-    <!-- Master Sub-Touchpoints Renderer -->
-    ${touchpoints.map((tp, idx) => `
-      <section class="touchpoint-section" id="tp-${tp.id}" style="margin-bottom: var(--space-8); padding-top: var(--space-2);">
-        ${touchpoints.length > 1 ? `
-          <div style="display:flex; align-items:center; justify-content:space-between; border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-3); margin-bottom: var(--space-4);">
-            <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); display:flex; align-items:center; gap:var(--space-2);">
-              <span style="color:var(--color-primary-600);">[${tp.id}]</span> ${tp.name}
-            </h2>
-            <span class="badge ${getOwnerBadge(tp.owner)}">${tp.owner || 'System / Mentor'}</span>
-          </div>
-        ` : ''}
-
-        <!-- Overview Banner (Ngắn gọn & Tinh giản) -->
-        <div class="callout callout-tip" style="margin-bottom: var(--space-4); background: var(--bg-surface-subtle); border-left: 3px solid var(--color-primary-600); padding: var(--space-3) var(--space-4); border-radius: var(--radius-md);">
-          <div style="font-size: 12px; font-weight: 700; color: var(--color-primary-700); text-transform: uppercase; margin-bottom: 4px; letter-spacing: 0.5px;">
-            Overview
-          </div>
-          <div style="font-size: 13.5px; color: var(--text-secondary); line-height: 1.5;">
-            <div><strong>Objective:</strong> ${tp.purpose}</div>
-            <div style="margin-top: 3px; font-size: 12.5px; color: var(--text-muted);">
-              <span><strong>Trigger:</strong> ${tp.trigger || 'Theo lịch trình'}</span>
-              <span style="margin: 0 6px;">·</span>
-              <span><strong>Standard Time:</strong> <code>${tp.sopTime || '≤ 15 min'}</code></span>
-            </div>
-          </div>
-        </div>
-
-        <!-- Accordion Container (Clean Minimal List Style) -->
-        <div class="accordion-group" data-accordion-group="${tp.id}">
-
-          <!-- 1. CORE MINDSET (Open by default) -->
-          ${tp.mindset ? `
-            <div class="accordion-card open">
-              <button type="button" class="accordion-header">
-                <div class="accordion-title-wrap">
-                  <span class="accordion-title">Core Mindset</span>
-                </div>
-                <div class="accordion-meta">
-                  <span class="accordion-chevron">▼</span>
-                </div>
-              </button>
-              <div class="accordion-body">
-                <blockquote style="font-size: 15px; font-weight: 700; color: var(--text-primary); margin: 0 0 var(--space-2) 0; border-left: 3px solid var(--color-primary-600); padding-left: var(--space-3);">
-                  "${tp.mindset.quote}"
-                </blockquote>
-                <p style="font-size: 13.5px; color: var(--text-secondary); margin-bottom: var(--space-3); line-height: 1.5;">
-                  ${tp.mindset.definition}
-                </p>
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-3);">
-                  ${tp.mindset.priorities.map(p => `
-                    <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-3);">
-                      <div style="font-weight: 700; font-size: 13px; color: var(--text-primary); margin-bottom: 2px;">
-                        ${p.level} ${p.goal}
-                      </div>
-                      <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.4;">${p.reason}</div>
-                    </div>
-                  `).join('')}
-                </div>
-              </div>
-            </div>
-          ` : ''}
-
-          <!-- 2. STAKEHOLDER MAPPING (Collapsed by default) -->
-          ${tp.stakeholderJTBD ? `
-            <div class="accordion-card">
-              <button type="button" class="accordion-header">
-                <div class="accordion-title-wrap">
-                  <span class="accordion-title">Stakeholder Mapping</span>
-                </div>
-                <div class="accordion-meta">
-                  <span class="accordion-chevron">▼</span>
-                </div>
-              </button>
-              <div class="accordion-body">
-                <div style="overflow-x:auto;">
-                  <table class="sop-table">
-                    <thead>
-                      <tr>
-                        <th style="width: 150px;">Stakeholder</th>
-                        <th>Job to be Done</th>
-                        <th style="width: 220px;">Delivered Value</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      ${tp.stakeholderJTBD.map(st => `
-                        <tr>
-                          <td><strong>${st.stakeholder}</strong></td>
-                          <td>${st.job}</td>
-                          <td><span class="badge badge-hybrid" style="font-size: 11.5px;">${st.value}</span></td>
-                        </tr>
-                      `).join('')}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          ` : ''}
-
-          <!-- 3. SESSION AGENDA (Open by default) -->
-          ${tp.agendaFlow ? `
-            <div class="accordion-card open">
-              <button type="button" class="accordion-header">
-                <div class="accordion-title-wrap">
-                  <span class="accordion-title">Session Agenda</span>
-                </div>
-                <div class="accordion-meta">
-                  <span class="accordion-chevron">▼</span>
-                </div>
-              </button>
-              <div class="accordion-body">
-                <div style="overflow-x:auto;">
-                  <table class="sop-table">
-                    <thead>
-                      <tr>
-                        <th style="width: 130px;">Time</th>
-                        <th style="width: 180px;">Session Stage</th>
-                        <th>Objective & Facilitation Guidance</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      ${tp.agendaFlow.map(ag => `
-                        <tr>
-                          <td><code>${ag.time}</code></td>
-                          <td><strong>${ag.step}</strong></td>
-                          <td>${ag.goal}</td>
-                        </tr>
-                      `).join('')}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            </div>
-          ` : ''}
-
-          <!-- 4. MENTOR GUIDES (Open by default) -->
-          ${tp.mentorGuides ? `
-            <div class="accordion-card open">
-              <button type="button" class="accordion-header">
-                <div class="accordion-title-wrap">
-                  <span class="accordion-title">Mentor Guides</span>
-                </div>
-                <div class="accordion-meta">
-                  <span class="accordion-chevron">▼</span>
-                </div>
-              </button>
-              <div class="accordion-body">
-                <div style="display: flex; flex-direction: column; gap: var(--space-4);">
-                  <!-- Question Bank -->
-                  <div>
-                    <div style="font-weight: 700; font-size: 13.5px; color: var(--text-primary); margin-bottom: var(--space-2);">
-                      Question Bank
-                    </div>
-                    <div style="display: flex; flex-direction: column; gap: var(--space-2);">
-                      ${tp.mentorGuides.questionBank.map(q => `
-                        <div style="background: var(--bg-surface-subtle); border-left: 3px solid var(--color-primary-600); padding: var(--space-2) var(--space-3); border-radius: 0 var(--radius-sm) var(--radius-sm) 0;">
-                          <div style="font-size: 13px; font-weight: 600; color: var(--text-primary);">#${q.no}. "${q.q}"</div>
-                          <div style="font-size: 11.5px; color: var(--text-muted); margin-top: 2px;">Objective: ${q.purpose}</div>
-                        </div>
-                      `).join('')}
-                    </div>
-                  </div>
-
-                  <!-- Observation Guide -->
-                  <div>
-                    <div style="font-weight: 700; font-size: 13.5px; color: var(--text-primary); margin-bottom: var(--space-2);">
-                      Observation Guide
-                    </div>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-2);">
-                      ${tp.mentorGuides.observationGuide.map(ob => `
-                        <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-2) var(--space-3);">
-                          <div style="font-size: 12.5px; font-weight: 700; color: var(--text-primary);">${ob.dim}</div>
-                          <div style="font-size: 12px; color: var(--text-secondary); margin-top: 2px; line-height: 1.4;">${ob.cues}</div>
-                        </div>
-                      `).join('')}
-                    </div>
-                  </div>
-
-                  <!-- Exit Checklist -->
-                  <div style="background: rgba(245, 158, 11, 0.06); border: 1px dashed var(--color-accent-500); border-radius: var(--radius-md); padding: var(--space-3);">
-                    <div style="font-weight: 700; font-size: 13px; color: var(--color-accent-700); margin-bottom: var(--space-2);">
-                      Exit Checklist
-                    </div>
-                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 6px;">
-                      ${tp.mentorGuides.exitChecklist.map(ex => `
-                        <div style="font-size: 12px; color: var(--text-primary); display:flex; align-items:center; gap:6px;">
-                          <span style="color:var(--color-accent-600);">✔</span> ${ex}
-                        </div>
-                      `).join('')}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ` : ''}
-
-          <!-- 5. FAMILY NOTES (Collapsed by default) -->
-          ${tp.familyNotesTemplate ? `
-            <div class="accordion-card">
-              <button type="button" class="accordion-header">
-                <div class="accordion-title-wrap">
-                  <span class="accordion-title">Family Notes</span>
-                </div>
-                <div class="accordion-meta">
-                  <span class="accordion-chevron">▼</span>
-                </div>
-              </button>
-              <div class="accordion-body">
-                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-3);">
-                  <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-3);">
-                    <div style="font-size: 13px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-2);">Template Structure:</div>
-                    <ul style="padding-left: var(--space-4); margin: 0; font-size: 12px; color: var(--text-secondary); line-height: 1.6;">
-                      ${tp.familyNotesTemplate.structure.map(st => `<li>${st}</li>`).join('')}
-                    </ul>
-                  </div>
-                  <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-3);">
-                    <div style="font-size: 13px; font-weight: 700; color: var(--color-primary-600); margin-bottom: var(--space-2);">Case Study:</div>
-                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; display:flex; flex-direction:column; gap:3px;">
-                      <div><strong>Goal:</strong> ${tp.familyNotesTemplate.exampleCase.goal}</div>
-                      <div><strong>3 Insights:</strong> ${tp.familyNotesTemplate.exampleCase.insights.join(' | ')}</div>
-                      <div><strong>Mentor Note:</strong> ${tp.familyNotesTemplate.exampleCase.mentorNote}</div>
-                      <div><strong>Next Action:</strong> ${tp.familyNotesTemplate.exampleCase.nextActions}</div>
-                      <div><strong>Evidence:</strong> <em>${tp.familyNotesTemplate.exampleCase.evidence}</em></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ` : ''}
-
-          <!-- 6. SOP WORKFLOW (Collapsed by default) -->
-          ${tp.sopSteps || tp.doGuidelines || tp.template ? `
-            <div class="accordion-card">
-              <button type="button" class="accordion-header">
-                <div class="accordion-title-wrap">
-                  <span class="accordion-title">SOP Workflow</span>
-                </div>
-                <div class="accordion-meta">
-                  <span class="accordion-chevron">▼</span>
-                </div>
-              </button>
-              <div class="accordion-body">
-                <!-- SOP Steps -->
-                ${tp.sopSteps ? `
-                  <h4 style="font-size: 13.5px; font-weight: 700; margin: 0 0 var(--space-2);">SOP Steps</h4>
-                  <div style="overflow-x:auto; margin-bottom: var(--space-4);">
-                    <table class="sop-table">
-                      <thead>
-                        <tr>
-                          <th style="width: 80px;">Step</th>
-                          <th style="width: 200px;">Operation</th>
-                          <th>Detailed Workflow & Deliverables</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        ${tp.sopSteps.map(s => `
-                          <tr>
-                            <td><strong>Step ${s.step}</strong></td>
-                            <td><strong>${s.title}</strong></td>
-                            <td>${s.desc}</td>
-                          </tr>
-                        `).join('')}
-                      </tbody>
-                    </table>
-                  </div>
-                ` : ''}
-
-                <!-- Do & Don't -->
-                ${(tp.doGuidelines || tp.dontGuidelines) ? `
-                  <h4 style="font-size: 13.5px; font-weight: 700; margin: 0 0 var(--space-2);">Do's & Don'ts</h4>
-                  <div class="do-dont-grid" style="margin-bottom: var(--space-4);">
-                    <div class="do-box">
-                      <div class="do-title">DO'S</div>
-                      <ul style="padding-left: var(--space-4); margin: 0; font-size: 12px;">
-                        ${tp.doGuidelines ? tp.doGuidelines.map(d => `<li style="margin-bottom:4px;">${d}</li>`).join('') : '<li>Tuân thủ nguyên tắc sư phạm</li>'}
-                      </ul>
-                    </div>
-                    <div class="dont-box">
-                      <div class="dont-title">DON'TS</div>
-                      <ul style="padding-left: var(--space-4); margin: 0; font-size: 12px;">
-                        ${tp.dontGuidelines ? tp.dontGuidelines.map(d => `<li style="margin-bottom:4px;">${d}</li>`).join('') : '<li>Không gửi tin nhắn máy móc</li>'}
-                      </ul>
-                    </div>
-                  </div>
-                ` : ''}
-
-                <!-- Communication Templates -->
-                ${tp.template ? `
-                  <h4 style="font-size: 13.5px; font-weight: 700; margin: 0 0 var(--space-2);">Communication Templates</h4>
-                  <div class="template-box">
-                    <div class="template-header">
-                      <span class="template-channel">Channel: <strong>${tp.template.channel}</strong></span>
-                      <button class="btn-copy" data-copy-id="copy-${tp.id}">
-                        📋 Copy Template
-                      </button>
-                    </div>
-                    <div class="template-content" id="content-${tp.id}">${escapeHtml(tp.template.content)}</div>
-                  </div>
-                ` : ''}
-              </div>
-            </div>
-          ` : ''}
-
-          <!-- 7. ASSESSMENT RUBRICS (Collapsed by default) -->
-          ${tp.rubric && tp.rubric.length > 0 ? `
-            <div class="accordion-card">
-              <button type="button" class="accordion-header">
-                <div class="accordion-title-wrap">
-                  <span class="accordion-title">Assessment Rubrics</span>
-                </div>
-                <div class="accordion-meta">
-                  <span class="accordion-chevron">▼</span>
-                </div>
-              </button>
-              <div class="accordion-body">
-                <div class="rubric-card" style="border:none; padding:0; box-shadow:none;">
-                  <div class="rubric-table-wrapper">
-                    <table class="rubric-table">
-                      <thead>
-                        <tr>
-                          <th class="rubric-col-crit">Criteria</th>
-                          <th class="rubric-col-l1">L1 Deficient</th>
-                          <th class="rubric-col-l2">L2 Basic</th>
-                          <th class="rubric-col-l3-head">L3 Competent (DoD ⭐)</th>
-                          <th class="rubric-col-l4">L4 Proficient</th>
-                          <th class="rubric-col-l5">L5 Mastery</th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        ${tp.rubric.map(r => `
-                          <tr>
-                            <td class="rubric-col-crit"><strong>${r.criterion}</strong></td>
-                            <td>${r.l1}</td>
-                            <td>${r.l2}</td>
-                            <td class="rubric-cell-l3">${r.l3}</td>
-                            <td>${r.l4}</td>
-                            <td>${r.l5}</td>
-                          </tr>
-                        `).join('')}
-                      </tbody>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ` : ''}
-
-        </div>
-      </section>
-    `).join('')}
+    <!-- Section Content Container (Clean Document Section - No Accordion) -->
+    <div class="playbook-active-section" style="padding-top: var(--space-3);">
+      ${renderSpecificSectionContent(activeSectionSlug, touchpoints, config, onNavigate)}
+    </div>
   `;
-
-  // Attach Accordion Toggle Handlers
-  container.querySelectorAll('.accordion-header').forEach(header => {
-    header.addEventListener('click', () => {
-      const card = header.closest('.accordion-card');
-      if (card) {
-        card.classList.toggle('open');
-      }
-    });
-  });
 
   // Attach copy button handlers
   container.querySelectorAll('.btn-copy').forEach(btn => {
@@ -524,6 +181,352 @@ export function renderPlaybook(slug, onNavigate) {
   });
 
   return container;
+}
+
+function renderSpecificSectionContent(sectionSlug, touchpoints, config, onNavigate) {
+  const tp = touchpoints[0] || {};
+
+  switch (sectionSlug) {
+    case 'overview':
+      return `
+        <div style="display: flex; flex-direction: column; gap: var(--space-5);">
+          <!-- Overview Card -->
+          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-left: 4px solid var(--color-primary-600); border-radius: var(--radius-md); padding: var(--space-5);">
+            <div style="font-size: 12px; font-weight: 700; color: var(--color-primary-700); text-transform: uppercase; margin-bottom: 8px; letter-spacing: 0.5px;">
+              Executive Overview
+            </div>
+            <div style="display: flex; flex-direction: column; gap: var(--space-3);">
+              <div>
+                <strong style="font-size: 13.5px; color: var(--text-primary);">Objective (Mục tiêu cốt lõi):</strong>
+                <p style="font-size: 14px; color: var(--text-secondary); margin: 4px 0 0; line-height: 1.5;">${tp.purpose || config.summary}</p>
+              </div>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-3); padding-top: var(--space-3); border-top: 1px solid var(--border-subtle);">
+                <div>
+                  <strong style="font-size: 12.5px; color: var(--text-primary);">Trigger (Khi nào kích hoạt):</strong>
+                  <div style="font-size: 13px; color: var(--text-secondary); margin-top: 2px;">${tp.trigger || 'Theo lịch trình hệ thống'}</div>
+                </div>
+                <div>
+                  <strong style="font-size: 12.5px; color: var(--text-primary);">Standard Time (Thời gian chuẩn):</strong>
+                  <div style="font-size: 13px; color: var(--text-secondary); margin-top: 2px;"><code>${tp.sopTime || '≤ 15 phút tác nghiệp'}</code></div>
+                </div>
+                <div>
+                  <strong style="font-size: 12.5px; color: var(--text-primary);">Owner (Chủ thể thực hiện):</strong>
+                  <div style="font-size: 13px; color: var(--text-secondary); margin-top: 2px;"><span class="badge ${getOwnerBadge(tp.owner)}">${tp.owner || 'Mentor / System'}</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Multi-Touchpoints List (nếu có nhiều touchpoints như Live Class, Trial Class) -->
+          ${touchpoints.length > 1 ? `
+            <div>
+              <h3 style="font-size: 16px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3);">
+                Các Điểm Chạm Thành Phần (Integrated Touchpoints)
+              </h3>
+              <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-3);">
+                ${touchpoints.map(subTp => `
+                  <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-3);">
+                    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 4px;">
+                      <strong style="color: var(--color-primary-700); font-size: 13px;">[${subTp.id}] ${subTp.name}</strong>
+                      <span class="badge ${getOwnerBadge(subTp.owner)}" style="font-size: 10px;">${subTp.owner}</span>
+                    </div>
+                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.4;">${subTp.purpose}</div>
+                  </div>
+                `).join('')}
+              </div>
+            </div>
+          ` : ''}
+        </div>
+      `;
+
+    case 'core-mindset':
+      return `
+        <div>
+          <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+            Core Mindset
+          </h2>
+          ${tp.mindset ? `
+            <blockquote style="font-size: 16px; font-weight: 700; color: var(--text-primary); margin: 0 0 var(--space-3) 0; border-left: 3px solid var(--color-primary-600); padding-left: var(--space-3);">
+              "${tp.mindset.quote}"
+            </blockquote>
+            <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: var(--space-4); line-height: 1.6;">
+              ${tp.mindset.definition}
+            </p>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-3);">
+              ${tp.mindset.priorities.map(p => `
+                <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-4);">
+                  <div style="font-weight: 700; font-size: 13.5px; color: var(--text-primary); margin-bottom: 4px;">
+                    ${p.level} ${p.goal}
+                  </div>
+                  <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5;">${p.reason}</div>
+                </div>
+              `).join('')}
+            </div>
+          ` : `
+            <p style="font-size: 14px; color: var(--text-secondary);">Playbook này tuân thủ nguyên tắc vận hành: <em>Automate the evidence. Humanize the meaning.</em></p>
+          `}
+        </div>
+      `;
+
+    case 'stakeholder-mapping':
+      return `
+        <div>
+          <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+            Stakeholder Mapping
+          </h2>
+          ${tp.stakeholderJTBD ? `
+            <div style="overflow-x:auto;">
+              <table class="sop-table">
+                <thead>
+                  <tr>
+                    <th style="width: 160px;">Stakeholder</th>
+                    <th>Job to be Done</th>
+                    <th style="width: 220px;">Delivered Value</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${tp.stakeholderJTBD.map(st => `
+                    <tr>
+                      <td><strong>${st.stakeholder}</strong></td>
+                      <td>${st.job}</td>
+                      <td><span class="badge badge-hybrid" style="font-size: 11.5px;">${st.value}</span></td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+          ` : `<p style="color:var(--text-muted);">Không có dữ liệu Stakeholder Mapping riêng cho mục này.</p>`}
+        </div>
+      `;
+
+    case 'session-agenda':
+      return `
+        <div>
+          <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+            Session Agenda
+          </h2>
+          ${tp.agendaFlow ? `
+            <div style="overflow-x:auto;">
+              <table class="sop-table">
+                <thead>
+                  <tr>
+                    <th style="width: 140px;">Time</th>
+                    <th style="width: 180px;">Session Stage</th>
+                    <th>Objective & Facilitation Guidance</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${tp.agendaFlow.map(ag => `
+                    <tr>
+                      <td><code>${ag.time}</code></td>
+                      <td><strong>${ag.step}</strong></td>
+                      <td>${ag.goal}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+          ` : `<p style="color:var(--text-muted);">Không có bảng Session Agenda riêng cho hoạt động này.</p>`}
+        </div>
+      `;
+
+    case 'mentor-guides':
+      return `
+        <div>
+          <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+            Mentor Guides
+          </h2>
+          ${tp.mentorGuides ? `
+            <div style="display: flex; flex-direction: column; gap: var(--space-5);">
+              <!-- Question Bank -->
+              <div>
+                <div style="font-weight: 700; font-size: 14px; color: var(--text-primary); margin-bottom: var(--space-2);">
+                  Question Bank (Ngân hàng câu hỏi mở)
+                </div>
+                <div style="display: flex; flex-direction: column; gap: var(--space-2);">
+                  ${tp.mentorGuides.questionBank.map(q => `
+                    <div style="background: var(--bg-surface-subtle); border-left: 3px solid var(--color-primary-600); padding: var(--space-2) var(--space-3); border-radius: 0 var(--radius-sm) var(--radius-sm) 0;">
+                      <div style="font-size: 13.5px; font-weight: 600; color: var(--text-primary);">#${q.no}. "${q.q}"</div>
+                      <div style="font-size: 12px; color: var(--text-muted); margin-top: 2px;">Objective: ${q.purpose}</div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+
+              <!-- Observation Guide -->
+              <div>
+                <div style="font-weight: 700; font-size: 14px; color: var(--text-primary); margin-bottom: var(--space-2);">
+                  Observation Guide (Hướng dẫn quan sát thực địa)
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-2);">
+                  ${tp.mentorGuides.observationGuide.map(ob => `
+                    <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-3);">
+                      <div style="font-size: 13px; font-weight: 700; color: var(--text-primary);">${ob.dim}</div>
+                      <div style="font-size: 12px; color: var(--text-secondary); margin-top: 2px; line-height: 1.4;">${ob.cues}</div>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+
+              <!-- Exit Checklist -->
+              <div style="background: rgba(245, 158, 11, 0.06); border: 1px dashed var(--color-accent-500); border-radius: var(--radius-md); padding: var(--space-4);">
+                <div style="font-weight: 700; font-size: 13.5px; color: var(--color-accent-700); margin-bottom: var(--space-2);">
+                  Exit Checklist (Tiêu chí nghiệm thu trước khi ra về)
+                </div>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 8px;">
+                  ${tp.mentorGuides.exitChecklist.map(ex => `
+                    <div style="font-size: 12.5px; color: var(--text-primary); display:flex; align-items:center; gap:6px;">
+                      <span style="color:var(--color-accent-600);">✔</span> ${ex}
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+            </div>
+          ` : `<p style="color:var(--text-muted);">Không có hướng dẫn Mentor Guides riêng cho mục này.</p>`}
+        </div>
+      `;
+
+    case 'operating-sop':
+      return `
+        <div>
+          <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+            Operating SOP
+          </h2>
+          ${tp.sopSteps ? `
+            <div style="overflow-x:auto; margin-bottom: var(--space-5);">
+              <table class="sop-table">
+                <thead>
+                  <tr>
+                    <th style="width: 80px;">Step</th>
+                    <th style="width: 220px;">Operation</th>
+                    <th>Detailed Workflow & Deliverables</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${tp.sopSteps.map(s => `
+                    <tr>
+                      <td><strong>Step ${s.step}</strong></td>
+                      <td><strong>${s.title}</strong></td>
+                      <td>${s.desc}</td>
+                    </tr>
+                  `).join('')}
+                </tbody>
+              </table>
+            </div>
+          ` : ''}
+
+          <!-- Do's & Don'ts -->
+          ${(tp.doGuidelines || tp.dontGuidelines) ? `
+            <h3 style="font-size: 15px; font-weight: 700; margin: var(--space-4) 0 var(--space-2);">Do's & Don'ts</h3>
+            <div class="do-dont-grid">
+              <div class="do-box">
+                <div class="do-title">DO'S</div>
+                <ul style="padding-left: var(--space-4); margin: 0; font-size: 12.5px;">
+                  ${tp.doGuidelines ? tp.doGuidelines.map(d => `<li style="margin-bottom:4px;">${d}</li>`).join('') : '<li>Tuân thủ nguyên tắc sư phạm</li>'}
+                </ul>
+              </div>
+              <div class="dont-box">
+                <div class="dont-title">DON'TS</div>
+                <ul style="padding-left: var(--space-4); margin: 0; font-size: 12.5px;">
+                  ${tp.dontGuidelines ? tp.dontGuidelines.map(d => `<li style="margin-bottom:4px;">${d}</li>`).join('') : '<li>Không gửi tin nhắn máy móc</li>'}
+                </ul>
+              </div>
+            </div>
+          ` : ''}
+        </div>
+      `;
+
+    case 'templates':
+      return `
+        <div>
+          <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+            Deliverables & Templates
+          </h2>
+          
+          <!-- Family Notes Template if available -->
+          ${tp.familyNotesTemplate ? `
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-4); margin-bottom: var(--space-5);">
+              <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-4);">
+                <div style="font-size: 13.5px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-2);">Family Notes Structure:</div>
+                <ul style="padding-left: var(--space-4); margin: 0; font-size: 12.5px; color: var(--text-secondary); line-height: 1.6;">
+                  ${tp.familyNotesTemplate.structure.map(st => `<li>${st}</li>`).join('')}
+                </ul>
+              </div>
+              <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-4);">
+                <div style="font-size: 13.5px; font-weight: 700; color: var(--color-primary-600); margin-bottom: var(--space-2);">Case Study Mẫu:</div>
+                <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5; display:flex; flex-direction:column; gap:4px;">
+                  <div><strong>Goal:</strong> ${tp.familyNotesTemplate.exampleCase.goal}</div>
+                  <div><strong>3 Insights:</strong> ${tp.familyNotesTemplate.exampleCase.insights.join(' | ')}</div>
+                  <div><strong>Mentor Note:</strong> ${tp.familyNotesTemplate.exampleCase.mentorNote}</div>
+                  <div><strong>Next Action:</strong> ${tp.familyNotesTemplate.exampleCase.nextActions}</div>
+                  <div><strong>Evidence:</strong> <em>${tp.familyNotesTemplate.exampleCase.evidence}</em></div>
+                </div>
+              </div>
+            </div>
+          ` : ''}
+
+          <!-- Message Templates if available -->
+          ${tp.template ? `
+            <div class="template-box">
+              <div class="template-header">
+                <span class="template-channel">Channel: <strong>${tp.template.channel}</strong></span>
+                <button class="btn-copy" data-copy-id="copy-${tp.id}">
+                  📋 Copy Template
+                </button>
+              </div>
+              <div class="template-content" id="content-${tp.id}">${escapeHtml(tp.template.content)}</div>
+            </div>
+          ` : ''}
+        </div>
+      `;
+
+    case 'assessment-rubrics':
+      return `
+        <div>
+          <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+            Assessment Rubrics
+          </h2>
+          <p style="font-size: 13.5px; color: var(--text-secondary); margin-bottom: var(--space-3);">
+            Thước đo đối soát và đánh giá chất lượng bàn giao theo 5 mức độ (Chuẩn bắt buộc là <strong>L3 DoD ⭐</strong>):
+          </p>
+          ${tp.rubric && tp.rubric.length > 0 ? `
+            <div class="rubric-card" style="border:none; padding:0; box-shadow:none;">
+              <div class="rubric-table-wrapper">
+                <table class="rubric-table">
+                  <thead>
+                    <tr>
+                      <th class="rubric-col-crit">Criteria</th>
+                      <th class="rubric-col-l1">L1 Deficient</th>
+                      <th class="rubric-col-l2">L2 Basic</th>
+                      <th class="rubric-col-l3-head">L3 Competent (DoD ⭐)</th>
+                      <th class="rubric-col-l4">L4 Proficient</th>
+                      <th class="rubric-col-l5">L5 Mastery</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${tp.rubric.map(r => `
+                      <tr>
+                        <td class="rubric-col-crit"><strong>${r.criterion}</strong></td>
+                        <td>${r.l1}</td>
+                        <td>${r.l2}</td>
+                        <td class="rubric-cell-l3">${r.l3}</td>
+                        <td>${r.l4}</td>
+                        <td>${r.l5}</td>
+                      </tr>
+                    `).join('')}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          ` : `
+            <p style="color:var(--text-muted);">Áp dụng theo chuẩn Master Assessment Rubrics Framework.</p>
+          `}
+        </div>
+      `;
+
+    default:
+      return `<p>Vui lòng chọn một mục từ danh mục bên trái.</p>`;
+  }
 }
 
 function getOwnerBadge(owner) {

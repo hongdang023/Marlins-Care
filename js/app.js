@@ -119,58 +119,20 @@ class App {
 
     tocList.innerHTML = '';
 
-    // Query headings and interactive section titles
+    // Query headings directly from viewport
+    const headings = document.querySelectorAll('#main-viewport-content h2, #main-viewport-content h3');
     const items = [];
-    const touchpointSections = document.querySelectorAll('#main-viewport-content .touchpoint-section');
-    const isSingleTouchpoint = touchpointSections.length <= 1;
 
-    if (isSingleTouchpoint) {
-      // For single playbook pages, list sections directly
-      const sections = document.querySelectorAll('#main-viewport-content .accordion-card');
-      sections.forEach((card, idx) => {
-        const titleEl = card.querySelector('.accordion-title');
-        if (titleEl) {
-          const title = titleEl.textContent.trim();
-          if (!card.id) card.id = `sec-item-${idx}`;
-          items.push({ id: card.id, title: title, level: 1, element: card });
-        }
-      });
-    } else {
-      // For multi-touchpoint playbooks (e.g. Live Class, Trial Class)
-      touchpointSections.forEach((tpSec, tpIdx) => {
-        const h2 = tpSec.querySelector('h2');
-        if (h2) {
-          const tpTitle = h2.textContent.trim();
-          if (!tpSec.id) tpSec.id = `tp-sec-${tpIdx}`;
-          items.push({ id: tpSec.id, title: tpTitle, level: 1, element: tpSec });
-        }
-
-        const cards = tpSec.querySelectorAll('.accordion-card');
-        cards.forEach((card, cardIdx) => {
-          const titleEl = card.querySelector('.accordion-title');
-          if (titleEl) {
-            const accTitle = titleEl.textContent.trim();
-            if (!card.id) card.id = `acc-sec-${tpIdx}-${cardIdx}`;
-            items.push({ id: card.id, title: accTitle, level: 2, element: card });
-          }
-        });
-      });
-    }
-
-    // Also capture any standalone H2 on other pages (e.g. Overview, Journey)
-    if (touchpointSections.length === 0) {
-      const h2s = document.querySelectorAll('#main-viewport-content h2');
-      h2s.forEach((h2, idx) => {
-        const title = h2.textContent.replace(/^\[.*?\]\s*/, '').trim();
-        if (title) {
-          if (!h2.id) h2.id = `h2-sec-${idx}`;
-          items.push({ id: h2.id, title: title, level: 1, element: h2 });
-        }
-      });
-    }
+    headings.forEach((heading, idx) => {
+      const title = heading.textContent.trim();
+      if (!heading.id) heading.id = `heading-sec-${idx}`;
+      const level = heading.tagName.toLowerCase() === 'h2' ? 1 : 2;
+      items.push({ id: heading.id, title: title, level: level, element: heading });
+    });
 
     if (items.length === 0) {
-      tocList.innerHTML = `<li style="color:var(--text-muted); font-size:12px;">Không có mục lục</li>`;
+      const container = document.getElementById('right-toc-container');
+      if (container) container.style.display = 'none';
       return;
     }
 

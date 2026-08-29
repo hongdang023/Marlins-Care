@@ -42,7 +42,13 @@ export const SITEMAP_CONFIG = {
           slug: "/playbooks/community",
           touchpoints: ["COM"],
           tier: "Tier 3",
-          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
+          sections: [
+            { name: "Overview", slug: "/playbooks/community/overview" },
+            { name: "Core Mindset", slug: "/playbooks/community/core-mindset" },
+            { name: "Operating SOP", slug: "/playbooks/community/operating-sop" },
+            { name: "Deliverables & Templates", slug: "/playbooks/community/templates" },
+            { name: "Assessment Rubrics", slug: "/playbooks/community/assessment-rubrics" }
+          ]
         },
         {
           id: "marlins-workshop",
@@ -50,7 +56,13 @@ export const SITEMAP_CONFIG = {
           slug: "/playbooks/marlins-workshop",
           touchpoints: ["WS"],
           tier: "Tier 1",
-          sections: ["Overview", "Core Mindset", "Session Agenda", "Operating SOP", "Assessment Rubrics"]
+          sections: [
+            { name: "Overview", slug: "/playbooks/marlins-workshop/overview" },
+            { name: "Core Mindset", slug: "/playbooks/marlins-workshop/core-mindset" },
+            { name: "Session Agenda", slug: "/playbooks/marlins-workshop/session-agenda" },
+            { name: "Operating SOP", slug: "/playbooks/marlins-workshop/operating-sop" },
+            { name: "Assessment Rubrics", slug: "/playbooks/marlins-workshop/assessment-rubrics" }
+          ]
         },
         {
           id: "marlins-day",
@@ -58,7 +70,13 @@ export const SITEMAP_CONFIG = {
           slug: "/playbooks/marlins-day",
           touchpoints: ["T3"],
           tier: "Tier 1",
-          sections: ["Overview", "Core Mindset", "Session Agenda", "Operating SOP", "Assessment Rubrics"]
+          sections: [
+            { name: "Overview", slug: "/playbooks/marlins-day/overview" },
+            { name: "Core Mindset", slug: "/playbooks/marlins-day/core-mindset" },
+            { name: "Session Agenda", slug: "/playbooks/marlins-day/session-agenda" },
+            { name: "Operating SOP", slug: "/playbooks/marlins-day/operating-sop" },
+            { name: "Assessment Rubrics", slug: "/playbooks/marlins-day/assessment-rubrics" }
+          ]
         },
         {
           id: "trial-class",
@@ -66,7 +84,13 @@ export const SITEMAP_CONFIG = {
           slug: "/playbooks/trial-class",
           touchpoints: ["T1", "T2", "T4"],
           tier: "Tier 2",
-          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
+          sections: [
+            { name: "Overview", slug: "/playbooks/trial-class/overview" },
+            { name: "Core Mindset", slug: "/playbooks/trial-class/core-mindset" },
+            { name: "Operating SOP", slug: "/playbooks/trial-class/operating-sop" },
+            { name: "Deliverables & Templates", slug: "/playbooks/trial-class/templates" },
+            { name: "Assessment Rubrics", slug: "/playbooks/trial-class/assessment-rubrics" }
+          ]
         },
         {
           id: "live-class",
@@ -74,7 +98,13 @@ export const SITEMAP_CONFIG = {
           slug: "/playbooks/live-class",
           touchpoints: ["T5", "T6", "T7", "T8", "T9", "T13"],
           tier: "Tier 2",
-          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
+          sections: [
+            { name: "Overview", slug: "/playbooks/live-class/overview" },
+            { name: "Core Mindset", slug: "/playbooks/live-class/core-mindset" },
+            { name: "Operating SOP", slug: "/playbooks/live-class/operating-sop" },
+            { name: "Deliverables & Templates", slug: "/playbooks/live-class/templates" },
+            { name: "Assessment Rubrics", slug: "/playbooks/live-class/assessment-rubrics" }
+          ]
         },
         {
           id: "family-meeting",
@@ -82,7 +112,15 @@ export const SITEMAP_CONFIG = {
           slug: "/playbooks/family-meeting",
           touchpoints: ["T10"],
           tier: "Tier 1",
-          sections: ["Overview", "Core Mindset", "Stakeholder Mapping", "Session Agenda", "Mentor Guides", "Deliverables & Templates", "Assessment Rubrics"]
+          sections: [
+            { name: "Overview", slug: "/playbooks/family-meeting/overview" },
+            { name: "Core Mindset", slug: "/playbooks/family-meeting/core-mindset" },
+            { name: "Stakeholder Mapping", slug: "/playbooks/family-meeting/stakeholder-mapping" },
+            { name: "Session Agenda", slug: "/playbooks/family-meeting/session-agenda" },
+            { name: "Mentor Guides", slug: "/playbooks/family-meeting/mentor-guides" },
+            { name: "Deliverables & Templates", slug: "/playbooks/family-meeting/templates" },
+            { name: "Assessment Rubrics", slug: "/playbooks/family-meeting/assessment-rubrics" }
+          ]
         },
         {
           id: "growth-story",
@@ -90,7 +128,13 @@ export const SITEMAP_CONFIG = {
           slug: "/playbooks/growth-story",
           touchpoints: ["T11"],
           tier: "Tier 2",
-          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
+          sections: [
+            { name: "Overview", slug: "/playbooks/growth-story/overview" },
+            { name: "Core Mindset", slug: "/playbooks/growth-story/core-mindset" },
+            { name: "Operating SOP", slug: "/playbooks/growth-story/operating-sop" },
+            { name: "Deliverables & Templates", slug: "/playbooks/growth-story/templates" },
+            { name: "Assessment Rubrics", slug: "/playbooks/growth-story/assessment-rubrics" }
+          ]
         },
         {
           id: "next-steps",
@@ -98,7 +142,13 @@ export const SITEMAP_CONFIG = {
           slug: "/playbooks/next-steps",
           touchpoints: ["T12"],
           tier: "Tier 3",
-          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
+          sections: [
+            { name: "Overview", slug: "/playbooks/next-steps/overview" },
+            { name: "Core Mindset", slug: "/playbooks/next-steps/core-mindset" },
+            { name: "Operating SOP", slug: "/playbooks/next-steps/operating-sop" },
+            { name: "Deliverables & Templates", slug: "/playbooks/next-steps/templates" },
+            { name: "Assessment Rubrics", slug: "/playbooks/next-steps/assessment-rubrics" }
+          ]
         },
         {
           id: "referrals",
@@ -106,7 +156,13 @@ export const SITEMAP_CONFIG = {
           slug: "/playbooks/referrals",
           touchpoints: ["REF"],
           tier: "Tier 3",
-          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
+          sections: [
+            { name: "Overview", slug: "/playbooks/referrals/overview" },
+            { name: "Core Mindset", slug: "/playbooks/referrals/core-mindset" },
+            { name: "Operating SOP", slug: "/playbooks/referrals/operating-sop" },
+            { name: "Deliverables & Templates", slug: "/playbooks/referrals/templates" },
+            { name: "Assessment Rubrics", slug: "/playbooks/referrals/assessment-rubrics" }
+          ]
         }
       ]
     },

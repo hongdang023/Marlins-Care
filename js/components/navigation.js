@@ -119,19 +119,22 @@ export function renderSidebar(currentRoute, onNavigate) {
       <!-- 9 Playbooks with Collapsible Tree Sub-sections -->
       <div class="sidebar-tree">
         ${playbookItems.map(pb => {
-          const isSelected = currentRoute.startsWith(pb.slug);
+          const isParentActive = currentRoute === pb.slug || currentRoute.startsWith(pb.slug + '/');
           return `
-            <div class="sidebar-tree-node ${isSelected ? 'open' : ''}">
-              <a href="#${pb.slug}" class="sidebar-tree-header ${isSelected ? 'active' : ''}">
+            <div class="sidebar-tree-node ${isParentActive ? 'open' : ''}">
+              <a href="#${pb.sections[0].slug}" class="sidebar-tree-header ${isParentActive ? 'active' : ''}">
                 <span class="tree-title">${pb.title}</span>
-                <span class="tree-caret">${isSelected ? '▼' : '›'}</span>
+                <span class="tree-caret">${isParentActive ? '▼' : '›'}</span>
               </a>
-              <div class="sidebar-tree-children" style="display: ${isSelected ? 'flex' : 'none'};">
-                ${pb.sections.map((sec, sIdx) => `
-                  <a href="#${pb.slug}" class="sidebar-sub-item" data-section-name="${sec}">
-                    <span>${sec}</span>
-                  </a>
-                `).join('')}
+              <div class="sidebar-tree-children" style="display: ${isParentActive ? 'flex' : 'none'};">
+                ${pb.sections.map(sec => {
+                  const isSubActive = currentRoute === sec.slug || (currentRoute === pb.slug && sec.name === 'Overview');
+                  return `
+                    <a href="#${sec.slug}" class="sidebar-sub-item ${isSubActive ? 'active' : ''}">
+                      <span>${sec.name}</span>
+                    </a>
+                  `;
+                }).join('')}
               </div>
             </div>
           `;
@@ -192,7 +195,13 @@ export function renderBreadcrumbs(currentRoute) {
   } else if (parts[0] === 'journey') {
     crumbsHtml += ` <span class="breadcrumb-sep">/</span> <span style="color:var(--text-primary); font-weight:600;">Parent Journey</span>`;
   } else if (parts[0] === 'playbooks') {
-    crumbsHtml += ` <span class="breadcrumb-sep">/</span> <a href="#/playbooks/trial-care">Playbooks</a> <span class="breadcrumb-sep">/</span> <span style="color:var(--text-primary); font-weight:600;">${formatSlugTitle(parts[1])}</span>`;
+    if (parts[1] === 'master-framework') {
+      crumbsHtml += ` <span class="breadcrumb-sep">/</span> <span>Playbooks</span> <span class="breadcrumb-sep">/</span> <span style="color:var(--text-primary); font-weight:600;">Master Framework</span>`;
+    } else {
+      const parentName = formatSlugTitle(parts[1]);
+      const subName = parts[2] ? formatSlugTitle(parts[2]) : 'Overview';
+      crumbsHtml += ` <span class="breadcrumb-sep">/</span> <a href="#/playbooks/${parts[1]}/overview">Playbooks</a> <span class="breadcrumb-sep">/</span> <a href="#/playbooks/${parts[1]}/overview">${parentName}</a> <span class="breadcrumb-sep">/</span> <span style="color:var(--text-primary); font-weight:600;">${subName}</span>`;
+    }
   } else if (parts[0] === 'decision-logs') {
     crumbsHtml += ` <span class="breadcrumb-sep">/</span> <a href="#/decision-logs/midpoint-pulse">Decision Logs</a> <span class="breadcrumb-sep">/</span> <span style="color:var(--text-primary); font-weight:600;">${formatSlugTitle(parts[1])}</span>`;
   }
