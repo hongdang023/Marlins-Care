@@ -688,30 +688,34 @@
   border-color: var(--color-primary-500);
 }
 
+/* ==========================================================================
+   8. PLAYBOOK ACCORDION & PROGRESSIVE DISCLOSURE (CLEAN SECTION DIVIDERS)
+   ========================================================================== */
 .accordion-group {
   display: flex;
   flex-direction: column;
-  gap: var(--space-3);
-  margin-top: var(--space-2);
+  gap: var(--space-2);
+  margin-top: var(--space-4);
 }
 
 .accordion-card {
-  background: #ffffff;
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border-subtle);
+  border-radius: 0;
+  overflow: visible;
+  box-shadow: none;
+  transition: background-color 0.15s ease;
 }
 
 .accordion-card:hover {
   border-color: var(--border-default);
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  box-shadow: none;
 }
 
 .accordion-card.open {
-  border-color: rgba(59, 130, 246, 0.35);
-  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.06);
+  border-bottom: 1px solid var(--border-default);
+  box-shadow: none;
 }
 
 .accordion-header {
@@ -719,42 +723,40 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 16px;
-  background: #ffffff;
+  padding: 14px 4px;
+  background: transparent;
   border: none;
   cursor: pointer;
   text-align: left;
   user-select: none;
-  transition: background-color 0.15s ease;
+  transition: color 0.15s ease, background 0.15s ease;
 }
 
 .accordion-card.open .accordion-header {
-  background: #f8fafc;
-  border-bottom: 1px solid var(--border-subtle);
+  background: transparent;
+  border-bottom: none;
 }
 
 .accordion-header:hover {
-  background: #f8fafc;
+  background: transparent;
+}
+
+.accordion-header:hover .accordion-title {
+  color: var(--color-primary-600);
 }
 
 .accordion-title-wrap {
   display: flex;
   align-items: center;
-  gap: var(--space-3);
-}
-
-.accordion-icon {
-  font-size: 17px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  gap: var(--space-2);
 }
 
 .accordion-title {
-  font-size: 14.5px;
+  font-size: 15px;
   font-weight: 700;
   color: var(--text-primary);
   margin: 0;
+  transition: color 0.15s ease;
 }
 
 .accordion-meta {
@@ -763,25 +765,15 @@
   gap: var(--space-2);
 }
 
-.accordion-badge {
-  font-size: 11px;
-  padding: 2px 7px;
-  border-radius: 999px;
-  background: var(--bg-surface-subtle);
-  color: var(--text-secondary);
-  border: 1px solid var(--border-subtle);
-  font-weight: 500;
-}
-
 .accordion-chevron {
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--text-muted);
-  transition: transform 0.2s ease;
-  font-size: 11px;
+  transition: transform 0.2s ease, color 0.2s ease;
+  font-size: 10px;
 }
 
 .accordion-card.open .accordion-chevron {
@@ -791,8 +783,8 @@
 
 .accordion-body {
   display: none;
-  padding: 16px;
-  background: #ffffff;
+  padding: 8px 4px 20px 4px;
+  background: transparent;
   animation: accordionFadeIn 0.2s ease-out;
 }
 

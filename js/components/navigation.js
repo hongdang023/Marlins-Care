@@ -89,82 +89,69 @@ export function renderSidebar(currentRoute, onNavigate) {
     </div>
   `;
 
-  // Group 2: PARENT JOURNEY
+  // Group 2: PARENT JOURNEY (3 Pha)
   html += `
     <div class="sidebar-group">
       <div class="sidebar-group-title">2. Parent Journey</div>
       <a href="#/journey" class="sidebar-item ${currentRoute === '/journey' ? 'active' : ''}">
-        <span>Interactive Journey Map</span>
-        <span class="badge badge-system" style="font-size:9px;">7 STAGES</span>
+        <span>Journey Map</span>
+        <span class="badge badge-system" style="font-size:9px; font-weight:700;">3 PHASES</span>
       </a>
     </div>
   `;
 
-  // Group 3: PLAYBOOKS (AARRR Funnel Order)
+  // Group 3: PLAYBOOKS (Collapsible Tree Navigation)
+  const playbooksNav = SITEMAP_CONFIG.navigation.find(n => n.id === 'playbooks');
+  const masterFw = playbooksNav ? playbooksNav.masterFramework : null;
+  const playbookItems = playbooksNav ? playbooksNav.items : [];
+
   html += `
     <div class="sidebar-group">
-      <div class="sidebar-group-title">3. Playbooks (AARRR Funnel)</div>
+      <div class="sidebar-group-title">3. Playbooks</div>
       
-      <!-- Acquisition -->
-      <a href="#/playbooks/marlins-day" class="sidebar-item ${currentRoute === '/playbooks/marlins-day' ? 'active' : ''}">
-        <span>Marlins Day</span>
-        <span class="badge-aarrr-pill acq" style="background:#ffedd5; color:#c2410c; border:1px solid #fdba74;" title="Acquisition">A</span>
-      </a>
-      <a href="#/playbooks/marlins-workshop" class="sidebar-item ${currentRoute === '/playbooks/marlins-workshop' ? 'active' : ''}">
-        <span>Marlins Workshop</span>
-        <span class="badge-aarrr-pill acq" style="background:#ffedd5; color:#c2410c; border:1px solid #fdba74;" title="Acquisition">A</span>
-      </a>
-      <a href="#/playbooks/community" class="sidebar-item ${currentRoute === '/playbooks/community' ? 'active' : ''}">
-        <span>Community & Social</span>
-        <span class="badge-aarrr-pill acq" style="background:#ffedd5; color:#c2410c; border:1px solid #fdba74;" title="Acquisition">A</span>
-      </a>
+      <!-- Master Framework Link -->
+      ${masterFw ? `
+        <a href="#${masterFw.slug}" class="sidebar-item ${currentRoute === masterFw.slug ? 'active' : ''}" style="margin-bottom: var(--space-2); border-left: 2px solid var(--color-primary-600); background: var(--bg-surface-subtle);">
+          <span style="font-weight:700;">📖 Master Framework</span>
+        </a>
+      ` : ''}
 
-      <!-- Activation -->
-      <a href="#/playbooks/trial-class" class="sidebar-item ${currentRoute === '/playbooks/trial-class' || currentRoute === '/playbooks/trial-care' ? 'active' : ''}">
-        <span>Trial Class</span>
-        <span class="badge-aarrr-pill act" style="background:#e0f2fe; color:#0369a1; border:1px solid #7dd3fc;" title="Activation">A</span>
-      </a>
-
-      <!-- Retention -->
-      <a href="#/playbooks/live-class" class="sidebar-item ${currentRoute === '/playbooks/live-class' || currentRoute === '/playbooks/progress-update' || currentRoute === '/playbooks/mentor-insight' || currentRoute === '/playbooks/parent-support' || currentRoute === '/playbooks/milestones' ? 'active' : ''}">
-        <span>Live Class</span>
-        <span class="badge-aarrr-pill ret" style="background:#ccfbf1; color:#0f766e; border:1px solid #5eead4;" title="Retention">R</span>
-      </a>
-      <a href="#/playbooks/family-meeting" class="sidebar-item ${currentRoute === '/playbooks/family-meeting' || currentRoute === '/playbooks/family-experience' ? 'active' : ''}">
-        <span>Family Meeting</span>
-        <span class="badge-aarrr-pill ret" style="background:#ccfbf1; color:#0f766e; border:1px solid #5eead4;" title="Retention">R</span>
-      </a>
-
-      <!-- Referral -->
-      <a href="#/playbooks/growth-story" class="sidebar-item ${currentRoute === '/playbooks/growth-story' ? 'active' : ''}">
-        <span>Growth Story</span>
-        <span class="badge-aarrr-pill ref" style="background:#f3e8ff; color:#7e22ce; border:1px solid #d8b4fe;" title="Referral">R</span>
-      </a>
-      <a href="#/playbooks/referrals" class="sidebar-item ${currentRoute === '/playbooks/referrals' ? 'active' : ''}">
-        <span>Referrals Program</span>
-        <span class="badge-aarrr-pill ref" style="background:#f3e8ff; color:#7e22ce; border:1px solid #d8b4fe;" title="Referral">R</span>
-      </a>
-
-      <!-- Revenue -->
-      <a href="#/playbooks/next-steps" class="sidebar-item ${currentRoute === '/playbooks/next-steps' ? 'active' : ''}">
-        <span>Next Steps</span>
-        <span class="badge-aarrr-pill rev" style="background:#dcfce7; color:#15803d; border:1px solid #86efac;" title="Revenue">R</span>
-      </a>
+      <!-- 9 Playbooks with Collapsible Tree Sub-sections -->
+      <div class="sidebar-tree">
+        ${playbookItems.map(pb => {
+          const isSelected = currentRoute.startsWith(pb.slug);
+          return `
+            <div class="sidebar-tree-node ${isSelected ? 'open' : ''}">
+              <a href="#${pb.slug}" class="sidebar-tree-header ${isSelected ? 'active' : ''}">
+                <span class="tree-title">${pb.title}</span>
+                <span class="tree-caret">${isSelected ? '▼' : '›'}</span>
+              </a>
+              <div class="sidebar-tree-children" style="display: ${isSelected ? 'flex' : 'none'};">
+                ${pb.sections.map((sec, sIdx) => `
+                  <a href="#${pb.slug}" class="sidebar-sub-item" data-section-name="${sec}">
+                    <span>${sec}</span>
+                  </a>
+                `).join('')}
+              </div>
+            </div>
+          `;
+        }).join('')}
+      </div>
     </div>
   `;
 
   // Group 4: DECISION LOGS
   html += `
     <div class="sidebar-group">
-      <div class="sidebar-group-title">4. Decision Logs (DARs)</div>
+      <div class="sidebar-group-title">4. Decision Logs</div>
       <a href="#/decision-logs/midpoint-pulse" class="sidebar-item ${currentRoute === '/decision-logs/midpoint-pulse' ? 'active' : ''}">
-        <span>DAR 01: Midpoint Pulse</span>
+        <span>DAR 01: Pulse</span>
       </a>
       <a href="#/decision-logs/trial-support" class="sidebar-item ${currentRoute === '/decision-logs/trial-support' ? 'active' : ''}">
-        <span>DAR 02: Trial Support</span>
+        <span>DAR 02: Trial</span>
       </a>
       <a href="#/decision-logs/human-trigger" class="sidebar-item ${currentRoute === '/decision-logs/human-trigger' ? 'active' : ''}">
-        <span>DAR 03: Human Trigger</span>
+        <span>DAR 03: Trigger</span>
       </a>
       <a href="#/decision-logs/high-touch" class="sidebar-item ${currentRoute === '/decision-logs/high-touch' ? 'active' : ''}">
         <span>DAR 04: High-Touch</span>

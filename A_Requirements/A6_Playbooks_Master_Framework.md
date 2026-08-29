@@ -22,7 +22,7 @@
 
 ---
 
-## 2. Phân Loại Hình Thái Touchpoint (Touchpoint Archetypes)
+## 2. Touchpoint Archetypes
 
 Mọi điểm chạm trong hành trình phụ huynh đều được quy chuẩn vào 1 trong 3 hình thái thiết kế:
 
@@ -39,13 +39,13 @@ graph TD
 
 ---
 
-## 3. Cấu Trúc Chuẩn Của Một Playbook / SOP (Standard Specification)
+## 3. Standard Specification
 
 Mỗi Playbook chi tiết khi được ban hành phải tuân thủ cấu trúc chuẩn hóa theo cấp độ (Tier) và **Quy tắc Đặt tên Tiêu đề Section (Lean Section Title Rule: Pure English, ≤ 3 Words, không mở ngoặc)**:
 
-### 3.1. Cấu trúc Đầy đủ (Dành cho Tier 1: Human-Led / High-Touch & Special Components)
-Áp dụng cho các điểm chạm chuyên sâu như **Family Tour / Meeting (T10)**, **Marlins Day (T3)**, **Post-Trial Alignment (T4)**:
-1. **Stakeholder Mapping (hoặc Stakeholder JTBD):** Phân tích nhu cầu, việc cần làm của 3 bên (Phụ huynh, Học sinh, Đơn vị đào tạo).
+### 3.1. Cấu trúc Đầy đủ (Tier 1: Human-Led)
+Áp dụng cho các điểm chạm chuyên sâu như **Family Meeting (T10)**, **Marlins Day (T3)**, **Post-Trial Alignment (T4)**:
+1. **Stakeholder Mapping:** Phân tích nhu cầu, việc cần làm của 3 bên (Phụ huynh, Học sinh, Đơn vị đào tạo).
 2. **Session Agenda:** Khung thời lượng chi tiết từng phút, nguyên tắc điều phối (ví dụ: *Listen 70% - Ask 20% - Talk 10%*).
 3. **Mentor Guides:**
    * **Question Bank:** Bộ câu hỏi mở gợi mở tương tác tự nhiên.
@@ -56,7 +56,7 @@ Mỗi Playbook chi tiết khi được ban hành phải tuân thủ cấu trúc 
 6. **Do's & Don'ts:** Nguyên tắc hướng dẫn sư phạm và điều cấm kỵ.
 7. **Assessment Rubrics:** Ma trận đo lường chất lượng 5 cấp độ (L1 - L5 với L3 là DoD).
 
-### 3.2. Cấu trúc Rút gọn (Dành cho Tier 2 & Tier 3: Hybrid & System-First)
+### 3.2. Cấu trúc Rút gọn (Tier 2 & 3: Hybrid & System)
 Áp dụng cho các điểm chạm tự động hoặc micro-touchpoint:
 1. **Purpose & JTBD:** Job cụ thể của phụ huynh được giải quyết.
 2. **SOP Steps:** Thao tác ngắn gọn $\le$ 15 phút, phân định rõ System Action vs Human Action.
@@ -66,21 +66,31 @@ Mỗi Playbook chi tiết khi được ban hành phải tuân thủ cấu trúc 
 
 ---
 
-## 4. Khung Đánh Giá Chuẩn Hóa (Standard Quality Rubrics)
+## 4. Assessment Rubrics Master Framework
 
-Mọi hoạt động chăm sóc và tương tác đều được đo lường trên thang 5 cấp độ:
+Mọi hoạt động chăm sóc và tương tác trong tất cả các Playbooks đều được đo lường nhất quán trên thang **5 Cấp Độ (L1 – L5)** và **3 Trụ Cột Đánh Giá Phổ Quát (3 Universal Assessment Dimensions)**:
+
+### 4.1. Thang Đo 5 Cấp Độ Chuẩn
 
 | Cấp Độ | Danh Xưng | Định Nghĩa Chất Lượng | Trạng Thái |
-| :---: | :--- | :--- | :---: |
+| :---: | :--- | :--- | :--- |
 | **L1** | **Chưa Đạt (Deficient)** | Không làm, làm sai quy trình, hoặc mang tính đối phó, gây phiền hà/lo lắng cho gia đình. | ❌ Không chấp nhận |
 | **L2** | **Cơ Bản (Basic)** | Làm đúng máy móc, chỉ dừng lại ở mức giao dịch hành chính bề mặt, thiếu sự thấu cảm. | ⚠️ Cần đào tạo lại |
-| **L3** | **Đạt Chuẩn (Competent - DoD)** | **Chuẩn hoàn thành bắt buộc**. Đạt đầy đủ mục tiêu của Touchpoint, thu thập đúng insight và tạo được sự tin cậy. | ✅ Definition of Done |
+| **L3** | **Đạt Chuẩn (Competent - DoD ⭐)** | **Chuẩn hoàn thành bắt buộc**. Đạt đầy đủ mục tiêu của Touchpoint, thu thập đúng insight và tạo được sự tin cậy. | ✅ Definition of Done |
 | **L4** | **Tốt (Proficient)** | Thấu cảm cao, xử lý linh hoạt theo bối cảnh riêng của gia đình, mang lại trải nghiệm mượt mà. | 🌟 Khuyến khích |
 | **L5** | **Xuất Sắc (Mastery)** | Tạo nên những khoảnh khắc gắn kết sâu sắc (Meaningful Moments), thay đổi tích cực cách gia đình đồng hành cùng con. | 🏆 Hình mẫu chuẩn |
 
+### 4.2. Ba Trụ Cột Đánh Giá Phổ Quát (3 Universal Dimensions)
+
+| Trụ Cột Đánh Giá | Ý Nghĩa Vận Hành | Tiêu Chuẩn Đạt Chuẩn (L3 Competent ⭐) |
+| :--- | :--- | :--- |
+| **1. Execution & Compliance** | Chuẩn xác quy trình, đúng thời lượng quy định ($\le$ 15 phút cho micro-tasks), bảo mật dữ liệu học sinh. | Thực hiện đầy đủ các bước trong SOP, gửi báo cáo đúng hạn, không chậm trễ thông tin. |
+| **2. Empathy & Insight Quality** | Chiều sâu thấu cảm gia đình, phân định rõ ràng Fact – Observation – Interpretation, gắn Dory tags chuẩn xác. | Thu thập dữ liệu chân thực về tâm lý học sinh & kỳ vọng của bố mẹ; không đưa ra nhận định cảm tính. |
+| **3. Parent Experience & Value** | Giải quyết đúng bài toán JTBD của phụ huynh, giúp bố mẹ an tâm, tự hào và giải tỏa áp lực. | Phụ huynh cảm thấy con được lắng nghe, nhận báo cáo minh bạch và thấu hiểu rõ lộ trình phát triển của con. |
+
 ---
 
-## 5. Quy Định Quản Trị & Phân Tách Tài Liệu (Governance)
+## 5. Governance
 
 * **Playbooks Master Framework (File này):** Là tài liệu bất biến cấp cao, chỉ cập nhật khi có sự thay đổi về triết lý hoặc chuẩn kiến trúc hệ thống.
 * **Touchpoint Inventory / Catalog (`Touchpoint_Catalog.md`):** Là danh mục quản lý danh sách các điểm chạm hiện hành (được phép thêm, sửa, gộp linh hoạt theo chu kỳ kinh doanh).

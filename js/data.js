@@ -29,40 +29,84 @@ export const SITEMAP_CONFIG = {
       id: "playbooks",
       title: "Playbooks",
       slug: "/playbooks",
-      megaGroups: [
+      masterFramework: {
+        id: "master-framework",
+        title: "Master Framework",
+        slug: "/playbooks/master-framework",
+        desc: "Quy chuẩn kiến trúc 3 Archetypes, Cấu trúc chuẩn & Thang đo Rubrics phổ quát"
+      },
+      items: [
         {
-          group: "1. Acquisition",
-          items: [
-            { id: "marlins-day", title: "Marlins Day", slug: "/playbooks/marlins-day", touchpoints: ["T3"], desc: "Tháo gỡ ngộ nhận & Fishbowl (Offline CN 14h-17h)" },
-            { id: "marlins-workshop", title: "Marlins Workshop", slug: "/playbooks/marlins-workshop", touchpoints: ["WS"], desc: "Chuyên đề Online qua Zoom (Thứ 5 20h-22h)" },
-            { id: "community", title: "Community & Social", slug: "/playbooks/community", touchpoints: ["COM"], desc: "3 Groups Zalo Chuyên/AI Teen & FB cá nhân Mentors" }
-          ]
+          id: "community",
+          title: "Community & Social",
+          slug: "/playbooks/community",
+          touchpoints: ["COM"],
+          tier: "Tier 3",
+          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
         },
         {
-          group: "2. Activation",
-          items: [
-            { id: "trial-class", title: "Trial Class", slug: "/playbooks/trial-class", touchpoints: ["T1", "T2", "T4"], desc: "Quy trình 2 buổi Trial Class (Pre-Trial ➔ Evidence ➔ Decision)" }
-          ]
+          id: "marlins-workshop",
+          title: "Marlins Workshop",
+          slug: "/playbooks/marlins-workshop",
+          touchpoints: ["WS"],
+          tier: "Tier 1",
+          sections: ["Overview", "Core Mindset", "Session Agenda", "Operating SOP", "Assessment Rubrics"]
         },
         {
-          group: "3. Retention",
-          items: [
-            { id: "live-class", title: "Live Class", slug: "/playbooks/live-class", touchpoints: ["T5", "T6", "T7", "T8", "T9", "T13"], desc: "Đồng hành 12 buổi Live Class: Báo cáo máy + Mentor Insight + Hỗ trợ & Dấu mốc" },
-            { id: "family-meeting", title: "Family Meeting", slug: "/playbooks/family-meeting", touchpoints: ["T10"], desc: "Gặp mặt ăn uống với các gia đình & Khoảnh khắc ý nghĩa" }
-          ]
+          id: "marlins-day",
+          title: "Marlins Day",
+          slug: "/playbooks/marlins-day",
+          touchpoints: ["T3"],
+          tier: "Tier 1",
+          sections: ["Overview", "Core Mindset", "Session Agenda", "Operating SOP", "Assessment Rubrics"]
         },
         {
-          group: "4. Referral",
-          items: [
-            { id: "growth-story", title: "Growth Story", slug: "/playbooks/growth-story", touchpoints: ["T11"], desc: "Hồ sơ tổng kết câu chuyện trưởng thành 5 phần sau 12 buổi" },
-            { id: "referrals", title: "Referrals Program", slug: "/playbooks/referrals", touchpoints: ["REF"], desc: "Cơ chế link giới thiệu & Chính sách 15% - 15% cho PH & HS" }
-          ]
+          id: "trial-class",
+          title: "Trial Class",
+          slug: "/playbooks/trial-class",
+          touchpoints: ["T1", "T2", "T4"],
+          tier: "Tier 2",
+          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
         },
         {
-          group: "5. Revenue",
-          items: [
-            { id: "next-steps", title: "Next Steps", slug: "/playbooks/next-steps", touchpoints: ["T12"], desc: "Tư vấn lộ trình tiếp theo trung thực dựa trên nhu cầu học sinh" }
-          ]
+          id: "live-class",
+          title: "Live Class",
+          slug: "/playbooks/live-class",
+          touchpoints: ["T5", "T6", "T7", "T8", "T9", "T13"],
+          tier: "Tier 2",
+          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
+        },
+        {
+          id: "family-meeting",
+          title: "Family Meeting",
+          slug: "/playbooks/family-meeting",
+          touchpoints: ["T10"],
+          tier: "Tier 1",
+          sections: ["Overview", "Core Mindset", "Stakeholder Mapping", "Session Agenda", "Mentor Guides", "Deliverables & Templates", "Assessment Rubrics"]
+        },
+        {
+          id: "growth-story",
+          title: "Growth Story",
+          slug: "/playbooks/growth-story",
+          touchpoints: ["T11"],
+          tier: "Tier 2",
+          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
+        },
+        {
+          id: "next-steps",
+          title: "Next Steps",
+          slug: "/playbooks/next-steps",
+          touchpoints: ["T12"],
+          tier: "Tier 3",
+          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
+        },
+        {
+          id: "referrals",
+          title: "Referrals Program",
+          slug: "/playbooks/referrals",
+          touchpoints: ["REF"],
+          tier: "Tier 3",
+          sections: ["Overview", "Core Mindset", "Operating SOP", "Deliverables & Templates", "Assessment Rubrics"]
         }
       ]
     },
@@ -80,102 +124,50 @@ export const SITEMAP_CONFIG = {
     }
   ],
 
-  journeyStages: [
+  journeyPhases: [
     {
-      id: "stage-1",
+      id: "phase-1",
       step: "01",
-      name: "Consideration",
-      timeline: "Trước khóa học",
-      aarrr: "Acquisition",
-      aarrrStage: "Acquisition",
-      needs: ["Clear access path (F5)", "Reassurance (E1)", "Good educational choice (S3)"],
-      desiredExperience: "Phụ huynh hiểu rõ mục đích, tin tưởng phương pháp giáo dục và biết cách chuẩn bị cho con.",
-      keyPlaybooks: [
-        { title: "Marlins Day", slug: "/playbooks/marlins-day", code: "T3" },
-        { title: "Marlins Workshop", slug: "/playbooks/marlins-workshop", code: "WS" },
-        { title: "Community & Social", slug: "/playbooks/community", code: "COM" }
+      name: "Trước Khóa Học",
+      enName: "Pre-enrollment",
+      timeline: "Cân nhắc & Học thử",
+      badgeText: "Khám phá",
+      needs: ["Clear access path (F5)", "Reassurance (E1)", "Good educational choice (S3)", "Understand progress (F1)"],
+      desiredExperience: "Phụ huynh hiểu rõ triết lý giáo dục, chuẩn bị chu đáo tâm thế cho con và nhận tư vấn trung thực dựa trên bằng chứng dữ liệu.",
+      actionPlaybooks: [
+        { id: "community", title: "Community & Social", code: "COM", role: "Admin / Care", trigger: "Thường trực tương tác hàng ngày", slug: "/playbooks/community" },
+        { id: "marlins-workshop", title: "Marlins Workshop", code: "WS", role: "Speaker / Mentors", trigger: "Tối Thứ 5 trực tuyến Zoom", slug: "/playbooks/marlins-workshop" },
+        { id: "marlins-day", title: "Marlins Day", code: "T3", role: "Care Team", trigger: "Chiều Chủ Nhật định kỳ (14h - 17h)", slug: "/playbooks/marlins-day" },
+        { id: "trial-class", title: "Trial Class", code: "T1 · T2 · T4", role: "Mentor + System", trigger: "Khi đăng ký & hoàn thành 2 buổi học thử", slug: "/playbooks/trial-class", highlight: true }
       ]
     },
     {
-      id: "stage-2",
+      id: "phase-2",
       step: "02",
-      name: "Trial Learning",
-      timeline: "Buổi 1 – 2 (Trial Class)",
-      aarrr: "Activation",
-      aarrrStage: "Activation",
-      needs: ["Understand progress (F1)", "Child perspective (F4)", "Genuinely seen (E2)"],
-      desiredExperience: "Con được tự do khám phá tư duy; phụ huynh nhận báo cáo bằng chứng dữ liệu khách quan.",
-      keyPlaybooks: [
-        { title: "Trial Class (Trial Evidence)", slug: "/playbooks/trial-class", code: "T2" },
-        { title: "Trial Class (Pre-Trial)", slug: "/playbooks/trial-class", code: "T1" }
+      name: "Trong Khóa Học",
+      enName: "Active Journey",
+      timeline: "12 Buổi Live Class",
+      badgeText: "Đồng hành",
+      needs: ["Understand progress (F1)", "Child perspective (F4)", "Genuinely seen (E2)", "Early risk detection (F2)", "Shared moments (S5)"],
+      desiredExperience: "Nhìn thấy sự tiến bộ thực chất bằng dữ liệu, cảm nhận con được thấu hiểu qua quan sát độc bản của Mentor và có khoảnh khắc gia đình ý nghĩa.",
+      actionPlaybooks: [
+        { id: "live-class", title: "Live Class Routine", code: "T5 - T13", role: "Dolphin Mentor", trigger: "Quy trình nhịp lặp lại hàng tuần (12 buổi)", slug: "/playbooks/live-class", highlight: true },
+        { id: "family-meeting", title: "Family Meeting", code: "T10", role: "Mentor + Gia đình", trigger: "Cột mốc đặc biệt giữa kỳ (~Buổi 5-7)", slug: "/playbooks/family-meeting", highlight: true }
       ]
     },
     {
-      id: "stage-3",
+      id: "phase-3",
       step: "03",
-      name: "Decision",
-      timeline: "Sau 2 buổi Trial Class",
-      aarrr: "Activation",
-      aarrrStage: "Activation",
-      needs: ["Actionable guidance (F3)", "Worthwhile investment (E5)", "Good educational choice (S3)"],
-      desiredExperience: "Nhận tư vấn trung thực về mức độ phù hợp của con, không bị chèo kéo bán hàng.",
-      keyPlaybooks: [
-        { title: "Trial Class (Post-Trial Decision)", slug: "/playbooks/trial-class", code: "T4" }
-      ]
-    },
-    {
-      id: "stage-4",
-      step: "04",
-      name: "Early Learning",
-      timeline: "Buổi 1 – 3 (Live Class)",
-      aarrr: "Retention",
-      aarrrStage: "Retention",
-      needs: ["Reassurance (E1)", "Early risk detection (F2)", "Accompanied (E4)"],
-      desiredExperience: "An tâm thấy con bắt nhịp môi trường học tập, mentor luôn sẵn sàng hỗ trợ.",
-      keyPlaybooks: [
-        { title: "Live Class (Progress & Support)", slug: "/playbooks/live-class", code: "T5·T9" }
-      ]
-    },
-    {
-      id: "stage-5",
-      step: "05",
-      name: "Core Learning",
-      timeline: "Buổi 4 – 9 (Live Class)",
-      aarrr: "Retention",
-      aarrrStage: "Retention",
-      needs: ["Understand progress (F1)", "Child perspective (F4)", "Genuinely seen (E2)", "Shared moments (S5)"],
-      desiredExperience: "Nhìn thấy sự tiến bộ thực chất bằng dữ liệu, cảm nhận con được thấu hiểu qua quan sát của Mentor.",
-      keyPlaybooks: [
-        { title: "Live Class (Progress + Insight + Support + Milestones)", slug: "/playbooks/live-class", code: "T5-T13" },
-        { title: "Family Meeting", slug: "/playbooks/family-meeting", code: "T10" }
-      ]
-    },
-    {
-      id: "stage-6",
-      step: "06",
-      name: "Completion",
-      timeline: "Buổi 10 – 12 (Live Class)",
-      aarrr: "Referral",
-      aarrrStage: "Referral",
-      needs: ["Understand progress (F1)", "Beyond grades (S2)", "Worthwhile investment (E5)"],
-      desiredExperience: "Gia đình sở hữu một bức tranh trưởng thành toàn diện 5 phần, tự hào về nỗ lực của con.",
-      keyPlaybooks: [
-        { title: "Growth Story", slug: "/playbooks/growth-story", code: "T11" },
-        { title: "Referrals Program", slug: "/playbooks/referrals", code: "REF" }
-      ]
-    },
-    {
-      id: "stage-7",
-      step: "07",
-      name: "Continuation",
-      timeline: "Hậu 12 buổi Live Class",
-      aarrr: "Revenue",
-      aarrrStage: "Revenue",
-      needs: ["Actionable guidance (F3)", "Belonging (S4)", "Better parent (S1)"],
-      desiredExperience: "Được tư vấn bước phát triển tiếp theo trung thực dựa trên nhu cầu học sinh.",
-      keyPlaybooks: [
-        { title: "Next Steps", slug: "/playbooks/next-steps", code: "T12" },
-        { title: "Marlins Day", slug: "/playbooks/marlins-day", code: "T3" }
+      name: "Sau Khóa Học",
+      enName: "Post-course",
+      timeline: "Tổng kết & Tiếp tục",
+      badgeText: "Gắn kết",
+      needs: ["Beyond grades (S2)", "Worthwhile investment (E5)", "Actionable guidance (F3)", "Belonging (S4)"],
+      desiredExperience: "Gia đình sở hữu câu chuyện trưởng thành 5 phần đầy tự hào, được định hướng lộ trình tiếp theo trung thực và gắn kết cộng đồng dài hạn.",
+      actionPlaybooks: [
+        { id: "growth-story", title: "Growth Story", code: "T11", role: "Mentor + System", trigger: "Tổng kết sau buổi 12", slug: "/playbooks/growth-story", highlight: true },
+        { id: "next-steps", title: "Next Steps", code: "T12", role: "Academic Advisor", trigger: "Tư vấn lộ trình sau hoàn thành", slug: "/playbooks/next-steps" },
+        { id: "referrals", title: "Referrals Program", code: "REF", role: "Care / Referral Link", trigger: "Sau khi hoàn thành câu chuyện trưởng thành", slug: "/playbooks/referrals" }
       ]
     }
   ]

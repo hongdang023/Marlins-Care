@@ -154,34 +154,31 @@ export function renderPlaybook(slug, onNavigate) {
     <!-- Master Sub-Touchpoints Renderer -->
     ${touchpoints.map((tp, idx) => `
       <section class="touchpoint-section" id="tp-${tp.id}" style="margin-bottom: var(--space-8); padding-top: var(--space-2);">
-        <div style="display:flex; align-items:center; justify-content:space-between; border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-3); margin-bottom: var(--space-4);">
-          <h2 style="font-size: 20px; font-weight: 700; color: var(--text-primary); display:flex; align-items:center; gap:var(--space-2);">
-            <span style="color:var(--color-primary-600);">[${tp.id}]</span> ${tp.name}
-          </h2>
-          <span class="badge ${getOwnerBadge(tp.owner)}">${tp.owner || 'System / Mentor'}</span>
-        </div>
+        ${touchpoints.length > 1 ? `
+          <div style="display:flex; align-items:center; justify-content:space-between; border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-3); margin-bottom: var(--space-4);">
+            <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); display:flex; align-items:center; gap:var(--space-2);">
+              <span style="color:var(--color-primary-600);">[${tp.id}]</span> ${tp.name}
+            </h2>
+            <span class="badge ${getOwnerBadge(tp.owner)}">${tp.owner || 'System / Mentor'}</span>
+          </div>
+        ` : ''}
 
-        <!-- Purpose & Trigger Summary Banner -->
-        <div class="callout callout-tip" style="margin-bottom: var(--space-4);">
-          <div class="callout-title">🎯 Mục Đích & Bối Cảnh Kích Hoạt</div>
-          <div class="callout-content">
-            <p><strong>Mục đích:</strong> ${tp.purpose}</p>
-            <p style="margin-top:4px;"><strong>Điều kiện kích hoạt (Trigger):</strong> ${tp.trigger || 'Theo lịch trình hệ thống'}</p>
-            <p style="margin-top:4px;"><strong>Thời gian chuẩn (SOP Time):</strong> <code>${tp.sopTime || '≤ 15 phút'}</code></p>
+        <!-- Overview Banner (Ngắn gọn & Tinh giản) -->
+        <div class="callout callout-tip" style="margin-bottom: var(--space-4); background: var(--bg-surface-subtle); border-left: 3px solid var(--color-primary-600); padding: var(--space-3) var(--space-4); border-radius: var(--radius-md);">
+          <div style="font-size: 12px; font-weight: 700; color: var(--color-primary-700); text-transform: uppercase; margin-bottom: 4px; letter-spacing: 0.5px;">
+            Overview
+          </div>
+          <div style="font-size: 13.5px; color: var(--text-secondary); line-height: 1.5;">
+            <div><strong>Objective:</strong> ${tp.purpose}</div>
+            <div style="margin-top: 3px; font-size: 12.5px; color: var(--text-muted);">
+              <span><strong>Trigger:</strong> ${tp.trigger || 'Theo lịch trình'}</span>
+              <span style="margin: 0 6px;">·</span>
+              <span><strong>Standard Time:</strong> <code>${tp.sopTime || '≤ 15 min'}</code></span>
+            </div>
           </div>
         </div>
 
-        <!-- Toolbar: Expand / Collapse All -->
-        <div class="playbook-accordion-controls">
-          <span style="font-size: 12.5px; font-weight: 600; color: var(--text-secondary);">
-            📑 Phân cấp nội dung chi tiết
-          </span>
-          <button type="button" class="btn-accordion-toggle-all" data-tp-id="${tp.id}">
-            <span>↕️</span> <span class="toggle-text">Thu gọn tất cả</span>
-          </button>
-        </div>
-
-        <!-- Accordion Container -->
+        <!-- Accordion Container (Clean Minimal List Style) -->
         <div class="accordion-group" data-accordion-group="${tp.id}">
 
           <!-- 1. CORE MINDSET (Open by default) -->
@@ -189,28 +186,26 @@ export function renderPlaybook(slug, onNavigate) {
             <div class="accordion-card open">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
-                  <span class="accordion-icon">🎯</span>
                   <span class="accordion-title">Core Mindset</span>
                 </div>
                 <div class="accordion-meta">
-                  <span class="accordion-badge">${tp.mindset.priorities ? tp.mindset.priorities.length + ' Pillars' : 'Core'}</span>
                   <span class="accordion-chevron">▼</span>
                 </div>
               </button>
               <div class="accordion-body">
-                <blockquote style="font-size: 15px; font-weight: 700; color: var(--color-slate-900); margin: 0 0 var(--space-2) 0; border-left: 3px solid var(--color-teal-500); padding-left: var(--space-3);">
+                <blockquote style="font-size: 15px; font-weight: 700; color: var(--text-primary); margin: 0 0 var(--space-2) 0; border-left: 3px solid var(--color-primary-600); padding-left: var(--space-3);">
                   "${tp.mindset.quote}"
                 </blockquote>
-                <p style="font-size: 13.5px; color: var(--color-slate-600); margin-bottom: var(--space-3); line-height: 1.5;">
+                <p style="font-size: 13.5px; color: var(--text-secondary); margin-bottom: var(--space-3); line-height: 1.5;">
                   ${tp.mindset.definition}
                 </p>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-3);">
                   ${tp.mindset.priorities.map(p => `
                     <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-3);">
-                      <div style="font-weight: 700; font-size: 13px; color: var(--color-slate-800); margin-bottom: 2px;">
+                      <div style="font-weight: 700; font-size: 13px; color: var(--text-primary); margin-bottom: 2px;">
                         ${p.level} ${p.goal}
                       </div>
-                      <div style="font-size: 12px; color: var(--color-slate-600); line-height: 1.4;">${p.reason}</div>
+                      <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.4;">${p.reason}</div>
                     </div>
                   `).join('')}
                 </div>
@@ -223,11 +218,9 @@ export function renderPlaybook(slug, onNavigate) {
             <div class="accordion-card">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
-                  <span class="accordion-icon">👥</span>
                   <span class="accordion-title">Stakeholder Mapping</span>
                 </div>
                 <div class="accordion-meta">
-                  <span class="accordion-badge">${tp.stakeholderJTBD.length} Roles</span>
                   <span class="accordion-chevron">▼</span>
                 </div>
               </button>
@@ -261,11 +254,9 @@ export function renderPlaybook(slug, onNavigate) {
             <div class="accordion-card open">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
-                  <span class="accordion-icon">⏱️</span>
                   <span class="accordion-title">Session Agenda</span>
                 </div>
                 <div class="accordion-meta">
-                  <span class="accordion-badge">${tp.agendaFlow.length} Stages</span>
                   <span class="accordion-chevron">▼</span>
                 </div>
               </button>
@@ -299,11 +290,9 @@ export function renderPlaybook(slug, onNavigate) {
             <div class="accordion-card open">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
-                  <span class="accordion-icon">🧠</span>
                   <span class="accordion-title">Mentor Guides</span>
                 </div>
                 <div class="accordion-meta">
-                  <span class="badge badge-mentor" style="font-size: 11px;">${tp.mentorGuides.rule}</span>
                   <span class="accordion-chevron">▼</span>
                 </div>
               </button>
@@ -311,14 +300,14 @@ export function renderPlaybook(slug, onNavigate) {
                 <div style="display: flex; flex-direction: column; gap: var(--space-4);">
                   <!-- Question Bank -->
                   <div>
-                    <div style="font-weight: 700; font-size: 13.5px; color: var(--color-slate-800); margin-bottom: var(--space-2); display:flex; align-items:center; gap:6px;">
-                      <span>💬 Question Bank</span>
+                    <div style="font-weight: 700; font-size: 13.5px; color: var(--text-primary); margin-bottom: var(--space-2);">
+                      Question Bank
                     </div>
                     <div style="display: flex; flex-direction: column; gap: var(--space-2);">
                       ${tp.mentorGuides.questionBank.map(q => `
-                        <div style="background: var(--color-slate-50); border-left: 3px solid var(--color-blue-500); padding: var(--space-2) var(--space-3); border-radius: 0 var(--radius-sm) var(--radius-sm) 0;">
-                          <div style="font-size: 13px; font-weight: 600; color: var(--color-slate-800);">#${q.no}. "${q.q}"</div>
-                          <div style="font-size: 11.5px; color: var(--color-slate-500); margin-top: 2px;">👉 Mục đích: ${q.purpose}</div>
+                        <div style="background: var(--bg-surface-subtle); border-left: 3px solid var(--color-primary-600); padding: var(--space-2) var(--space-3); border-radius: 0 var(--radius-sm) var(--radius-sm) 0;">
+                          <div style="font-size: 13px; font-weight: 600; color: var(--text-primary);">#${q.no}. "${q.q}"</div>
+                          <div style="font-size: 11.5px; color: var(--text-muted); margin-top: 2px;">Objective: ${q.purpose}</div>
                         </div>
                       `).join('')}
                     </div>
@@ -326,28 +315,28 @@ export function renderPlaybook(slug, onNavigate) {
 
                   <!-- Observation Guide -->
                   <div>
-                    <div style="font-weight: 700; font-size: 13.5px; color: var(--color-slate-800); margin-bottom: var(--space-2);">
-                      👁️ Observation Guide
+                    <div style="font-weight: 700; font-size: 13.5px; color: var(--text-primary); margin-bottom: var(--space-2);">
+                      Observation Guide
                     </div>
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-2);">
                       ${tp.mentorGuides.observationGuide.map(ob => `
-                        <div style="background: var(--color-slate-50); border: 1px solid var(--color-slate-200); border-radius: var(--radius-md); padding: var(--space-2) var(--space-3);">
-                          <div style="font-size: 12.5px; font-weight: 700; color: var(--color-slate-800);">${ob.dim}</div>
-                          <div style="font-size: 12px; color: var(--color-slate-600); margin-top: 2px; line-height: 1.4;">${ob.cues}</div>
+                        <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-2) var(--space-3);">
+                          <div style="font-size: 12.5px; font-weight: 700; color: var(--text-primary);">${ob.dim}</div>
+                          <div style="font-size: 12px; color: var(--text-secondary); margin-top: 2px; line-height: 1.4;">${ob.cues}</div>
                         </div>
                       `).join('')}
                     </div>
                   </div>
 
                   <!-- Exit Checklist -->
-                  <div style="background: rgba(245, 158, 11, 0.06); border: 1px dashed var(--color-amber-500); border-radius: var(--radius-md); padding: var(--space-3);">
-                    <div style="font-weight: 700; font-size: 13px; color: #b45309; margin-bottom: var(--space-2);">
-                      ☑️ Exit Checklist
+                  <div style="background: rgba(245, 158, 11, 0.06); border: 1px dashed var(--color-accent-500); border-radius: var(--radius-md); padding: var(--space-3);">
+                    <div style="font-weight: 700; font-size: 13px; color: var(--color-accent-700); margin-bottom: var(--space-2);">
+                      Exit Checklist
                     </div>
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 6px;">
                       ${tp.mentorGuides.exitChecklist.map(ex => `
-                        <div style="font-size: 12px; color: var(--color-slate-700); display:flex; align-items:center; gap:6px;">
-                          <span style="color:var(--color-amber-600);">✔</span> ${ex}
+                        <div style="font-size: 12px; color: var(--text-primary); display:flex; align-items:center; gap:6px;">
+                          <span style="color:var(--color-accent-600);">✔</span> ${ex}
                         </div>
                       `).join('')}
                     </div>
@@ -362,30 +351,28 @@ export function renderPlaybook(slug, onNavigate) {
             <div class="accordion-card">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
-                  <span class="accordion-icon">📝</span>
                   <span class="accordion-title">Family Notes</span>
                 </div>
                 <div class="accordion-meta">
-                  <span class="accordion-badge">${tp.familyNotesTemplate.version || 'Template'}</span>
                   <span class="accordion-chevron">▼</span>
                 </div>
               </button>
               <div class="accordion-body">
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-3);">
-                  <div style="background: #ffffff; border: 1px solid var(--color-slate-200); border-radius: var(--radius-md); padding: var(--space-3);">
-                    <div style="font-size: 13px; font-weight: 700; color: var(--color-slate-800); margin-bottom: var(--space-2);">Template Structure:</div>
-                    <ul style="padding-left: var(--space-4); margin: 0; font-size: 12px; color: var(--color-slate-600); line-height: 1.6;">
+                  <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-3);">
+                    <div style="font-size: 13px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-2);">Template Structure:</div>
+                    <ul style="padding-left: var(--space-4); margin: 0; font-size: 12px; color: var(--text-secondary); line-height: 1.6;">
                       ${tp.familyNotesTemplate.structure.map(st => `<li>${st}</li>`).join('')}
                     </ul>
                   </div>
-                  <div style="background: #f8fafc; border: 1px solid var(--color-blue-200); border-radius: var(--radius-md); padding: var(--space-3);">
-                    <div style="font-size: 13px; font-weight: 700; color: var(--color-blue-700); margin-bottom: var(--space-2);">💡 Case Study:</div>
-                    <div style="font-size: 12px; color: var(--color-slate-700); line-height: 1.5; display:flex; flex-direction:column; gap:3px;">
-                      <div><strong>🎯 Goal:</strong> ${tp.familyNotesTemplate.exampleCase.goal}</div>
-                      <div><strong>💡 3 Insights:</strong> ${tp.familyNotesTemplate.exampleCase.insights.join(' | ')}</div>
-                      <div><strong>⚠️ Mentor Note:</strong> ${tp.familyNotesTemplate.exampleCase.mentorNote}</div>
-                      <div><strong>📅 Next Action:</strong> ${tp.familyNotesTemplate.exampleCase.nextActions}</div>
-                      <div><strong>📝 Evidence:</strong> <em>${tp.familyNotesTemplate.exampleCase.evidence}</em></div>
+                  <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-3);">
+                    <div style="font-size: 13px; font-weight: 700; color: var(--color-primary-600); margin-bottom: var(--space-2);">Case Study:</div>
+                    <div style="font-size: 12px; color: var(--text-secondary); line-height: 1.5; display:flex; flex-direction:column; gap:3px;">
+                      <div><strong>Goal:</strong> ${tp.familyNotesTemplate.exampleCase.goal}</div>
+                      <div><strong>3 Insights:</strong> ${tp.familyNotesTemplate.exampleCase.insights.join(' | ')}</div>
+                      <div><strong>Mentor Note:</strong> ${tp.familyNotesTemplate.exampleCase.mentorNote}</div>
+                      <div><strong>Next Action:</strong> ${tp.familyNotesTemplate.exampleCase.nextActions}</div>
+                      <div><strong>Evidence:</strong> <em>${tp.familyNotesTemplate.exampleCase.evidence}</em></div>
                     </div>
                   </div>
                 </div>
@@ -398,18 +385,16 @@ export function renderPlaybook(slug, onNavigate) {
             <div class="accordion-card">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
-                  <span class="accordion-icon">📋</span>
                   <span class="accordion-title">SOP Workflow</span>
                 </div>
                 <div class="accordion-meta">
-                  <span class="accordion-badge">SOP & Templates</span>
                   <span class="accordion-chevron">▼</span>
                 </div>
               </button>
               <div class="accordion-body">
                 <!-- SOP Steps -->
                 ${tp.sopSteps ? `
-                  <h4 style="font-size: 13.5px; font-weight: 700; margin: 0 0 var(--space-2);">📋 SOP Steps</h4>
+                  <h4 style="font-size: 13.5px; font-weight: 700; margin: 0 0 var(--space-2);">SOP Steps</h4>
                   <div style="overflow-x:auto; margin-bottom: var(--space-4);">
                     <table class="sop-table">
                       <thead>
@@ -434,16 +419,16 @@ export function renderPlaybook(slug, onNavigate) {
 
                 <!-- Do & Don't -->
                 ${(tp.doGuidelines || tp.dontGuidelines) ? `
-                  <h4 style="font-size: 13.5px; font-weight: 700; margin: 0 0 var(--space-2);">⚖️ Do's & Don'ts</h4>
+                  <h4 style="font-size: 13.5px; font-weight: 700; margin: 0 0 var(--space-2);">Do's & Don'ts</h4>
                   <div class="do-dont-grid" style="margin-bottom: var(--space-4);">
                     <div class="do-box">
-                      <div class="do-title">✅ DO'S</div>
+                      <div class="do-title">DO'S</div>
                       <ul style="padding-left: var(--space-4); margin: 0; font-size: 12px;">
                         ${tp.doGuidelines ? tp.doGuidelines.map(d => `<li style="margin-bottom:4px;">${d}</li>`).join('') : '<li>Tuân thủ nguyên tắc sư phạm</li>'}
                       </ul>
                     </div>
                     <div class="dont-box">
-                      <div class="dont-title">🚫 DON'TS</div>
+                      <div class="dont-title">DON'TS</div>
                       <ul style="padding-left: var(--space-4); margin: 0; font-size: 12px;">
                         ${tp.dontGuidelines ? tp.dontGuidelines.map(d => `<li style="margin-bottom:4px;">${d}</li>`).join('') : '<li>Không gửi tin nhắn máy móc</li>'}
                       </ul>
@@ -453,10 +438,10 @@ export function renderPlaybook(slug, onNavigate) {
 
                 <!-- Communication Templates -->
                 ${tp.template ? `
-                  <h4 style="font-size: 13.5px; font-weight: 700; margin: 0 0 var(--space-2);">💬 Communication Templates</h4>
+                  <h4 style="font-size: 13.5px; font-weight: 700; margin: 0 0 var(--space-2);">Communication Templates</h4>
                   <div class="template-box">
                     <div class="template-header">
-                      <span class="template-channel">📡 Channel: <strong>${tp.template.channel}</strong></span>
+                      <span class="template-channel">Channel: <strong>${tp.template.channel}</strong></span>
                       <button class="btn-copy" data-copy-id="copy-${tp.id}">
                         📋 Copy Template
                       </button>
@@ -473,11 +458,9 @@ export function renderPlaybook(slug, onNavigate) {
             <div class="accordion-card">
               <button type="button" class="accordion-header">
                 <div class="accordion-title-wrap">
-                  <span class="accordion-icon">⭐</span>
                   <span class="accordion-title">Assessment Rubrics</span>
                 </div>
                 <div class="accordion-meta">
-                  <span class="badge badge-system" style="font-size:11px;">Level 3 = DoD Standard ⭐</span>
                   <span class="accordion-chevron">▼</span>
                 </div>
               </button>
@@ -487,12 +470,12 @@ export function renderPlaybook(slug, onNavigate) {
                     <table class="rubric-table">
                       <thead>
                         <tr>
-                          <th class="rubric-col-crit">Tiêu chí (Criteria)</th>
-                          <th class="rubric-col-l1">L1 (Kém)</th>
-                          <th class="rubric-col-l2">L2 (Cơ bản)</th>
-                          <th class="rubric-col-l3-head">L3 (DoD ⭐ ĐẠT CHUẨN)</th>
-                          <th class="rubric-col-l4">L4 (Tốt / Nâng cao)</th>
-                          <th class="rubric-col-l5">L5 (Xuất sắc)</th>
+                          <th class="rubric-col-crit">Criteria</th>
+                          <th class="rubric-col-l1">L1 Deficient</th>
+                          <th class="rubric-col-l2">L2 Basic</th>
+                          <th class="rubric-col-l3-head">L3 Competent (DoD ⭐)</th>
+                          <th class="rubric-col-l4">L4 Proficient</th>
+                          <th class="rubric-col-l5">L5 Mastery</th>
                         </tr>
                       </thead>
                       <tbody>
@@ -525,28 +508,6 @@ export function renderPlaybook(slug, onNavigate) {
       const card = header.closest('.accordion-card');
       if (card) {
         card.classList.toggle('open');
-      }
-    });
-  });
-
-  // Attach Toggle All Handlers
-  container.querySelectorAll('.btn-accordion-toggle-all').forEach(btn => {
-    btn.addEventListener('click', () => {
-      const tpId = btn.getAttribute('data-tp-id');
-      const group = container.querySelector(`[data-accordion-group="${tpId}"]`);
-      if (!group) return;
-
-      const cards = group.querySelectorAll('.accordion-card');
-      const hasClosed = Array.from(cards).some(card => !card.classList.contains('open'));
-
-      if (hasClosed) {
-        // Expand all
-        cards.forEach(c => c.classList.add('open'));
-        btn.querySelector('.toggle-text').innerText = 'Thu gọn tất cả';
-      } else {
-        // Collapse all
-        cards.forEach(c => c.classList.remove('open'));
-        btn.querySelector('.toggle-text').innerText = 'Mở tất cả';
       }
     });
   });

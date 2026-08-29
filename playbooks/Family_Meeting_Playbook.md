@@ -1,13 +1,14 @@
-# [T10] Family Meeting Playbook (High-touch Experience)
-> **Mã:** T10 · **Nhóm:** 3. RETENTION · **Phụ trách:** Human (Mentor / Marlins Care)  
-> **Tóm tắt:** Gặp mặt ăn uống với các gia đình & Trải nghiệm gắn kết con người chiều sâu theo các Khoảnh khắc ý nghĩa (*High-touch Meaningful Moments*).
+# [T10] Family Meeting Playbook
+
+> **Code:** T10 · **Group:** Retention · **Owner:** Human (Mentor / Marlins Care)  
+> **Summary:** Gặp mặt ăn uống với các gia đình & Trải nghiệm gắn kết con người chiều sâu theo các khoảnh khắc ý nghĩa.
 
 ---
 
-### 🎯 Bối Cảnh & Mục Tiêu Kích Hoạt
-* **Mục đích:** Hiểu bối cảnh gia đình, kỳ vọng từ phụ huynh để thiết kế trải nghiệm học tập phù hợp hơn và xây dựng mối quan hệ đồng hành lâu dài. *Nguyên tắc: "Đến để hiểu, không phải để đánh giá".*
+### Overview
+* **Objective:** Hiểu bối cảnh gia đình, kỳ vọng từ phụ huynh để thiết kế trải nghiệm học tập phù hợp hơn và xây dựng mối quan hệ đồng hành lâu dài. *Nguyên tắc: "Đến để hiểu, không phải để đánh giá".*
 * **Trigger:** Phát sinh khoảnh khắc ý nghĩa (Đột phá lớn, Cơ hội thấu hiểu sâu sắc, Gắn kết đặc biệt, Khôi phục niềm tin sau khủng hoảng).
-* **Thời gian chuẩn (SOP Time):** 60 phút gặp mặt (Chuẩn bị ≤ 15 phút).
+* **Standard Time:** 60 phút gặp mặt (Chuẩn bị ≤ 15 phút).
 
 ---
 

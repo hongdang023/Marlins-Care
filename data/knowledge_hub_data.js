@@ -28,13 +28,13 @@ export const KNOWLEDGE_HUB_DATA = {
   "stakeholders": [
     {
       "id": "parent",
-      "name": "Phụ huynh (Parent / Marlin)",
+      "name": "Phụ huynh (Marlins)",
       "role": "Primary Stakeholder / Customer",
       "desc": "Khách hàng trực tiếp của Parent Care, người đồng hành và kiến tạo môi trường gia đình lành mạnh."
     },
     {
       "id": "student",
-      "name": "Học sinh (Student / Nemo)",
+      "name": "Học sinh (Nemos)",
       "role": "Ultimate Beneficiary",
       "desc": "Người thụ hưởng cuối cùng; được bảo vệ quyền tự chủ và tâm lý học tập tích cực."
     },
@@ -236,7 +236,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Clarity (Độ rõ ràng)",
+          "criterion": "Clarity ",
           "l1": "Phụ huynh không biết ngày giờ/cách vào học, phải gọi hỏi lại.",
           "l2": "Thiếu thông tin quan trọng (thiếu link, thiếu hotline hoặc sai giờ).",
           "l3": "Thông tin cơ bản đầy đủ: thời gian, địa điểm/link, thiết bị cần chuẩn bị.",
@@ -244,7 +244,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Phụ huynh chuẩn bị hoàn hảo, tự tin 100% không phát sinh bất kỳ câu hỏi phụ nào."
         },
         {
-          "criterion": "Relevance (Mức độ phù hợp)",
+          "criterion": "Relevance ",
           "l1": "Thông tin thừa thãi, lan man, khó tìm thông tin chính.",
           "l2": "Phải cuộn trang/đọc nhiều đoạn văn dài mới thấy link học.",
           "l3": "Thông tin cần thiết hiển thị trọng tâm, dễ nắm bắt trong 30 giây.",
@@ -252,7 +252,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Cá nhân hóa theo độ tuổi học sinh và thiết bị đã đăng ký (iPad/Laptop)."
         },
         {
-          "criterion": "Expectation Setting (Thiết lập kỳ vọng)",
+          "criterion": "Expectation Setting ",
           "l1": "Khiến phụ huynh nghĩ đây là buổi thi tuyển áp lực hoặc phỏng vấn gắt gao.",
           "l2": "Kỳ vọng mơ hồ, không rõ học thử để làm gì.",
           "l3": "Nêu đúng bản chất: Khám phá tư duy & trải nghiệm môi trường Nemo12.",
@@ -313,7 +313,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Evidence (Tính bằng chứng)",
+          "criterion": "Evidence ",
           "l1": "Toàn nhận xét chung chung, không có dữ liệu chứng minh.",
           "l2": "Bằng chứng mờ nhạt, chỉ liệt kê số buổi tham gia.",
           "l3": "Có bằng chứng cụ thể: nhiệm vụ đã làm, số lần thử lại, sản phẩm hoàn thành.",
@@ -321,7 +321,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Dữ liệu bằng chứng trực tiếp làm sáng tỏ năng lực cốt lõi và tiềm năng phát triển."
         },
         {
-          "criterion": "Child-specificity (Tính cá nhân hóa)",
+          "criterion": "Child-specificity ",
           "l1": "Báo cáo mẫu rập khuôn, chỉ thay mỗi tên học sinh.",
           "l2": "Có nhắc đến tên bài tập nhưng nhận xét chung cho cả lớp.",
           "l3": "Phản ánh đúng hoạt động cụ thể và sản phẩm thực tế của chính học sinh đó.",
@@ -329,7 +329,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Phụ huynh đọc vào nhận diện ngay chính xác con mình với sự thấu hiểu sâu sắc."
         },
         {
-          "criterion": "Decision Value (Giá trị quyết định)",
+          "criterion": "Decision Value ",
           "l1": "Không giúp phụ huynh hiểu gì thêm về năng lực của con.",
           "l2": "Báo cáo mang tính mô tả đơn thuần, không biết nên làm gì tiếp.",
           "l3": "Giúp phụ huynh hiểu rõ con đạt được gì và gặp thử thách ở đâu.",
@@ -391,7 +391,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Understanding Parent (Thấu cảm phụ huynh)",
+          "criterion": "Understanding Parent ",
           "l1": "Trả lời bộp chộp, ngắt lời hoặc áp đặt câu trả lời ngay lập tức.",
           "l2": "Chỉ hiểu câu hỏi bề mặt trên câu chữ của phụ huynh.",
           "l3": "Hiểu đúng nỗi lo âu và băn khoăn thực tế của gia đình.",
@@ -399,7 +399,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Phụ huynh tự giật mình nhận ra gốc rễ vấn đề nằm ở mô hình tương tác gia đình."
         },
         {
-          "criterion": "Reframing (Tái định hình tư duy)",
+          "criterion": "Reframing ",
           "l1": "Đưa ra lời khuyên chung chung kiểu 'về bảo ban cháu'.",
           "l2": "Giải thích lý thuyết giáo dục một chiều.",
           "l3": "Đưa ra góc nhìn mới giúp phụ huynh nhìn nhận hành vi của con khác đi.",
@@ -407,7 +407,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Trang bị cho phụ huynh mô hình tư duy bền vững có thể tự áp dụng cho mọi tình huống sau này."
         },
         {
-          "criterion": "Actionability (Tính hành động)",
+          "criterion": "Actionability ",
           "l1": "Không có giải pháp tiếp theo, phụ huynh thêm hoang mang.",
           "l2": "Đưa ra lời khuyên chung chung khó áp dụng.",
           "l3": "Có 1-2 hành động cụ thể, khả thi để phụ huynh làm thử ở nhà.",
@@ -462,7 +462,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Evidence-based (Dựa trên bằng chứng)",
+          "criterion": "Evidence-based ",
           "l1": "Toàn lời hứa hẹn bán hàng suông, không nhắc gì đến buổi học thử.",
           "l2": "Sử dụng bằng chứng chọn lọc phiến diện để ép mua khóa học.",
           "l3": "Sử dụng đầy đủ dữ liệu thực tế từ 2 buổi Trial để phân tích.",
@@ -470,7 +470,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Đưa ra khuyến nghị lộ trình hoàn toàn dựa trên dữ liệu bằng chứng xác thực."
         },
         {
-          "criterion": "Fit Judgment (Phán đoán độ phù hợp)",
+          "criterion": "Fit Judgment ",
           "l1": "Mặc định học sinh nào cũng phù hợp để chốt sale.",
           "l2": "Đưa ra nhận xét phù hợp chung chung, thiếu căn cứ.",
           "l3": "Nêu rõ điểm phù hợp giữa nhu cầu của con và mô hình Nemo12.",
@@ -478,7 +478,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Dũng cảm khuyên không nên tiếp tục nếu mô hình Nemo12 không phù hợp với mục tiêu của bé."
         },
         {
-          "criterion": "Expectation Setting (Thiết lập cam kết)",
+          "criterion": "Expectation Setting ",
           "l1": "Hứa hẹn kết quả thần kỳ phi thực tế.",
           "l2": "Thiết lập kỳ vọng mơ hồ, không rõ trách nhiệm các bên.",
           "l3": "Kỳ vọng hợp lý, phụ huynh hiểu rõ con sẽ học gì và đạt được gì.",
@@ -538,7 +538,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Accuracy (Tính chính xác & Bối cảnh)",
+          "criterion": "Accuracy ",
           "l1": "Sai lệch thông tin bài học, nhầm lẫn học sinh.",
           "l2": "Đúng dữ liệu thô nhưng rời rạc, không có ý nghĩa sư phạm.",
           "l3": "Dữ liệu chính xác, thể hiện rõ con đang ở đâu trong lộ trình.",
@@ -546,7 +546,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Khắc họa được xu hướng tiến bộ dài hạn qua nhiều tuần liên tiếp."
         },
         {
-          "criterion": "Comprehensibility (Độ dễ hiểu)",
+          "criterion": "Comprehensibility ",
           "l1": "Báo cáo đầy thuật ngữ chuyên môn khó hiểu, trình bày rối mắt.",
           "l2": "Quá nhiều chữ, khó tìm được điểm chính.",
           "l3": "Dễ đọc, trực quan, phụ huynh nắm bắt được ý chính trong < 2 phút.",
@@ -554,7 +554,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Phụ huynh nắm bắt hoàn hảo chỉ sau 30 giây đọc lướt."
         },
         {
-          "criterion": "Actionability (Tính định hướng hành động)",
+          "criterion": "Actionability ",
           "l1": "Báo cáo liệt kê số liệu vô cảm, không có hướng dẫn gì.",
           "l2": "Lời khuyên chung chung kiểu 'nhắc cháu làm bài'.",
           "l3": "Phụ huynh biết rõ tuần tới con học gì và mình có cần làm gì không.",
@@ -614,7 +614,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Specificity (Tính cụ thể)",
+          "criterion": "Specificity ",
           "l1": "Lời khen sáo rỗng (VD: 'Hôm nay con học ngoan lắm ạ').",
           "l2": "Nhắc đến hành vi mơ hồ, thiếu chi tiết chứng minh.",
           "l3": "Có dẫn chứng quan sát cụ thể: hành động, lời nói hoặc tình huống thật trong lớp.",
@@ -622,7 +622,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Tái hiện sống động khoảnh khắc mà phụ huynh đọc vào nhận ra ngay tính cách con."
         },
         {
-          "criterion": "Insight (Giá trị chiều sâu)",
+          "criterion": "Insight ",
           "l1": "Chỉ tường thuật lại sự việc như camera ghi hình.",
           "l2": "Đưa ra nhận xét chung về tính cách con.",
           "l3": "Chỉ ra được ý nghĩa hoặc xu hướng thay đổi trong cách học của con.",
@@ -630,7 +630,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Thay đổi tích cực cách phụ huynh nhìn nhận và đồng hành cùng con tại nhà."
         },
         {
-          "criterion": "Human Value (Giá trị con người)",
+          "criterion": "Human Value ",
           "l1": "Máy móc AI cũng có thể tự sinh được nội dung này.",
           "l2": "Chỉ diễn đạt lại số liệu từ báo cáo tiến độ T5.",
           "l3": "Mang lại giá trị định tính rõ ràng từ sự tận tâm quan sát của Mentor.",
@@ -689,7 +689,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Detection (Tính phát hiện)",
+          "criterion": "Detection ",
           "l1": "Bỏ sót rủi ro, để học sinh bỏ học hoặc chán nản mà không biết.",
           "l2": "Phát hiện quá muộn khi vấn đề đã trở nên nghiêm trọng.",
           "l3": "Phát hiện rủi ro kịp thời ngay khi có dấu hiệu bất thường.",
@@ -697,7 +697,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Phát hiện đón đầu các rào cản tâm lý tiềm ẩn trước khi ảnh hưởng đến kết quả học."
         },
         {
-          "criterion": "Judgment (Chất lượng phán đoán)",
+          "criterion": "Judgment ",
           "l1": "Đồng nhất tín hiệu hệ thống là lỗi của học sinh, phản ứng vội vã.",
           "l2": "Đánh giá qua loa, thiếu tìm hiểu bối cảnh thực tế.",
           "l3": "Mentor xác minh bối cảnh thực tế trước khi đưa ra kết luận.",
@@ -705,7 +705,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Tách biệt chuẩn xác giữa tín hiệu nhiễu, nguyên nhân bề mặt và nguyên nhân gốc rễ."
         },
         {
-          "criterion": "Intervention (Hiệu quả can thiệp)",
+          "criterion": "Intervention ",
           "l1": "Phản ứng thái quá gây hoảng loạn hoặc thờ ơ buông xuôi.",
           "l2": "Can thiệp bằng tin nhắn cảnh báo mẫu chung chung.",
           "l3": "Thực hiện can thiệp phù hợp, đúng trọng tâm vấn đề.",
@@ -759,7 +759,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Signal Quality (Chất lượng tín hiệu)",
+          "criterion": "Signal Quality ",
           "l1": "Chỉ hỏi điểm số hài lòng CSAT chung chung vô nghĩa.",
           "l2": "Thu thập ý kiến cảm tính, không tìm ra được khoảng trống kỳ vọng.",
           "l3": "Dò tìm chính xác các băn khoăn và khoảng cách kỳ vọng của phụ huynh.",
@@ -767,7 +767,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Phát hiện ra những góc khuất quan trọng chưa từng được hệ thống ghi nhận."
         },
         {
-          "criterion": "Effort (Trải nghiệm & Nỗ lực)",
+          "criterion": "Effort ",
           "l1": "Bắt phụ huynh tham gia cuộc họp bắt buộc dài dòng.",
           "l2": "Bắt điền biểu mẫu khảo sát quá dài nhiều trang.",
           "l3": "Phụ huynh hoàn thành khảo sát siêu nhẹ trong ≤ 3 phút.",
@@ -775,7 +775,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Hoàn thành gần như không tốn sức (frictionless) nhưng mang lại giá trị cao."
         },
         {
-          "criterion": "Routing (Phân luồng & Xử lý)",
+          "criterion": "Routing ",
           "l1": "Thu thập xong để đó, không ai đọc hay phản hồi.",
           "l2": "Nhân sự phải đọc thủ công toàn bộ và phản hồi rập khuôn.",
           "l3": "Phân luồng tự động chuẩn xác: Chỉ tín hiệu có vấn đề mới chuyển tiếp can thiệp.",
@@ -834,7 +834,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Accessibility (Độ thuận tiện tiếp cận)",
+          "criterion": "Accessibility ",
           "l1": "Phụ huynh không biết hỏi ai, bị đùn đẩy qua lại giữa các phòng ban.",
           "l2": "Kênh liên hệ khó tiếp cận, quy trình rườm rà.",
           "l3": "Kênh liên hệ Zalo/Hotline rõ ràng, tiếp nhận ngay.",
@@ -842,7 +842,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Trải nghiệm tiếp cận liền mạch, một điểm chạm giải quyết mọi nhu cầu."
         },
         {
-          "criterion": "Responsiveness (Tốc độ phản hồi)",
+          "criterion": "Responsiveness ",
           "l1": "Bị lãng quên, không ai trả lời hoặc phản hồi sau nhiều ngày.",
           "l2": "Trả lời chậm trễ, không thông báo thời gian xử lý.",
           "l3": "Xác nhận tiếp nhận tức thì và phản hồi trong khung giờ cam kết.",
@@ -850,7 +850,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Phụ huynh luôn luôn cảm nhận được sự hiện diện và đồng hành chu đáo."
         },
         {
-          "criterion": "Resolution Quality (Chất lượng giải quyết)",
+          "criterion": "Resolution Quality ",
           "l1": "Đóng ticket cho xong chuyện, thái độ thờ ơ né tránh.",
           "l2": "Trả lời qua loa bằng các câu trả lời soạn sẵn.",
           "l3": "Giải đáp chính xác, giải quyết trọn vẹn câu hỏi của phụ huynh.",
@@ -975,7 +975,7 @@ export const KNOWLEDGE_HUB_DATA = {
       ],
       "rubric": [
         {
-          "criterion": "1. Family Understanding (Thấu hiểu gia đình)",
+          "criterion": "1. Family Understanding ",
           "l1": "Chỉ thu thập thông tin hành chính bề mặt hoặc hỏi lặp lại dữ liệu form.",
           "l2": "Hiểu được một vài thông tin mới nhưng còn rời rạc, thiếu chiều sâu.",
           "l3": "Xác định được 3 insight cốt lõi: Family Dynamics, Learning Environment, Hidden Motivation.",
@@ -983,7 +983,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Insight sâu sắc làm thay đổi tích cực phương thức sư phạm và cách mentor đồng hành cùng con."
         },
         {
-          "criterion": "2. Trust & Connection (Xây dựng niềm tin & Kết nối)",
+          "criterion": "2. Trust & Connection ",
           "l1": "Buổi gặp mang tính hỏi đáp gượng gạo, học sinh và phụ huynh rụt rè ít chia sẻ.",
           "l2": "Có trao đổi hai chiều nhưng còn dè dặt, chưa tạo được sự cởi mở.",
           "l3": "Phụ huynh và học sinh chủ động chia sẻ suy nghĩ, câu chuyện và khó khăn thực tế.",
@@ -991,7 +991,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Gia đình xem mentor như người bạn đồng hành tin cậy, học sinh hào hứng bứt phá."
         },
         {
-          "criterion": "3. Mentoring Readiness & SOP Execution (Tính sẵn sàng & Quy chuẩn SOP)",
+          "criterion": "3. Mentoring Readiness & SOP Execution ",
           "l1": "Trễ hẹn, không chuẩn bị trước hoặc không biết sẽ hỗ trợ học sinh như thế nào.",
           "l2": "Có nhận định chung chung nhưng chưa có kế hoạch hành động cụ thể.",
           "l3": "Điều phối đúng Agenda 60p, hoàn thành Family Notes chuẩn trong 24h với kế hoạch 4-6 tuần.",
@@ -1051,7 +1051,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Growth Evidence (Bằng chứng trưởng thành)",
+          "criterion": "Growth Evidence ",
           "l1": "Chỉ có giấy chứng nhận hoàn thành chung chung vô nghĩa.",
           "l2": "Liệt kê danh sách các bài học đã qua một cách máy móc.",
           "l3": "Thể hiện rõ nét bằng chứng so sánh trước và sau khóa học.",
@@ -1059,7 +1059,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Làm nổi bật rõ ràng cả những bước đột phá lẫn các điểm cần tiếp tục hoàn thiện."
         },
         {
-          "criterion": "Learner Insight (Thấu hiểu người học)",
+          "criterion": "Learner Insight ",
           "l1": "Dán nhãn năng lực chung chung (VD: 'Con rất sáng tạo').",
           "l2": "Nhận xét điểm mạnh một cách khái quát.",
           "l3": "Có 1 quan sát sâu sắc, xác thực về phong cách tư duy của học sinh.",
@@ -1067,7 +1067,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Giúp học sinh và phụ huynh hiểu sâu sắc hơn về chính bản thân mình."
         },
         {
-          "criterion": "Meaning-making (Khắc họa ý nghĩa hành trình)",
+          "criterion": "Meaning-making ",
           "l1": "Chỉ dừng lại ở thông báo 'Đã học xong khóa học'.",
           "l2": "Tóm tắt sơ lược kết quả khóa học.",
           "l3": "Phụ huynh và con cảm nhận rõ ràng sự tiến bộ và giá trị nhận được.",
@@ -1121,7 +1121,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Need-based (Dựa trên nhu cầu thực)",
+          "criterion": "Need-based ",
           "l1": "Chăm chăm bán khóa học tiếp theo bất chấp mức độ phù hợp.",
           "l2": "Gợi ý lộ trình chung chung theo khung có sẵn của trung tâm.",
           "l3": "Đề xuất dựa trên đúng điểm mạnh và điểm nghẽn của học sinh.",
@@ -1129,7 +1129,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Sẵn sàng khuyên gia đình cho con học kỹ năng khác ngoài Nemo12 nếu phù hợp hơn."
         },
         {
-          "criterion": "Specificity (Độ cụ thể)",
+          "criterion": "Specificity ",
           "l1": "Lời khuyên mơ hồ kiểu 'nên học tiếp để giỏi hơn'.",
           "l2": "Đưa ra định hướng chung chung không rõ hành động.",
           "l3": "Xác định rõ 1-2 năng lực ưu tiên cần phát triển trong giai đoạn tới.",
@@ -1137,7 +1137,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Xác định cụ thể chỉ số thành công để phụ huynh có thể tự đo lường tại nhà."
         },
         {
-          "criterion": "Decision Support (Hỗ trợ ra quyết định)",
+          "criterion": "Decision Support ",
           "l1": "Chèn ép tâm lý để phụ huynh xuống tiền mua tiếp.",
           "l2": "Chỉ đưa ra đúng 1 lựa chọn duy nhất không có giải thích.",
           "l3": "Phụ huynh hiểu rõ lý do và lợi ích của lộ trình đề xuất.",
@@ -1192,7 +1192,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Significance (Ý nghĩa cột mốc)",
+          "criterion": "Significance ",
           "l1": "Khen ngợi bừa bãi, việc cỏn con cũng làm rầm rộ khiến mất giá trị.",
           "l2": "Cột mốc nhỏ, chưa thể hiện được sự tiến bộ rõ rệt.",
           "l3": "Công nhận cột mốc có ý nghĩa thực sự trong sự phát triển của học sinh.",
@@ -1200,7 +1200,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Thể hiện sự chuyển biến mang tính bước ngoặt trong tư duy/thái độ của học sinh."
         },
         {
-          "criterion": "Evidence (Tính bằng chứng xác thực)",
+          "criterion": "Evidence ",
           "l1": "Lời khen sáo rỗng (VD: 'Con giỏi nhất lớp').",
           "l2": "Nêu thành tích chung chung không có dẫn chứng.",
           "l3": "Có bằng chứng cụ thể: Tên dự án, số lần kiên trì thử lại, hành động đẹp.",
@@ -1208,7 +1208,7 @@ export const KNOWLEDGE_HUB_DATA = {
           "l5": "Chỉ rõ vì sao cột mốc này lại có ý nghĩa đặc biệt quan trọng đối với riêng học sinh này."
         },
         {
-          "criterion": "Recognition (Cách thức công nhận)",
+          "criterion": "Recognition ",
           "l1": "Khen qua loa, rập khuôn công nghiệp.",
           "l2": "Tặng phần thưởng vật chất đơn thuần thiếu cảm xúc.",
           "l3": "Lời công nhận trang trọng, chân thành và ấm áp.",
@@ -1264,7 +1264,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Value Delivered (Giá trị chuyên đề)",
+          "criterion": "Value Delivered ",
           "l1": "Nội dung nghèo nàn, nói lý thuyết suông.",
           "l2": "Nội dung còn chung chung, thiếu ví dụ thực tế.",
           "l3": "Cung cấp kiến thức bổ ích, giải tỏa đúng băn khoăn của phụ huynh.",
@@ -1315,7 +1315,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Engagement & Trust (Độ tương tác & Niềm tin)",
+          "criterion": "Engagement & Trust ",
           "l1": "Group chết, chỉ toàn tin nhắn bán hàng một chiều.",
           "l2": "Tương tác yếu, ít nội dung giá trị.",
           "l3": "Cộng đồng trao đổi tích cực, giải đáp nhanh chóng.",
@@ -1365,7 +1365,7 @@ export const KNOWLEDGE_HUB_DATA = {
       },
       "rubric": [
         {
-          "criterion": "Transparency & Experience (Tính minh bạch & Trải nghiệm)",
+          "criterion": "Transparency & Experience ",
           "l1": "Hệ thống lỗi không ghi nhận người được refer, thanh toán chậm trễ.",
           "l2": "Quy trình nhận hoa hồng phức tạp, gây phiền hà.",
           "l3": "Mã giới thiệu hoạt động mượt mà, ghi nhận và áp dụng giảm 15% tự động.",

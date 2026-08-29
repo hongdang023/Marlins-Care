@@ -264,6 +264,80 @@
   color: var(--color-primary-300);
 }
 
+/* Collapsible Sidebar Tree Menu */
+.sidebar-tree {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sidebar-tree-node {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-tree-header {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  padding: 7px var(--space-3);
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all var(--transition-fast);
+  cursor: pointer;
+}
+
+.sidebar-tree-header:hover {
+  background: var(--bg-surface-subtle);
+  color: var(--text-primary);
+}
+
+.sidebar-tree-header.active {
+  background: var(--color-primary-50);
+  color: var(--color-primary-700);
+  font-weight: 600;
+  border-left: 3px solid var(--color-primary-600);
+}
+
+[data-theme="dark"] .sidebar-tree-header.active {
+  background: var(--color-primary-950);
+  color: var(--color-primary-300);
+}
+
+.tree-caret {
+  font-size: 11px;
+  color: var(--text-muted);
+  transition: transform 0.2s ease;
+}
+
+.sidebar-tree-children {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding-left: var(--space-4);
+  margin-left: var(--space-2);
+  border-left: 1px solid var(--border-subtle);
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+.sidebar-sub-item {
+  font-size: 12.5px;
+  color: var(--text-muted);
+  padding: 5px var(--space-2);
+  border-radius: var(--radius-xs);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--transition-fast);
+}
+
+.sidebar-sub-item:hover {
+  color: var(--color-primary-600);
+  background: var(--bg-surface-subtle);
+}
+
 .sidebar-item .tag-badge {
   font-size: 10px;
   padding: 1px 6px;

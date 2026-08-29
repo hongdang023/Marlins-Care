@@ -2,6 +2,7 @@ import { initNavigation, renderBreadcrumbs, renderSidebar } from './components/n
 import { initSearch } from './components/search.js';
 import { renderJourneyMap } from './components/journeyMap.js';
 import { renderPlaybook } from './components/playbookRenderer.js';
+import { renderMasterFramework } from './components/masterFrameworkRenderer.js';
 import { renderOverview } from './components/overviewRenderer.js';
 import { renderDecisionLogs } from './components/decisionLogsRenderer.js';
 
@@ -98,6 +99,8 @@ class App {
       mainViewport.appendChild(renderOverview(this.currentRoute, (slug) => this.navigateTo(slug)));
     } else if (this.currentRoute.startsWith('/journey')) {
       mainViewport.appendChild(renderJourneyMap((slug) => this.navigateTo(slug)));
+    } else if (this.currentRoute === '/playbooks/master-framework') {
+      mainViewport.appendChild(renderMasterFramework((slug) => this.navigateTo(slug)));
     } else if (this.currentRoute.startsWith('/playbooks')) {
       mainViewport.appendChild(renderPlaybook(this.currentRoute, (slug) => this.navigateTo(slug)));
     } else if (this.currentRoute.startsWith('/decision-logs')) {
@@ -115,41 +118,84 @@ class App {
     if (!tocList) return;
 
     tocList.innerHTML = '';
-    const headings = document.querySelectorAll('#main-viewport-content h2, #main-viewport-content h3');
 
-    if (headings.length === 0) {
+    // Query headings and interactive section titles
+    const items = [];
+    const touchpointSections = document.querySelectorAll('#main-viewport-content .touchpoint-section');
+    const isSingleTouchpoint = touchpointSections.length <= 1;
+
+    if (isSingleTouchpoint) {
+      // For single playbook pages, list sections directly
+      const sections = document.querySelectorAll('#main-viewport-content .accordion-card');
+      sections.forEach((card, idx) => {
+        const titleEl = card.querySelector('.accordion-title');
+        if (titleEl) {
+          const title = titleEl.textContent.trim();
+          if (!card.id) card.id = `sec-item-${idx}`;
+          items.push({ id: card.id, title: title, level: 1, element: card });
+        }
+      });
+    } else {
+      // For multi-touchpoint playbooks (e.g. Live Class, Trial Class)
+      touchpointSections.forEach((tpSec, tpIdx) => {
+        const h2 = tpSec.querySelector('h2');
+        if (h2) {
+          const tpTitle = h2.textContent.trim();
+          if (!tpSec.id) tpSec.id = `tp-sec-${tpIdx}`;
+          items.push({ id: tpSec.id, title: tpTitle, level: 1, element: tpSec });
+        }
+
+        const cards = tpSec.querySelectorAll('.accordion-card');
+        cards.forEach((card, cardIdx) => {
+          const titleEl = card.querySelector('.accordion-title');
+          if (titleEl) {
+            const accTitle = titleEl.textContent.trim();
+            if (!card.id) card.id = `acc-sec-${tpIdx}-${cardIdx}`;
+            items.push({ id: card.id, title: accTitle, level: 2, element: card });
+          }
+        });
+      });
+    }
+
+    // Also capture any standalone H2 on other pages (e.g. Overview, Journey)
+    if (touchpointSections.length === 0) {
+      const h2s = document.querySelectorAll('#main-viewport-content h2');
+      h2s.forEach((h2, idx) => {
+        const title = h2.textContent.replace(/^\[.*?\]\s*/, '').trim();
+        if (title) {
+          if (!h2.id) h2.id = `h2-sec-${idx}`;
+          items.push({ id: h2.id, title: title, level: 1, element: h2 });
+        }
+      });
+    }
+
+    if (items.length === 0) {
       tocList.innerHTML = `<li style="color:var(--text-muted); font-size:12px;">Không có mục lục</li>`;
       return;
     }
 
-    headings.forEach((heading, idx) => {
-      if (!heading.id) {
-        heading.id = `heading-section-${idx}`;
-      }
-
+    items.forEach(item => {
       const li = document.createElement('li');
       const a = document.createElement('a');
       a.className = 'toc-link';
-      a.href = `#${heading.id}`;
-      // Extract clean title (only the first span or direct text if badge is present)
-      let cleanText = '';
-      const firstSpan = heading.querySelector('span:first-child');
-      if (firstSpan) {
-        cleanText = firstSpan.textContent.trim();
-      } else {
-        cleanText = heading.textContent.replace(/^\[.*?\]\s*/, '').trim();
-      }
+      a.href = `#${item.id}`;
+      a.textContent = item.title;
 
-      a.textContent = cleanText;
-      
-      if (heading.tagName === 'H3') {
-        a.style.paddingLeft = '12px';
+      if (item.level === 2) {
+        a.style.paddingLeft = '14px';
         a.style.fontSize = '12px';
+        a.style.color = 'var(--text-muted)';
+      } else {
+        a.style.fontWeight = '600';
       }
 
       a.addEventListener('click', (e) => {
         e.preventDefault();
-        heading.scrollIntoView({ behavior: 'smooth' });
+        // If it's an accordion and closed, open it
+        if (item.element.classList.contains('accordion-card') && !item.element.classList.contains('open')) {
+          item.element.classList.add('open');
+        }
+        item.element.scrollIntoView({ behavior: 'smooth', block: 'start' });
       });
 
       li.appendChild(a);

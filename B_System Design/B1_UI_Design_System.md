@@ -208,10 +208,11 @@ Design System chỉ định nghĩa **cấu trúc giao diện, kích thước, to
   - `width: 240px; height: calc(100vh - 64px); position: sticky; top: 64px;`
   - `padding: var(--space-6) var(--space-4); display: flex; flex-direction: column;`
 - **Quy tắc Đặt tên Tiêu đề Section (Lean Section Title Rule - ≤ 3 Words)**:
-  - Tất cả các thẻ tiêu đề Section (`<h2>`, `<h3>`, Mục lục TOC) **bắt buộc phải là Pure English, ngắn gọn, súc tích và KHÔNG VƯỢT QUÁ 3 TỪ**.
+  - Tất cả các thẻ tiêu đề Section (`<h2>`, `<h3>`, Mục lục TOC, Tiêu đề Accordion/Toggle) **bắt buộc phải là Pure English, ngắn gọn, súc tích, KHÔNG CHỨA EMOJI Ở ĐẦU và KHÔNG VƯỢT QUÁ 3 TỪ**.
   - ❌ **CẤM**: Tiêu đề dài dòng hoặc kèm chú thích mở ngoặc như: `Stakeholders Analysis & JTBD Mapping (Giá Trị Sau Buổi Gặp)`, `Session Agenda (Khung Thời Lượng 60 Phút Thực Chiến)`, `Standard Operating Procedure (SOP Steps)`.
   - ✅ **CHUẨN MỰC (≤ 3 Words)**:
-    - `Stakeholder Mapping` (2 từ) hoặc `Stakeholder JTBD` (2 từ)
+    - `Core Mindset` (2 từ)
+    - `Stakeholder Mapping` (2 từ)
     - `Session Agenda` (2 từ)
     - `Mentor Guides` (2 từ)
     - `Question Bank` (2 từ)
@@ -222,14 +223,22 @@ Design System chỉ định nghĩa **cấu trúc giao diện, kích thước, to
     - `Do's & Don'ts` (3 từ)
     - `Assessment Rubrics` (2 từ)
     - `Communication Templates` (2 từ)
-- **Cơ chế hoạt động TOC**:
-  - Tự động bắt sự kiện cuộn trang (Scrollspy) để làm nổi bật đề mục tương ứng.
-  - **Active Marker**: Thanh đánh dấu nhỏ trượt dọc theo liên kết đang kích hoạt (`position: absolute; left: 0; width: 2px; height: 16px; background: var(--color-primary-600); transition: top var(--transition-fast);`).
-  - **Action Link**: Nút *"Lên đầu trang ↑"* ở chân danh mục (`font-size: 12px; color: var(--text-muted); cursor: pointer`).
+- **Cơ chế hoạt động TOC (On-this-page)**:
+  - Tự động quét toàn bộ tiêu đề trang (`<h2>`, các Touchpoint IDs `[T1-T13]`, và toàn bộ các sub-section toggle `Core Mindset`, `Stakeholder Mapping`, `Mentor Guides`,...).
+  - Click vào bất kỳ mục lục nào sẽ tự động cuộn mượt mà đến đúng vị trí (nếu mục đó đang thu gọn sẽ tự động mở ra).
+  - **Active Marker**: Thanh đánh dấu nhỏ trượt dọc theo liên kết đang kích hoạt.
+  - **Action Link**: Nút *"Lên đầu trang ↑"* ở chân danh mục.
 
 ---
 
-### 2.2 Card Component & Status Badge System
+### 2.2 Collapsible Section Standards (Thay thế Card Accordion cũ)
+
+Để tối ưu hóa trải nghiệm đọc và tránh quá tải thị giác (*No Cognitive Overload*), các Playbook không sử dụng hộp Card bo viền đóng khung hay các thanh công cụ thừa:
+1. **Loại bỏ thanh công cụ rườm rà**: Tuyệt đối không để ô *"Phân cấp nội dung chi tiết"* hay nút *"Thu gọn tất cả"* gây nhiễu trên đầu playbook.
+2. **Thiết kế Phẳng & Đường kẻ Tinh tế (Clean Section Dividers)**:
+   - Các khối toggle hiển thị dạng danh sách phẳng (`border: none; border-bottom: 1px solid var(--border-subtle)`), không dùng nền hộp card nổi.
+   - Header gồm **Tên Section thuần túy** + **Mũi tên chevron ▼** (Loại bỏ các pill tags phụ như `3 Pillars`, `3 Roles`, `6 Stages`, `v2.0`, `Level 3 = DoD Standard ⭐`).
+   - Tiêu đề hover đổi màu thương hiệu (`--color-primary-600`), click mở trượt êm ái.
 
 Hệ thống Card và Badge được sử dụng để hiển thị các đơn vị nội dung có phân loại vai trò, trạng thái hoặc cấp độ:
 
