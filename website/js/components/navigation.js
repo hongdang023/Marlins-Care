@@ -102,21 +102,13 @@ export function renderSidebar(currentRoute, onNavigate) {
 
   // Group 3: PLAYBOOKS (Collapsible Tree Navigation)
   const playbooksNav = SITEMAP_CONFIG.navigation.find(n => n.id === 'playbooks');
-  const masterFw = playbooksNav ? playbooksNav.masterFramework : null;
   const playbookItems = playbooksNav ? playbooksNav.items : [];
 
   html += `
     <div class="sidebar-group">
       <div class="sidebar-group-title">3. Playbooks</div>
-      
-      <!-- Master Framework Link -->
-      ${masterFw ? `
-        <a href="#${masterFw.slug}" class="sidebar-item ${currentRoute === masterFw.slug ? 'active' : ''}" style="margin-bottom: var(--space-2); border-left: 2px solid var(--color-primary-600); background: var(--bg-surface-subtle);">
-          <span style="font-weight:700;">📖 Master Framework</span>
-        </a>
-      ` : ''}
 
-      <!-- 9 Playbooks with Collapsible Tree Sub-sections -->
+      <!-- 8 Playbooks with Collapsible Tree Sub-sections -->
       <div class="sidebar-tree">
         ${playbookItems.map(pb => {
           const isParentActive = currentRoute === pb.slug || currentRoute.startsWith(pb.slug + '/');
