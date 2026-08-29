@@ -6,22 +6,22 @@ const PLAYBOOKS_MAP = {
   // 1. ACQUISITION
   'marlins-day': {
     title: 'Marlins Day Playbook',
-    group: '1. Acquisition',
-    summary: 'Không gian đối thoại 14h00 - 17h00 chiều Chủ Nhật cùng Anh Đắc (Agenda: Giới thiệu bản thân ➔ Fishbowl 2 rounds ➔ 4F Reflection ➔ Demo Nemo12 ➔ 4F Reflection) giúp phụ huynh tháo gỡ ngộ nhận và chuẩn bị tâm thế đồng hành.',
+    group: 'Acquisition',
+    summary: 'Không gian đối thoại tháo gỡ ngộ nhận và chuẩn bị tâm thế đồng hành cho phụ huynh.',
     badge: 'badge-marlins',
     touchpointIds: ['T3']
   },
   'marlins-workshop': {
     title: 'Marlins Workshop Playbook',
-    group: '1. Acquisition',
-    summary: 'Chuyên đề Online 20h00 - 22h00 tối Thứ 5 qua Zoom: Giải tỏa trăn trở giáo dục & công nghệ AI theo cụm chủ đề, dẫn dắt tự nhiên vào 2 buổi Trial Class Offline Chủ Nhật.',
+    group: 'Acquisition',
+    summary: 'Chuỗi chuyên đề trực tuyến giải tỏa trăn trở giáo dục và định hướng năng lực AI cho con.',
     badge: 'badge-marlins',
     touchpointIds: ['WS']
   },
   'community': {
-    title: 'Community & Social Mentoring Playbook',
-    group: '1. Acquisition',
-    summary: 'Quy chuẩn quản trị 3 Groups Zalo trọng điểm (Vào Chuyên Cấp 2, Chuyên Cấp 3, AI Teen - Sư Tử Con) và Guideline Storytelling trên Facebook cá nhân của Mentors.',
+    title: 'Community & Social Playbook',
+    group: 'Acquisition',
+    summary: 'Môi trường sinh hoạt cộng đồng và lan tỏa tri thức giáo dục đa kênh.',
     badge: 'badge-hybrid',
     touchpointIds: ['COM']
   },
@@ -29,66 +29,66 @@ const PLAYBOOKS_MAP = {
   // 2. ACTIVATION
   'trial-class': {
     title: 'Trial Class Playbook',
-    group: '2. Activation',
-    summary: 'Quy trình trọn gói 2 buổi Trial Class Offline (14h-17h Chủ Nhật): Chuẩn bị trước buổi (Pre-Trial) ➔ Báo cáo bằng chứng dữ liệu thực tế (Trial Evidence) ➔ Hỗ trợ ra quyết định trung thực (Post-Trial Decision).',
+    group: 'Activation',
+    summary: 'Quy trình trải nghiệm học thử 2 buổi và tư vấn dữ liệu thực chứng minh bạch.',
     badge: 'badge-hybrid',
     touchpointIds: ['T1', 'T2', 'T4']
   },
   'trial-care': { // Alias
     title: 'Trial Class Playbook',
-    group: '2. Activation',
-    summary: 'Quy trình trọn gói 2 buổi Trial Class Offline (14h-17h Chủ Nhật): Chuẩn bị trước buổi (Pre-Trial) ➔ Báo cáo bằng chứng dữ liệu thực tế (Trial Evidence) ➔ Hỗ trợ ra quyết định trung thực (Post-Trial Decision).',
+    group: 'Activation',
+    summary: 'Quy trình trải nghiệm học thử 2 buổi và tư vấn dữ liệu thực chứng minh bạch.',
     badge: 'badge-hybrid',
     touchpointIds: ['T1', 'T2', 'T4']
   },
 
   // 3. RETENTION
   'live-class': {
-    title: 'Live Class Playbook (12 Buổi Chính Thức)',
-    group: '3. Retention',
-    summary: 'Bộ quy chuẩn vận hành đồng hành xuyên suốt 12 buổi Live Class Offline (14h-17h Chủ Nhật): Báo cáo tự động (T5) + Quan sát định tính Mentor (T6) + Xử lý rủi ro & Khảo sát giữa kỳ (T7-T9) + Dấu mốc chúc mừng (T13).',
+    title: 'Live Class Playbook',
+    group: 'Retention',
+    summary: 'Quy chuẩn đồng hành, cập nhật tiến độ và can thiệp sư phạm suốt 12 buổi học chính thức.',
     badge: 'badge-system',
     touchpointIds: ['T5', 'T6', 'T7', 'T8', 'T9', 'T13']
   },
   'progress-update': { // Alias
-    title: 'Live Class Playbook (12 Buổi Chính Thức)',
-    group: '3. Retention',
-    summary: 'Bộ quy chuẩn vận hành đồng hành xuyên suốt 12 buổi Live Class Offline: Báo cáo tự động (T5) + Quan sát định tính Mentor (T6) + Hỗ trợ rủi ro (T7-T9) + Dấu mốc (T13).',
+    title: 'Live Class Playbook',
+    group: 'Retention',
+    summary: 'Quy chuẩn đồng hành, cập nhật tiến độ và can thiệp sư phạm suốt 12 buổi học chính thức.',
     badge: 'badge-system',
     touchpointIds: ['T5', 'T6', 'T7', 'T8', 'T9', 'T13']
   },
   'mentor-insight': { // Alias
-    title: 'Live Class Playbook (12 Buổi Chính Thức)',
-    group: '3. Retention',
-    summary: 'Bộ quy chuẩn vận hành đồng hành xuyên suốt 12 buổi Live Class Offline: Báo cáo tự động (T5) + Quan sát định tính Mentor (T6) + Hỗ trợ rủi ro (T7-T9) + Dấu mốc (T13).',
+    title: 'Live Class Playbook',
+    group: 'Retention',
+    summary: 'Quy chuẩn đồng hành, cập nhật tiến độ và can thiệp sư phạm suốt 12 buổi học chính thức.',
     badge: 'badge-system',
     touchpointIds: ['T5', 'T6', 'T7', 'T8', 'T9', 'T13']
   },
   'parent-support': { // Alias
-    title: 'Live Class Playbook (12 Buổi Chính Thức)',
-    group: '3. Retention',
-    summary: 'Bộ quy chuẩn vận hành đồng hành xuyên suốt 12 buổi Live Class Offline: Báo cáo tự động (T5) + Quan sát định tính Mentor (T6) + Hỗ trợ rủi ro (T7-T9) + Dấu mốc (T13).',
+    title: 'Live Class Playbook',
+    group: 'Retention',
+    summary: 'Quy chuẩn đồng hành, cập nhật tiến độ và can thiệp sư phạm suốt 12 buổi học chính thức.',
     badge: 'badge-system',
     touchpointIds: ['T5', 'T6', 'T7', 'T8', 'T9', 'T13']
   },
   'milestones': { // Alias
-    title: 'Live Class Playbook (12 Buổi Chính Thức)',
-    group: '3. Retention',
-    summary: 'Bộ quy chuẩn vận hành đồng hành xuyên suốt 12 buổi Live Class Offline: Báo cáo tự động (T5) + Quan sát định tính Mentor (T6) + Hỗ trợ rủi ro (T7-T9) + Dấu mốc (T13).',
+    title: 'Live Class Playbook',
+    group: 'Retention',
+    summary: 'Quy chuẩn đồng hành, cập nhật tiến độ và can thiệp sư phạm suốt 12 buổi học chính thức.',
     badge: 'badge-system',
     touchpointIds: ['T5', 'T6', 'T7', 'T8', 'T9', 'T13']
   },
   'family-meeting': {
     title: 'Family Meeting Playbook',
-    group: '3. Retention',
-    summary: 'Gặp mặt ăn uống với các gia đình & Trải nghiệm gắn kết con người chiều sâu theo các Khoảnh khắc ý nghĩa (High-touch Meaningful Moments).',
+    group: 'Retention',
+    summary: 'Gặp gỡ gia đình trực tiếp để thấu cảm bối cảnh và kiến tạo khoảnh khắc gắn kết sâu sắc.',
     badge: 'badge-mentor',
     touchpointIds: ['T10']
   },
   'family-experience': { // Alias
     title: 'Family Meeting Playbook',
-    group: '3. Retention',
-    summary: 'Gặp mặt ăn uống với các gia đình & Trải nghiệm gắn kết con người chiều sâu theo các Khoảnh khắc ý nghĩa (High-touch Meaningful Moments).',
+    group: 'Retention',
+    summary: 'Gặp gỡ gia đình trực tiếp để thấu cảm bối cảnh và kiến tạo khoảnh khắc gắn kết sâu sắc.',
     badge: 'badge-mentor',
     touchpointIds: ['T10']
   },
@@ -96,15 +96,15 @@ const PLAYBOOKS_MAP = {
   // 4. REFERRAL
   'growth-story': {
     title: 'Growth Story Playbook',
-    group: '4. Referral',
-    summary: 'Bức tranh trưởng thành 5 phần tổng kết sau 12 buổi Live Class, khơi dậy niềm tự hào sâu sắc của cha mẹ và học sinh.',
+    group: 'Referral',
+    summary: 'Hồ sơ tổng kết hành trình trưởng thành 5 phần tôn vinh nỗ lực của con sau khóa học.',
     badge: 'badge-hybrid',
     touchpointIds: ['T11']
   },
   'referrals': {
     title: 'Referrals Program Playbook',
-    group: '4. Referral',
-    summary: 'Cơ chế kích hoạt Đại sứ gia đình: Cấp mã/link giới thiệu cá nhân hóa cho cả Bố Mẹ và Học sinh kèm chính sách 15% hoa hồng tri ân & 15% giảm học phí cho gia đình mới.',
+    group: 'Referral',
+    summary: 'Chính sách tri ân và cơ chế giới thiệu phụ huynh đồng hành lan tỏa giá trị.',
     badge: 'badge-milestone',
     touchpointIds: ['REF']
   },
@@ -112,8 +112,8 @@ const PLAYBOOKS_MAP = {
   // 5. REVENUE
   'next-steps': {
     title: 'Next Steps Playbook',
-    group: '5. Revenue',
-    summary: 'Tư vấn bước phát triển tiếp theo trung thực dựa trên nhu cầu học sinh sau khi kết thúc 12 buổi Live Class (Learner-need-first).',
+    group: 'Revenue',
+    summary: 'Tư vấn lộ trình phát triển tiếp theo trung thực dựa trên nhu cầu thực tế của học sinh.',
     badge: 'badge-mentor',
     touchpointIds: ['T12']
   }
@@ -197,20 +197,20 @@ function renderSpecificSectionContent(sectionSlug, touchpoints, config, onNaviga
             </div>
             <div style="display: flex; flex-direction: column; gap: var(--space-3);">
               <div>
-                <strong style="font-size: 13.5px; color: var(--text-primary);">Objective (Mục tiêu cốt lõi):</strong>
+                <strong style="font-size: 13.5px; color: var(--text-primary);">Objective:</strong>
                 <p style="font-size: 14px; color: var(--text-secondary); margin: 4px 0 0; line-height: 1.5;">${tp.purpose || config.summary}</p>
               </div>
               <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-3); padding-top: var(--space-3); border-top: 1px solid var(--border-subtle);">
                 <div>
-                  <strong style="font-size: 12.5px; color: var(--text-primary);">Trigger (Khi nào kích hoạt):</strong>
+                  <strong style="font-size: 12.5px; color: var(--text-primary);">Trigger:</strong>
                   <div style="font-size: 13px; color: var(--text-secondary); margin-top: 2px;">${tp.trigger || 'Theo lịch trình hệ thống'}</div>
                 </div>
                 <div>
-                  <strong style="font-size: 12.5px; color: var(--text-primary);">Standard Time (Thời gian chuẩn):</strong>
-                  <div style="font-size: 13px; color: var(--text-secondary); margin-top: 2px;"><code>${tp.sopTime || '≤ 15 phút tác nghiệp'}</code></div>
+                  <strong style="font-size: 12.5px; color: var(--text-primary);">Standard Time:</strong>
+                  <div style="font-size: 13px; color: var(--text-secondary); margin-top: 2px;"><code>${tp.sopTime || '≤ 15 min'}</code></div>
                 </div>
                 <div>
-                  <strong style="font-size: 12.5px; color: var(--text-primary);">Owner (Chủ thể thực hiện):</strong>
+                  <strong style="font-size: 12.5px; color: var(--text-primary);">Owner:</strong>
                   <div style="font-size: 13px; color: var(--text-secondary); margin-top: 2px;"><span class="badge ${getOwnerBadge(tp.owner)}">${tp.owner || 'Mentor / System'}</span></div>
                 </div>
               </div>
@@ -221,7 +221,7 @@ function renderSpecificSectionContent(sectionSlug, touchpoints, config, onNaviga
           ${touchpoints.length > 1 ? `
             <div>
               <h3 style="font-size: 16px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3);">
-                Các Điểm Chạm Thành Phần (Integrated Touchpoints)
+                Integrated Touchpoints
               </h3>
               <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-3);">
                 ${touchpoints.map(subTp => `
@@ -236,35 +236,6 @@ function renderSpecificSectionContent(sectionSlug, touchpoints, config, onNaviga
               </div>
             </div>
           ` : ''}
-        </div>
-      `;
-
-    case 'core-mindset':
-      return `
-        <div>
-          <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
-            Core Mindset
-          </h2>
-          ${tp.mindset ? `
-            <blockquote style="font-size: 16px; font-weight: 700; color: var(--text-primary); margin: 0 0 var(--space-3) 0; border-left: 3px solid var(--color-primary-600); padding-left: var(--space-3);">
-              "${tp.mindset.quote}"
-            </blockquote>
-            <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: var(--space-4); line-height: 1.6;">
-              ${tp.mindset.definition}
-            </p>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-3);">
-              ${tp.mindset.priorities.map(p => `
-                <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-4);">
-                  <div style="font-weight: 700; font-size: 13.5px; color: var(--text-primary); margin-bottom: 4px;">
-                    ${p.level} ${p.goal}
-                  </div>
-                  <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5;">${p.reason}</div>
-                </div>
-              `).join('')}
-            </div>
-          ` : `
-            <p style="font-size: 14px; color: var(--text-secondary);">Playbook này tuân thủ nguyên tắc vận hành: <em>Automate the evidence. Humanize the meaning.</em></p>
-          `}
         </div>
       `;
 
@@ -341,7 +312,7 @@ function renderSpecificSectionContent(sectionSlug, touchpoints, config, onNaviga
               <!-- Question Bank -->
               <div>
                 <div style="font-weight: 700; font-size: 14px; color: var(--text-primary); margin-bottom: var(--space-2);">
-                  Question Bank (Ngân hàng câu hỏi mở)
+                  Question Bank
                 </div>
                 <div style="display: flex; flex-direction: column; gap: var(--space-2);">
                   ${tp.mentorGuides.questionBank.map(q => `
@@ -356,7 +327,7 @@ function renderSpecificSectionContent(sectionSlug, touchpoints, config, onNaviga
               <!-- Observation Guide -->
               <div>
                 <div style="font-weight: 700; font-size: 14px; color: var(--text-primary); margin-bottom: var(--space-2);">
-                  Observation Guide (Hướng dẫn quan sát thực địa)
+                  Observation Guide
                 </div>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: var(--space-2);">
                   ${tp.mentorGuides.observationGuide.map(ob => `
@@ -371,7 +342,7 @@ function renderSpecificSectionContent(sectionSlug, touchpoints, config, onNaviga
               <!-- Exit Checklist -->
               <div style="background: rgba(245, 158, 11, 0.06); border: 1px dashed var(--color-accent-500); border-radius: var(--radius-md); padding: var(--space-4);">
                 <div style="font-weight: 700; font-size: 13.5px; color: var(--color-accent-700); margin-bottom: var(--space-2);">
-                  Exit Checklist (Tiêu chí nghiệm thu trước khi ra về)
+                  Exit Checklist
                 </div>
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 8px;">
                   ${tp.mentorGuides.exitChecklist.map(ex => `
@@ -453,7 +424,7 @@ function renderSpecificSectionContent(sectionSlug, touchpoints, config, onNaviga
                 </ul>
               </div>
               <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-4);">
-                <div style="font-size: 13.5px; font-weight: 700; color: var(--color-primary-600); margin-bottom: var(--space-2);">Case Study Mẫu:</div>
+                <div style="font-size: 13.5px; font-weight: 700; color: var(--color-primary-600); margin-bottom: var(--space-2);">Reference Example:</div>
                 <div style="font-size: 12.5px; color: var(--text-secondary); line-height: 1.5; display:flex; flex-direction:column; gap:4px;">
                   <div><strong>Goal:</strong> ${tp.familyNotesTemplate.exampleCase.goal}</div>
                   <div><strong>3 Insights:</strong> ${tp.familyNotesTemplate.exampleCase.insights.join(' | ')}</div>
