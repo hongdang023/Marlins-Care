@@ -112,7 +112,7 @@ export function renderSidebar(currentRoute, onNavigate) {
       <!-- Master Framework Link -->
       ${masterFw ? `
         <a href="#${masterFw.slug}" class="sidebar-item ${currentRoute === masterFw.slug ? 'active' : ''}" style="margin-bottom: var(--space-2); border-left: 2px solid var(--color-primary-600); background: var(--bg-surface-subtle);">
-          <span style="font-weight:700;">📖 Master Framework</span>
+          <span style="font-weight:700;">Master Framework</span>
         </a>
       ` : ''}
 
@@ -148,16 +148,16 @@ export function renderSidebar(currentRoute, onNavigate) {
     <div class="sidebar-group">
       <div class="sidebar-group-title">4. Requirements & Standards</div>
       <a href="#/requirements/playbooks-framework" class="sidebar-item ${currentRoute === '/requirements/playbooks-framework' ? 'active' : ''}">
-        <span>📖 Playbooks Framework (A6)</span>
+        <span>Playbooks Framework (A6)</span>
       </a>
       <a href="#/requirements/content-standards" class="sidebar-item ${currentRoute === '/requirements/content-standards' ? 'active' : ''}">
-        <span>✍️ Content Standards (A7)</span>
+        <span>Content Standards (A7)</span>
       </a>
       <a href="#/requirements/dar-template" class="sidebar-item ${currentRoute === '/requirements/dar-template' ? 'active' : ''}">
-        <span>📐 DAR Template (A8)</span>
+        <span>DAR Template (A8)</span>
       </a>
       <a href="#/requirements/ui-design-system" class="sidebar-item ${currentRoute === '/requirements/ui-design-system' ? 'active' : ''}">
-        <span>🎨 UI Design System (B1)</span>
+        <span>UI Design System (B1)</span>
       </a>
     </div>
   `;
