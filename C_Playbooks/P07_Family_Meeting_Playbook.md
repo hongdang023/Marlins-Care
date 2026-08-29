@@ -49,7 +49,7 @@ Trước khi mentor hiểu học sinh, mentor cần hiểu gia đình. Trước 
 ---
 
 <details>
-<summary><h3>👥 Stakeholder Mapping</h3></summary>
+<summary><h3>Stakeholder Mapping</h3></summary>
 
 | Stakeholder | Job cần giải quyết (JTBD) | Family Meeting mang lại gì? (Delivered Value) |
 | :--- | :--- | :--- |
@@ -156,7 +156,7 @@ Sau buổi gặp, mentor hoàn thiện bản ghi chép vào **Hệ thống Dory 
 ---
 
 <details open>
-<summary><h3>📋 SOP Checklist</h3></summary>
+<summary><h3>SOP Steps</h3></summary>
 
 | Giai đoạn | Nhiệm vụ cụ thể | Thời lượng | Deliverable / Trạng thái |
 | :--- | :--- | :---: | :--- |
@@ -169,7 +169,7 @@ Sau buổi gặp, mentor hoàn thiện bản ghi chép vào **Hệ thống Dory 
 ---
 
 <details>
-<summary><h3>💡 Do's & Don'ts</h3></summary>
+<summary><h3>Do's & Don'ts</h3></summary>
 
 #### ✅ Do's (Nên làm)
 * **Giao tiếp bình đẳng:** Lắng nghe học sinh với sự tôn trọng như một cá thể độc lập; khuyến khích con nói lên cảm xúc thật.
@@ -188,7 +188,7 @@ Sau buổi gặp, mentor hoàn thiện bản ghi chép vào **Hệ thống Dory 
 ---
 
 <details>
-<summary><h3>📊 Assessment Rubrics</h3></summary>
+<summary><h3>Assessment Rubrics</h3></summary>
 
 Đánh giá chất lượng thực thi Family Meeting theo 3 trụ cột chuẩn hóa (Thang đo L1 – L5, **L3 là Definition of Done ⭐**):
 
@@ -203,7 +203,7 @@ Sau buổi gặp, mentor hoàn thiện bản ghi chép vào **Hệ thống Dory 
 ---
 
 <details>
-<summary><h3>❓ Strategic FAQ</h3></summary>
+<summary><h3>FAQ</h3></summary>
 
 #### 💰 Nhóm 1: Về Chi Phí & Tính Khả Thi Vận Hành (Cost & Scalability)
 * **Q1:** *"Đến nhà từng phụ huynh ngồi 60 phút, cộng thêm thời gian đi lại mất cả buổi. Quy mô tăng lên 50–100 học sinh thì lấy đâu ra nhân sự để đi thăm nhà?"*  
@@ -245,47 +245,5 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
   * *Option B (Phê duyệt 3 tầng qua Ban Giám Đốc):* 33/50 điểm — Chậm trễ, mất thời điểm vàng hỗ trợ học sinh.
   * *Option C (Phê duyệt 4 giờ bởi Host + Định mức khoán ≤  2 ca/tháng) ⭐:* **48/50 điểm (Approved)**.
 * **Quyết định:** Thiết lập **Cơ chế phê duyệt tinh gọn 4 giờ** do Marlins Host (Anh Đắc) duyệt trực tiếp; giới hạn định mức **≤  2 ca/tháng/Mentor** và áp dụng định mức khoán chi phí từ quỹ Marlins Care Retention.
-
-</details>
-
----
-
-
-<details open>
-<summary><h3>Decision Logs</h3></summary>
-
-Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
-
-#### 📌 DAR 05: Thời Điểm Tổ Chức Family Meeting: Bắt Buộc Định Kỳ vs Khi Có Khoảnh Khắc Ý Nghĩa
-* **Bối cảnh:** Lựa chọn thời điểm gặp gỡ trực tiếp gia đình để đạt hiệu quả thấu cảm cao nhất.
-
-| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Họp Phụ Huynh Bắt Buộc Cả Lớp Cùng Lúc | Option B: Gặp Gỡ 1-1 Theo Khoảnh Khắc Ý Nghĩa (Meaningful Moments) ⭐ |
-| :--- | :---: | :---: | :---: |
-| **C1: Mức Độ Cần Thiết & Giá Trị Thực Chất (Value per Meeting)** | W4 | 2.5 / 5 (10.0) | 5.0 / 5 (20.0) |
-| **C2: Tối Ưu Thời Gian Của Phụ Huynh & Mentor (Time Optimization)** | W3 | 2.0 / 5 (6.0) | 4.8 / 5 (14.4) |
-| **C3: Tác Động Gắn Kết Gia Đình (Bonding Impact)** | W3 | 3.0 / 5 (9.0) | 4.9 / 5 (14.7) |
-| **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 25.0 / 50 | 49.1 / 50 (Approved ⭐) |
-| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Hình thức hành chính rập khuôn, không giải quyết được vấn đề riêng của từng nhà. | Kích hoạt khi học sinh bứt phá vượt bậc hoặc gặp điểm nghẽn tâm lý cần gỡ rối. |
-
-* **Quyết định:** Chỉ tổ chức Family Meeting 1-1 khi xuất hiện khoảnh khắc ý nghĩa (High-touch Meaningful Moments) hoặc cột mốc giữa kỳ (~Buổi 5-7), đảm bảo mỗi cuộc gặp đều mang lại giá trị độc bản.
-
-</details>
-
----
-
-<details>
-<summary><h3>FAQ</h3></summary>
-
-#### Nhóm 1: Về Chuẩn Bị & Đặt Lịch Gặp Gỡ (Scheduling & Preparation)
-* **Buổi Family Meeting kéo dài bao lâu và diễn ra ở đâu?**  
-  👉 **A:** Thời lượng tiêu chuẩn là 60 phút, diễn ra trực tiếp tại nhà học sinh hoặc không gian yên tĩnh phù hợp do gia đình lựa chọn.
-* **Cả bố và mẹ có bắt buộc phải cùng tham dự không?**  
-  👉 **A:** Nemo12 khuyến khích cả bố, mẹ và học sinh cùng hiện diện trọn vẹn để tạo sự thấu hiểu đồng thuận đa chiều trong gia đình.
-
-#### Nhóm 2: Về Kết Quả Bàn Giao (Family Notes & Next Steps)
-* **Bản Family Notes 6 trục bao gồm những nội dung gì?**  
-  👉 **A:** Ghi nhận 6 chiều kích: Điểm mạnh cốt lõi, Rào cản tâm lý, Phong cách tư duy, Mục tiêu gia đình, Thỏa thuận đồng hành và Kế hoạch 30 ngày tiếp theo.
-* **Sau buổi gặp, Mentor sẽ theo dõi tiến độ như thế nào?**  
-  👉 **A:** Mentor cập nhật Family Notes lên Portal và định kỳ nhắn tin chia sẻ những chuyển biến nhỏ của con theo đúng cam kết đã thống nhất.
 
 </details>

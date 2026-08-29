@@ -74,7 +74,7 @@ graph TD
 ---
 
 <details open>
-<summary><h3>📋 SOP Steps</h3></summary>
+<summary><h3>SOP Steps</h3></summary>
 
 | Giai đoạn | Thao tác chi tiết | Người phụ trách | Chu kỳ & Thời lượng |
 | :--- | :--- | :--- | :---: |
@@ -125,7 +125,7 @@ Team đã tổng hợp lại 3 góc nhìn quan sát quan trọng nhất từ bu�
 ---
 
 <details>
-<summary><h3>💡 Do's & Don'ts</h3></summary>
+<summary><h3>Do's & Don'ts</h3></summary>
 
 #### ✅ Do's (Nên làm)
 * **Khóa chat ở 2 Group Public:** Giữ đúng thiết lập "Chỉ Trưởng/Phó nhóm gửi tin nhắn" để duy trì chất lượng thông tin sạch sẽ, tránh spam quảng cáo và giảm thiểu chi phí quản trị (Low Maintenance).
@@ -144,7 +144,7 @@ Team đã tổng hợp lại 3 góc nhìn quan sát quan trọng nhất từ bu�
 ---
 
 <details>
-<summary><h3>📊 Assessment Rubrics</h3></summary>
+<summary><h3>Assessment Rubrics</h3></summary>
 
 Đánh giá chất lượng vận hành Hệ thống Community Group Zalo theo 3 tiêu chuẩn phổ quát (Thang đo L1 – L5, **L3 là Definition of Done ⭐**):
 
@@ -159,7 +159,7 @@ Team đã tổng hợp lại 3 góc nhìn quan sát quan trọng nhất từ bu�
 ---
 
 <details>
-<summary><h3>❓ Strategic FAQ</h3></summary>
+<summary><h3>FAQ</h3></summary>
 
 #### 📉 Nhóm 1: Về Tương Tác & Độ "Sống" Của Cộng Đồng (Community Engagement)
 * **Q1:** *"Group Zalo khóa chat 1 chiều thì có khác gì kênh thông báo Zalo OA hay Fanpage đâu? Phụ huynh vào một thời gian thấy im ắng sẽ bấm 'Tắt thông báo' hoặc rời nhóm thì sao?"*  
@@ -194,44 +194,3 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 </details>
 
----
-
-
-<details open>
-<summary><h3>Decision Logs</h3></summary>
-
-Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
-
-#### 📌 DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
-* **Bối cảnh:** Vận hành hệ thống cộng đồng phụ huynh lớn mà không làm loãng thông tin và không tốn nhân sự trực mod 24/7.
-
-| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Mở Chat 100% Tại Tất Cả Group | Option B: Chỉ Dùng Kênh Thông Báo Zalo OA / Fanpage | Option C: 2 Public Broadcast + 1 Private Interactive ⭐ |
-| :--- | :---: | :---: | :---: | :---: |
-| **C1: Tinh Gọn & Không Ô Nhiễm Tin Rác (Low Maintenance)** | W4 | 1.5 / 5 (6.0) | 4.0 / 5 (16.0) | 4.9 / 5 (19.6) |
-| **C2: Chiều Sâu Gắn Kết & Chăm Sóc Riêng (High-Touch Value)** | W4 | 2.0 / 5 (8.0) | 2.5 / 5 (10.0) | 5.0 / 5 (20.0) |
-| **C3: Khả Năng Mở Rộng Quy Mô (Scalability)** | W2 | 1.0 / 5 (2.0) | 5.0 / 5 (10.0) | 4.8 / 5 (9.6) |
-| **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 16.0 / 50 | 36.0 / 50 | 49.2 / 50 (Approved ⭐) |
-| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Tràn lan tin nhắn rác, phụ huynh tắt thông báo và rời nhóm hàng loạt. | Mất đi cảm giác ấm áp, thiếu không gian tương tác gần gũi cho phụ huynh thân thiết. | Khóa chat nhóm công chúng phát case định kỳ; mở tương tác tại nhóm riêng phụ huynh Marlins. |
-
-* **Quyết định:** Áp dụng mô hình 02 Public Groups cài đặt Broadcast 1 chiều (Low Maintenance, không spam) để phát Case Study tuần + 01 Private Group (Nemo12 - Marlins) mở chat 2 chiều cho phụ huynh sau sự kiện Marlins Day để chăm sóc sâu.
-
-</details>
-
----
-
-<details>
-<summary><h3>FAQ</h3></summary>
-
-#### Nhóm 1: Về Tương Tác & Độ Sống Của Cộng Đồng (Community Engagement)
-* **Group Zalo khóa chat 1 chiều thì có bị giảm tương tác không?**  
-  👉 **A:** Phụ huynh bận rộn đánh giá cao việc nhóm không có tin rác. Mỗi bài Case Study gửi đi đều mang lại giá trị cao và tỷ lệ giữ chân phụ huynh cao hơn 60% so với nhóm mở chat.
-* **Nội dung chia sẻ cho nhóm Cấp 2 và Cấp 3 có bị lệch tệp không?**  
-  👉 **A:** Quy luật tư duy logic và điểm mù học tập có tính phổ quát; việc tách 2 nhóm giúp phân đoạn chính xác khi gửi các thông báo chuyên sâu từng kỳ thi.
-
-#### Nhóm 2: Về Đo Lường & Đạo Đức Sư Phạm (Ethics & Attribution)
-* **Nguồn phụ huynh mới gia nhập nhóm cộng đồng đến từ đâu?**  
-  👉 **A:** Đến từ bài viết phản tư trên trang cá nhân của Mentor, lời giới thiệu truyền miệng của phụ huynh cũ và các diễn đàn giáo dục uy tín.
-* **Cách bảo mật danh tính khi đưa tình huống học sinh vào Case Study?**  
-  👉 **A:** Toàn bộ tên học sinh được ẩn danh hóa bằng nickname, dữ liệu được tổng hợp từ nhiều buổi học khác nhau để phân tích bài học sư phạm mà không lộ danh tính.
-
-</details>

@@ -41,7 +41,8 @@ export const SITEMAP_CONFIG = {
             { name: "SOP Steps", slug: "/playbooks/social-media/sop-steps" },
             { name: "Do's & Don'ts", slug: "/playbooks/social-media/dos-donts" },
             { name: "Assessment Rubrics", slug: "/playbooks/social-media/assessment-rubrics" },
-            { name: "Decision Logs", slug: "/playbooks/social-media/decision-logs" }
+            { name: "Decision Logs", slug: "/playbooks/social-media/decision-logs" },
+            { name: "FAQ", slug: "/playbooks/social-media/faq" }
           ]
         },
         {
