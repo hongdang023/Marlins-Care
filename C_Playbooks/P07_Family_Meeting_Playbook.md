@@ -190,7 +190,7 @@ Sau buổi gặp, mentor hoàn thiện bản ghi chép vào **Hệ thống Dory 
 <details>
 <summary><h3>📊 Assessment Rubrics</h3></summary>
 
-Đánh giá chất lượng thực thi Family Meeting theo 3 trụ cột chuẩn hóa (Thang đo L1 – L5, **L3 là chuẩn Definition of Done ⭐**):
+Đánh giá chất lượng thực thi Family Meeting theo 3 trụ cột chuẩn hóa (Thang đo L1 – L5, **L3 là Definition of Done ⭐**):
 
 | Trụ Cột Đánh Giá | L1 (Chưa Đạt) | L2 (Cơ Bản) | L3 (Đạt Chuẩn - DoD ⭐) | L4 (Tốt) | L5 (Xuất Sắc) |
 | :--- | :--- | :--- | :--- | :--- | :--- |

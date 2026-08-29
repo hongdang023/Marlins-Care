@@ -123,7 +123,7 @@ gantt
 <details>
 <summary><h3>Assessment Rubrics</h3></summary>
 
-| Trụ Cột Đánh Giá | L1 (Chưa Đạt) | L2 (Cơ Bản) | L3 (ĐẠT CHUẨN DoD ⭐) | L4 (Tốt) | L5 (Xuất Sắc) |
+| Trụ Cột Đánh Giá | L1 (Chưa Đạt) | L2 (Cơ Bản) | L3 (Đạt Chuẩn - DoD ⭐) | L4 (Tốt) | L5 (Xuất Sắc) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1. Execution** | Tổ chức trễ giờ, không gian ồn ào, thiếu tài liệu. | Đúng giờ nhưng điều phối lúng túng, cháy giáo án. | **Đúng giờ, không gian sang trọng yên tĩnh, điều phối mượt mà theo đúng Agenda 120p.** | Tạo bầu không khí cực kỳ ấm cúng, thấu cảm, 100% phụ huynh hiện diện trọn vẹn. | Sự kiện kiểu mẫu, để lại ấn tượng sâu sắc không thể quên cho từng phụ huynh. |
 | **2. Insight Quality** | Không ghi nhận được thông tin gì về phụ huynh. | Chỉ ghi nhận họ tên số điện thoại thông thường. | **Ghi nhận đầy đủ Dory Notes 6 trục về nỗi đau, kỳ vọng và rào cản của từng gia đình.** | Nắm bắt chính xác điểm nghẽn tâm lý sâu kín của từng ông bố bà mẹ. | Chuyển hóa định kiến của phụ huynh ngay trong buổi gặp. |
