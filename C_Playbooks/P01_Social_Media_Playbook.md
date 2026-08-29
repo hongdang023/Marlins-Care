@@ -24,7 +24,7 @@ relates_to:
 * **Trigger:** Sau các buổi dạy tại lớp Sư Tử Con (khi có sản phẩm, khoảnh khắc bứt phá của học sinh).
 * **Standard Time:** 35 phút / bài (10p thu thập + 20p soạn thảo + 5p xuất bản).
 * **Target Audience:** Phụ huynh hiện tại của lớp và phụ huynh tiềm năng có con trong độ tuổi.
-* **Owner:** Mentor Hồng (Human-Led Personal Branding).
+* **Owner:** Mentor (Human-Led Personal Branding).
 * **Output:** 2 bài viết/tuần (Thứ 3 & Thứ 6) trên Facebook cá nhân + Tư liệu bằng chứng lưu trữ.
 
 ---

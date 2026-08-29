@@ -24,7 +24,7 @@ relates_to:
 * **Trigger:** Định kỳ **20h00 – 22h00 Tối Thứ 5 hàng tuần** qua Zoom.
 * **Standard Time:** 120 phút Live Zoom tương tác; chuẩn bị ≤  30 phút; hậu kỳ ≤  15 phút.
 * **Target Audience:** Phụ huynh từ 3 Group Zalo, phụ huynh theo dõi Mentor và phụ huynh học sinh hiện tại.
-* **Owner:** Host: Anh Đắc, Co-Host: Mentor Hồng.
+* **Owner:** Host: Anh Đắc, Co-Host: Mentor.
 * **Output:** 1 buổi Zoom chuyển hóa chất lượng cao + Cập nhật học liệu trắc nghiệm lên Family Portal.
 
 ---

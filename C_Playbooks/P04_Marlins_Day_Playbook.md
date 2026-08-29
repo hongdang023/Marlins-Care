@@ -24,7 +24,7 @@ relates_to:
 * **Trigger:** Định kỳ **15h00 – 17h00 Chiều Chủ Nhật hàng tuần** tại Lotte Hotel Hà Nội.
 * **Standard Time:** 120 phút đối thoại trực tiếp; chuẩn bị logistics ≤  30 phút.
 * **Target Audience:** Phụ huynh quan tâm phương pháp giáo dục bản chất (tối đa 10 phụ huynh/buổi).
-* **Owner:** Host: Anh Đắc, Observer & Notes: Mentor Hồng.
+* **Owner:** Host: Anh Đắc, Co-Host: Mentor.
 * **Output:** Dữ liệu định tính cho Dory Notes + Kết nối phụ huynh vào Group Zalo Private Marlins.
 
 ---

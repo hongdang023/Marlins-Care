@@ -24,7 +24,7 @@ relates_to:
 * **Trigger:** Học sinh chính thức bước vào khóa học 12 buổi (Live Class).
 * **Standard Time:** Hệ thống đồng bộ tự động; Mentor viết Growth Story ≤  10 phút/học sinh; can thiệp rủi ro ≤  15 phút/case.
 * **Target Audience:** Phụ huynh và học sinh đang tham gia khóa học 12 buổi.
-* **Owner:** Hybrid (System Automation & Teaching Mentor).
+* **Owner:** Hybrid (System & Mentor).
 * **Output:** Dashboard Weekly Pulse + Can thiệp nguy cơ kịp thời + Ấn phẩm số Growth Story xuất bản tại Buổi 12.
 
 ---

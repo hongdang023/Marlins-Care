@@ -24,7 +24,7 @@ relates_to:
 * **Trigger:** Phụ huynh hoàn tất đăng ký 02 buổi học thử trên hệ thống.
 * **Standard Time:** Hệ thống xử lý tức thời; Mentor tư vấn Fit Judgment ≤  15 phút/gia đình.
 * **Target Audience:** Phụ huynh và học sinh mới đăng ký tham gia học thử lớp Sư Tử Con / Chuyên Toán.
-* **Owner:** Hybrid (Dolphin Mentors & Teaching System).
+* **Owner:** Hybrid (System & Mentor).
 * **Output:** 02 buổi học thử hoàn tất + Báo cáo Trial Evidence trên Family Portal + Phiên tư vấn Fit Judgment trung thực.
 
 ---

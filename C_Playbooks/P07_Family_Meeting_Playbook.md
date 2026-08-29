@@ -24,7 +24,7 @@ relates_to:
 * **Trigger:** Phát sinh các khoảnh khắc ý nghĩa (đột phá lớn, thay đổi hành vi đột ngột, khủng hoảng niềm tin).
 * **Standard Time:** 60 phút gặp mặt trực tiếp; chuẩn bị trước ≤  15 phút; ghi chép Dory ≤  15 phút.
 * **Target Audience:** Phụ huynh và học sinh được chọn lọc kích hoạt High-Touch (chiếm khoảng 5–10% tệp học viên).
-* **Owner:** Human-Led (Mentor & Marlins Host).
+* **Owner:** Mentor (Human-Led).
 * **Output:** 01 buổi gặp mặt gắn kết sâu + Bản Family Notes 6 trục Dory được cập nhật trong 24h.
 
 ---
