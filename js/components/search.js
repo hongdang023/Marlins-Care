@@ -1,7 +1,7 @@
 import { KNOWLEDGE_HUB_DATA } from "../data/knowledge_hub_data.js";
 import { SITEMAP_CONFIG } from "../data.js";
 
-export function initSearchModal(onNavigate) {
+export function initSearch(onNavigate) {
   const modal = document.getElementById("search-modal");
   const input = document.getElementById("search-input");
   const resultsContainer = document.getElementById("search-results");
