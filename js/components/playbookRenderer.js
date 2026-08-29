@@ -131,61 +131,34 @@ export function renderPlaybook(slug, onNavigate) {
 function renderSection(sectionSlug, playbookFull, config) {
   const sectionContent = playbookFull[sectionSlug];
 
-  if (!sectionContent) {
-    // If exact key doesn't exist, check fallback
-    if (sectionSlug === 'overview') {
-      return `
-        <div style="display: flex; flex-direction: column; gap: var(--space-4);">
-          <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-left: 4px solid var(--color-primary-600); border-radius: var(--radius-md); padding: var(--space-5);">
-            <div style="font-size: 12px; font-weight: 700; color: var(--color-primary-700); text-transform: uppercase; margin-bottom: 8px; letter-spacing: 0.5px;">
-              Metadata Header
-            </div>
-            ${playbookFull['overview'] || `<p>${config.summary}</p>`}
-          </div>
-          ${playbookFull['framework'] ? `
-            <div style="margin-top: var(--space-4);">
-              <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
-                Playbook Architecture & Engine
-              </h2>
-              ${playbookFull['framework']}
-            </div>
-          ` : ''}
-        </div>
-      `;
-    }
-    return `<p style="color:var(--text-muted);">Nội dung chi tiết đang được cập nhật.</p>`;
-  }
-
   const titleMap = {
-    'overview': 'Overview',
-    'stakeholder-mapping': 'Stakeholder Mapping',
-    'session-agenda': 'Session Agenda',
-    'sop-steps': 'SOP Steps',
-    'dos-donts': "Do's & Don'ts",
-    'assessment-rubrics': 'Assessment Rubrics',
-    'decision-logs': 'Decision Logs',
-    'faq': 'FAQ'
+    "overview": "Overview",
+    "stakeholder-mapping": "Stakeholder Mapping",
+    "session-agenda": "Session Agenda",
+    "sop-steps": "SOP Steps",
+    "dos-donts": "Do's & Don'ts",
+    "assessment-rubrics": "Assessment Rubrics",
+    "decision-logs": "Decision Logs",
+    "faq": "FAQ"
   };
 
   const title = titleMap[sectionSlug] || sectionSlug.toUpperCase();
 
-  if (sectionSlug === 'overview') {
+  if (sectionSlug === "overview") {
     return `
       <div style="display: flex; flex-direction: column; gap: var(--space-4);">
-        <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-left: 4px solid var(--color-primary-600); border-radius: var(--radius-md); padding: var(--space-5);">
-          <div style="font-size: 12px; font-weight: 700; color: var(--color-primary-700); text-transform: uppercase; margin-bottom: 8px; letter-spacing: 0.5px;">
-            Metadata Header
-          </div>
-          ${sectionContent}
-        </div>
-        ${playbookFull['framework'] ? `
+        <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+          ${title}
+        </h2>
+        ${sectionContent || `<p>${config.summary}</p>`}
+        ${playbookFull["framework"] ? `
           <div style="margin-top: var(--space-4);">
-            <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+            <h3 style="font-size: 16.5px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 1px solid var(--border-subtle); padding-bottom: var(--space-2);">
               Playbook Architecture & Engine
-            </h2>
-            ${playbookFull['framework']}
+            </h3>
+            ${playbookFull["framework"]}
           </div>
-        ` : ''}
+        ` : ""}
       </div>
     `;
   }
@@ -196,7 +169,7 @@ function renderSection(sectionSlug, playbookFull, config) {
         ${title}
       </h2>
       <div class="full-section-body" style="font-size: 14px; line-height: 1.6; color: var(--text-primary);">
-        ${sectionContent}
+        ${sectionContent || `<p style="color:var(--text-muted);">Nội dung chi tiết đang được cập nhật.</p>`}
       </div>
     </div>
   `;
