@@ -22,7 +22,7 @@ relates_to:
 ## Metadata Header
 * **Objective:** Hiểu sâu bối cảnh gia đình, kỳ vọng của phụ huynh và môi trường học tập thực tế của con để cá nhân hóa việc mentoring.
 * **Trigger:** Phát sinh các khoảnh khắc ý nghĩa (đột phá lớn, thay đổi hành vi đột ngột, khủng hoảng niềm tin).
-* **Standard Time:** 60 phút gặp mặt trực tiếp; chuẩn bị trước $\le$ 15 phút; ghi chép Dory $\le$ 15 phút.
+* **Standard Time:** 60 phút gặp mặt trực tiếp; chuẩn bị trước ≤  15 phút; ghi chép Dory ≤  15 phút.
 * **Target Audience:** Phụ huynh và học sinh được chọn lọc kích hoạt High-Touch (chiếm khoảng 5–10% tệp học viên).
 * **Owner:** Human-Led (Mentor & Marlins Host).
 * **Output:** 01 buổi gặp mặt gắn kết sâu + Bản Family Notes 6 trục Dory được cập nhật trong 24h.
@@ -161,7 +161,7 @@ Sau buổi gặp, mentor hoàn thiện bản ghi chép vào **Hệ thống Dory 
 | Giai đoạn | Nhiệm vụ cụ thể | Thời lượng | Deliverable / Trạng thái |
 | :--- | :--- | :---: | :--- |
 | **Trước buổi gặp** *(Pre-Meeting)* | • Phát hiện tín hiệu và gửi đề xuất phê duyệt qua Host trong 4h ([DAR 18]).<br>• Đọc hồ sơ học sinh trên Portal (không hỏi lại thông tin đã có).<br>• Chuẩn bị 2–3 câu hỏi mở trọng tâm và danh mục Observation cues. | 15p | Kế hoạch gặp & Host Approved |
-| **Trong buổi gặp** *(In-Meeting)* | • Triển khai theo Agenda 60 phút (Warm-up $\to$ Stories $\to$ Alignment $\to$ Next Steps).<br>• Lắng nghe tích cực (70%), tách biệt Fact và Observation ([DAR 17]).<br>• Thống nhất cam kết hành động nhỏ tiếp theo với gia đình. | 60p | Buổi gặp diễn ra tự nhiên, ấm cúng |
+| **Trong buổi gặp** *(In-Meeting)* | • Triển khai theo Agenda 60 phút (Warm-up ➔  Stories ➔  Alignment ➔  Next Steps).<br>• Lắng nghe tích cực (70%), tách biệt Fact và Observation ([DAR 17]).<br>• Thống nhất cam kết hành động nhỏ tiếp theo với gia đình. | 60p | Buổi gặp diễn ra tự nhiên, ấm cúng |
 | **Sau buổi gặp** *(Post-Meeting)* | • Hoàn thiện Family Notes và gắn tag vào **Hệ thống Dory** trong 24h.<br>• Gửi tin nhắn cảm ơn ngắn gọn và ấm áp cho phụ huynh qua Zalo. | 15p | Cập nhật hồ sơ gia đình trên Dory |
 
 </details>
@@ -207,7 +207,7 @@ Sau buổi gặp, mentor hoàn thiện bản ghi chép vào **Hệ thống Dory 
 
 #### 💰 Nhóm 1: Về Chi Phí & Tính Khả Thi Vận Hành (Cost & Scalability)
 * **Q1:** *"Đến nhà từng phụ huynh ngồi 60 phút, cộng thêm thời gian đi lại mất cả buổi. Quy mô tăng lên 50–100 học sinh thì lấy đâu ra nhân sự để đi thăm nhà?"*  
-  👉 **A:** Family Meeting **hoàn toàn KHÔNG PHẢI là hoạt động đại trà định kỳ** cho 100% học sinh. Nó chỉ được kích hoạt theo **Bộ lọc [DAR 04] (High-Touch Activation Filter)**: Chỉ đi khi xuất hiện Khoảnh khắc ý nghĩa (con có nguy cơ bỏ cuộc, gia đình có biến cố tâm lý lớn, hoặc cần căn chỉnh kỳ vọng đặc biệt). Tỷ lệ kích hoạt thực tế chỉ chiếm khoảng $5 - 10\%$ tổng số gia đình.
+  👉 **A:** Family Meeting **hoàn toàn KHÔNG PHẢI là hoạt động đại trà định kỳ** cho 100% học sinh. Nó chỉ được kích hoạt theo **Bộ lọc [DAR 04] (High-Touch Activation Filter)**: Chỉ đi khi xuất hiện Khoảnh khắc ý nghĩa (con có nguy cơ bỏ cuộc, gia đình có biến cố tâm lý lớn, hoặc cần căn chỉnh kỳ vọng đặc biệt). Tỷ lệ kích hoạt thực tế chỉ chiếm khoảng 5 - 10\% tổng số gia đình.
 * **Q2:** *"Chi phí xăng xe, quà bánh cho buổi gặp mặt này tính vào đâu? Có định mức ngân sách cho mỗi chuyến đi không?"*  
   👉 **A:** Mỗi ca High-Touch được cấp định mức vận hành tiêu chuẩn theo **[DAR 18]** (thuộc ngân sách Marlins Care Retention). Tuyệt đối Mentor không nhận phong bì hay quà cáp đắt tiền từ gia đình; Mentor chỉ mang theo sự tận tâm và một món quà nhỏ mang tính tinh thần cho học sinh (sách hay hoặc sticker khen thưởng).
 
@@ -215,7 +215,7 @@ Sau buổi gặp, mentor hoàn thiện bản ghi chép vào **Hệ thống Dory 
 * **Q3:** *"Nếu gia đình không muốn Mentor đến nhà vì sợ phiền hà thì xử lý thế nào để không làm họ phật lòng?"*  
   👉 **A:** Áp dụng **[DAR 17]**: Luôn tôn trọng sự riêng tư của gia đình. Mentor đưa ra 2 lựa chọn: *"Thầy/cô có thể ghé qua thăm góc học tập của con 45 phút, hoặc nếu tiện hơn thì gia đình mình cùng ngồi một góc cà phê yên tĩnh / ghé qua không gian Marlins Day tại Lotte Hotel để trò chuyện nhé ạ"*.
 * **Q4:** *"Đi gặp một buổi 60 phút về thì thu lại được cái gì cụ thể cho tổ chức hay chỉ là trò chuyện xã giao?"*  
-  👉 **A:** Đo lường bằng 2 kết quả bắt buộc: (1) Bản **Family Notes chuẩn hóa 6 trục Dory** (`pain`, `jtbd`, `need`, `belief`, `goal`, `fact`) được cập nhật trong 24h, và (2) Tỷ lệ giữ chân/gắn kết dài hạn (Retention Rate) của gia đình đó đạt $100\%$, trở thành đại sứ giới thiệu học sinh mới (Organic Advocates).
+  👉 **A:** Đo lường bằng 2 kết quả bắt buộc: (1) Bản **Family Notes chuẩn hóa 6 trục Dory** (`pain`, `jtbd`, `need`, `belief`, `goal`, `fact`) được cập nhật trong 24h, và (2) Tỷ lệ giữ chân/gắn kết dài hạn (Retention Rate) của gia đình đó đạt 100\%, trở thành đại sứ giới thiệu học sinh mới (Organic Advocates).
 
 </details>
 
@@ -243,7 +243,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Mentor tự do kích hoạt):* 24/50 điểm — Dễ quá tải lịch dạy, chi phí tự phát.
   * *Option B (Phê duyệt 3 tầng qua Ban Giám Đốc):* 33/50 điểm — Chậm trễ, mất thời điểm vàng hỗ trợ học sinh.
-  * *Option C (Phê duyệt 4 giờ bởi Host + Định mức khoán $\le 2$ ca/tháng) ⭐:* **48/50 điểm (Approved)**.
-* **Quyết định:** Thiết lập **Cơ chế phê duyệt tinh gọn 4 giờ** do Marlins Host (Anh Đắc) duyệt trực tiếp; giới hạn định mức **$\le 2$ ca/tháng/Mentor** và áp dụng định mức khoán chi phí từ quỹ Marlins Care Retention.
+  * *Option C (Phê duyệt 4 giờ bởi Host + Định mức khoán ≤  2 ca/tháng) ⭐:* **48/50 điểm (Approved)**.
+* **Quyết định:** Thiết lập **Cơ chế phê duyệt tinh gọn 4 giờ** do Marlins Host (Anh Đắc) duyệt trực tiếp; giới hạn định mức **≤  2 ca/tháng/Mentor** và áp dụng định mức khoán chi phí từ quỹ Marlins Care Retention.
 
 </details>

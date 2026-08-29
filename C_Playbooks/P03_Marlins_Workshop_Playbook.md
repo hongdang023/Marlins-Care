@@ -22,7 +22,7 @@ relates_to:
 ## Metadata Header
 * **Objective:** Giúp phụ huynh thấu hiểu triết lý giáo dục kiến tạo, tháo gỡ 7 ngộ nhận và tạo cầu nối đưa gia đình đến Marlins Day hoặc Trial Class.
 * **Trigger:** Định kỳ **20h00 – 22h00 Tối Thứ 5 hàng tuần** qua Zoom.
-* **Standard Time:** 120 phút Live Zoom tương tác; chuẩn bị $\le$ 30 phút; hậu kỳ $\le$ 15 phút.
+* **Standard Time:** 120 phút Live Zoom tương tác; chuẩn bị ≤  30 phút; hậu kỳ ≤  15 phút.
 * **Target Audience:** Phụ huynh từ 3 Group Zalo, phụ huynh theo dõi Mentor và phụ huynh học sinh hiện tại.
 * **Owner:** Host: Anh Đắc, Co-Host: Mentor Hồng.
 * **Output:** 1 buổi Zoom chuyển hóa chất lượng cao + Cập nhật học liệu trắc nghiệm lên Family Portal.
@@ -52,8 +52,8 @@ Phụ huynh không cần nghe thêm những bài giảng lý thuyết hàn lâm 
 Thư viện các khái niệm và trường phái sư phạm được khai thác luân phiên trong các buổi Workshop tối Thứ 5:
 
 #### 1. Bảy Câu Đáng Đổi Cách Nghĩ (7 Mindset Shifts & Misconceptions)
-1. **Điểm cao $\ne$ Hiểu sâu:** Bốn cách đạt điểm cao mà đầu óc rỗng tuếch (Học vẹt, học tủ, luyện mẹo, áp lực gia đình).
-2. **Làm nhiều bài $\ne$ Học tốt:** Khối lượng bài tập là thứ dễ đo nhất nhưng cũng dễ gây ảo tưởng và triệt tiêu hứng thú tự học nhất.
+1. **Điểm cao ≠  Hiểu sâu:** Bốn cách đạt điểm cao mà đầu óc rỗng tuếch (Học vẹt, học tủ, luyện mẹo, áp lực gia đình).
+2. **Làm nhiều bài ≠  Học tốt:** Khối lượng bài tập là thứ dễ đo nhất nhưng cũng dễ gây ảo tưởng và triệt tiêu hứng thú tự học nhất.
 3. **Test không phải để phán xét learner:** Một bài kiểm tra là câu hỏi dành cho hệ thống dạy học, không phải bản án kết tội đứa trẻ.
 4. **Mọi learner model đều có uncertainty:** Một hệ thống dám nói *"Tôi chưa biết rõ điểm này ở con"* đáng tin cậy hơn hệ thống lúc nào cũng phán số liệu chắc nịch.
 5. **Không phải cuộc thi nào cũng đáng tham gia:** Mỗi cuộc thi đều có cái giá phải trả về thời gian và tâm lý. Câu hỏi then chốt: *"Nó mua được gì thực chất cho sự trưởng thành của con?"*
@@ -67,7 +67,7 @@ Thư viện các khái niệm và trường phái sư phạm được khai thác
 
 #### 3. Bộ Công Cụ Đồng Hành Cùng Con Tại Nhà
 * **NVC (Nonviolent Communication):** 4 bước giao tiếp thấu cảm không phán xét, không áp đặt, không bạo lực ngôn từ với con.
-* **BEM Model:** Thấu hiểu sự tương hỗ giữa *Behavior (Hành vi)* $\leftrightarrow$ *Experience (Trải nghiệm)* $\leftrightarrow$ *Mental Model (Mô hình tư duy)* của trẻ.
+* **BEM Model:** Thấu hiểu sự tương hỗ giữa *Behavior (Hành vi)* ≤ ftrightarrow *Experience (Trải nghiệm)* ≤ ftrightarrow *Mental Model (Mô hình tư duy)* của trẻ.
 * **Building 21 & Family Learning Environment:** Cách kiến tạo không gian và nhịp sinh hoạt nuôi dưỡng tính tự giác tự học tại nhà.
 
 </details>
@@ -106,9 +106,9 @@ graph TD
 
 | Giai đoạn | Thao tác Hệ thống (System Action via Portal/Zalo) | Thao tác Con người (Host & Mentor Action) | Thời gian chuẩn |
 | :--- | :--- | :--- | :---: |
-| **1. Pre-Workshop** *(Trước 72h - 24h)* | • Tự động gửi thông báo chủ đề tuần và form đăng ký vào 3 Group Zalo.<br>• Nhắc nhở quy định bất biến: **100% Bật Cam/Mic suốt 120 phút**. | • Host & Mentor thống nhất Concept trọng tâm và chuẩn bị 2 bài tập tình huống.<br>• Duyệt danh sách phụ huynh đăng ký. | $\le$ 30 phút |
+| **1. Pre-Workshop** *(Trước 72h - 24h)* | • Tự động gửi thông báo chủ đề tuần và form đăng ký vào 3 Group Zalo.<br>• Nhắc nhở quy định bất biến: **100% Bật Cam/Mic suốt 120 phút**. | • Host & Mentor thống nhất Concept trọng tâm và chuẩn bị 2 bài tập tình huống.<br>• Duyệt danh sách phụ huynh đăng ký. | ≤  30 phút |
 | **2. In-Workshop** *(20h00 - 22h00)* | • Phân phòng tự động (Breakout Rooms 3-4 phụ huynh/phòng theo [DAR 11]).<br>• Chuyển các tài khoản tắt cam vào Main Room nghe thụ động. | • Host dẫn dắt nội dung, điều phối năng lượng phòng Zoom.<br>• Mentor Hồng đảo qua các breakout rooms hỗ trợ phụ huynh thảo luận 4F. | 120 phút |
-| **3. Post-Workshop** *(Sáng hôm sau)* | • Cập nhật bài tập trắc nghiệm và case study lên mục **Parent Self-Paced** trên Family Portal ([DAR 12]).<br>• Gửi thông điệp cảm ơn và Infographic tóm tắt vào 3 Group Zalo. | • Mentor nhắn tin Zalo cảm ơn các phụ huynh đã phát biểu tích cực.<br>• Phân luồng phụ huynh có nhu cầu gặp chuyên sâu để gửi thư mời **Marlins Day**. | $\le$ 15 phút |
+| **3. Post-Workshop** *(Sáng hôm sau)* | • Cập nhật bài tập trắc nghiệm và case study lên mục **Parent Self-Paced** trên Family Portal ([DAR 12]).<br>• Gửi thông điệp cảm ơn và Infographic tóm tắt vào 3 Group Zalo. | • Mentor nhắn tin Zalo cảm ơn các phụ huynh đã phát biểu tích cực.<br>• Phân luồng phụ huynh có nhu cầu gặp chuyên sâu để gửi thư mời **Marlins Day**. | ≤  15 phút |
 
 </details>
 
@@ -139,9 +139,9 @@ graph TD
 
 | Cấp độ | Execution & Discipline | Insight & Transformation Quality | Conversion & Parent Engagement |
 | :---: | :--- | :--- | :--- |
-| **L1** | Phòng Zoom lộn xộn, nhiều người tắt cam, trễ giờ, breakout room không hoạt động. | Nói lý thuyết suông, không có bài tập tình huống, phụ huynh không đọng lại gì. | Phụ huynh rời phòng sớm $>50\%$; không ai quan tâm đến bước tiếp theo. |
+| **L1** | Phòng Zoom lộn xộn, nhiều người tắt cam, trễ giờ, breakout room không hoạt động. | Nói lý thuyết suông, không có bài tập tình huống, phụ huynh không đọng lại gì. | Phụ huynh rời phòng sớm >50\%; không ai quan tâm đến bước tiếp theo. |
 | **L2** | Tổ chức đúng giờ nhưng không kiểm soát được cam/mic; thảo luận nhóm gượng gạo. | Nội dung còn chung chung, chưa chạm vào nỗi đau thật của việc kèm con học. | Phụ huynh nghe thụ động, ít tương tác trong phần Q&A và bài tập 4F. |
-| **L3 (DoD ⭐)** | **100% bật cam/mic; phân phòng breakout mượt mà; tuân thủ đúng khung 120 phút.** | **Mổ xẻ trúng 1 Concept ngộ nhận; phụ huynh hoàn thành 2 vòng 4F Reflection tại chỗ.** | **$\ge 75\%$ phụ huynh ở lại đến cuối; có phụ huynh chủ động đăng ký tham gia Marlins Day / Trial Class.** |
+| **L3 (DoD ⭐)** | **100% bật cam/mic; phân phòng breakout mượt mà; tuân thủ đúng khung 120 phút.** | **Mổ xẻ trúng 1 Concept ngộ nhận; phụ huynh hoàn thành 2 vòng 4F Reflection tại chỗ.** | **≥  75\% phụ huynh ở lại đến cuối; có phụ huynh chủ động đăng ký tham gia Marlins Day / Trial Class.** |
 | **L4** | Không khí sôi nổi, điều phối breakout nhịp nhàng; Mentor hỗ trợ tháo gỡ bế tắc nhóm xuất sắc. | Phụ huynh vỡ òa nhận thức, nhiều bố mẹ xúc động chia sẻ câu chuyện gia đình thật. | Nhiều phụ huynh truy cập Portal làm bài tập tự học và đề xuất mời bạn bè tham gia buổi sau. |
 | **L5** | Buổi workshop trở thành một không gian chuyển hóa tâm lý sâu sắc; cộng đồng gắn kết mạnh mẽ. | Tạo ra bước ngoặt tư duy lâu dài trong cách cha mẹ giao tiếp và tôn trọng con cái. | Tỷ lệ chuyển đổi tự nhiên sang Marlins Day và Trial Class đạt mức kỷ lục mà không cần sale. |
 
@@ -154,13 +154,13 @@ graph TD
 
 #### ⏱️ Nhóm 1: Về Thời Lượng & Tải Trọng Đội Ngũ (Capacity & Burnout)
 * **Q1:** *"Tối Thứ 5 làm 120 phút từ 20h00 đến 22h00, rồi Chủ Nhật lại làm Marlins Day 3 tiếng tại Lotte Hotel. Tuần nào cũng làm cả hai sự kiện trực tiếp như vậy thì Host và Mentor có bị kiệt sức (burnout) không?"*  
-  👉 **A:** Playbook đã chuẩn hóa sẵn Thư viện Concepts (7 ngộ nhận & 3 trường phái) và Kịch bản Double Loops 4F cố định. Host không cần soạn slide mới mỗi tuần mà chỉ chọn 1 case study thực tế từ lớp học để mổ xẻ. Thời gian chuẩn bị trước giờ chỉ $\le$ 30 phút. Hai hoạt động bổ trợ cho nhau: Workshop online là phễu gieo nhận thức, Marlins Day offline là nơi gặt hái gắn kết sâu.
+  👉 **A:** Playbook đã chuẩn hóa sẵn Thư viện Concepts (7 ngộ nhận & 3 trường phái) và Kịch bản Double Loops 4F cố định. Host không cần soạn slide mới mỗi tuần mà chỉ chọn 1 case study thực tế từ lớp học để mổ xẻ. Thời gian chuẩn bị trước giờ chỉ ≤  30 phút. Hai hoạt động bổ trợ cho nhau: Workshop online là phễu gieo nhận thức, Marlins Day offline là nơi gặt hái gắn kết sâu.
 * **Q2:** *"120 phút vào tối Thứ 5 có quá dài với các ông bố bà mẹ bận rộn không? Sao không rút xuống 60 phút?"*  
   👉 **A:** Nếu chỉ 60 phút thì chỉ đủ thời gian thuyết giảng 1 chiều (Webinar truyền thống), người nghe nghe xong sẽ quên ngay. Cần 120 phút vì có 2 vòng Breakout Rooms (4F Reflection) để cha mẹ tự tay giải bài toán của chính gia đình mình. Trải nghiệm tự làm và tự vỡ òa mới tạo ra sự chuyển hóa thực chất.
 
 #### 🎯 Nhóm 2: Về Tỷ Lệ Chuyển Đổi & Đo Lường Hiệu Quả (Conversion & Funnel)
 * **Q3:** *"Tổ chức Workshop miễn phí hoàn toàn, không cho bán hàng (Zero Hard-selling), vậy đo lường ROI của buổi tối Thứ 5 này bằng con số nào cụ thể?"*  
-  👉 **A:** Đo lường bằng 2 chỉ số chuyển đổi phễu: (1) Số lượng phụ huynh đăng ký đi Marlins Day offline chiều Chủ Nhật (Mục tiêu $\ge 30\%$ người tham gia), và (2) Số lượng phụ huynh đăng ký cho con học Trial Class 2 buổi ngay trong 48h sau sự kiện.
+  👉 **A:** Đo lường bằng 2 chỉ số chuyển đổi phễu: (1) Số lượng phụ huynh đăng ký đi Marlins Day offline chiều Chủ Nhật (Mục tiêu ≥  30\% người tham gia), và (2) Số lượng phụ huynh đăng ký cho con học Trial Class 2 buổi ngay trong 48h sau sự kiện.
 * **Q4:** *"Lỡ phụ huynh chỉ vào nghe 'chùa' kiến thức từ tuần này qua tuần khác mà không bao giờ đăng ký cho con học thì sao?"*  
   👉 **A:** Đó chính là vẻ đẹp của mô hình giáo dục đồng hành. Phụ huynh nghe nhiều và chuyển hóa sẽ trở thành những "Đại sứ tự nguyện" (Brand Advocates) tích cực nhất trong 3 Group Zalo cộng đồng, tự động giới thiệu các phụ huynh khác cho Nemo12.
 

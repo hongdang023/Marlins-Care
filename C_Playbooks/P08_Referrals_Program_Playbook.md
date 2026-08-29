@@ -58,8 +58,8 @@ graph TD
 | Bước | Hành động Hệ thống (System Action) | Hành động Phụ huynh (Parent Action) |
 | :--- | :--- | :--- |
 | **1. Cấp mã độc bản** | Tự động tạo `Referral_Code` và đường dẫn cá nhân hóa hiển thị sẵn trên Family Portal. | Đăng nhập Portal, bấm 1 chạm để sao chép link giới thiệu. |
-| **2. Gắn tag tự động** | Khi người mới click link và điền thông tin đăng ký $\to$ Hệ thống tự động liên kết ID của người giới thiệu vào hồ sơ học sinh mới. | Gửi link qua tin nhắn cho bạn bè/người thân có con trong độ tuổi. |
-| **3. Xác thực thanh toán** | Khi người mới thanh toán thành công khóa 12 buổi $\to$ Hệ thống tự động áp dụng mức giảm 15% học phí cho hóa đơn của người mới. | Người mới nhận ưu đãi 15% ngay trên màn hình thanh toán. |
+| **2. Gắn tag tự động** | Khi người mới click link và điền thông tin đăng ký ➔  Hệ thống tự động liên kết ID của người giới thiệu vào hồ sơ học sinh mới. | Gửi link qua tin nhắn cho bạn bè/người thân có con trong độ tuổi. |
+| **3. Xác thực thanh toán** | Khi người mới thanh toán thành công khóa 12 buổi ➔  Hệ thống tự động áp dụng mức giảm 15% học phí cho hóa đơn của người mới. | Người mới nhận ưu đãi 15% ngay trên màn hình thanh toán. |
 | **4. Trả thưởng người giới thiệu** | Tự động cộng Voucher 15% vào ví tài khoản Family Portal của người giới thiệu + Gửi Email chúc mừng và cảm ơn tự động. | Người giới thiệu nhận thông báo qua Email/Portal, dùng voucher cho kỳ học tiếp theo của con. |
 
 </details>
@@ -86,7 +86,7 @@ graph TD
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1. System Automation** | Hệ thống lỗi mã, không ghi nhận người giới thiệu, phải xử lý thủ công. | Hệ thống hoạt động nhưng chậm trễ, phải chờ duyệt tay mất nhiều ngày. | **Hệ thống tự động hóa 100% thời gian thực; cấp mã và áp dụng voucher 15% tức thì và chính xác.** | Giao diện quản lý ví voucher trên Portal mượt mà, trực quan, hỗ trợ chia sẻ 1-click. | Hệ thống ổn định tuyệt đối, tự động phân tích và đề xuất tri ân phụ huynh đại sứ tích cực. |
 | **2. Policy Integrity** | Trả tiền mặt hoặc tạo chính sách hoa hồng nhiều tầng kiểu đa cấp (MLM). | Chính sách mập mờ, nhiều điều kiện ràng buộc gây khó khăn cho phụ huynh. | **Tuân thủ nghiêm ngặt chính sách 15% - 15% dạng Tuition Credit; minh bạch và rõ ràng.** | Truyền thông chính sách nhẹ nhàng, mang tinh thần tri ân giáo dục văn minh. | Phụ huynh hoàn toàn tự hào khi chia sẻ vì tính minh bạch và nhân văn của chương trình. |
-| **3. Advocacy Growth** | Không có phụ huynh nào giới thiệu; phụ huynh e ngại chia sẻ. | Chỉ có vài lượt chia sẻ mang tính chất người thân trong gia đình. | **$\ge 20\%$ học viên mới đến từ nguồn phụ huynh giới thiệu (Organic Referral).** | Hình thành mạng lưới phụ huynh đại sứ gắn kết, chủ động bảo vệ và lan tỏa giá trị Nemo12. | Chương trình trở thành động cơ tăng trưởng tự nhiên bền vững nhất của tổ chức. |
+| **3. Advocacy Growth** | Không có phụ huynh nào giới thiệu; phụ huynh e ngại chia sẻ. | Chỉ có vài lượt chia sẻ mang tính chất người thân trong gia đình. | **≥  20\% học viên mới đến từ nguồn phụ huynh giới thiệu (Organic Referral).** | Hình thành mạng lưới phụ huynh đại sứ gắn kết, chủ động bảo vệ và lan tỏa giá trị Nemo12. | Chương trình trở thành động cơ tăng trưởng tự nhiên bền vững nhất của tổ chức. |
 
 </details>
 

@@ -22,7 +22,7 @@ relates_to:
 ## Metadata Header
 * **Objective:** Giúp phụ huynh tháo gỡ áp lực thi cử, nắm bắt phương pháp đồng hành cùng con và trực tiếp quan sát bằng chứng năng lực trên hệ thống Nemo12.
 * **Trigger:** Định kỳ **15h00 – 17h00 Chiều Chủ Nhật hàng tuần** tại Lotte Hotel Hà Nội.
-* **Standard Time:** 120 phút đối thoại trực tiếp; chuẩn bị logistics $\le$ 30 phút.
+* **Standard Time:** 120 phút đối thoại trực tiếp; chuẩn bị logistics ≤  30 phút.
 * **Target Audience:** Phụ huynh quan tâm phương pháp giáo dục bản chất (tối đa 10 phụ huynh/buổi).
 * **Owner:** Host: Anh Đắc, Observer & Notes: Mentor Hồng.
 * **Output:** Dữ liệu định tính cho Dory Notes + Kết nối phụ huynh vào Group Zalo Private Marlins.
@@ -93,7 +93,7 @@ gantt
 <summary><h3>SOP Steps</h3></summary>
 
 * **Bước 1: Chuẩn bị trước sự kiện (Pre-Event · Thứ 6 & Thứ 7):**
-  * Chốt danh sách $\le 10$ phụ huynh tham dự qua Form đăng ký.
+  * Chốt danh sách ≤  10 phụ huynh tham dự qua Form đăng ký.
   * Gửi tin nhắn Zalo xác nhận địa điểm (Lotte Hotel, Tầng 38 Sky Lounge) và lưu ý gửi xe.
   * Chuẩn bị sẵn 10 bản in Phiếu Phản Tư 4F và 2 laptop kết nối sẵn hệ sinh thái Nemo12.
 * **Bước 2: Điều phối sự kiện (In-Event · 15h00 – 17h00 Chủ Nhật):**
@@ -127,7 +127,7 @@ gantt
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1. Execution** | Tổ chức trễ giờ, không gian ồn ào, thiếu tài liệu. | Đúng giờ nhưng điều phối lúng túng, cháy giáo án. | **Đúng giờ, không gian sang trọng yên tĩnh, điều phối mượt mà theo đúng Agenda 120p.** | Tạo bầu không khí cực kỳ ấm cúng, thấu cảm, 100% phụ huynh hiện diện trọn vẹn. | Sự kiện kiểu mẫu, để lại ấn tượng sâu sắc không thể quên cho từng phụ huynh. |
 | **2. Insight Quality** | Không ghi nhận được thông tin gì về phụ huynh. | Chỉ ghi nhận họ tên số điện thoại thông thường. | **Ghi nhận đầy đủ Dory Notes 6 trục về nỗi đau, kỳ vọng và rào cản của từng gia đình.** | Nắm bắt chính xác điểm nghẽn tâm lý sâu kín của từng ông bố bà mẹ. | Chuyển hóa định kiến của phụ huynh ngay trong buổi gặp. |
-| **3. Parent Conversion** | Phụ huynh thất vọng bỏ về giữa chừng. | Phụ huynh nghe xong rồi về, không có tương tác sau đó. | **$\ge 80\%$ phụ huynh gia nhập Group Zalo Private; $\ge 30\%$ đăng ký Trial Class cho con.** | Phụ huynh chủ động nhắn tin cảm ơn sâu sắc và giới thiệu bạn bè tham gia buổi sau. | Phụ huynh trở thành đại sứ đồng hành trung thành của cộng đồng Marlins. |
+| **3. Parent Conversion** | Phụ huynh thất vọng bỏ về giữa chừng. | Phụ huynh nghe xong rồi về, không có tương tác sau đó. | **≥  80\% phụ huynh gia nhập Group Zalo Private; ≥  30\% đăng ký Trial Class cho con.** | Phụ huynh chủ động nhắn tin cảm ơn sâu sắc và giới thiệu bạn bè tham gia buổi sau. | Phụ huynh trở thành đại sứ đồng hành trung thành của cộng đồng Marlins. |
 
 </details>
 
@@ -138,6 +138,6 @@ gantt
 
 #### 📌 DAR 04: Mô Hình Tổ Chức Marlins Day: Năng Lực Thường Trực vs Sự Kiện Đột Xuất
 * **Bối cảnh:** Lựa chọn giữa việc tổ chức sự kiện hội thảo lớn mỗi quý một lần hay duy trì không gian đối thoại nhỏ hàng tuần.
-* **Quyết định chốt:** Duy trì **Marlins Day định kỳ 15h00 – 17h00 Chủ Nhật hàng tuần tại Lotte Hotel với quy mô giới hạn $\le 10$ người/buổi**. Đây là năng lực chăm sóc trực tiếp thường trực (**Persistent Capability**) nuôi dưỡng niềm tin chiều sâu.
+* **Quyết định chốt:** Duy trì **Marlins Day định kỳ 15h00 – 17h00 Chủ Nhật hàng tuần tại Lotte Hotel với quy mô giới hạn ≤  10 người/buổi**. Đây là năng lực chăm sóc trực tiếp thường trực (**Persistent Capability**) nuôi dưỡng niềm tin chiều sâu.
 
 </details>
