@@ -1,5 +1,5 @@
 import { KNOWLEDGE_HUB_DATA, SITEMAP_CONFIG } from '../data.js';
-import { FULL_PLAYBOOKS_COMPILED } from '../data/full_playbooks_compiled.js';
+import { FULL_PLAYBOOKS_COMPILED } from '../../data/full_playbooks_compiled.js';
 import { copyToClipboard } from '../utils/copyClipboard.js';
 
 // Mapping Playbooks slug -> Touchpoints IDs & Metadata

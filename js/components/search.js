@@ -1,4 +1,4 @@
-import { KNOWLEDGE_HUB_DATA } from "../data/knowledge_hub_data.js";
+import { KNOWLEDGE_HUB_DATA } from "../../data/knowledge_hub_data.js";
 import { SITEMAP_CONFIG } from "../data.js";
 
 export function initSearch(onNavigate) {
