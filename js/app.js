@@ -117,7 +117,7 @@ class App {
     this.buildRightToc();
   }
 
-  buildRightToc() {
+    buildRightToc() {
     const tocList = document.getElementById("toc-list");
     if (!tocList) return;
 
@@ -155,6 +155,125 @@ class App {
             a.style.color = "var(--text-secondary)";
           }
 
+          a.addEventListener("click", (e) => {
+            e.preventDefault();
+            this.navigateTo(sec.slug);
+          });
+
+          li.appendChild(a);
+          tocList.appendChild(li);
+        });
+
+        // 2. Query Sub-items inside active section (DARs, FAQ Groups & Questions, Headings)
+        const subItems = [];
+        
+        // Query headings H3
+        const headings = document.querySelectorAll("#main-viewport-content h3");
+        headings.forEach((h, idx) => {
+          if (!h.id) h.id = `h3-sub-${idx}`;
+          subItems.push({ id: h.id, title: h.textContent.trim(), element: h, type: "group" });
+        });
+
+        // Query FAQ items specifically
+        const faqSummaries = document.querySelectorAll("#main-viewport-content .faq-minimal-item summary");
+        faqSummaries.forEach((sum, idx) => {
+          const qSpan = sum.querySelector("span:first-child");
+          const qText = qSpan ? qSpan.textContent.trim() : sum.textContent.trim();
+          if (!sum.id) sum.id = `faq-item-${idx}`;
+          subItems.push({ id: sum.id, title: qText, element: sum, type: "faq" });
+        });
+
+        if (subItems.length > 0) {
+          const subHeaderLi = document.createElement("li");
+          subHeaderLi.innerHTML = `<span style="font-size: 11px; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; display: block; margin: 18px 0 8px; padding-top: 12px; border-top: 1px dashed var(--border-subtle);">In This Section</span>`;
+          tocList.appendChild(subHeaderLi);
+
+          subItems.forEach(item => {
+            const sli = document.createElement("li");
+            const sa = document.createElement("a");
+            sa.className = "toc-link";
+            sa.href = `#${item.id}`;
+            sa.textContent = item.title;
+            
+            if (item.type === "group") {
+              sa.style.fontWeight = "700";
+              sa.style.fontSize = "12px";
+              sa.style.color = "var(--text-primary)";
+              sa.style.marginTop = "6px";
+            } else {
+              sa.style.paddingLeft = "10px";
+              sa.style.fontSize = "12px";
+              sa.style.color = "var(--text-muted)";
+              sa.style.lineHeight = "1.4";
+            }
+
+            sa.addEventListener("click", (e) => {
+              e.preventDefault();
+              const detailsParent = item.element.closest("details");
+              if (detailsParent && !detailsParent.open) {
+                detailsParent.open = true;
+              }
+              item.element.scrollIntoView({ behavior: "smooth", block: "start" });
+            });
+
+            sli.appendChild(sa);
+            tocList.appendChild(sli);
+          });
+        }
+
+        const container = document.getElementById("right-toc-container");
+        if (container) container.style.display = "block";
+        return;
+      }
+    }
+
+    // Default fallback for other routes
+    const items = [];
+    const headings = document.querySelectorAll("#main-viewport-content h2, #main-viewport-content h3");
+    headings.forEach((heading, idx) => {
+      const title = heading.textContent.trim();
+      if (!heading.id) heading.id = `heading-sec-${idx}`;
+      const level = heading.tagName.toLowerCase() === "h2" ? 1 : 2;
+      items.push({ id: heading.id, title: title, level: level, element: heading });
+    });
+
+    if (items.length === 0) {
+      const container = document.getElementById("right-toc-container");
+      if (container) container.style.display = "none";
+      return;
+    }
+
+    const container = document.getElementById("right-toc-container");
+    if (container) container.style.display = "block";
+
+    items.forEach(item => {
+      const li = document.createElement("li");
+      const a = document.createElement("a");
+      a.className = "toc-link";
+      a.href = `#${item.id}`;
+      a.textContent = item.title;
+
+      if (item.level === 2) {
+        a.style.paddingLeft = "14px";
+        a.style.fontSize = "12px";
+        a.style.color = "var(--text-muted)";
+      } else {
+        a.style.fontWeight = "600";
+      }
+
+      a.addEventListener("click", (e) => {
+        e.preventDefault();
+        const detailsParent = item.element.closest("details");
+        if (detailsParent && !detailsParent.open) {
+          detailsParent.open = true;
+        }
+        item.element.scrollIntoView({ behavior: "smooth", block: "start" });
+      });
+
+      li.appendChild(a);
+      tocList.appendChild(li);
+    });
+  }
           a.addEventListener("click", (e) => {
             e.preventDefault();
             this.navigateTo(sec.slug);
