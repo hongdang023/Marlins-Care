@@ -5,6 +5,7 @@ import { renderPlaybook } from './components/playbookRenderer.js';
 import { renderMasterFramework } from './components/masterFrameworkRenderer.js';
 import { renderOverview } from './components/overviewRenderer.js';
 import { renderDecisionLogs } from './components/decisionLogsRenderer.js';
+import { renderRequirements } from './components/requirementsRenderer.js';
 
 class App {
   constructor() {
@@ -103,6 +104,8 @@ class App {
       mainViewport.appendChild(renderMasterFramework((slug) => this.navigateTo(slug)));
     } else if (this.currentRoute.startsWith('/playbooks')) {
       mainViewport.appendChild(renderPlaybook(this.currentRoute, (slug) => this.navigateTo(slug)));
+    } else if (this.currentRoute.startsWith('/requirements')) {
+      mainViewport.appendChild(renderRequirements(this.currentRoute, (slug) => this.navigateTo(slug)));
     } else if (this.currentRoute.startsWith('/decision-logs')) {
       mainViewport.appendChild(renderDecisionLogs(this.currentRoute, (slug) => this.navigateTo(slug)));
     } else {
