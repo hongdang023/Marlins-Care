@@ -44,9 +44,11 @@ export const SITEMAP_CONFIG = {
           tier: "Tier 3",
           sections: [
             { name: "Overview", slug: "/playbooks/community/overview" },
-            { name: "Operating SOP", slug: "/playbooks/community/operating-sop" },
-            { name: "Deliverables & Templates", slug: "/playbooks/community/templates" },
-            { name: "Assessment Rubrics", slug: "/playbooks/community/assessment-rubrics" }
+            { name: "SOP Steps", slug: "/playbooks/community/sop-steps" },
+            { name: "Do's & Don'ts", slug: "/playbooks/community/dos-donts" },
+            { name: "Assessment Rubrics", slug: "/playbooks/community/assessment-rubrics" },
+            { name: "Decision Logs", slug: "/playbooks/community/decision-logs" },
+            { name: "FAQ", slug: "/playbooks/community/faq" }
           ]
         },
         {
@@ -57,9 +59,13 @@ export const SITEMAP_CONFIG = {
           tier: "Tier 1",
           sections: [
             { name: "Overview", slug: "/playbooks/marlins-workshop/overview" },
+            { name: "Stakeholder Mapping", slug: "/playbooks/marlins-workshop/stakeholder-mapping" },
             { name: "Session Agenda", slug: "/playbooks/marlins-workshop/session-agenda" },
-            { name: "Operating SOP", slug: "/playbooks/marlins-workshop/operating-sop" },
-            { name: "Assessment Rubrics", slug: "/playbooks/marlins-workshop/assessment-rubrics" }
+            { name: "SOP Steps", slug: "/playbooks/marlins-workshop/sop-steps" },
+            { name: "Do's & Don'ts", slug: "/playbooks/marlins-workshop/dos-donts" },
+            { name: "Assessment Rubrics", slug: "/playbooks/marlins-workshop/assessment-rubrics" },
+            { name: "Decision Logs", slug: "/playbooks/marlins-workshop/decision-logs" },
+            { name: "FAQ", slug: "/playbooks/marlins-workshop/faq" }
           ]
         },
         {
@@ -70,9 +76,13 @@ export const SITEMAP_CONFIG = {
           tier: "Tier 1",
           sections: [
             { name: "Overview", slug: "/playbooks/marlins-day/overview" },
+            { name: "Stakeholder Mapping", slug: "/playbooks/marlins-day/stakeholder-mapping" },
             { name: "Session Agenda", slug: "/playbooks/marlins-day/session-agenda" },
-            { name: "Operating SOP", slug: "/playbooks/marlins-day/operating-sop" },
-            { name: "Assessment Rubrics", slug: "/playbooks/marlins-day/assessment-rubrics" }
+            { name: "SOP Steps", slug: "/playbooks/marlins-day/sop-steps" },
+            { name: "Do's & Don'ts", slug: "/playbooks/marlins-day/dos-donts" },
+            { name: "Assessment Rubrics", slug: "/playbooks/marlins-day/assessment-rubrics" },
+            { name: "Decision Logs", slug: "/playbooks/marlins-day/decision-logs" },
+            { name: "FAQ", slug: "/playbooks/marlins-day/faq" }
           ]
         },
         {
@@ -83,9 +93,12 @@ export const SITEMAP_CONFIG = {
           tier: "Tier 2",
           sections: [
             { name: "Overview", slug: "/playbooks/trial-class/overview" },
-            { name: "Operating SOP", slug: "/playbooks/trial-class/operating-sop" },
-            { name: "Deliverables & Templates", slug: "/playbooks/trial-class/templates" },
-            { name: "Assessment Rubrics", slug: "/playbooks/trial-class/assessment-rubrics" }
+            { name: "Stakeholder Mapping", slug: "/playbooks/trial-class/stakeholder-mapping" },
+            { name: "SOP Steps", slug: "/playbooks/trial-class/sop-steps" },
+            { name: "Do's & Don'ts", slug: "/playbooks/trial-class/dos-donts" },
+            { name: "Assessment Rubrics", slug: "/playbooks/trial-class/assessment-rubrics" },
+            { name: "Decision Logs", slug: "/playbooks/trial-class/decision-logs" },
+            { name: "FAQ", slug: "/playbooks/trial-class/faq" }
           ]
         },
         {
@@ -96,9 +109,12 @@ export const SITEMAP_CONFIG = {
           tier: "Tier 2",
           sections: [
             { name: "Overview", slug: "/playbooks/live-class/overview" },
-            { name: "Operating SOP", slug: "/playbooks/live-class/operating-sop" },
-            { name: "Deliverables & Templates", slug: "/playbooks/live-class/templates" },
-            { name: "Assessment Rubrics", slug: "/playbooks/live-class/assessment-rubrics" }
+            { name: "Stakeholder Mapping", slug: "/playbooks/live-class/stakeholder-mapping" },
+            { name: "SOP Steps", slug: "/playbooks/live-class/sop-steps" },
+            { name: "Do's & Don'ts", slug: "/playbooks/live-class/dos-donts" },
+            { name: "Assessment Rubrics", slug: "/playbooks/live-class/assessment-rubrics" },
+            { name: "Decision Logs", slug: "/playbooks/live-class/decision-logs" },
+            { name: "FAQ", slug: "/playbooks/live-class/faq" }
           ]
         },
         {
@@ -111,9 +127,11 @@ export const SITEMAP_CONFIG = {
             { name: "Overview", slug: "/playbooks/family-meeting/overview" },
             { name: "Stakeholder Mapping", slug: "/playbooks/family-meeting/stakeholder-mapping" },
             { name: "Session Agenda", slug: "/playbooks/family-meeting/session-agenda" },
-            { name: "Mentor Guides", slug: "/playbooks/family-meeting/mentor-guides" },
-            { name: "Deliverables & Templates", slug: "/playbooks/family-meeting/templates" },
-            { name: "Assessment Rubrics", slug: "/playbooks/family-meeting/assessment-rubrics" }
+            { name: "SOP Steps", slug: "/playbooks/family-meeting/sop-steps" },
+            { name: "Do's & Don'ts", slug: "/playbooks/family-meeting/dos-donts" },
+            { name: "Assessment Rubrics", slug: "/playbooks/family-meeting/assessment-rubrics" },
+            { name: "Decision Logs", slug: "/playbooks/family-meeting/decision-logs" },
+            { name: "FAQ", slug: "/playbooks/family-meeting/faq" }
           ]
         },
         {
@@ -124,9 +142,12 @@ export const SITEMAP_CONFIG = {
           tier: "Tier 2",
           sections: [
             { name: "Overview", slug: "/playbooks/growth-story/overview" },
-            { name: "Operating SOP", slug: "/playbooks/growth-story/operating-sop" },
-            { name: "Deliverables & Templates", slug: "/playbooks/growth-story/templates" },
-            { name: "Assessment Rubrics", slug: "/playbooks/growth-story/assessment-rubrics" }
+            { name: "Stakeholder Mapping", slug: "/playbooks/growth-story/stakeholder-mapping" },
+            { name: "SOP Steps", slug: "/playbooks/growth-story/sop-steps" },
+            { name: "Do's & Don'ts", slug: "/playbooks/growth-story/dos-donts" },
+            { name: "Assessment Rubrics", slug: "/playbooks/growth-story/assessment-rubrics" },
+            { name: "Decision Logs", slug: "/playbooks/growth-story/decision-logs" },
+            { name: "FAQ", slug: "/playbooks/growth-story/faq" }
           ]
         },
         {
@@ -137,9 +158,11 @@ export const SITEMAP_CONFIG = {
           tier: "Tier 3",
           sections: [
             { name: "Overview", slug: "/playbooks/next-steps/overview" },
-            { name: "Operating SOP", slug: "/playbooks/next-steps/operating-sop" },
-            { name: "Deliverables & Templates", slug: "/playbooks/next-steps/templates" },
-            { name: "Assessment Rubrics", slug: "/playbooks/next-steps/assessment-rubrics" }
+            { name: "SOP Steps", slug: "/playbooks/next-steps/sop-steps" },
+            { name: "Do's & Don'ts", slug: "/playbooks/next-steps/dos-donts" },
+            { name: "Assessment Rubrics", slug: "/playbooks/next-steps/assessment-rubrics" },
+            { name: "Decision Logs", slug: "/playbooks/next-steps/decision-logs" },
+            { name: "FAQ", slug: "/playbooks/next-steps/faq" }
           ]
         },
         {
@@ -150,26 +173,28 @@ export const SITEMAP_CONFIG = {
           tier: "Tier 3",
           sections: [
             { name: "Overview", slug: "/playbooks/referrals/overview" },
-            { name: "Operating SOP", slug: "/playbooks/referrals/operating-sop" },
-            { name: "Deliverables & Templates", slug: "/playbooks/referrals/templates" },
-            { name: "Assessment Rubrics", slug: "/playbooks/referrals/assessment-rubrics" }
+            { name: "SOP Steps", slug: "/playbooks/referrals/sop-steps" },
+            { name: "Do's & Don'ts", slug: "/playbooks/referrals/dos-donts" },
+            { name: "Assessment Rubrics", slug: "/playbooks/referrals/assessment-rubrics" },
+            { name: "Decision Logs", slug: "/playbooks/referrals/decision-logs" },
+            { name: "FAQ", slug: "/playbooks/referrals/faq" }
           ]
         }
       ]
     },
     {
-      id: "decision-logs",
-      title: "Decision Logs",
-      slug: "/decision-logs",
+      id: "requirements",
+      title: "Requirements & Standards",
+      slug: "/requirements",
       subItems: [
-        { darId: "DAR-01", title: "Midpoint Pulse", slug: "/decision-logs/midpoint-pulse", desc: "DAR 01: Khảo sát pilot siêu ngắn gọn" },
-        { darId: "DAR-02", title: "Trial Support", slug: "/decision-logs/trial-support", desc: "DAR 02: Tư vấn dựa trên dữ liệu & fit judgment" },
-        { darId: "DAR-03", title: "Human Trigger", slug: "/decision-logs/human-trigger", desc: "DAR 03: Động cơ can thiệp System → Mentor" },
-        { darId: "DAR-04", title: "High-Touch", slug: "/decision-logs/high-touch", desc: "DAR 04: Kích hoạt theo khoảnh khắc ý nghĩa (Family Meeting)" },
-        { darId: "DAR-05", title: "Completion", slug: "/decision-logs/completion", desc: "DAR 05: Narrative 5 phần câu chuyện trưởng thành" }
+        { darId: "A6", title: "Playbooks Master Framework", slug: "/requirements/playbooks-framework", desc: "Quy chuẩn kiến trúc, Archetypes & Rubrics" },
+        { darId: "A7", title: "Content Standards", slug: "/requirements/content-standards", desc: "Tiêu chuẩn nội dung & Lean Section Rule" },
+        { darId: "A8", title: "DAR Template & Governance", slug: "/requirements/dar-template", desc: "Khung mẫu đánh giá CMMI DAR & Ma trận định lượng" },
+        { darId: "B1", title: "UI Design System", slug: "/requirements/ui-design-system", desc: "Hệ thống Design Tokens & Component giao diện" }
       ]
     }
   ],
+
 
   journeyPhases: [
     {

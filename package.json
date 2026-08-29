@@ -1,0 +1,14 @@
+{
+  "name": "marlins-care-knowledge-hub",
+  "version": "1.0.0",
+  "description": "Nemo12 & Marlins Care Knowledge Hub and Playbooks System",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.45"
+  }
+}

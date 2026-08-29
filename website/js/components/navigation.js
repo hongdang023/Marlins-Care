@@ -143,24 +143,21 @@ export function renderSidebar(currentRoute, onNavigate) {
     </div>
   `;
 
-  // Group 4: DECISION LOGS
+  // Group 4: REQUIREMENTS & STANDARDS
   html += `
     <div class="sidebar-group">
-      <div class="sidebar-group-title">4. Decision Logs</div>
-      <a href="#/decision-logs/midpoint-pulse" class="sidebar-item ${currentRoute === '/decision-logs/midpoint-pulse' ? 'active' : ''}">
-        <span>DAR 01: Pulse</span>
+      <div class="sidebar-group-title">4. Requirements & Standards</div>
+      <a href="#/requirements/playbooks-framework" class="sidebar-item ${currentRoute === '/requirements/playbooks-framework' ? 'active' : ''}">
+        <span>📖 Playbooks Framework (A6)</span>
       </a>
-      <a href="#/decision-logs/trial-support" class="sidebar-item ${currentRoute === '/decision-logs/trial-support' ? 'active' : ''}">
-        <span>DAR 02: Trial</span>
+      <a href="#/requirements/content-standards" class="sidebar-item ${currentRoute === '/requirements/content-standards' ? 'active' : ''}">
+        <span>✍️ Content Standards (A7)</span>
       </a>
-      <a href="#/decision-logs/human-trigger" class="sidebar-item ${currentRoute === '/decision-logs/human-trigger' ? 'active' : ''}">
-        <span>DAR 03: Trigger</span>
+      <a href="#/requirements/dar-template" class="sidebar-item ${currentRoute === '/requirements/dar-template' ? 'active' : ''}">
+        <span>📐 DAR Template (A8)</span>
       </a>
-      <a href="#/decision-logs/high-touch" class="sidebar-item ${currentRoute === '/decision-logs/high-touch' ? 'active' : ''}">
-        <span>DAR 04: High-Touch</span>
-      </a>
-      <a href="#/decision-logs/completion" class="sidebar-item ${currentRoute === '/decision-logs/completion' ? 'active' : ''}">
-        <span>DAR 05: Completion</span>
+      <a href="#/requirements/ui-design-system" class="sidebar-item ${currentRoute === '/requirements/ui-design-system' ? 'active' : ''}">
+        <span>🎨 UI Design System (B1)</span>
       </a>
     </div>
   `;
@@ -202,8 +199,8 @@ export function renderBreadcrumbs(currentRoute) {
       const subName = parts[2] ? formatSlugTitle(parts[2]) : 'Overview';
       crumbsHtml += ` <span class="breadcrumb-sep">/</span> <a href="#/playbooks/${parts[1]}/overview">Playbooks</a> <span class="breadcrumb-sep">/</span> <a href="#/playbooks/${parts[1]}/overview">${parentName}</a> <span class="breadcrumb-sep">/</span> <span style="color:var(--text-primary); font-weight:600;">${subName}</span>`;
     }
-  } else if (parts[0] === 'decision-logs') {
-    crumbsHtml += ` <span class="breadcrumb-sep">/</span> <a href="#/decision-logs/midpoint-pulse">Decision Logs</a> <span class="breadcrumb-sep">/</span> <span style="color:var(--text-primary); font-weight:600;">${formatSlugTitle(parts[1])}</span>`;
+  } else if (parts[0] === 'requirements') {
+    crumbsHtml += ` <span class="breadcrumb-sep">/</span> <a href="#/requirements/playbooks-framework">Requirements</a> <span class="breadcrumb-sep">/</span> <span style="color:var(--text-primary); font-weight:600;">${formatSlugTitle(parts[1])}</span>`;
   }
 
   container.innerHTML = crumbsHtml;
@@ -213,7 +210,7 @@ function getActiveCategory(slug) {
   if (slug.startsWith('/overview')) return 'overview';
   if (slug.startsWith('/journey')) return 'journey';
   if (slug.startsWith('/playbooks')) return 'playbooks';
-  if (slug.startsWith('/decision-logs')) return 'decision-logs';
+  if (slug.startsWith('/requirements')) return 'requirements';
   return 'overview';
 }
 
@@ -221,3 +218,4 @@ function formatSlugTitle(slug) {
   if (!slug) return '';
   return slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
+

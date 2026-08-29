@@ -67,7 +67,7 @@ export function renderMasterFramework(onNavigate) {
             Tương tác trực tiếp chiều sâu, đối thoại mở và thấu cảm gia đình. Yêu cầu kịch bản Agenda chi tiết, câu hỏi đào sâu và quan sát thực địa.
           </p>
           <div style="font-size: 12px; color: var(--text-muted);">
-            <strong>Cấu trúc chuẩn:</strong> Overview ➔ Core Mindset ➔ Stakeholder Mapping ➔ Session Agenda ➔ Mentor Guides ➔ Deliverables & Templates ➔ Assessment Rubrics
+            <strong>Cấu trúc chuẩn:</strong> Overview ➔ Stakeholder Mapping ➔ Session Agenda ➔ SOP Steps ➔ Do's & Don'ts ➔ Assessment Rubrics ➔ Decision Logs ➔ FAQ
           </div>
         </div>
 
@@ -80,7 +80,7 @@ export function renderMasterFramework(onNavigate) {
             Nhịp vận hành lặp lại tuần hoàn: Máy tự động trích xuất bằng chứng ➔ Mentor phán đoán và gắn tag định tính ➔ Báo cáo minh bạch.
           </p>
           <div style="font-size: 12px; color: var(--text-muted);">
-            <strong>Cấu trúc chuẩn:</strong> Overview ➔ Core Mindset ➔ Operating SOP ➔ Deliverables & Templates ➔ Assessment Rubrics
+            <strong>Cấu trúc chuẩn:</strong> Overview ➔ Stakeholder Mapping ➔ SOP Steps ➔ Do's & Don'ts ➔ Assessment Rubrics ➔ Decision Logs ➔ FAQ
           </div>
         </div>
 
@@ -93,7 +93,7 @@ export function renderMasterFramework(onNavigate) {
             Quy chuẩn bán tự động hóa, điều phối kênh cộng đồng Zalo/Facebook và chính sách tri ân tái tục/giới thiệu minh bạch.
           </p>
           <div style="font-size: 12px; color: var(--text-muted);">
-            <strong>Cấu trúc chuẩn:</strong> Overview ➔ Core Mindset ➔ Operating SOP ➔ Communication Templates ➔ Assessment Rubrics
+            <strong>Cấu trúc chuẩn:</strong> Overview ➔ SOP Steps ➔ Do's & Don'ts ➔ Assessment Rubrics ➔ Decision Logs ➔ FAQ
           </div>
         </div>
       </div>
