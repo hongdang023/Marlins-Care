@@ -24,7 +24,7 @@ relates_to:
 * **Trigger:** Phụ huynh đăng nhập Family Portal hoặc chia sẻ link giới thiệu.
 * **Standard Time:** Tự động hóa 100% thời gian thực (Realtime); Cấp voucher ngay sau khi giao dịch thành công.
 * **Target Audience:** Phụ huynh có con đang theo học hoặc đã hoàn thành khóa học tại Nemo12.
-* **Owner:** System & Care Team.
+* **Owner:** System.
 * **Output:** Mã giới thiệu cá nhân hóa trên Portal + Voucher 15% tự động trong ví phụ huynh + Ưu đãi 15% cho học viên mới.
 
 ---

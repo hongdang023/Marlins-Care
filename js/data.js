@@ -184,11 +184,11 @@ export const SITEMAP_CONFIG = {
       needs: ["Clear access path (F5)", "Reassurance (E1)", "Good educational choice (S3)", "Understand progress (F1)"],
       desiredExperience: "Phụ huynh hiểu rõ triết lý giáo dục, chuẩn bị chu đáo tâm thế cho con và nhận tư vấn trung thực dựa trên bằng chứng dữ liệu.",
       actionPlaybooks: [
-        { id: "social-media", title: "Social Media Playbook", code: "P01", role: "Mentor Hồng", trigger: "2 bài/tuần trên Facebook cá nhân", slug: "/playbooks/social-media" },
-        { id: "community", title: "Community Playbook", code: "P02", role: "Admin / Care", trigger: "Thường trực tương tác hàng ngày", slug: "/playbooks/community" },
-        { id: "marlins-workshop", title: "Marlins Workshop", code: "P03", role: "Anh Đắc & Mentor Hồng", trigger: "Tối Thứ 5 trực tuyến Zoom", slug: "/playbooks/marlins-workshop" },
-        { id: "marlins-day", title: "Marlins Day", code: "P04", role: "Anh Đắc & Mentor Hồng", trigger: "Chiều Chủ Nhật tại Lotte Hotel", slug: "/playbooks/marlins-day" },
-        { id: "trial-class", title: "Trial Class", code: "P05", role: "Mentor + System", trigger: "Khi đăng ký & hoàn thành 2 buổi học thử", slug: "/playbooks/trial-class", highlight: true }
+        { id: "social-media", title: "Social Media Playbook", code: "P01", role: "Mentor", trigger: "2 bài/tuần trên Facebook cá nhân", slug: "/playbooks/social-media" },
+        { id: "community", title: "Community Playbook", code: "P02", role: "Mentor & System", trigger: "Thường trực tương tác hàng ngày", slug: "/playbooks/community" },
+        { id: "marlins-workshop", title: "Marlins Workshop", code: "P03", role: "Anh Đắc (Host) & Mentor", trigger: "Tối Thứ 5 trực tuyến Zoom", slug: "/playbooks/marlins-workshop" },
+        { id: "marlins-day", title: "Marlins Day", code: "P04", role: "Anh Đắc (Host) & Mentor", trigger: "Chiều Chủ Nhật tại Lotte Hotel", slug: "/playbooks/marlins-day" },
+        { id: "trial-class", title: "Trial Class", code: "P05", role: "Mentor & System", trigger: "Khi đăng ký & hoàn thành 2 buổi học thử", slug: "/playbooks/trial-class", highlight: true }
       ]
     },
     {
@@ -201,8 +201,8 @@ export const SITEMAP_CONFIG = {
       needs: ["Understand progress (F1)", "Child perspective (F4)", "Genuinely seen (E2)", "Early risk detection (F2)", "Shared moments (S5)"],
       desiredExperience: "Nhìn thấy sự tiến bộ thực chất bằng dữ liệu, cảm nhận con được thấu hiểu qua quan sát độc bản của Mentor, có kỷ niệm gia đình ý nghĩa và nhận Growth Story kết khóa.",
       actionPlaybooks: [
-        { id: "live-class", title: "Live Class Playbook", code: "P06", role: "Dolphin Mentor", trigger: "Quy trình nhịp lặp lại hàng tuần (12 buổi) + Growth Story Buổi 12", slug: "/playbooks/live-class", highlight: true },
-        { id: "family-meeting", title: "Family Meeting", code: "P07", role: "Mentor + Gia đình", trigger: "Cột mốc đặc biệt giữa kỳ (~Buổi 5-7)", slug: "/playbooks/family-meeting", highlight: true }
+        { id: "live-class", title: "Live Class Playbook", code: "P06", role: "Mentor & System", trigger: "Quy trình nhịp lặp lại hàng tuần (12 buổi) + Growth Story Buổi 12", slug: "/playbooks/live-class", highlight: true },
+        { id: "family-meeting", title: "Family Meeting", code: "P07", role: "Mentor", trigger: "Cột mốc đặc biệt giữa kỳ (~Buổi 5-7)", slug: "/playbooks/family-meeting", highlight: true }
       ]
     },
     {
@@ -215,7 +215,7 @@ export const SITEMAP_CONFIG = {
       needs: ["Beyond grades (S2)", "Worthwhile investment (E5)", "Actionable guidance (F3)", "Belonging (S4)"],
       desiredExperience: "Tiếp tục đồng hành dài hạn và trở thành đại sứ lan tỏa giá trị giáo dục Nemo12 đến bạn bè với chính sách tri ân song phương.",
       actionPlaybooks: [
-        { id: "referrals", title: "Referrals Program", code: "P08", role: "Care / Referral Link", trigger: "Chính sách ưu đãi song phương 15% - 15% Tuition Credit", slug: "/playbooks/referrals", highlight: true }
+        { id: "referrals", title: "Referrals Program", code: "P08", role: "System", trigger: "Chính sách ưu đãi song phương 15% - 15% Tuition Credit", slug: "/playbooks/referrals", highlight: true }
       ]
     }
   ]
