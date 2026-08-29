@@ -357,11 +357,12 @@ function renderSpecificSectionContent(sectionSlug, touchpoints, config, onNaviga
         </div>
       `;
 
+    case 'sop-steps':
     case 'operating-sop':
       return `
         <div>
           <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
-            Operating SOP
+            SOP Steps
           </h2>
           ${tp.sopSteps ? `
             <div style="overflow-x:auto; margin-bottom: var(--space-5);">
@@ -384,30 +385,69 @@ function renderSpecificSectionContent(sectionSlug, touchpoints, config, onNaviga
                 </tbody>
               </table>
             </div>
-          ` : ''}
+          ` : '<p style="color:var(--text-muted);">Quy trình tác nghiệp đang được đồng bộ.</p>'}
+        </div>
+      `;
 
-          <!-- Do's & Don'ts -->
-          ${(tp.doGuidelines || tp.dontGuidelines) ? `
-            <h3 style="font-size: 15px; font-weight: 700; margin: var(--space-4) 0 var(--space-2);">Do's & Don'ts</h3>
-            <div class="do-dont-grid">
-              <div class="do-box">
-                <div class="do-title">DO'S</div>
-                <ul style="padding-left: var(--space-4); margin: 0; font-size: 12.5px;">
-                  ${tp.doGuidelines ? tp.doGuidelines.map(d => `<li style="margin-bottom:4px;">${d}</li>`).join('') : '<li>Tuân thủ nguyên tắc sư phạm</li>'}
-                </ul>
-              </div>
-              <div class="dont-box">
-                <div class="dont-title">DON'TS</div>
-                <ul style="padding-left: var(--space-4); margin: 0; font-size: 12.5px;">
-                  ${tp.dontGuidelines ? tp.dontGuidelines.map(d => `<li style="margin-bottom:4px;">${d}</li>`).join('') : '<li>Không gửi tin nhắn máy móc</li>'}
-                </ul>
-              </div>
+    case 'dos-donts':
+      return `
+        <div>
+          <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+            Do's & Don'ts
+          </h2>
+          <div class="do-dont-grid">
+            <div class="do-box">
+              <div class="do-title">DO'S (NÊN LÀM)</div>
+              <ul style="padding-left: var(--space-4); margin: 0; font-size: 13px; line-height: 1.6;">
+                ${tp.doGuidelines ? tp.doGuidelines.map(d => `<li style="margin-bottom:6px;">${d}</li>`).join('') : '<li>Lắng nghe thấu cảm và tôn trọng cảm xúc phụ huynh</li><li>Dẫn chứng bằng dữ liệu học tập thực tế của con</li>'}
+              </ul>
             </div>
-          ` : ''}
+            <div class="dont-box">
+              <div class="dont-title">DON'TS (CẤM KỴ)</div>
+              <ul style="padding-left: var(--space-4); margin: 0; font-size: 13px; line-height: 1.6;">
+                ${tp.dontGuidelines ? tp.dontGuidelines.map(d => `<li style="margin-bottom:6px;">${d}</li>`).join('') : '<li>Không gửi tin nhắn spam máy móc vô hồn</li><li>Không tranh cãi hoặc phủ nhận bối cảnh gia đình</li>'}
+              </ul>
+            </div>
+          </div>
+        </div>
+      `;
+
+    case 'decision-logs':
+      return `
+        <div>
+          <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+            Decision Logs
+          </h2>
+          <div style="background: var(--bg-surface-subtle); border-left: 3px solid var(--color-marlins); padding: var(--space-4); border-radius: var(--radius-md);">
+            <div style="font-weight: 700; color: var(--text-primary); font-size: 14px; margin-bottom: 4px;">CMMI DAR Architecture Decisions</div>
+            <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin: 0;">
+              Mọi quyết định thiết kế của Playbook này được bảo vệ bởi khung đánh giá đa phương án theo chuẩn CMMI DAR nhằm cân bằng giữa tự động hóa bằng chứng và chiều sâu thấu cảm con người.
+            </p>
+          </div>
+        </div>
+      `;
+
+    case 'faq':
+      return `
+        <div>
+          <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
+            FAQ
+          </h2>
+          <div style="display: flex; flex-direction: column; gap: var(--space-3);">
+            <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-3);">
+              <div style="font-size: 13.5px; font-weight: 700; color: var(--text-primary);">Q: Khi phụ huynh phản hồi nhạy cảm hoặc lo âu quá mức, Mentor cần xử lý thế nào?</div>
+              <div style="font-size: 13px; color: var(--text-secondary); margin-top: 4px; line-height: 1.5;">A: Lắng nghe 100%, ghi nhận cảm xúc và kích hoạt quy trình can thiệp thấu cảm 1-1 theo Dory Notes, không vội vàng giải thích số liệu máy móc.</div>
+            </div>
+            <div style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-3);">
+              <div style="font-size: 13.5px; font-weight: 700; color: var(--text-primary);">Q: Báo cáo Dory Notes cần hoàn thành trong bao lâu sau buổi học?</div>
+              <div style="font-size: 13px; color: var(--text-secondary); margin-top: 4px; line-height: 1.5;">A: Tối đa 15 phút sau khi kết thúc buổi học để đảm bảo tính thời sự và tươi mới của bằng chứng học tập.</div>
+            </div>
+          </div>
         </div>
       `;
 
     case 'templates':
+    case 'deliverables':
       return `
         <div>
           <h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border-subtle); padding-bottom: var(--space-2);">
