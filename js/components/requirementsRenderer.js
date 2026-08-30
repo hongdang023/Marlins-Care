@@ -168,6 +168,7 @@ export function renderRequirements(slug, onNavigate) {
     docContent = A9_MARKDOWN;
   }
 
+  container.innerHTML = parseMarkdownToHtml(docContent);
   return container;
 }
 
