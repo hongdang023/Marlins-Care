@@ -7,11 +7,11 @@ function renderMarkdownFragment(md) {
   
   // Math & Unicode sanitize
   html = html.replace(/\\\$/g, "$");
-  html = html.replace(/\$\s*\\le\s*\$|\$\\le\$|\\le/g, "≤");
-  html = html.replace(/\$\s*\\ge\s*\$|\$\\ge\$|\\ge/g, "≥");
-  html = html.replace(/\$\s*\\ne\s*\$|\$\\ne\$|\\ne/g, "≠");
-  html = html.replace(/\$\s*\\to\s*\$|\$\\to\$|\\to/g, "➔");
-  html = html.replace(/\$\s*\\leftrightarrow\s*\$|\$\\leftrightarrow\$|\\leftrightarrow/g, "↔");
+  html = html.replace(/\$\s*\\le\s*\$|\$\le\$|\\le/g, "≤");
+  html = html.replace(/\$\s*\\ge\s*\$|\$\ge\$|\\ge/g, "≥");
+  html = html.replace(/\$\s*\\ne\s*\$|\$\ne\$|\\ne/g, "≠");
+  html = html.replace(/\$\s*\\to\s*\$|\$\to\$|\\to/g, "➔");
+  html = html.replace(/\$\s*\\leftrightarrow\s*\$|\$\leftrightarrow\$|\\leftrightarrow/g, "↔");
   html = html.replace(/\\%/g, "%");
   html = html.replace(/\$([^\$]+)\$/g, "$1");
   
@@ -19,7 +19,8 @@ function renderMarkdownFragment(md) {
   html = html.replace(/```mermaid[\s\S]*?```/g, "");
   
   // Markdown links [text](url)
-  html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, '<a href="$2" target="_blank" rel="noopener" style="color: var(--color-primary-600); font-weight: 600; text-decoration: underline;">$1 ↗</a>');
+  html = html.replace(/\[([^\]]+)\]\((https?:\/\/[^\)]+)\)/g, "<a href=\"$2\" target=\"_blank\" rel=\"noopener\" style=\"color: var(--color-primary-600); font-weight: 600; text-decoration: underline;\">$1 ↗</a>");
+  html = html.replace(/\[([^\]]+)\]\(([^)]+)\)/g, "<span style=\"color: var(--color-primary-600); font-weight: 600;\">$1</span>");
   
   // Bold & Italic
   html = html.replace(/\*\*\*(.*?)\*\*\*/g, "<strong><em>$1</em></strong>");
@@ -27,36 +28,45 @@ function renderMarkdownFragment(md) {
   html = html.replace(/\*(.*?)\*/g, "<em>$1</em>");
   
   // Headers
-  html = html.replace(/^#### (.*$)/gim, '<h4 style="font-size: 15px; font-weight: 700; color: var(--text-primary); margin: 20px 0 10px;">$1</h4>');
-  html = html.replace(/^### (.*$)/gim, '<h3 style="font-size: 16.5px; font-weight: 700; color: var(--text-primary); margin: 22px 0 12px;">$1</h3>');
-  html = html.replace(/^## (.*$)/gim, '<h2 style="font-size: 19px; font-weight: 700; color: var(--text-primary); margin: 24px 0 12px; border-bottom: 2px solid var(--border-subtle); padding-bottom: 6px;">$1</h2>');
+  html = html.replace(/^#### (.*$)/gim, "<h4 style=\"font-size: 15px; font-weight: 700; color: var(--text-primary); margin: 20px 0 10px;\">$1</h4>");
+  html = html.replace(/^### (.*$)/gim, "<h3 style=\"font-size: 16.5px; font-weight: 700; color: var(--text-primary); margin: 22px 0 12px;\">$1</h3>");
+  html = html.replace(/^## (.*$)/gim, "<h2 style=\"font-size: 19px; font-weight: 700; color: var(--text-primary); margin: 24px 0 12px; border-bottom: 2px solid var(--border-subtle); padding-bottom: 6px;\">$1</h2>");
+  html = html.replace(/^# (.*$)/gim, "<h1 style=\"font-size: 24px; font-weight: 800; color: var(--text-primary); margin: 0 0 16px;\">$1</h1>");
   
   // Blockquotes
-  html = html.replace(/^\> (.*$)/gim, '<div style="background: var(--bg-surface-subtle); border-left: 3px solid var(--color-marlins); margin: 12px 0; padding: 12px 18px; border-radius: 0 var(--radius-md) var(--radius-md) 0; font-size: 13.5px; color: var(--text-secondary); line-height: 1.6;">$1</div>');
+  html = html.replace(/^\> (.*$)/gim, "<div style=\"background: var(--bg-surface-subtle); border-left: 3px solid var(--color-marlins); margin: 12px 0; padding: 12px 18px; border-radius: 0 var(--radius-md) var(--radius-md) 0; font-size: 13.5px; color: var(--text-secondary); line-height: 1.6;\">$1</div>");
   
   // Codeblocks
-  html = html.replace(/```text([\s\S]*?)```/g, '<pre style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-4); font-family: monospace; font-size: 12.5px; line-height: 1.6; overflow-x: auto; white-space: pre-wrap;"><code>$1</code></pre>');
-  html = html.replace(/```([\s\S]*?)```/g, '<pre style="background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-4); font-size: 12.5px; overflow-x: auto;"><code>$1</code></pre>');
+  html = html.replace(/```text([\s\S]*?)```/g, "<pre style=\"background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-4); font-family: monospace; font-size: 12.5px; line-height: 1.6; overflow-x: auto; white-space: pre-wrap;\"><code>$1</code></pre>");
+  html = html.replace(/```([\s\S]*?)```/g, "<pre style=\"background: var(--bg-surface-subtle); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); padding: var(--space-4); font-size: 12.5px; overflow-x: auto;\"><code>$1</code></pre>");
   
   // Inline code
-  html = html.replace(/`([^`]+)`/g, '<code style="background: var(--bg-surface-subtle); padding: 2px 6px; border-radius: 4px; font-size: 12.5px; border: 1px solid var(--border-subtle); font-family: monospace;">$1</code>');
+  html = html.replace(/`([^`]+)`/g, "<code style=\"background: var(--bg-surface-subtle); padding: 2px 6px; border-radius: 4px; font-size: 12.5px; border: 1px solid var(--border-subtle); font-family: monospace;\">$1</code>");
   
-  // Tables
+  // Tables & Lists line by line
   const lines = html.split("\n");
   let inTable = false;
+  let inUl = false;
+  let inOl = false;
   let tableHtml = "";
-  let newLines = [];
+  let processedLines = [];
   
   for (let i = 0; i < lines.length; i++) {
-    const line = lines[i].trim();
-    if (line.startsWith("|") && line.endsWith("|")) {
+    const line = lines[i];
+    const trimmed = line.trim();
+    
+    // Table handling
+    if (trimmed.startsWith("|") && trimmed.endsWith("|")) {
+      if (inUl) { processedLines.push("</ul>"); inUl = false; }
+      if (inOl) { processedLines.push("</ol>"); inOl = false; }
+      
       if (!inTable) {
         inTable = true;
-        tableHtml = '<div style="overflow-x:auto; margin: 16px 0;"><table class="sop-table">';
+        tableHtml = "<div style=\"overflow-x:auto; margin: 16px 0;\"><table class=\"sop-table\">";
       }
-      if (line.includes("---")) continue;
+      if (trimmed.includes("---")) continue;
       
-      const cells = line.split("|").filter((_, idx, arr) => idx > 0 && idx < arr.length - 1).map(c => c.trim());
+      const cells = trimmed.split("|").filter((_, idx, arr) => idx > 0 && idx < arr.length - 1).map(c => c.trim());
       const isHeader = !tableHtml.includes("<tbody>");
       
       if (isHeader) {
@@ -64,28 +74,46 @@ function renderMarkdownFragment(md) {
       } else {
         tableHtml += "<tr>" + cells.map(c => `<td>${c}</td>`).join("") + "</tr>";
       }
-    } else {
-      if (inTable) {
-        tableHtml += "</tbody></table></div>";
-        newLines.push(tableHtml);
-        inTable = false;
-        tableHtml = "";
-      }
-      newLines.push(lines[i]);
+      continue;
+    } else if (inTable) {
+      tableHtml += "</tbody></table></div>";
+      processedLines.push(tableHtml);
+      inTable = false;
+      tableHtml = "";
     }
+    
+    // List handling (unordered: *, -, •)
+    const ulMatch = line.match(/^(\s*)([\*\-\•])\s+(.*)$/);
+    if (ulMatch) {
+      if (inOl) { processedLines.push("</ol>"); inOl = false; }
+      if (!inUl) { processedLines.push("<ul style=\"margin: 8px 0 12px 20px; padding-left: 0;\">"); inUl = true; }
+      const indent = ulMatch[1].length > 0 ? "margin-left: 18px;" : "";
+      processedLines.push(`<li style="margin-bottom: 6px; font-size: 13.5px; color: var(--text-secondary); line-height: 1.6; ${indent}">${ulMatch[3]}</li>`);
+      continue;
+    }
+    
+    // List handling (ordered: 1., 2.)
+    const olMatch = line.match(/^(\s*)([0-9]+)\.\s+(.*)$/);
+    if (olMatch) {
+      if (inUl) { processedLines.push("</ul>"); inUl = false; }
+      if (!inOl) { processedLines.push("<ol style=\"margin: 8px 0 12px 20px; padding-left: 0;\">"); inOl = true; }
+      const indent = olMatch[1].length > 0 ? "margin-left: 18px;" : "";
+      processedLines.push(`<li style="margin-bottom: 6px; font-size: 13.5px; color: var(--text-secondary); line-height: 1.6; ${indent}">${olMatch[3]}</li>`);
+      continue;
+    }
+    
+    // Close any open lists
+    if (inUl) { processedLines.push("</ul>"); inUl = false; }
+    if (inOl) { processedLines.push("</ol>"); inOl = false; }
+    
+    processedLines.push(line);
   }
-  if (inTable) {
-    tableHtml += "</tbody></table></div>";
-    newLines.push(tableHtml);
-  }
-  html = newLines.join("\n");
   
-  // Lists
-  html = html.replace(/^\* (.*$)/gim, '<li style="margin-bottom: 6px; font-size: 13.5px; color: var(--text-secondary); line-height: 1.6;">$1</li>');
-  html = html.replace(/^• (.*$)/gim, '<li style="margin-bottom: 6px; font-size: 13.5px; color: var(--text-secondary); line-height: 1.6;">$1</li>');
-  html = html.replace(/^([0-9]+\.) (.*$)/gim, '<li style="margin-bottom: 6px; font-size: 13.5px; color: var(--text-secondary); line-height: 1.6;"><strong>$1</strong> $2</li>');
+  if (inTable) { tableHtml += "</tbody></table></div>"; processedLines.push(tableHtml); }
+  if (inUl) processedLines.push("</ul>");
+  if (inOl) processedLines.push("</ol>");
   
-  return html;
+  return processedLines.join("\n");
 }
 
 function parseMetadataHeader(rawMeta) {
