@@ -105,6 +105,7 @@ NEMO12 & MARLINS CARE KNOWLEDGE HUB
 
 | Trang (Page Title) | Route Slug | Nội dung quy chuẩn |
 | :--- | :--- | :--- |
+| **Topic Library & Pedagogy** | `/requirements/topic-library` | Hệ thống từ điển sư phạm cốt lõi (Learning Science, Learner Modeling, Environment) & 7 lăng kính tranh biện. |
 | **Playbooks Template** | `/requirements/playbooks-template` | Khung cấu trúc chuẩn mực & tiêu chuẩn biên soạn Playbook trọn gói 9 phần. |
 | **Content Standards** | `/requirements/content-standards` | Quy tắc đặt tên Section (Lean Rule $\le 3$ words), văn phong thấu cảm, không sáo rỗng. |
 | **DAR Template & Governance** | `/requirements/dar-template` | Khung đánh giá quyết định kiến trúc chuẩn CMMI DAR với ma trận chấm điểm định lượng. |

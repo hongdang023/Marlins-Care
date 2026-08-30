@@ -165,6 +165,7 @@ export const SITEMAP_CONFIG = {
       title: "Requirements & Standards",
       slug: "/requirements",
       subItems: [
+        { darId: "A9", title: "Topic Library & Pedagogy", slug: "/requirements/topic-library", desc: "Thư viện khái niệm sư phạm cốt lõi & 7 lăng kính tranh biện" },
         { darId: "A6", title: "Playbooks Framework", slug: "/requirements/playbooks-template", desc: "Quy chuẩn kiến trúc, Archetypes & Rubrics" },
         { darId: "A7", title: "Content Standards", slug: "/requirements/content-standards", desc: "Tiêu chuẩn nội dung & Lean Section Rule" },
         { darId: "A8", title: "DAR Template & Governance", slug: "/requirements/dar-template", desc: "Khung mẫu đánh giá CMMI DAR & Ma trận định lượng" },
