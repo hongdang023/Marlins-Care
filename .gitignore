@@ -1,0 +1,14 @@
+# Node dependencies
+node_modules/
+package-lock.json
+
+# VitePress build & cache
+.vitepress/dist/
+.vitepress/cache/
+
+# Cloudflare / Wrangler
+.wrangler/
+
+# OS files
+.DS_Store
+Thumbs.db
