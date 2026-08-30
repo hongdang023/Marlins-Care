@@ -43,6 +43,19 @@ Giải quyết các bài toán trọng tâm của phụ huynh trong giai đoạn
 ---
 
 <details open>
+<summary><h3>Stakeholder Mapping</h3></summary>
+
+| Stakeholder | Job cần giải quyết (JTBD) | Trial Class mang lại giá trị gì? (Delivered Value) |
+| :--- | :--- | :--- |
+| **Phụ huynh học thử** | Kiểm chứng môi trường học tập thực tế, đánh giá độ phù hợp và sự hứng thú của con trước khi quyết định đầu tư dài hạn. | Báo cáo Bằng chứng Năng lực (Trial Evidence) minh bạch trên Portal; tư vấn Fit Judgment trung thực từ Mentor. |
+| **Học sinh trải nghiệm** | Khám phá cách học mới không áp lực, tự tay hoàn thiện sản phẩm công nghệ đầu tiên và xây dựng niềm tin tự học. | Trải nghiệm học tập cá nhân hóa qua Nemo12, được Mentor khích lệ và tự tin vượt qua thử thách. |
+| **Mentor & Hệ thống** | Đo lường độ sẵn sàng, phong cách tư duy và phát hiện sớm các điểm nghẽn kiến thức/tâm lý của học sinh. | Dữ liệu định lượng thực chứng (log làm bài, tốc độ tiếp thu) để phán đoán mức độ phù hợp và thiết kế lộ trình riêng. |
+
+</details>
+
+---
+
+<details open>
 <summary><h3>SOP Steps</h3></summary>
 
 ```mermaid

@@ -75,6 +75,19 @@ Thư viện các khái niệm và trường phái sư phạm được khai thác
 ---
 
 <details>
+<summary><h3>Stakeholder Mapping</h3></summary>
+
+| Stakeholder | Job cần giải quyết (JTBD) | Marlins Workshop mang lại giá trị gì? (Delivered Value) |
+| :--- | :--- | :--- |
+| **Phụ huynh tham dự** | Tìm kiếm phương pháp đồng hành đúng đắn, giải tỏa âu lo áp lực học tập và định hướng năng lực AI cho con. | Không gian an toàn để tự phản tư (4F Reflection), thấu hiểu ngộ nhận giáo dục và nhận công cụ giao tiếp NVC/BEM thực tế. |
+| **Host & Mentor** | Lan tỏa tri thức sư phạm bản chất, lắng nghe trăn trở thực tế của phụ huynh và kết nối các gia đình cùng hệ giá trị. | Thấu hiểu các điểm mù tâm lý phụ huynh, nuôi dưỡng niềm tin tự nhiên và chuyển hóa sang Marlins Day / Trial Class. |
+| **Học sinh (Gián tiếp)** | Cần sự thấu hiểu và cách tiếp cận giáo dục tôn trọng, không áp đặt từ bố mẹ tại nhà. | Bố mẹ thay đổi góc nhìn, giảm áp lực kỳ vọng độc hại và tạo môi trường tự giác học tập tại gia đình. |
+
+</details>
+
+---
+
+<details open>
 <summary><h3>Session Agenda</h3></summary>
 
 Cấu trúc chuẩn 120 phút (20h00 – 22h00) thiết kế theo mô hình **Double Reflection Loops**:

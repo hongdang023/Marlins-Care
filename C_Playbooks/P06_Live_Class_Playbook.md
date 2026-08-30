@@ -44,6 +44,19 @@ Giải quyết các bài toán trọng tâm của phụ huynh trong hành trình
 ---
 
 <details open>
+<summary><h3>Stakeholder Mapping</h3></summary>
+
+| Stakeholder | Job cần giải quyết (JTBD) | Live Class mang lại giá trị gì? (Delivered Value) |
+| :--- | :--- | :--- |
+| **Phụ huynh chính thức** | Theo dõi sát sao sự tiến bộ thực chất của con qua 12 buổi học mà không cần phải gặng hỏi hay nghi ngờ. | Báo cáo Weekly Progress Pulse tự động hàng tuần và ấn phẩm Growth Story 5 phần lưu giữ trọn đời trên Portal. |
+| **Học sinh chính thức** | Làm chủ kiến thức nền tảng, phát triển tư duy logic/AI và hoàn thiện Portfolio sản phẩm công nghệ cá nhân. | Lớp học tương tác cao, được theo sát và hỗ trợ kịp thời; tự hào nhìn thấy sự chuyển biến của bản thân sau 12 buổi. |
+| **Mentor & Sư phạm** | Dẫn dắt hành trình chuyển biến của từng học sinh, can thiệp sư phạm sớm khi có rủi ro và đúc kết nhận xét thấu cảm. | Hệ thống tự động hóa thu thập dữ liệu (Automate Evidence) giúp Mentor toàn tâm toàn ý vào việc thấu cảm và truyền cảm hứng (Humanize Meaning). |
+
+</details>
+
+---
+
+<details open>
 <summary><h3>SOP Steps</h3></summary>
 
 ```mermaid
