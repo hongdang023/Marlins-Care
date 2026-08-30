@@ -29,50 +29,47 @@ relates_to:
 
 ---
 
-<details open>
-<summary><h3>Do's & Don'ts</h3></summary>
-
-| Do's | Don'ts |
-| :--- | :--- |
-| ✅ **Lắng nghe 70%, nói 30%:** Để phụ huynh thoải mái trải lòng và tự nhận ra bài học đồng hành cùng con. | ❌ **Không thuyết giảng một chiều:** Tránh biến buổi gặp thành lớp học lý thuyết dạy đời hay khoe khoang thành tích. |
-| ✅ **Tôn trọng an toàn tâm lý:** Bảo mật tuyệt đối mọi chia sẻ và không gian riêng tư của các gia đình. | ❌ **Không phán xét công khai:** Tuyệt đối không chỉ trích quan điểm nuôi dạy con của phụ huynh trước đám đông. |
-| ✅ **Dẫn chứng bằng dữ liệu sống:** Minh chứng phương pháp giáo dục bằng sản phẩm thực tế và dashboard học tập. | ❌ **Không chèo kéo thương mại:** Không phát tờ rơi quảng cáo hay ép phụ huynh đăng ký khóa học tại sự kiện. |
-| ✅ **Ghi nhận Dory Notes chu đáo:** Đúc kết nhanh 6 trục quan sát để gửi bản phản tư cá nhân hóa trong 24h. | ❌ **Không bỏ quên cam kết sau sự kiện:** Tránh để phụ huynh ra về mà không nhận được sự kết nối hỗ trợ tiếp theo. |
-
-</details>
 
 ---
 
-<details>
-<summary><h3>Assessment Rubrics</h3></summary>
-
-| Trụ Cột Đánh Giá | L1 (Chưa Đạt) | L2 (Cơ Bản) | L3 (Đạt Chuẩn - DoD ⭐) | L4 (Tốt) | L5 (Xuất Sắc) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Execution** | Tổ chức trễ giờ, không gian ồn ào, thiếu tài liệu. | Đúng giờ nhưng điều phối lúng túng, cháy giáo án. | **Đúng giờ, không gian sang trọng yên tĩnh, điều phối mượt mà theo đúng Agenda 120p.** | Tạo bầu không khí cực kỳ ấm cúng, thấu cảm, 100% phụ huynh hiện diện trọn vẹn. | Sự kiện kiểu mẫu, để lại ấn tượng sâu sắc không thể quên cho từng phụ huynh. |
-| **2. Insight Quality** | Không ghi nhận được thông tin gì về phụ huynh. | Chỉ ghi nhận họ tên số điện thoại thông thường. | **Ghi nhận đầy đủ Dory Notes 6 trục về nỗi đau, kỳ vọng và rào cản của từng gia đình.** | Nắm bắt chính xác điểm nghẽn tâm lý sâu kín của từng ông bố bà mẹ. | Chuyển hóa định kiến của phụ huynh ngay trong buổi gặp. |
-| **3. Parent Conversion** | Phụ huynh thất vọng bỏ về giữa chừng. | Phụ huynh nghe xong rồi về, không có tương tác sau đó. | **≥  80\% phụ huynh gia nhập Group Zalo Private; ≥  30\% đăng ký Trial Class cho con.** | Phụ huynh chủ động nhắn tin cảm ơn sâu sắc và giới thiệu bạn bè tham gia buổi sau. | Phụ huynh trở thành đại sứ đồng hành trung thành của cộng đồng Marlins. |
-
-</details>
-
 ---
+
 
 <details open>
 <summary><h3>Decision Logs</h3></summary>
 
+Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
+
 #### 📌 DAR 04: Mô Hình Tổ Chức Marlins Day: Năng Lực Thường Trực vs Sự Kiện Đột Xuất
-* **Bối cảnh:** Lựa chọn giữa việc tổ chức sự kiện hội thảo lớn mỗi quý một lần hay duy trì không gian đối thoại nhỏ hàng tuần.
-* **Quyết định chốt:** Duy trì **Marlins Day định kỳ 15h00 – 17h00 Chủ Nhật hàng tuần tại Lotte Hotel với quy mô giới hạn ≤  10 người/buổi**. Đây là năng lực chăm sóc trực tiếp thường trực (**Persistent Capability**) nuôi dưỡng niềm tin chiều sâu.
+* **Bối cảnh:** Lựa chọn giữa việc tổ chức hội thảo quy mô lớn hàng quý hay duy trì không gian đối thoại nhóm nhỏ hàng tuần.
+
+| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Hội Thảo Quy Mô Lớn Hàng Quý (> 100 người) | Option B: Đối Thoại Nhóm Nhỏ Thường Trực Chiều Chủ Nhật (≤ 10 người) ⭐ |
+| :--- | :---: | :---: | :---: |
+| **C1: Chiều Sâu Thấu Cảm & Tương Tác 1-1 (Empathy Depth)** | W4 | 2.0 / 5 (8.0) | 4.8 / 5 (19.2) |
+| **C2: Tính Ổn Định & Dễ Dự Đoán (Predictability)** | W3 | 2.5 / 5 (7.5) | 5.0 / 5 (15.0) |
+| **C3: Tối Ưu Chi Phí & Nhân Sự Vận Hành (Cost & Ops)** | W3 | 3.0 / 5 (9.0) | 4.6 / 5 (13.8) |
+| **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 24.5 / 50 | 48.0 / 50 (Approved ⭐) |
+| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Chi phí tổ chức cao, loãng cảm xúc và không thể lắng nghe từng phụ huynh. | Giới hạn sĩ số ≤ 10 phụ huynh/buổi, đòi hỏi tổ chức đều đặn hàng tuần thay vì làm sự kiện dồn cục. |
+
+* **Quyết định:** Duy trì Marlins Day định kỳ 15h00 – 17h00 Chủ Nhật hàng tuần tại Lotte Hotel với quy mô giới hạn ≤ 10 người/buổi. Đây là năng lực chăm sóc trực tiếp thường trực (Persistent Capability) nuôi dưỡng niềm tin chiều sâu.
 
 </details>
+
 ---
 
 <details>
 <summary><h3>FAQ</h3></summary>
 
-#### Nhóm 1: Về Quy Trình Vận Hành & Hỗ Trợ
-* **Quy trình này có gây quá tải thời gian cho Mentor không?**  
-  👉 **A:** Mọi bước đã được chuẩn hóa và tinh gọn tối đa, kết hợp tự động hóa dữ liệu để Mentor tập trung hoàn toàn vào chất lượng thấu cảm.
-* **Khi có sự cố phát sinh ngoài kịch bản thì xử lý như thế nào?**  
-  👉 **A:** Mentor kích hoạt nguyên tắc trung thực và chủ động liên hệ trực tiếp 1-1 với gia đình để hỗ trợ nhanh chóng.
+#### Nhóm 1: Về Địa Điểm & Trải Nghiệm Không Gian (Venue & Atmosphere)
+* **Tại sao lại chọn không gian Sky Lounge tại Lotte Hotel thay vì văn phòng lớp học thông thường?**  
+  👉 **A:** Không gian trang nhã, riêng tư và tách biệt khỏi áp lực học đường giúp phụ huynh thả lỏng tâm lý, sẵn sàng mở lòng chia sẻ những trăn trở sâu kín nhất về con.
+* **Sự kiện có thu phí tham dự của phụ huynh không?**  
+  👉 **A:** Hoàn toàn miễn phí, Nemo12 tài trợ 100% không gian và đồ uống như một lời tri ân dành cho các bậc cha mẹ luôn trăn trở đồng hành cùng con.
+
+#### Nhóm 2: Về Điều Phối Phiên Đối Thoại (Facilitation & Fishbowl)
+* **Nếu phụ huynh rụt rè không dám chia sẻ trong vòng tròn Fishbowl thì Host xử lý thế nào?**  
+  👉 **A:** Host mở đầu bằng một câu chuyện quan sát thực tế và đặt câu hỏi gợi mở nhẹ nhàng, tạo bầu không khí an toàn không phán xét để từng bố mẹ tự nhiên lên tiếng.
+* **Sau buổi gặp, phụ huynh được nhận những tài liệu gì?**  
+  👉 **A:** Mentor tổng hợp bản Dory Notes cá nhân hóa ghi nhận điểm mạnh và lộ trình gợi ý cho con gửi riêng cho gia đình trong vòng 24h.
 
 </details>

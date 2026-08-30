@@ -16,7 +16,7 @@ const fullFaqAndDarSpecs = {
         options: [
           { name: "Option A: 100% Fanpage Công Ty", desc: "Reach tự nhiên thấp, phụ huynh có tâm lý phòng thủ cao trước các trang thương mại." },
           { name: "Option B: 100% Facebook Cá Nhân Mentor", desc: "Reach cao và ấm áp nhưng rủi ro phụ thuộc cá nhân và thiếu tính kế thừa cho tổ chức." },
-          { name: "Option C: Hybrid (Mentor-First + Fanpage Curation) ⭐", desc: "Facebook cá nhân là mũi nhọn cảm xúc (Human-Led); Fanpage đóng vai trò lưu trữ và tuyển tập.", approved: true }
+          { name: "Option C: Hybrid (Mentor-First + Fanpage Curation) ⭐", desc: "Hiệu quả niềm tin cao nhất nhưng đòi hỏi Mentor duy trì tính kỷ luật xuất bản và Ops phối hợp biên tập lưu trữ.", approved: true }
         ],
         decision: "Facebook cá nhân Mentor là mũi nhọn tiếp cận cảm xúc và xây dựng niềm tin tự nhiên (Human-Led First); Fanpage/Hub của tổ chức đóng vai trò tuyển tập, khuếch đại và lưu trữ tài sản tri thức."
       },
@@ -32,7 +32,7 @@ const fullFaqAndDarSpecs = {
         options: [
           { name: "Option A: Đăng Tự Do Không Xin Phép", desc: "Rủi ro pháp lý nghiêm trọng và vi phạm quyền riêng tư của gia đình." },
           { name: "Option B: Che Mặt 100% & Ẩn Mọi Dữ Liệu", desc: "Mất hoàn toàn tính cảm xúc và bằng chứng mặt người thật việc thật." },
-          { name: "Option C: Cấu Trúc Đồng Thuận Đa Tầng (Tiered Consent) ⭐", desc: "Thu thập consent từ Form Onboarding, chỉ dùng nickname và ảnh được duyệt.", approved: true }
+          { name: "Option C: Cấu Trúc Đồng Thuận Đa Tầng (Tiered Consent) ⭐", desc: "Cần thiết lập quy trình Onboarding phân tầng chặt chẽ và lọc dữ liệu ảnh trước khi đăng tải.", approved: true }
         ],
         decision: "Thiết lập Cấu trúc Đồng thuận Đa tầng (Tiered Consent: Tier 1 Public / Tier 2 Obscured / Tier 3 Private) ngay từ Form Onboarding; ẩn danh hóa 100% họ tên thật (chỉ dùng biệt danh) và không tự ý tag phụ huynh."
       },
@@ -48,7 +48,7 @@ const fullFaqAndDarSpecs = {
         options: [
           { name: "Option A: Chèn Link Bán Khóa Học Trực Tiếp", desc: "Mất sự tin cậy, gây phản cảm và biến mentor thành nhân viên telesales." },
           { name: "Option B: Chia Sẻ Tự Nhiên Không Đo Lường", desc: "Mù mờ về nguồn tuyển sinh và không tối ưu được nỗ lực của mentor." },
-          { name: "Option C: Zero Hard-Selling + Đo Lường Ngầm Qua CRM ⭐", desc: "Không gắn link bán hàng; đo lường ngầm qua CRM Tag Lead Source và Form Khám Phá.", approved: true }
+          { name: "Option C: Zero Hard-Selling + Đo Lường Ngầm Qua CRM ⭐", desc: "Tốc độ thu lead trực tiếp chậm hơn telesales, đòi hỏi kiên trì nuôi dưỡng niềm tin và đo lường gián tiếp qua CRM.", approved: true }
         ],
         decision: "Tuyệt đối giữ nguyên tắc Zero Hard-Selling trên trang cá nhân; đo lường chuyển đổi qua CRM Tagging (Lead_Source: Mentor_Social_Reflections) và câu hỏi khám phá nguồn tại Form Onboarding."
       }
@@ -84,7 +84,7 @@ const fullFaqAndDarSpecs = {
         options: [
           { name: "Option A: Mở Chat 100% Tại Tất Cả Group", desc: "Tràn lan tin nhắn rác, phụ huynh tắt thông báo và rời nhóm hàng loạt." },
           { name: "Option B: Chỉ Dùng Kênh Thông Báo Zalo OA / Fanpage", desc: "Mất đi cảm giác ấm áp, thiếu không gian tương tác gần gũi cho phụ huynh thân thiết." },
-          { name: "Option C: 2 Public Broadcast + 1 Private Interactive ⭐", desc: "Khóa chat nhóm công chúng phát case định kỳ; mở tương tác tại nhóm riêng phụ huynh Marlins.", approved: true }
+          { name: "Option C: 2 Public Broadcast + 1 Private Interactive ⭐", desc: "Cần phân quyền quản trị viên chuẩn hóa giữa 2 nhóm phát tin và 1 nhóm tương tác chiều sâu.", approved: true }
         ],
         decision: "Áp dụng mô hình 02 Public Groups cài đặt Broadcast 1 chiều (Low Maintenance, không spam) để phát Case Study tuần + 01 Private Group (Nemo12 - Marlins) mở chat 2 chiều cho phụ huynh sau sự kiện Marlins Day để chăm sóc sâu."
       }
@@ -119,7 +119,7 @@ const fullFaqAndDarSpecs = {
         total: ["36.5 / 50", "48.8 / 50 (Approved ⭐)"],
         options: [
           { name: "Option A: Đóng Gói 100% Khóa Học Video Tự Học LMS", desc: "Tỷ lệ hoàn thành dưới 5%, thiếu sự đồng cảm và không giải quyết được vướng mắc tức thì." },
-          { name: "Option B: Live Zoom Tối Thứ 5 + Lưu Kho Tư Liệu Family Portal ⭐", desc: "Live đối thoại trực tiếp 120p; tự động cắt clip đúc kết lưu trên Portal cho bố mẹ xem lại.", approved: true }
+          { name: "Option B: Live Zoom Tối Thứ 5 + Lưu Kho Tư Liệu Family Portal ⭐", desc: "Đòi hỏi Host cam kết lịch trực tiếp tối Thứ 5 và đội ngũ kỹ thuật cắt ghép video lưu trữ Portal.", approved: true }
         ],
         decision: "Tổ chức Live Zoom tương tác trực tiếp 120 phút tối Thứ 5 hàng tuần do Anh Đắc chủ trì; toàn bộ nội dung được biên tập tinh gọn lưu trữ trên Family Portal."
       },
@@ -134,7 +134,7 @@ const fullFaqAndDarSpecs = {
         total: ["26.0 / 50", "47.9 / 50 (Approved ⭐)"],
         options: [
           { name: "Option A: 60 Phút Thuyết Trình Một Chiều", desc: "Chỉ kịp nói lý thuyết bề mặt, không có thời gian đối thoại và chia phòng thực hành." },
-          { name: "Option B: 120 Phút Đa Tầng (40p Khung + 40p Breakout + 40p Q&A) ⭐", desc: "Cấu trúc khoa học, bố mẹ được thảo luận nhóm nhỏ và giải quyết trăn trở thực tế.", approved: true }
+          { name: "Option B: 120 Phút Đa Tầng (40p Khung + 40p Breakout + 40p Q&A) ⭐", desc: "Yêu cầu Host điều phối Breakout Room linh hoạt và phân bổ thời gian kỷ luật để không cháy giáo án.", approved: true }
         ],
         decision: "Chuẩn hóa thời lượng 120 phút (20h00 - 22h00 tối Thứ 5) với cấu trúc 3 chặng cân bằng giữa truyền đạt kiến thức, thực hành nhóm nhỏ và giải đáp cá nhân hóa."
       }
@@ -169,7 +169,7 @@ const fullFaqAndDarSpecs = {
         total: ["24.5 / 50", "48.0 / 50 (Approved ⭐)"],
         options: [
           { name: "Option A: Hội Thảo Quy Mô Lớn Hàng Quý (> 100 người)", desc: "Chi phí tổ chức cao, loãng cảm xúc và không thể lắng nghe từng phụ huynh." },
-          { name: "Option B: Đối Thoại Nhóm Nhỏ Thường Trực Chiều Chủ Nhật (≤ 10 người) ⭐", desc: "Không gian Fishbowl ấm cúng tại Lotte Hotel, kết nối sâu sắc từng gia đình.", approved: true }
+          { name: "Option B: Đối Thoại Nhóm Nhỏ Thường Trực Chiều Chủ Nhật (≤ 10 người) ⭐", desc: "Giới hạn sĩ số ≤ 10 phụ huynh/buổi, đòi hỏi tổ chức đều đặn hàng tuần thay vì làm sự kiện dồn cục.", approved: true }
         ],
         decision: "Duy trì Marlins Day định kỳ 15h00 – 17h00 Chủ Nhật hàng tuần tại Lotte Hotel với quy mô giới hạn ≤ 10 người/buổi. Đây là năng lực chăm sóc trực tiếp thường trực (Persistent Capability) nuôi dưỡng niềm tin chiều sâu."
       }
@@ -205,7 +205,7 @@ const fullFaqAndDarSpecs = {
         options: [
           { name: "Option A: 100% Hệ Thống Tự Động Gửi Báo Cáo", desc: "Nhanh nhưng khô khan, thiếu sự thấu cảm bối cảnh riêng của từng đứa trẻ." },
           { name: "Option B: 100% Mentor Tự Nhận Xét Thủ Công", desc: "Chậm trễ, tốn nhiều thời gian và dễ rơi vào đánh giá cảm tính không số liệu." },
-          { name: "Option C: Hybrid (Hệ Thống Xuất Bằng Chứng + Mentor Tham Vấn) ⭐", desc: "Máy tự động xuất dữ liệu lên Family Portal; Mentor gọi điện tham vấn thấu cảm.", approved: true }
+          { name: "Option C: Hybrid (Hệ Thống Xuất Bằng Chứng + Mentor Tham Vấn) ⭐", desc: "Đòi hỏi Mentor dành thời gian gọi điện 1-1 thấu cảm thay vì hoàn toàn tự động hóa bằng bot.", approved: true }
         ],
         decision: "Bằng chứng năng lực và log dữ liệu được hệ thống tự động xuất bản lên Portal (System-First); Mentor chịu trách nhiệm tham vấn trực tiếp 1-1 (Human Judgment) để đảm bảo sự đồng thuận cao nhất."
       },
@@ -220,7 +220,7 @@ const fullFaqAndDarSpecs = {
         total: ["36.5 / 50", "47.9 / 50 (Approved ⭐)", "31.5 / 50"],
         options: [
           { name: "Option A: 01 Buổi Học Thử Duy Nhất", desc: "Thời gian quá ngắn, học sinh chưa kịp làm quen môi trường và bộc lộ tư duy." },
-          { name: "Option B: 02 Buổi Học Thử Kèm Poll Zalo Nhắc Lịch Trước 24h ⭐", desc: "Đủ 2 buổi để quan sát độ tiến bộ; Poll Zalo giúp kiểm soát sĩ số chuẩn xác.", approved: true },
+          { name: "Option B: 02 Buổi Học Thử Kèm Poll Zalo Nhắc Lịch Trước 24h ⭐", desc: "Cần nhân sự theo dõi Poll Zalo trước 24h và sắp xếp lịch bù linh hoạt nếu học sinh vắng 1 buổi.", approved: true },
           { name: "Option C: 04 Buổi Học Thử Dài Ngày", desc: "Gây quá tải vận hành cho mentor và giảm tính cam kết của gia đình." }
         ],
         decision: "Áp dụng mô hình 02 buổi Trial miễn phí để học sinh đủ thời gian bộc lộ phong cách tư duy; tích hợp Poll Zalo trước 24h tại Bước 1 để kiểm soát sĩ số chủ động."
@@ -236,7 +236,7 @@ const fullFaqAndDarSpecs = {
         total: ["24.0 / 50", "46.0 / 50 (Approved ⭐)"],
         options: [
           { name: "Option A: Nhận 100% Học Sinh Để Đạt Chỉ Tiêu Tuyển Sinh", desc: "Gây quá tải cho học sinh, giảm chất lượng lớp học và làm mất uy tín đường dài." },
-          { name: "Option B: Trung Thực Từ Chối & Trao Lộ Trình Tự Học Bổ Trợ ⭐", desc: "Bảo vệ quyền lợi của con, phụ huynh nể phục sự trung thực và quay lại khi phù hợp.", approved: true }
+          { name: "Option B: Trung Thực Từ Chối & Trao Lộ Trình Tự Học Bổ Trợ ⭐", desc: "Chấp nhận hy sinh chỉ tiêu doanh số ngắn hạn để bảo toàn văn hóa học tập và chất lượng đồng hành.", approved: true }
         ],
         decision: "Mentor tuyệt đối không vì áp lực doanh số mà nhận học sinh chưa phù hợp; sẵn sàng từ chối trung thực và trao lộ trình tự học tại nhà trên Portal."
       }
@@ -271,7 +271,7 @@ const fullFaqAndDarSpecs = {
         total: ["29.9 / 50", "49.1 / 50 (Approved ⭐)"],
         options: [
           { name: "Option A: Soạn Báo Cáo Dài Hàng Trang Mỗi Tuần", desc: "Phụ huynh không có thời gian đọc, mentor kiệt sức vì làm báo cáo hình thức." },
-          { name: "Option B: Weekly Pulse 3 Dòng + Link Xem Bằng Chứng Trực Tiếp ⭐", desc: "Tự động xuất 3 dòng trọng tâm (Điểm sáng, Điểm nghẽn, Hành động) kèm link Portal.", approved: true }
+          { name: "Option B: Weekly Pulse 3 Dòng + Link Xem Bằng Chứng Trực Tiếp ⭐", desc: "Đòi hỏi hệ thống log bằng chứng học tập phải hoạt động ổn định và Mentor cập nhật đúng SLA 24h sau buổi học.", approved: true }
         ],
         decision: "Áp dụng định dạng Weekly Pulse 3 Dòng siêu tinh gọn gửi qua Zalo mỗi tuần, kết nối trực tiếp với dashboard bằng chứng trên Family Portal."
       },
@@ -286,7 +286,7 @@ const fullFaqAndDarSpecs = {
         total: ["20.0 / 50", "49.0 / 50 (Approved ⭐)"],
         options: [
           { name: "Option A: Bảng Điểm Số & Nhận Xét Chung Chung", desc: "Vô hồn, dễ gây so sánh điểm số tiêu cực và không lột tả được nỗ lực của con." },
-          { name: "Option B: Ấn Phẩm Kể Chuyện Growth Story 5 Phần Cá Nhân Hóa ⭐", desc: "Khắc họa sinh động 5 chặng chuyển biến tư duy, lưu giữ như kỷ vật vô giá của gia đình.", approved: true }
+          { name: "Option B: Ấn Phẩm Kể Chuyện Growth Story 5 Phần Cá Nhân Hóa ⭐", desc: "Cần kết hợp log dữ liệu tự động từ hệ thống và nhận xét cá nhân hóa của Mentor trước Buổi 12.", approved: true }
         ],
         decision: "Đóng gói toàn bộ hành trình 12 buổi thành ấn phẩm Growth Story 5 phần gửi tặng gia đình vào Buổi 12, biến thành tựu học tập thành niềm tự hào kết nối cha mẹ và con cái."
       }
@@ -321,7 +321,7 @@ const fullFaqAndDarSpecs = {
         total: ["25.0 / 50", "49.1 / 50 (Approved ⭐)"],
         options: [
           { name: "Option A: Họp Phụ Huynh Bắt Buộc Cả Lớp Cùng Lúc", desc: "Hình thức hành chính rập khuôn, không giải quyết được vấn đề riêng của từng nhà." },
-          { name: "Option B: Gặp Gỡ 1-1 Theo Khoảnh Khắc Ý Nghĩa (Meaningful Moments) ⭐", desc: "Kích hoạt khi học sinh bứt phá vượt bậc hoặc gặp điểm nghẽn tâm lý cần gỡ rối.", approved: true }
+          { name: "Option B: Gặp Gỡ 1-1 Theo Khoảnh Khắc Ý Nghĩa (Meaningful Moments) ⭐", desc: "Số lượng cuộc gặp ít hơn nhưng đòi hỏi chuẩn bị Family Notes 6 trục kỹ lưỡng trước khi gặp.", approved: true }
         ],
         decision: "Chỉ tổ chức Family Meeting 1-1 khi xuất hiện khoảnh khắc ý nghĩa (High-touch Meaningful Moments) hoặc cột mốc giữa kỳ (~Buổi 5-7), đảm bảo mỗi cuộc gặp đều mang lại giá trị độc bản."
       }
@@ -356,7 +356,7 @@ const fullFaqAndDarSpecs = {
         total: ["25.0 / 50", "49.4 / 50 (Approved ⭐)"],
         options: [
           { name: "Option A: Hoa Hồng Tiền Mặt Chiết Khấu Trực Tiếp", desc: "Thương mại hóa mối quan hệ phụ huynh, làm giảm giá trị và uy tín cao quý của giáo dục." },
-          { name: "Option B: Chính Sách Tri Ân Song Phương 15% - 15% Tuition Credit ⭐", desc: "Tặng 15% học phí cho cả gia đình giới thiệu và gia đình mới, tự động cấp mã qua Portal.", approved: true }
+          { name: "Option B: Chính Sách Tri Ân Song Phương 15% - 15% Tuition Credit ⭐", desc: "Học phí tích lũy dạng credit giáo dục trên hệ thống, không tạo doanh thu tiền mặt tức thì từ phí hoa hồng.", approved: true }
         ],
         decision: "Áp dụng chính sách Tri Ân Song Phương 15% - 15% Tuition Credit tự động kích hoạt trên Family Portal, tuyệt đối không dùng hoa hồng tiền mặt thương mại."
       }

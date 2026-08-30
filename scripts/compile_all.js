@@ -305,18 +305,17 @@ function formatDarSection(md) {
       currentDar = {
         title: cleanTitle(title),
         context: "",
-        options: [],
+        tableLines: [],
         decision: ""
       };
-    } else if (line.startsWith("* **Bối cảnh:**")) {
-      if (currentDar) currentDar.context = line.replace("* **Bối cảnh:**", "").trim();
-    } else if (line.startsWith("* *Option") || line.startsWith("  * *Option") || line.startsWith("* Option") || line.startsWith("- Option")) {
+    } else if (line.startsWith("* **Bối cảnh:**") || line.startsWith("**Bối cảnh:**") || line.startsWith("Bối cảnh:")) {
+      if (currentDar) currentDar.context = line.replace(/^\*?\s*\*\*Bối cảnh:\*\*\s*/, "").replace(/^Bối cảnh:\s*/, "").trim();
+    } else if (line.startsWith("|") && line.endsWith("|")) {
       if (currentDar) {
-        const optText = line.replace(/^\s*[\*\-]+\s*/, "").trim();
-        currentDar.options.push(optText);
+        currentDar.tableLines.push(line);
       }
-    } else if (line.startsWith("* **Quyết định:**")) {
-      if (currentDar) currentDar.decision = line.replace("* **Quyết định:**", "").trim();
+    } else if (line.startsWith("* **Quyết định:**") || line.startsWith("**Quyết định:**") || line.startsWith("Quyết định:")) {
+      if (currentDar) currentDar.decision = line.replace(/^\*?\s*\*\*Quyết định:\*\*\s*/, "").replace(/^Quyết định:\s*/, "").trim();
     }
   }
   if (currentDar) dars.push(currentDar);
@@ -325,92 +324,110 @@ function formatDarSection(md) {
   
   dars.forEach((dar, idx) => {
     let optionsMatrixHtml = "";
-    if (dar.options && dar.options.length > 0) {
-      const parsedOpts = dar.options.map(opt => {
-        let name = opt;
-        let score = "—";
-        let rationale = "";
-        const isApproved = opt.includes("⭐") || opt.includes("Approved") || opt.includes("Phê duyệt");
+    if (dar.tableLines && dar.tableLines.length >= 2) {
+      const parsedRows = [];
+      dar.tableLines.forEach(tLine => {
+        if (tLine.includes("---")) return; // skip markdown divider
+        const cells = tLine.split("|").filter((_, cIdx, arr) => cIdx > 0 && cIdx < arr.length - 1).map(c => c.trim());
+        if (cells.length > 0) parsedRows.push(cells);
+      });
+      
+      if (parsedRows.length >= 2) {
+        const headerRow = parsedRows[0];
+        // Col 0: Criteria header, Col 1: Weight header, Col 2..N: Options
+        const optionHeaders = headerRow.slice(2).map(h => {
+          const isApproved = h.includes("⭐") || h.includes("Approved") || h.includes("Phê duyệt");
+          const cleanName = h.replace(/\*\*/g, "").replace(/\*/g, "").replace(/⭐/g, "").replace(/\(Approved\)/gi, "").trim();
+          return { name: cleanName, isApproved, raw: h };
+        });
         
-        const m = opt.match(/^\*?(Option [A-Z][^\:\*]*)\*?[\:\*]*\s*([0-9\/\s\w\(\)\★\⭐]+)?\s*[\—\–\-]\s*(.*)$/i);
-        if (m) {
-          name = m[1].trim();
-          score = m[2] ? m[2].replace(/\*\*/g, "").trim() : "—";
-          rationale = m[3] ? m[3].replace(/\*\*/g, "<strong>").replace(/\*\*/g, "</strong>").trim() : "";
-        } else {
-          const parts = opt.split(/[\—\–\-]/);
-          if (parts.length > 1) {
-            name = parts[0].trim();
-            rationale = parts.slice(1).join("—").trim();
+        let tbodyHtml = "";
+        for (let r = 1; r < parsedRows.length; r++) {
+          const row = parsedRows[r];
+          const col0 = row[0] || "";
+          const col1 = row[1] || "";
+          const optionCells = row.slice(2);
+          
+          const isTotalRow = col0.toUpperCase().includes("TỔNG") || col0.toUpperCase().includes("TOTAL");
+          const isTradeoffRow = col0.toUpperCase().includes("ĐÁNH ĐỔI") || col0.toUpperCase().includes("TRADE-OFF");
+          
+          if (isTotalRow) {
+            tbodyHtml += `
+              <tr style="border-top: 2px solid var(--border-subtle); background: var(--bg-surface-subtle); font-weight: 700;">
+                <td style="padding: 10px 12px; font-weight: 700;">${col0.replace(/\*\*/g, "")}</td>
+                <td style="text-align: center; padding: 10px 12px;"><span class="badge badge-system" style="font-weight: 700;">${col1.replace(/\*\*/g, "")}</span></td>
+                ${optionCells.map((val, optIdx) => {
+                  const opt = optionHeaders[optIdx] || {};
+                  const isApp = opt.isApproved || val.includes("Approved") || val.includes("⭐");
+                  const cleanVal = val.replace(/\*\*/g, "").replace(/\*/g, "").trim();
+                  return `
+                    <td style="text-align: center; padding: 10px 12px; ${isApp ? "background: rgba(16, 185, 129, 0.12); color: #059669;" : ""}">
+                      <span style="font-size: 13.5px; font-weight: ${isApp ? "800" : "700"}; ${isApp ? "color: #059669;" : "color: var(--text-primary);"}">
+                        ${cleanVal}
+                      </span>
+                    </td>
+                  `;
+                }).join("")}
+              </tr>
+            `;
+          } else if (isTradeoffRow) {
+            tbodyHtml += `
+              <tr>
+                <td style="font-weight: 600; color: var(--text-muted); padding: 10px 12px; vertical-align: top;">${col0.replace(/\*\*/g, "")}</td>
+                <td style="text-align: center; color: var(--text-muted); padding: 10px 12px; vertical-align: top;">${col1.replace(/\*\*/g, "")}</td>
+                ${optionCells.map((val, optIdx) => {
+                  const opt = optionHeaders[optIdx] || {};
+                  const isApp = opt.isApproved;
+                  return `
+                    <td style="font-size: 12.5px; line-height: 1.5; vertical-align: top; padding: 10px 12px; ${isApp ? "background: rgba(16, 185, 129, 0.03);" : ""}">
+                      ${renderMarkdownFragment(val)}
+                    </td>
+                  `;
+                }).join("")}
+              </tr>
+            `;
+          } else {
+            // Regular Criteria row
+            tbodyHtml += `
+              <tr>
+                <td style="padding: 10px 12px;"><strong style="color: var(--text-primary);">${col0.replace(/\*\*/g, "")}</strong></td>
+                <td style="text-align: center; padding: 10px 12px;"><span class="badge badge-tag">${col1.replace(/\*\*/g, "")}</span></td>
+                ${optionCells.map((val, optIdx) => {
+                  const opt = optionHeaders[optIdx] || {};
+                  const isApp = opt.isApproved;
+                  const cleanVal = val.replace(/\*\*/g, "").replace(/\*/g, "").trim();
+                  return `
+                    <td style="text-align: center; padding: 10px 12px; ${isApp ? "background: rgba(16, 185, 129, 0.03);" : ""}">
+                      ${isApp ? `<strong>${cleanVal}</strong>` : cleanVal}
+                    </td>
+                  `;
+                }).join("")}
+              </tr>
+            `;
           }
         }
-        return { name, score, rationale, isApproved };
-      });
-
-      optionsMatrixHtml = `
-        <div style="overflow-x:auto; margin: 16px 0;">
-          <table class="sop-table" style="width:100%; border-collapse: collapse;">
-            <thead>
-              <tr>
-                <th style="width: 28%; text-align: left;">Tiêu Chí Đánh Giá (Criteria)</th>
-                <th style="width: 12%; text-align: center;">Trọng Số</th>
-                ${parsedOpts.map(o => `
-                  <th style="text-align: center; ${o.isApproved ? "background: rgba(16, 185, 129, 0.12); color: #059669;" : ""}">
-                    ${o.name} ${o.isApproved ? "⭐ (Approved)" : ""}
-                  </th>
-                `).join("")}
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td><strong>C1: Tính Khả Thi & Tinh Gọn (Feasibility)</strong></td>
-                <td style="text-align: center;"><span class="badge badge-tag">W3</span></td>
-                ${parsedOpts.map(o => `
-                  <td style="text-align: center; ${o.isApproved ? "background: rgba(16, 185, 129, 0.03);" : ""}">
-                    ${o.isApproved ? "<strong>4.8 / 5</strong> (14.4)" : "2.5 / 5 (7.5)"}
-                  </td>
-                `).join("")}
-              </tr>
-              <tr>
-                <td><strong>C2: Tác Động Niềm Tin & Thấu Cảm (Trust & Empathy)</strong></td>
-                <td style="text-align: center;"><span class="badge badge-tag">W4</span></td>
-                ${parsedOpts.map(o => `
-                  <td style="text-align: center; ${o.isApproved ? "background: rgba(16, 185, 129, 0.03);" : ""}">
-                    ${o.isApproved ? "<strong>5.0 / 5</strong> (20.0)" : "3.0 / 5 (12.0)"}
-                  </td>
-                `).join("")}
-              </tr>
-              <tr>
-                <td><strong>C3: An Toàn & Kiểm Soát Rủi Ro (Risk Control)</strong></td>
-                <td style="text-align: center;"><span class="badge badge-tag">W3</span></td>
-                ${parsedOpts.map(o => `
-                  <td style="text-align: center; ${o.isApproved ? "background: rgba(16, 185, 129, 0.03);" : ""}">
-                    ${o.isApproved ? "<strong>4.8 / 5</strong> (14.4)" : "2.0 / 5 (6.0)"}
-                  </td>
-                `).join("")}
-              </tr>
-              <tr style="border-top: 2px solid var(--border-subtle); background: var(--bg-surface-subtle); font-weight: 700;">
-                <td><strong>TỔNG ĐIỂM ĐÁNH GIÁ (TOTAL)</strong></td>
-                <td style="text-align: center;"><strong>Sum: 10</strong></td>
-                ${parsedOpts.map(o => `
-                  <td style="text-align: center; ${o.isApproved ? "background: rgba(16, 185, 129, 0.1); color: #059669;" : ""}">
-                    ${o.isApproved ? `<span style="font-size: 13.5px; font-weight: 800;">${o.score} ⭐</span>` : `<span style="color: var(--text-muted);">${o.score}</span>`}
-                  </td>
-                `).join("")}
-              </tr>
-              <tr>
-                <td style="font-weight: 600; color: var(--text-muted);">Phân Tích & Đánh Đổi (Trade-offs)</td>
-                <td style="text-align: center;">—</td>
-                ${parsedOpts.map(o => `
-                  <td style="font-size: 12.5px; line-height: 1.5; vertical-align: top; padding: 8px 10px; ${o.isApproved ? "background: rgba(16, 185, 129, 0.03);" : ""}">
-                    ${renderMarkdownFragment(o.rationale)}
-                  </td>
-                `).join("")}
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      `;
+        
+        optionsMatrixHtml = `
+          <div style="overflow-x:auto; margin: 16px 0; border: 1px solid var(--border-subtle); border-radius: var(--radius-md);">
+            <table class="sop-table" style="width:100%; border-collapse: collapse; margin: 0;">
+              <thead>
+                <tr style="background: var(--bg-surface-subtle);">
+                  <th style="width: 28%; text-align: left; padding: 10px 12px;">${headerRow[0] || "Tiêu Chí Đánh Giá (Criteria)"}</th>
+                  <th style="width: 12%; text-align: center; padding: 10px 12px;">${headerRow[1] || "Trọng Số"}</th>
+                  ${optionHeaders.map(o => `
+                    <th style="text-align: center; padding: 10px 12px; ${o.isApproved ? "background: rgba(16, 185, 129, 0.15); color: #059669; font-weight: 800;" : ""}">
+                      ${o.name} ${o.isApproved ? "⭐ (Approved)" : ""}
+                    </th>
+                  `).join("")}
+                </tr>
+              </thead>
+              <tbody>
+                ${tbodyHtml}
+              </tbody>
+            </table>
+          </div>
+        `;
+      }
     }
     
     html += `

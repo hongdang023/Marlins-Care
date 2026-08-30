@@ -29,53 +29,7 @@ relates_to:
 
 ---
 
-<details open>
-<summary><h3>Do's & Don'ts</h3></summary>
 
-| Do's | Don'ts |
-| :--- | :--- |
-| ✅ **Khóa chat ở 2 Group Public:** Giữ đúng thiết lập chỉ Trưởng/Phó nhóm gửi tin nhắn để thông tin sạch sẽ, tránh spam quảng cáo. | ❌ **Không mở chat đại trà ở Public Group:** Tránh biến nhóm cộng đồng thành nơi gửi link rác gây phiền hà cho phụ huynh. |
-| ✅ **Mở tương tác ở Group Private:** Tạo không gian thân mật, tôn trọng để các phụ huynh đã đi offline thoải mái giãi bày tâm tư. | ❌ **Không chèn bất kỳ CTA bán hàng nào:** Tuyệt đối không gắn link kêu gọi mua hàng hay ép phụ huynh làm bài test. |
-| ✅ **Kể chuyện thật, việc thật:** Dùng 100% dữ liệu quan sát thật từ Marlins Day, các buổi call tư vấn và Live Class. | ❌ **Không biến group thành chợ rao vặt:** Cấm đăng banner khuyến mãi, giảm giá sốc, chèo kéo đóng học phí. |
-| ✅ **Tôn trọng cảm xúc của bố mẹ:** Luôn chia sẻ với tinh thần thấu hiểu gỡ rối, không phán xét cách nuôi dạy con. | ❌ **Không bịa đặt câu chuyện:** Tuyệt đối không tự bịa ra các case ảo thiếu logic sư phạm. |
-
-</details>
-
----
-
-<details>
-<summary><h3>Assessment Rubrics</h3></summary>
-
-Đánh giá chất lượng vận hành Hệ thống Community Group Zalo theo 3 tiêu chuẩn phổ quát (Thang đo L1 – L5, **L3 là Definition of Done ⭐**):
-
-| Trụ Cột Đánh Giá | L1 (Chưa Đạt) | L2 (Cơ Bản) | L3 (Đạt Chuẩn - DoD ⭐) | L4 (Tốt) | L5 (Xuất Sắc) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Execution & Compliance** | Quên khóa chat ở nhóm Public để spam tràn lan; không đăng case tuần; bỏ rơi nhóm Private. | Đăng bài thất thường, nội dung sao chép qua loa, chưa phân biệt rõ cách chăm sóc nhóm Private. | **Khóa chat 2 nhóm Public chuẩn xác (Low Maintenance); đăng đều đặn 1 case/tuần; nhóm Private chăm sóc ấm áp; 100% không CTA bán hàng.** | Vận hành cực kỳ tinh gọn, tiết kiệm thời gian; nội dung case hấp dẫn, tạo độ tin cậy tự nhiên cao. | Hệ thống cộng đồng vận hành tự động mượt mà, trở thành kênh lan tỏa tri thức cốt lõi của thương hiệu. |
-| **2. Insight & Diagnosis Depth** | Phân tích hời hợt, quy chụp nguyên nhân cảm tính, không chỉ ra được mắt xích gãy. | Chỉ ra được lỗi sai nhưng chưa thuyết phục về mặt phương pháp sư phạm. | **Bóc tách chuẩn xác giữa Triệu chứng bề mặt vs Nguyên nhân gốc rễ; đưa ra bài học nhân văn, thực tế cho cha mẹ.** | Insight sắc sảo, đánh trúng điểm mù tâm lý của đại đa số phụ huynh có con học cấp 2/3. | Phụ huynh đọc case thấy hình ảnh con mình trong đó và thay đổi hoàn toàn thái độ đồng hành cùng con. |
-| **3. Trust & Organic Connection** | Phụ huynh rời nhóm vì cảm thấy bị làm phiền hoặc bị bán hàng lộ liễu. | Phụ huynh đọc bài nhưng chỉ im lặng, chưa có sự gắn kết cảm xúc. | **Phụ huynh tin tưởng, đón đọc bài chia sẻ; phụ huynh nhóm Private chủ động chia sẻ tâm sự sâu sắc với Mentor.** | Nhiều phụ huynh nhóm Private chủ động cảm ơn; tự nguyện giới thiệu bạn bè tham gia sự kiện Marlins Day. | Nuôi dưỡng niềm tin tuyệt đối; cộng đồng tự vận hành và lan tỏa uy tín giáo dục của Nemo12 một cách bền vững. |
-
-</details>
-
----
-
-<details>
-<summary><h3>FAQ</h3></summary>
-
-#### 📉 Nhóm 1: Về Tương Tác & Độ "Sống" Của Cộng Đồng (Community Engagement)
-* **Q1:** *"Group Zalo khóa chat 1 chiều thì có khác gì kênh thông báo Zalo OA hay Fanpage đâu? Phụ huynh vào một thời gian thấy im ắng sẽ bấm 'Tắt thông báo' hoặc rời nhóm thì sao?"*  
-  👉 **A:** Phụ huynh bận rộn rất ghét bị 'ting ting' bởi hàng trăm tin nhắn rác. Khóa chat giữ cho nhóm sạch sẽ, mỗi tin nhắn gửi đi đều là 1 bài Case Study có giá trị thực sự cao (tỷ lệ giữ chân Retention nhóm Zalo Broadcast thực tế cao hơn nhóm mở chat 60%). Phụ huynh muốn tương tác sẽ nhắn tin riêng với Admin hoặc đăng ký tham gia Marlins Day để vào nhóm Private.
-* **Q2:** *"Sao nội dung của 2 nhóm Cấp 2 và Cấp 3 lại chia sẻ chung? Tâm lý cha mẹ có con thi Chuyên Cấp 2 khác hoàn toàn với cha mẹ có con thi Cấp 3, gửi chung bài có bị lệch tệp không?"*  
-  👉 **A:** Bản chất tư duy logic (Toán học & Lập trình) và các điểm mù tâm lý (hổng mắt xích kiến thức, phản xạ buông xuôi) có tính quy luật chung. Tuy nhiên, việc tách 2 group là để chuẩn bị sẵn tệp phân loại (Segmentation) khi cần gửi các thông báo đặc thù về kỳ thi Chuyên từng cấp mà không làm phiền nhóm còn lại.
-
-#### 🎯 Nhóm 2: Về Chuyển Đổi & Đo Lường Hiệu Quả (Acquisition & Funnel)
-* **Q3:** *"Hiện tại nguồn phụ huynh mới đổ vào 2 Group Public này từ đâu? Ai là người kéo mem và mục tiêu KPI mỗi tháng là bao nhiêu phụ huynh mới?"*  
-  👉 **A:** Nguồn đổ vào từ: (1) Bài viết viral trên Facebook cá nhân Mentor ([P01]), (2) Lời mời giới thiệu từ phụ huynh cũ (Referral), (3) Các bài chia sẻ chuyên môn trên diễn đàn. Mục tiêu không chạy theo số lượng ảo mà nhắm vào chất lượng phụ huynh thực sự quan tâm đến phương pháp học bản chất.
-
-#### 🛡️ Nhóm 3: Về Rủi Ro Bảo Mật & Đạo Đức Sư Phạm (Ethics & Risk)
-* **Q4:** *"Nếu một phụ huynh trong lớp đọc bài 'khám bệnh' thấy giống hệt chuyện nhà mình rồi nhắn tin chất vấn: 'Sao thầy lại đem chuyện con tôi lên kể cho cả thiên hạ?', em xử lý thế nào?"*  
-  👉 **A:** Tuân thủ quy chuẩn [DAR 11]: Các case study luôn được tổng hợp/trộn lẫn dữ liệu từ nhiều buổi học khác nhau và hoàn toàn tập trung vào phân tích quy luật tâm lý/học thuật, tuyệt đối không nêu chi tiết định danh. Mentor luôn gửi lời cảm ơn và giải thích chân thành rằng đây là bài học chung giúp hàng trăm cha mẹ khác thấu hiểu con mình hơn.
-
-</details>
 
 ---
 
@@ -94,3 +48,44 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 </details>
 
+---
+
+
+<details open>
+<summary><h3>Decision Logs</h3></summary>
+
+Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
+
+#### 📌 DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
+* **Bối cảnh:** Vận hành hệ thống cộng đồng phụ huynh lớn mà không làm loãng thông tin và không tốn nhân sự trực mod 24/7.
+
+| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Mở Chat 100% Tại Tất Cả Group | Option B: Chỉ Dùng Kênh Thông Báo Zalo OA / Fanpage | Option C: 2 Public Broadcast + 1 Private Interactive ⭐ |
+| :--- | :---: | :---: | :---: | :---: |
+| **C1: Tinh Gọn & Không Ô Nhiễm Tin Rác (Low Maintenance)** | W4 | 1.5 / 5 (6.0) | 4.0 / 5 (16.0) | 4.9 / 5 (19.6) |
+| **C2: Chiều Sâu Gắn Kết & Chăm Sóc Riêng (High-Touch Value)** | W4 | 2.0 / 5 (8.0) | 2.5 / 5 (10.0) | 5.0 / 5 (20.0) |
+| **C3: Khả Năng Mở Rộng Quy Mô (Scalability)** | W2 | 1.0 / 5 (2.0) | 5.0 / 5 (10.0) | 4.8 / 5 (9.6) |
+| **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 16.0 / 50 | 36.0 / 50 | 49.2 / 50 (Approved ⭐) |
+| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Tràn lan tin nhắn rác, phụ huynh tắt thông báo và rời nhóm hàng loạt. | Mất đi cảm giác ấm áp, thiếu không gian tương tác gần gũi cho phụ huynh thân thiết. | Cần phân quyền quản trị viên chuẩn hóa giữa 2 nhóm phát tin và 1 nhóm tương tác chiều sâu. |
+
+* **Quyết định:** Áp dụng mô hình 02 Public Groups cài đặt Broadcast 1 chiều (Low Maintenance, không spam) để phát Case Study tuần + 01 Private Group (Nemo12 - Marlins) mở chat 2 chiều cho phụ huynh sau sự kiện Marlins Day để chăm sóc sâu.
+
+</details>
+
+---
+
+<details>
+<summary><h3>FAQ</h3></summary>
+
+#### Nhóm 1: Về Tương Tác & Độ Sống Của Cộng Đồng (Community Engagement)
+* **Group Zalo khóa chat 1 chiều thì có bị giảm tương tác không?**  
+  👉 **A:** Phụ huynh bận rộn đánh giá cao việc nhóm không có tin rác. Mỗi bài Case Study gửi đi đều mang lại giá trị cao và tỷ lệ giữ chân phụ huynh cao hơn 60% so với nhóm mở chat.
+* **Nội dung chia sẻ cho nhóm Cấp 2 và Cấp 3 có bị lệch tệp không?**  
+  👉 **A:** Quy luật tư duy logic và điểm mù học tập có tính phổ quát; việc tách 2 nhóm giúp phân đoạn chính xác khi gửi các thông báo chuyên sâu từng kỳ thi.
+
+#### Nhóm 2: Về Đo Lường & Đạo Đức Sư Phạm (Ethics & Attribution)
+* **Nguồn phụ huynh mới gia nhập nhóm cộng đồng đến từ đâu?**  
+  👉 **A:** Đến từ bài viết phản tư trên trang cá nhân của Mentor, lời giới thiệu truyền miệng của phụ huynh cũ và các diễn đàn giáo dục uy tín.
+* **Cách bảo mật danh tính khi đưa tình huống học sinh vào Case Study?**  
+  👉 **A:** Toàn bộ tên học sinh được ẩn danh hóa bằng nickname, dữ liệu được tổng hợp từ nhiều buổi học khác nhau để phân tích bài học sư phạm mà không lộ danh tính.
+
+</details>

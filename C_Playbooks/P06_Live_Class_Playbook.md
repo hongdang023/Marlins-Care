@@ -29,58 +29,60 @@ relates_to:
 
 ---
 
-<details open>
-<summary><h3>Do's & Don'ts</h3></summary>
-
-| Do's | Don'ts |
-| :--- | :--- |
-| ✅ **Tận dụng dữ liệu Portal tự động:** Giảm thiểu thủ tục hành chính để Mentor tập trung hoàn toàn vào thấu cảm sư phạm. | ❌ **Không để bot gửi tin báo lỗi cứng nhắc:** Tránh làm phụ huynh hoang mang bằng những thông báo tự động vô cảm. |
-| ✅ **Can thiệp rủi ro bằng sự thấu cảm:** Lắng nghe bối cảnh gia đình khi con bị trễ tiến độ để cùng tìm giải pháp gỡ rối. | ❌ **Không đổ lỗi cho gia đình:** Tuyệt đối không trách móc học sinh hay phụ huynh khi con gặp khó khăn học tập. |
-| ✅ **Đúc kết Growth Story ấm áp:** Kể lại sự chuyển biến tư duy 5 chặng của con bằng những chi tiết chân thực, xúc động. | ❌ **Không nhận xét rập khuôn hàng loạt:** Cấm sao chép một câu nhận xét chung chung cho toàn bộ học sinh trong lớp. |
-| ✅ **Gửi Weekly Pulse 3 dòng đúng hạn:** Cập nhật súc tích tiến độ tuần qua Zalo vào mỗi sáng Thứ 2 hàng tuần. | ❌ **Không viết báo cáo dài dòng:** Tránh gửi văn bản dài hàng trang gây quá tải cho các bậc cha mẹ bận rộn. |
-
-</details>
 
 ---
 
-<details>
-<summary><h3>Assessment Rubrics</h3></summary>
-
-| Trụ Cột Đánh Giá | L1 (Chưa Đạt) | L2 (Cơ Bản) | L3 (Đạt Chuẩn - DoD ⭐) | L4 (Tốt) | L5 (Xuất Sắc) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Execution** | Quên xuất báo cáo tuần; không can thiệp khi học sinh vắng 2 buổi. | Gửi báo cáo trễ hạn; can thiệp rủi ro hời hợt sau 1 tuần. | **Hệ thống gửi Weekly Pulse đúng hạn; Mentor can thiệp rủi ro trong 24h; hoàn tất Growth Story trước Buổi 12.** | Xử lý các ca nguy cơ học tập cực kỳ chu đáo; kết nối phụ huynh chặt chẽ. | 100% học sinh hoàn thành khóa học với trải nghiệm tuyệt vời, không có trường hợp drop-out bất ngờ. |
-| **2. Empathy Depth** | Nhận xét Growth Story rập khuôn, vô hồn hoặc chỉ chép lại số liệu. | Nhận xét chung chung, thiếu câu chuyện hay kỷ niệm vượt khó của con. | **Nhận xét nêu bật được 1 phẩm chất độc bản và 1 khoảnh khắc bứt phá thật của học sinh; định hướng trung thực.** | Chạm sâu vào cảm xúc của cả gia đình, phụ huynh đọc và rưng rưng xúc động. | Tạo nên bước ngoặt thay đổi tích cực trong cách bố mẹ nhìn nhận và đối xử với con. |
-| **3. Retention & Love** | Phụ huynh bức xúc vì con bị bỏ rơi hoặc không tiến bộ. | Phụ huynh kết thúc khóa học trong im lặng. | **≥  60\% phụ huynh tái đăng ký khóa học tiếp theo; 100\% gia đình tự hào chia sẻ Growth Story.** | Phụ huynh chủ động gửi thư cảm ơn Mentor và đăng bài chia sẻ tự hào trên mạng xã hội. | Gia đình trở thành đại sứ trọn đời của Nemo12. |
-
-</details>
-
 ---
+
 
 <details open>
 <summary><h3>Decision Logs</h3></summary>
 
-#### 📌 DAR 03: Quy Trình Can Thiệp Nguy Cơ Học Tập (Risk Intervention Engine)
-* **Quyết định chốt:** Áp dụng chu trình *Signal ➔ Review ➔ Judgment ➔ Action*. Hệ thống chỉ cảnh báo nội bộ, tuyệt đối không gửi bot báo lỗi sang Zalo phụ huynh để tránh làm tổn thương tâm lý học sinh.
+Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 05: Cấu Trúc Ấn Phẩm Câu Chuyện Trưởng Thành (Growth Story Framework)
-* **Quyết định chốt:** Chuẩn hóa ấn phẩm theo format **5 phần nhất quán**: Máy tự động kết xuất 3 phần đầu; Mentor dành 10 phút/học sinh viết thấu cảm 2 phần sau.
+#### 📌 DAR 01: Nhịp Báo Cáo Tuần: Weekly Pulse 3 Dòng vs Báo Cáo Chi Tiết
+* **Bối cảnh:** Cân bằng giữa việc cập nhật tiến độ liên tục cho phụ huynh và việc tránh làm phiền bố mẹ bận rộn.
 
-#### 📌 DAR 15: Phân Định Trách Nhiệm Báo Cáo Tuần: System-First vs Human Context
-* **Quyết định chốt:** Báo cáo tiến độ chi tiết được xuất bản 100% tự động lên Family Portal và gửi Email; Mentor chỉ gửi tin nhắn chúc mừng và xây dựng không khí ấm áp trên Zalo.
+| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Soạn Báo Cáo Dài Hàng Trang Mỗi Tuần | Option B: Weekly Pulse 3 Dòng + Link Xem Bằng Chứng Trực Tiếp ⭐ |
+| :--- | :---: | :---: | :---: |
+| **C1: Tối Giản & Tránh Quá Tải Thông Tin (Cognitive Load)** | W4 | 2.0 / 5 (8.0) | 5.0 / 5 (20.0) |
+| **C2: Minh Bạch Bằng Chứng Học Tập (Evidence Transparency)** | W3 | 4.8 / 5 (14.4) | 4.9 / 5 (14.7) |
+| **C3: Tinh Gọn Thời Gian Của Mentor (Mentor Efficiency)** | W3 | 2.5 / 5 (7.5) | 4.8 / 5 (14.4) |
+| **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 29.9 / 50 | 49.1 / 50 (Approved ⭐) |
+| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Phụ huynh không có thời gian đọc, mentor kiệt sức vì làm báo cáo hình thức. | Đòi hỏi hệ thống log bằng chứng học tập phải hoạt động ổn định và Mentor cập nhật đúng SLA 24h sau buổi học. |
 
-#### 📌 DAR 16: Xuất Bản Kỹ Thuật Số Ấn Phẩm Growth Story Trên Family Portal
-* **Quyết định chốt:** Growth Story được xuất bản dạng web interactive trên Family Portal của từng gia đình, hỗ trợ chia sẻ 1-click lên mạng xã hội và xuất file PDF lưu niệm.
+* **Quyết định:** Áp dụng định dạng Weekly Pulse 3 Dòng siêu tinh gọn gửi qua Zalo mỗi tuần, kết nối trực tiếp với dashboard bằng chứng trên Family Portal.
+
+#### 📌 DAR 03: Ấn Phẩm Kết Khóa: Bảng Điểm Truyền Thống vs Growth Story 5 Phần
+* **Bối cảnh:** Lựa chọn hình thức tổng kết hành trình học tập 12 buổi của học sinh.
+
+| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Bảng Điểm Số & Nhận Xét Chung Chung | Option B: Ấn Phẩm Kể Chuyện Growth Story 5 Phần Cá Nhân Hóa ⭐ |
+| :--- | :---: | :---: | :---: |
+| **C1: Chiều Sâu Tôn Vinh Sự Chuyển Hóa (Transformation Depth)** | W4 | 1.5 / 5 (6.0) | 5.0 / 5 (20.0) |
+| **C2: Giá Trị Lưu Niệm & Niềm Tự Hào Của Cha Mẹ (Parent Pride)** | W4 | 1.0 / 5 (4.0) | 5.0 / 5 (20.0) |
+| **C3: Mức Độ Tự Động Hóa Dữ Liệu (Automation Feasibility)** | W2 | 5.0 / 5 (10.0) | 4.5 / 5 (9.0) |
+| **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 20.0 / 50 | 49.0 / 50 (Approved ⭐) |
+| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Vô hồn, dễ gây so sánh điểm số tiêu cực và không lột tả được nỗ lực của con. | Cần kết hợp log dữ liệu tự động từ hệ thống và nhận xét cá nhân hóa của Mentor trước Buổi 12. |
+
+* **Quyết định:** Đóng gói toàn bộ hành trình 12 buổi thành ấn phẩm Growth Story 5 phần gửi tặng gia đình vào Buổi 12, biến thành tựu học tập thành niềm tự hào kết nối cha mẹ và con cái.
 
 </details>
+
 ---
 
 <details>
 <summary><h3>FAQ</h3></summary>
 
-#### Nhóm 1: Về Quy Trình Vận Hành & Hỗ Trợ
-* **Quy trình này có gây quá tải thời gian cho Mentor không?**  
-  👉 **A:** Mọi bước đã được chuẩn hóa và tinh gọn tối đa, kết hợp tự động hóa dữ liệu để Mentor tập trung hoàn toàn vào chất lượng thấu cảm.
-* **Khi có sự cố phát sinh ngoài kịch bản thì xử lý như thế nào?**  
-  👉 **A:** Mentor kích hoạt nguyên tắc trung thực và chủ động liên hệ trực tiếp 1-1 với gia đình để hỗ trợ nhanh chóng.
+#### Nhóm 1: Về Vận Hành Lớp Học 12 Buổi (Class Operations & Support)
+* **Học sinh vắng một buổi học chính thức thì được hỗ trợ học bù như thế nào?**  
+  👉 **A:** Hệ thống tự động lưu video bài giảng và bài tập thực hành trên Family Portal; Mentor sẽ dành 15 phút đầu giờ buổi kế tiếp để gỡ rối nhanh cho con.
+* **Khi con gặp khó khăn với bài tập về nhà thì liên hệ hỗ trợ ra sao?**  
+  👉 **A:** Học sinh gửi câu hỏi trực tiếp trên hệ thống hoặc nhắn tin trong nhóm lớp để Mentor hướng dẫn gợi mở tư duy, tuyệt đối không giải hộ bài.
+
+#### Nhóm 2: Về Báo Cáo Tuần & Bằng Chứng Học Tập (Progress Tracking)
+* **Phụ huynh có thể xem sản phẩm lập trình và bài giải của con ở đâu?**  
+  👉 **A:** Mọi sản phẩm, log nỗ lực và nhận xét của Mentor được cập nhật liên tục theo thời gian thực trên Family Portal của từng học sinh.
+* **Ấn phẩm Growth Story kết khóa được bàn giao dưới định dạng nào?**  
+  👉 **A:** Gia đình nhận bản Digital tương tác trực quan trên Portal kèm bản in trang trọng lưu niệm gửi tới tận nhà sau Buổi 12.
 
 </details>
