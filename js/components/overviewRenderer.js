@@ -55,16 +55,7 @@ function renderWhyParentCare() {
       </p>
     </div>
 
-    <!-- 2. Core Philosophy (Placed right below Purpose/Mission) -->
-    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-3);">
-      Core Philosophy
-    </h2>
-    <div class="philosophy-banner" style="margin-bottom: var(--space-6);">
-      <div class="philosophy-quote">"Automate the evidence. Humanize the meaning."</div>
-      <div class="philosophy-desc">
-        Hệ thống đảm nhiệm dữ liệu chính xác, tính nhất quán và quy mô tự động. Con người (Mentors & Marlins Care) tập trung toàn lực vào việc thấu cảm bối cảnh, phán đoán chuyên môn và kiến tạo mối quan hệ tin cậy dài hạn.
-      </div>
-    </div>
+
 
     <!-- 3. Operational Questions -->
     <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-3);">
