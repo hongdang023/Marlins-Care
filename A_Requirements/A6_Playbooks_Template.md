@@ -153,7 +153,7 @@ relates_to:
 
 Tổng hợp các quyết định kiến trúc CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR XX: [Tên Quyết Định Cốt Lõi]
+#### DAR XX: [Tên Quyết Định Cốt Lõi]
 * **Bối cảnh & Trade-offs:** [Xung đột mục tiêu giữa tốc độ và chiều sâu]
 * **Ma trận đánh giá:** [Phương án được duyệt vs Các phương án bị loại bỏ]
 * **Quyết định chốt:** [Quy tắc bất biến được áp dụng]

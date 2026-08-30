@@ -102,7 +102,7 @@ relates_to:
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 12: Cơ Chế Tri Ân Song Phương: Tiền Mặt Chiết Khấu vs Tuition Credit 15% - 15%
+#### DAR 12: Cơ Chế Tri Ân Song Phương: Tiền Mặt Chiết Khấu vs Tuition Credit 15% - 15%
 * **Bối cảnh:** Lựa chọn chính sách tưởng thưởng giới thiệu phụ huynh mới vừa đảm bảo đạo đức giáo dục vừa khuyến khích lan tỏa tự nhiên.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Hoa Hồng Tiền Mặt Chiết Khấu Trực Tiếp | Option B: Chính Sách Tri Ân Song Phương 15% - 15% Tuition Credit ⭐ |
@@ -150,7 +150,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 12: Cơ Chế Tri Ân Song Phương: Tiền Mặt Chiết Khấu vs Tuition Credit 15% - 15%
+#### DAR 12: Cơ Chế Tri Ân Song Phương: Tiền Mặt Chiết Khấu vs Tuition Credit 15% - 15%
 * **Bối cảnh:** Lựa chọn chính sách tưởng thưởng giới thiệu phụ huynh mới vừa đảm bảo đạo đức giáo dục vừa khuyến khích lan tỏa tự nhiên.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Hoa Hồng Tiền Mặt Chiết Khấu Trực Tiếp | Option B: Chính Sách Tri Ân Song Phương 15% - 15% Tuition Credit ⭐ |
@@ -172,7 +172,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 12: Cơ Chế Tri Ân Song Phương: Tiền Mặt Chiết Khấu vs Tuition Credit 15% - 15%
+#### DAR 12: Cơ Chế Tri Ân Song Phương: Tiền Mặt Chiết Khấu vs Tuition Credit 15% - 15%
 * **Bối cảnh:** Lựa chọn chính sách tưởng thưởng giới thiệu phụ huynh mới vừa đảm bảo đạo đức giáo dục vừa khuyến khích lan tỏa tự nhiên.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Hoa Hồng Tiền Mặt Chiết Khấu Trực Tiếp | Option B: Chính Sách Tri Ân Song Phương 15% - 15% Tuition Credit ⭐ |
@@ -192,13 +192,13 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 <details>
 <summary><h3>FAQ</h3></summary>
 
-#### Nhóm 1: Về Cơ Chế & Điều Kiện Áp Dụng (Program Rules & Eligibility)
+#### Program Rules & Eligibility
 * **Mã giới thiệu cá nhân của phụ huynh lấy ở đâu?**  
   👉 **A:** Phụ huynh chỉ cần đăng nhập Family Portal, mã giới thiệu độc bản kèm link chia sẻ nhanh sẽ hiển thị ngay tại mục Tri Ân Đồng Hành.
 * **Tuition Credit 15% có thời hạn sử dụng trong bao lâu?**  
   👉 **A:** Credit có giá trị tích lũy vĩnh viễn và được tự động khấu trừ vào học phí các khóa học nâng cao kế tiếp của con hoặc chuyển tặng cho người thân.
 
-#### Nhóm 2: Về Tự Động Hóa & Minh Bạch (Automation & Tracking)
+#### Automation & Tracking
 * **Làm sao phụ huynh biết bạn bè của mình đã sử dụng mã giới thiệu thành công?**  
   👉 **A:** Hệ thống tự động gửi thông báo chúc mừng qua Zalo và cập nhật trạng thái voucher vào ví điện tử trên Portal của phụ huynh ngay khi giao dịch hoàn tất.
 * **Gia đình mới được nhận ưu đãi như thế nào khi đăng ký qua link giới thiệu?**  

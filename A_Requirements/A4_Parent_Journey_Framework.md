@@ -34,7 +34,7 @@ Hành trình **không phải là một checklist cứng nhắc** bắt buộc m�
 
 ---
 
-## 3. Các Nhánh Rẽ Kích Hoạt Có Điều Kiện (Triggered Branches)
+## Triggered Branches
 
 Các nhánh này chỉ xuất hiện khi có tín hiệu kích hoạt cụ thể từ hệ thống hoặc nhu cầu gia đình:
 
@@ -50,6 +50,6 @@ graph TD
 
 ---
 
-## 4. Năng Lực Đồng Hành Xuyên Suốt (Persistent Capability)
+## Persistent Capabilities
 
 * **Marlins Day (Playbook P04 - Chiều Chủ Nhật):** Không phải là sự kiện một lần duy nhất trong giai đoạn Trial. Đây là **năng lực hỗ trợ thường trực (Persistent Capability)** sẵn sàng tiếp đón phụ huynh ở bất kỳ giai đoạn nào khi họ cần gỡ rối định kiến hoặc muốn trao đổi phương pháp giáo dục.

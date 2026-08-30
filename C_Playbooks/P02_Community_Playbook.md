@@ -106,7 +106,7 @@ relates_to:
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P02:
 
-#### 📌 DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
+#### DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
 * **Bối cảnh:** Vận hành hệ thống cộng đồng phụ huynh lớn mà không làm loãng thông tin và không tốn nhân sự trực mod 24/7.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Mở chat 100% tất cả các nhóm):* 23/50 điểm — Ô nhiễm tin nhắn rác, phụ huynh tắt thông báo/rời nhóm hàng loạt.
@@ -124,7 +124,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
+#### DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
 * **Bối cảnh:** Vận hành hệ thống cộng đồng phụ huynh lớn mà không làm loãng thông tin và không tốn nhân sự trực mod 24/7.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Mở Chat 100% Tại Tất Cả Group | Option B: Chỉ Dùng Kênh Thông Báo Zalo OA / Fanpage | Option C: 2 Public Broadcast + 1 Private Interactive ⭐ |
@@ -175,7 +175,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P02:
 
-#### 📌 DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
+#### DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
 * **Bối cảnh:** Vận hành hệ thống cộng đồng phụ huynh lớn mà không làm loãng thông tin và không tốn nhân sự trực mod 24/7.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Mở chat 100% tất cả các nhóm):* 23/50 điểm — Ô nhiễm tin nhắn rác, phụ huynh tắt thông báo/rời nhóm hàng loạt.
@@ -193,7 +193,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
+#### DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
 * **Bối cảnh:** Vận hành hệ thống cộng đồng phụ huynh lớn mà không làm loãng thông tin và không tốn nhân sự trực mod 24/7.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Mở Chat 100% Tại Tất Cả Group | Option B: Chỉ Dùng Kênh Thông Báo Zalo OA / Fanpage | Option C: 2 Public Broadcast + 1 Private Interactive ⭐ |
@@ -215,7 +215,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P02:
 
-#### 📌 DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
+#### DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
 * **Bối cảnh:** Vận hành hệ thống cộng đồng phụ huynh lớn mà không làm loãng thông tin và không tốn nhân sự trực mod 24/7.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Mở chat 100% tất cả các nhóm):* 23/50 điểm — Ô nhiễm tin nhắn rác, phụ huynh tắt thông báo/rời nhóm hàng loạt.
@@ -233,7 +233,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
+#### DAR 10: Kiến Trúc Phân Tầng Group Zalo: Broadcast Public vs Interactive Private
 * **Bối cảnh:** Vận hành hệ thống cộng đồng phụ huynh lớn mà không làm loãng thông tin và không tốn nhân sự trực mod 24/7.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Mở Chat 100% Tại Tất Cả Group | Option B: Chỉ Dùng Kênh Thông Báo Zalo OA / Fanpage | Option C: 2 Public Broadcast + 1 Private Interactive ⭐ |
@@ -253,13 +253,13 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 <details>
 <summary><h3>FAQ</h3></summary>
 
-#### Nhóm 1: Về Tương Tác & Độ Sống Của Cộng Đồng (Community Engagement)
+#### Community Engagement
 * **Group Zalo khóa chat 1 chiều thì có bị giảm tương tác không?**  
   👉 **A:** Phụ huynh bận rộn đánh giá cao việc nhóm không có tin rác. Mỗi bài Case Study gửi đi đều mang lại giá trị cao và tỷ lệ giữ chân phụ huynh cao hơn 60% so với nhóm mở chat.
 * **Nội dung chia sẻ cho nhóm Cấp 2 và Cấp 3 có bị lệch tệp không?**  
   👉 **A:** Quy luật tư duy logic và điểm mù học tập có tính phổ quát; việc tách 2 nhóm giúp phân đoạn chính xác khi gửi các thông báo chuyên sâu từng kỳ thi.
 
-#### Nhóm 2: Về Đo Lường & Đạo Đức Sư Phạm (Ethics & Attribution)
+#### Ethics & Attribution
 * **Nguồn phụ huynh mới gia nhập nhóm cộng đồng đến từ đâu?**  
   👉 **A:** Đến từ bài viết phản tư trên trang cá nhân của Mentor, lời giới thiệu truyền miệng của phụ huynh cũ và các diễn đàn giáo dục uy tín.
 * **Cách bảo mật danh tính khi đưa tình huống học sinh vào Case Study?**  

@@ -147,11 +147,11 @@ relates_to:
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P07:
 
-#### 📌 DAR 04: Bộ Lọc Kích Hoạt Trải Nghiệm Chuyên Sâu (High-Touch Activation Filter)
+#### DAR 04: Bộ Lọc Kích Hoạt Trải Nghiệm Chuyên Sâu (High-Touch Activation Filter)
 * **Bối cảnh:** Điểm chạm gặp mặt trực tiếp tốn nhiều nguồn lực thời gian của nhân sự.
 * **Quyết định:** Kích hoạt dựa trên **Khoảnh khắc ý nghĩa (Meaningful Moments)**: Con có nguy cơ bỏ cuộc, gia đình có biến cố tâm lý lớn, hoặc cần căn chỉnh kỳ vọng đặc biệt. Tuyệt đối không kích hoạt theo lịch định kỳ cứng nhắc hay mức chi tiêu tài chính.
 
-#### 📌 DAR 17: Không Gian Gặp Gỡ High-Touch: Thăm Nhà Học Sinh vs Không Gian Trung Lập
+#### DAR 17: Không Gian Gặp Gỡ High-Touch: Thăm Nhà Học Sinh vs Không Gian Trung Lập
 * **Bối cảnh:** Lựa chọn địa điểm gặp mặt trực tiếp 60 phút giữa nhà học sinh (Family Tour) và quán cà phê/lounge.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (100% bắt buộc đến nhà):* 33/50 điểm — Rủi ro làm phụ huynh e ngại nếu nhà chưa gọn gàng.
@@ -159,7 +159,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
   * *Option C (In-Home First + Fallback Lounge/Cà phê linh hoạt) ⭐:* **48/50 điểm (Approved)**.
 * **Quyết định:** Áp dụng nguyên tắc **In-Home First (Ưu tiên thăm nhà)** để quan sát trọn vẹn góc học tập và tương tác tự nhiên trong gia đình; đồng thời luôn sẵn sàng **Tùy chọn không gian trung lập (Lounge / Cà phê)** để tôn trọng sự riêng tư và tạo tâm lý thoải mái cho phụ huynh.
 
-#### 📌 DAR 18: Quản Trị Vận Hành High-Touch: Thẩm Quyền Phê Duyệt & Ngân Sách
+#### DAR 18: Quản Trị Vận Hành High-Touch: Thẩm Quyền Phê Duyệt & Ngân Sách
 * **Bối cảnh:** Quản trị quy trình kích hoạt Family Tour để bắt đúng thời điểm vàng mà không làm quá tải đội ngũ.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Mentor tự do kích hoạt):* 24/50 điểm — Dễ quá tải lịch dạy, chi phí tự phát.
@@ -177,7 +177,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 05: Thời Điểm Tổ Chức Family Meeting: Bắt Buộc Định Kỳ vs Khi Có Khoảnh Khắc Ý Nghĩa
+#### DAR 05: Thời Điểm Tổ Chức Family Meeting: Bắt Buộc Định Kỳ vs Khi Có Khoảnh Khắc Ý Nghĩa
 * **Bối cảnh:** Lựa chọn thời điểm gặp gỡ trực tiếp gia đình để đạt hiệu quả thấu cảm cao nhất.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Họp Phụ Huynh Bắt Buộc Cả Lớp Cùng Lúc | Option B: Gặp Gỡ 1-1 Theo Khoảnh Khắc Ý Nghĩa (Meaningful Moments) ⭐ |
@@ -241,11 +241,11 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P07:
 
-#### 📌 DAR 04: Bộ Lọc Kích Hoạt Trải Nghiệm Chuyên Sâu (High-Touch Activation Filter)
+#### DAR 04: Bộ Lọc Kích Hoạt Trải Nghiệm Chuyên Sâu (High-Touch Activation Filter)
 * **Bối cảnh:** Điểm chạm gặp mặt trực tiếp tốn nhiều nguồn lực thời gian của nhân sự.
 * **Quyết định:** Kích hoạt dựa trên **Khoảnh khắc ý nghĩa (Meaningful Moments)**: Con có nguy cơ bỏ cuộc, gia đình có biến cố tâm lý lớn, hoặc cần căn chỉnh kỳ vọng đặc biệt. Tuyệt đối không kích hoạt theo lịch định kỳ cứng nhắc hay mức chi tiêu tài chính.
 
-#### 📌 DAR 17: Không Gian Gặp Gỡ High-Touch: Thăm Nhà Học Sinh vs Không Gian Trung Lập
+#### DAR 17: Không Gian Gặp Gỡ High-Touch: Thăm Nhà Học Sinh vs Không Gian Trung Lập
 * **Bối cảnh:** Lựa chọn địa điểm gặp mặt trực tiếp 60 phút giữa nhà học sinh (Family Tour) và quán cà phê/lounge.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (100% bắt buộc đến nhà):* 33/50 điểm — Rủi ro làm phụ huynh e ngại nếu nhà chưa gọn gàng.
@@ -253,7 +253,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
   * *Option C (In-Home First + Fallback Lounge/Cà phê linh hoạt) ⭐:* **48/50 điểm (Approved)**.
 * **Quyết định:** Áp dụng nguyên tắc **In-Home First (Ưu tiên thăm nhà)** để quan sát trọn vẹn góc học tập và tương tác tự nhiên trong gia đình; đồng thời luôn sẵn sàng **Tùy chọn không gian trung lập (Lounge / Cà phê)** để tôn trọng sự riêng tư và tạo tâm lý thoải mái cho phụ huynh.
 
-#### 📌 DAR 18: Quản Trị Vận Hành High-Touch: Thẩm Quyền Phê Duyệt & Ngân Sách
+#### DAR 18: Quản Trị Vận Hành High-Touch: Thẩm Quyền Phê Duyệt & Ngân Sách
 * **Bối cảnh:** Quản trị quy trình kích hoạt Family Tour để bắt đúng thời điểm vàng mà không làm quá tải đội ngũ.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Mentor tự do kích hoạt):* 24/50 điểm — Dễ quá tải lịch dạy, chi phí tự phát.
@@ -271,7 +271,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 05: Thời Điểm Tổ Chức Family Meeting: Bắt Buộc Định Kỳ vs Khi Có Khoảnh Khắc Ý Nghĩa
+#### DAR 05: Thời Điểm Tổ Chức Family Meeting: Bắt Buộc Định Kỳ vs Khi Có Khoảnh Khắc Ý Nghĩa
 * **Bối cảnh:** Lựa chọn thời điểm gặp gỡ trực tiếp gia đình để đạt hiệu quả thấu cảm cao nhất.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Họp Phụ Huynh Bắt Buộc Cả Lớp Cùng Lúc | Option B: Gặp Gỡ 1-1 Theo Khoảnh Khắc Ý Nghĩa (Meaningful Moments) ⭐ |
@@ -293,11 +293,11 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P07:
 
-#### 📌 DAR 04: Bộ Lọc Kích Hoạt Trải Nghiệm Chuyên Sâu (High-Touch Activation Filter)
+#### DAR 04: Bộ Lọc Kích Hoạt Trải Nghiệm Chuyên Sâu (High-Touch Activation Filter)
 * **Bối cảnh:** Điểm chạm gặp mặt trực tiếp tốn nhiều nguồn lực thời gian của nhân sự.
 * **Quyết định:** Kích hoạt dựa trên **Khoảnh khắc ý nghĩa (Meaningful Moments)**: Con có nguy cơ bỏ cuộc, gia đình có biến cố tâm lý lớn, hoặc cần căn chỉnh kỳ vọng đặc biệt. Tuyệt đối không kích hoạt theo lịch định kỳ cứng nhắc hay mức chi tiêu tài chính.
 
-#### 📌 DAR 17: Không Gian Gặp Gỡ High-Touch: Thăm Nhà Học Sinh vs Không Gian Trung Lập
+#### DAR 17: Không Gian Gặp Gỡ High-Touch: Thăm Nhà Học Sinh vs Không Gian Trung Lập
 * **Bối cảnh:** Lựa chọn địa điểm gặp mặt trực tiếp 60 phút giữa nhà học sinh (Family Tour) và quán cà phê/lounge.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (100% bắt buộc đến nhà):* 33/50 điểm — Rủi ro làm phụ huynh e ngại nếu nhà chưa gọn gàng.
@@ -305,7 +305,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
   * *Option C (In-Home First + Fallback Lounge/Cà phê linh hoạt) ⭐:* **48/50 điểm (Approved)**.
 * **Quyết định:** Áp dụng nguyên tắc **In-Home First (Ưu tiên thăm nhà)** để quan sát trọn vẹn góc học tập và tương tác tự nhiên trong gia đình; đồng thời luôn sẵn sàng **Tùy chọn không gian trung lập (Lounge / Cà phê)** để tôn trọng sự riêng tư và tạo tâm lý thoải mái cho phụ huynh.
 
-#### 📌 DAR 18: Quản Trị Vận Hành High-Touch: Thẩm Quyền Phê Duyệt & Ngân Sách
+#### DAR 18: Quản Trị Vận Hành High-Touch: Thẩm Quyền Phê Duyệt & Ngân Sách
 * **Bối cảnh:** Quản trị quy trình kích hoạt Family Tour để bắt đúng thời điểm vàng mà không làm quá tải đội ngũ.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Mentor tự do kích hoạt):* 24/50 điểm — Dễ quá tải lịch dạy, chi phí tự phát.
@@ -323,7 +323,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 05: Thời Điểm Tổ Chức Family Meeting: Bắt Buộc Định Kỳ vs Khi Có Khoảnh Khắc Ý Nghĩa
+#### DAR 05: Thời Điểm Tổ Chức Family Meeting: Bắt Buộc Định Kỳ vs Khi Có Khoảnh Khắc Ý Nghĩa
 * **Bối cảnh:** Lựa chọn thời điểm gặp gỡ trực tiếp gia đình để đạt hiệu quả thấu cảm cao nhất.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Họp Phụ Huynh Bắt Buộc Cả Lớp Cùng Lúc | Option B: Gặp Gỡ 1-1 Theo Khoảnh Khắc Ý Nghĩa (Meaningful Moments) ⭐ |
@@ -343,13 +343,13 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 <details>
 <summary><h3>FAQ</h3></summary>
 
-#### Nhóm 1: Về Chuẩn Bị & Đặt Lịch Gặp Gỡ (Scheduling & Preparation)
+#### Scheduling & Preparation
 * **Buổi Family Meeting kéo dài bao lâu và diễn ra ở đâu?**  
   👉 **A:** Thời lượng tiêu chuẩn là 60 phút, diễn ra trực tiếp tại nhà học sinh hoặc không gian yên tĩnh phù hợp do gia đình lựa chọn.
 * **Cả bố và mẹ có bắt buộc phải cùng tham dự không?**  
   👉 **A:** Nemo12 khuyến khích cả bố, mẹ và học sinh cùng hiện diện trọn vẹn để tạo sự thấu hiểu đồng thuận đa chiều trong gia đình.
 
-#### Nhóm 2: Về Kết Quả Bàn Giao (Family Notes & Next Steps)
+#### Family Notes & Next Steps
 * **Bản Family Notes 6 trục bao gồm những nội dung gì?**  
   👉 **A:** Ghi nhận 6 chiều kích: Điểm mạnh cốt lõi, Rào cản tâm lý, Phong cách tư duy, Mục tiêu gia đình, Thỏa thuận đồng hành và Kế hoạch 30 ngày tiếp theo.
 * **Sau buổi gặp, Mentor sẽ theo dõi tiến độ như thế nào?**  

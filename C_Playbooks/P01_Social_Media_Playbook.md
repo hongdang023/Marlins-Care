@@ -106,7 +106,7 @@ relates_to:
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 07: Kênh Truyền Thông: Mentor Personal Branding vs Company Fanpage
+#### DAR 07: Kênh Truyền Thông: Mentor Personal Branding vs Company Fanpage
 * **Bối cảnh:** Lựa chọn kênh truyền thông mạng xã hội giữa Facebook cá nhân của Mentor và Fanpage công ty để thu hút phụ huynh đồng hành.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 100% Fanpage Công Ty | Option B: 100% Facebook Cá Nhân Mentor | Option C: Hybrid (Mentor-First + Fanpage Curation) ⭐ |
@@ -119,7 +119,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Facebook cá nhân Mentor là mũi nhọn tiếp cận cảm xúc và xây dựng niềm tin tự nhiên (Human-Led First); Fanpage/Hub của tổ chức đóng vai trò tuyển tập, khuếch đại và lưu trữ tài sản tri thức.
 
-#### 📌 DAR 08: Quyền Riêng Tư & Bảo Vệ Hình Ảnh Trẻ Em (Child Privacy & Consent)
+#### DAR 08: Quyền Riêng Tư & Bảo Vệ Hình Ảnh Trẻ Em (Child Privacy & Consent)
 * **Bối cảnh:** Sử dụng hình ảnh và sản phẩm học sinh thực tế để tạo trust nhưng phải tuân thủ Luật Trẻ em & Nghị định 13/2023/NĐ-CP.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Đăng Tự Do Không Xin Phép | Option B: Che Mặt 100% & Ẩn Mọi Dữ Liệu | Option C: Cấu Trúc Đồng Thuận Đa Tầng (Tiered Consent) ⭐ |
@@ -132,7 +132,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Thiết lập Cấu trúc Đồng thuận Đa tầng (Tiered Consent: Tier 1 Public / Tier 2 Obscured / Tier 3 Private) ngay từ Form Onboarding; ẩn danh hóa 100% họ tên thật (chỉ dùng biệt danh) và không tự ý tag phụ huynh.
 
-#### 📌 DAR 09: Định Vị Nội Dung: Zero Hard-Selling vs Chuyển Đổi Thực Tế
+#### DAR 09: Định Vị Nội Dung: Zero Hard-Selling vs Chuyển Đổi Thực Tế
 * **Bối cảnh:** Giữ vững giá trị giáo dục phản tư chân thành, tuyệt đối không biến kênh cá nhân thành nơi bán hàng nhưng vẫn đo lường được hiệu quả.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Chèn Link Bán Khóa Học Trực Tiếp | Option B: Chia Sẻ Tự Nhiên Không Đo Lường | Option C: Zero Hard-Selling + Đo Lường Ngầm Qua CRM ⭐ |
@@ -183,7 +183,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 07: Kênh Truyền Thông: Mentor Personal Branding vs Company Fanpage
+#### DAR 07: Kênh Truyền Thông: Mentor Personal Branding vs Company Fanpage
 * **Bối cảnh:** Lựa chọn kênh truyền thông mạng xã hội giữa Facebook cá nhân của Mentor và Fanpage công ty để thu hút phụ huynh đồng hành.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 100% Fanpage Công Ty | Option B: 100% Facebook Cá Nhân Mentor | Option C: Hybrid (Mentor-First + Fanpage Curation) ⭐ |
@@ -196,7 +196,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Facebook cá nhân Mentor là mũi nhọn tiếp cận cảm xúc và xây dựng niềm tin tự nhiên (Human-Led First); Fanpage/Hub của tổ chức đóng vai trò tuyển tập, khuếch đại và lưu trữ tài sản tri thức.
 
-#### 📌 DAR 08: Quyền Riêng Tư & Bảo Vệ Hình Ảnh Trẻ Em (Child Privacy & Consent)
+#### DAR 08: Quyền Riêng Tư & Bảo Vệ Hình Ảnh Trẻ Em (Child Privacy & Consent)
 * **Bối cảnh:** Sử dụng hình ảnh và sản phẩm học sinh thực tế để tạo trust nhưng phải tuân thủ Luật Trẻ em & Nghị định 13/2023/NĐ-CP.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Đăng Tự Do Không Xin Phép | Option B: Che Mặt 100% & Ẩn Mọi Dữ Liệu | Option C: Cấu Trúc Đồng Thuận Đa Tầng (Tiered Consent) ⭐ |
@@ -209,7 +209,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Thiết lập Cấu trúc Đồng thuận Đa tầng (Tiered Consent: Tier 1 Public / Tier 2 Obscured / Tier 3 Private) ngay từ Form Onboarding; ẩn danh hóa 100% họ tên thật (chỉ dùng biệt danh) và không tự ý tag phụ huynh.
 
-#### 📌 DAR 09: Định Vị Nội Dung: Zero Hard-Selling vs Chuyển Đổi Thực Tế
+#### DAR 09: Định Vị Nội Dung: Zero Hard-Selling vs Chuyển Đổi Thực Tế
 * **Bối cảnh:** Giữ vững giá trị giáo dục phản tư chân thành, tuyệt đối không biến kênh cá nhân thành nơi bán hàng nhưng vẫn đo lường được hiệu quả.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Chèn Link Bán Khóa Học Trực Tiếp | Option B: Chia Sẻ Tự Nhiên Không Đo Lường | Option C: Zero Hard-Selling + Đo Lường Ngầm Qua CRM ⭐ |
@@ -231,7 +231,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 07: Kênh Truyền Thông: Mentor Personal Branding vs Company Fanpage
+#### DAR 07: Kênh Truyền Thông: Mentor Personal Branding vs Company Fanpage
 * **Bối cảnh:** Lựa chọn kênh truyền thông mạng xã hội giữa Facebook cá nhân của Mentor và Fanpage công ty để thu hút phụ huynh đồng hành.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 100% Fanpage Công Ty | Option B: 100% Facebook Cá Nhân Mentor | Option C: Hybrid (Mentor-First + Fanpage Curation) ⭐ |
@@ -244,7 +244,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Facebook cá nhân Mentor là mũi nhọn tiếp cận cảm xúc và xây dựng niềm tin tự nhiên (Human-Led First); Fanpage/Hub của tổ chức đóng vai trò tuyển tập, khuếch đại và lưu trữ tài sản tri thức.
 
-#### 📌 DAR 08: Quyền Riêng Tư & Bảo Vệ Hình Ảnh Trẻ Em (Child Privacy & Consent)
+#### DAR 08: Quyền Riêng Tư & Bảo Vệ Hình Ảnh Trẻ Em (Child Privacy & Consent)
 * **Bối cảnh:** Sử dụng hình ảnh và sản phẩm học sinh thực tế để tạo trust nhưng phải tuân thủ Luật Trẻ em & Nghị định 13/2023/NĐ-CP.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Đăng Tự Do Không Xin Phép | Option B: Che Mặt 100% & Ẩn Mọi Dữ Liệu | Option C: Cấu Trúc Đồng Thuận Đa Tầng (Tiered Consent) ⭐ |
@@ -257,7 +257,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Thiết lập Cấu trúc Đồng thuận Đa tầng (Tiered Consent: Tier 1 Public / Tier 2 Obscured / Tier 3 Private) ngay từ Form Onboarding; ẩn danh hóa 100% họ tên thật (chỉ dùng biệt danh) và không tự ý tag phụ huynh.
 
-#### 📌 DAR 09: Định Vị Nội Dung: Zero Hard-Selling vs Chuyển Đổi Thực Tế
+#### DAR 09: Định Vị Nội Dung: Zero Hard-Selling vs Chuyển Đổi Thực Tế
 * **Bối cảnh:** Giữ vững giá trị giáo dục phản tư chân thành, tuyệt đối không biến kênh cá nhân thành nơi bán hàng nhưng vẫn đo lường được hiệu quả.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Chèn Link Bán Khóa Học Trực Tiếp | Option B: Chia Sẻ Tự Nhiên Không Đo Lường | Option C: Zero Hard-Selling + Đo Lường Ngầm Qua CRM ⭐ |
@@ -277,13 +277,13 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 <details>
 <summary><h3>FAQ</h3></summary>
 
-#### Nhóm 1: Về Tần Suất & Tải Trọng Đăng Bài (Cadence & Workload)
+#### Cadence & Workload
 * **Mentor bận dạy học và chấm bài, làm sao đảm bảo được tần suất 2 bài/tuần?**  
   👉 **A:** Quy trình đúc kết chỉ chiếm tối đa 35 phút/bài nhờ tận dụng trực tiếp sản phẩm học tập và ghi chú Dory Notes sau giờ dạy. Mentor không cần sáng tạo từ đầu mà chỉ kể lại khoảnh khắc bứt phá có thật của học sinh.
 * **Nếu tuần đó lớp học không có sự kiện gì đặc biệt thì viết về chủ đề gì?**  
   👉 **A:** Mentor khai thác góc nhìn phản tư về quá trình tự học, sai lầm phổ biến khi giải toán/lập trình hoặc chia sẻ một lời khuyên chân thành gửi phụ huynh.
 
-#### Nhóm 2: Về Tương Tác & Chăm Sóc Bình Luận (Engagement & Trust)
+#### Engagement & Trust
 * **Nếu phụ huynh để lại bình luận tiêu cực hoặc thắc mắc học phí trên bài viết thì xử lý thế nào?**  
   👉 **A:** Luôn cảm ơn và phản hồi lịch sự, sau đó chủ động nhắn tin riêng (Direct Message) để lắng nghe và hỗ trợ thấu đáo, tuyệt đối không tranh luận công khai trên mạng xã hội.
 * **Có cần trả lời tất cả bình luận của phụ huynh không?**  

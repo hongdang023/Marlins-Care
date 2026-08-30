@@ -138,7 +138,7 @@ relates_to:
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P03:
 
-#### 📌 DAR 06: Định Vị Workshop Trực Tuyến & Tự Học: Marlins Workshop vs Khóa Học Phụ Huynh 4 Buổi
+#### DAR 06: Định Vị Workshop Trực Tuyến & Tự Học: Marlins Workshop vs Khóa Học Phụ Huynh 4 Buổi
 * **Bối cảnh:** Giúp phụ huynh thấu hiểu phương pháp đồng hành mà không làm kiệt sức đội ngũ khi đã có Marlins Day offline.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Mở Khóa học 4 buổi trả phí):* 26/50 điểm — Rào cản đăng ký cao, làm kiệt sức đội ngũ vận hành.
@@ -146,7 +146,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
   * *Option C (Interactive Live Tối T5 + Tự học theo Pace riêng trên Portal) ⭐:* **50/50 điểm (Approved)**.
 * **Quyết định:** Tổ chức **Marlins Workshop định kỳ hàng tuần (Tối Thứ 5, 20h00 - 22h00)** theo hình thức tương tác cao (bắt buộc bật cam/mic, 2 vòng 4F Reflection), kết hợp nền tảng **Học theo Pace riêng trên Family Portal**; tuyệt đối không mở khóa học trả phí cồng kềnh.
 
-#### 📌 DAR 11: Kỷ Luật Bật Cam/Mic & Phân Luồng Phòng Zoom (Cam/Mic Discipline & Waiting Room)
+#### DAR 11: Kỷ Luật Bật Cam/Mic & Phân Luồng Phòng Zoom (Cam/Mic Discipline & Waiting Room)
 * **Bối cảnh:** Đảm bảo chiều sâu thực hành 4F Reflection trong phòng Zoom 120 phút mà không làm mất lòng phụ huynh bận rộn.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Bắt buộc 100%, ai tắt cam thì kick ra ngoài):* 29/50 điểm — Gây ức chế và làm mất tệp phụ huynh tiềm năng bận rộn.
@@ -154,7 +154,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
   * *Option C (Phân luồng 2 tầng: Breakout 4F cho Cam/Mic + Main Room/Portal cho tắt cam) ⭐:* **48/50 điểm (Approved)**.
 * **Quyết định:** Áp dụng mô hình **Phân luồng 2 tầng**: Phụ huynh bật Cam/Mic được xếp vào Breakout Rooms thực hành 4F chuyên sâu; phụ huynh xin phép tắt cam được giữ ở Main Room nghe thụ động và điều hướng sang tự học trên Family Portal.
 
-#### 📌 DAR 12: Đóng Gói Học Liệu Phụ Huynh Tự Học (Parent Self-Paced LMS Micro-Modules)
+#### DAR 12: Đóng Gói Học Liệu Phụ Huynh Tự Học (Parent Self-Paced LMS Micro-Modules)
 * **Bối cảnh:** Giúp phụ huynh tiếp cận lộ trình chuyển hóa nhận thức giáo dục dù không thể tham gia Live Zoom tối Thứ 5 đều đặn.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Gửi toàn bộ Video Record 120 phút):* 24/50 điểm — Video quá dài, phụ huynh không có thời gian xem lại.
@@ -172,7 +172,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 06: Định Dạng Workshop: Live Zoom Tối Thứ 5 vs Khóa Học Phụ Huynh Đóng Gói Sẵn
+#### DAR 06: Định Dạng Workshop: Live Zoom Tối Thứ 5 vs Khóa Học Phụ Huynh Đóng Gói Sẵn
 * **Bối cảnh:** Lựa chọn định dạng học tập cho phụ huynh bận rộn giữa việc sản xuất khóa học video hay tổ chức Live Zoom hàng tuần.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Đóng Gói 100% Khóa Học Video Tự Học LMS | Option B: Live Zoom Tối Thứ 5 + Lưu Kho Tư Liệu Family Portal ⭐ |
@@ -185,7 +185,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Tổ chức Live Zoom tương tác trực tiếp 120 phút tối Thứ 5 hàng tuần do Anh Đắc chủ trì; toàn bộ nội dung được biên tập tinh gọn lưu trữ trên Family Portal.
 
-#### 📌 DAR 11: Thời Lượng Workshop: 120 Phút Sâu vs 60 Phút Ngắn
+#### DAR 11: Thời Lượng Workshop: 120 Phút Sâu vs 60 Phút Ngắn
 * **Bối cảnh:** Thiết kế thời lượng workshop đảm bảo đủ thời gian thực hành Breakout Room và giải đáp thấu cảm.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 60 Phút Thuyết Trình Một Chiều | Option B: 120 Phút Đa Tầng (40p Khung + 40p Breakout + 40p Q&A) ⭐ |
@@ -238,7 +238,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P03:
 
-#### 📌 DAR 06: Định Vị Workshop Trực Tuyến & Tự Học: Marlins Workshop vs Khóa Học Phụ Huynh 4 Buổi
+#### DAR 06: Định Vị Workshop Trực Tuyến & Tự Học: Marlins Workshop vs Khóa Học Phụ Huynh 4 Buổi
 * **Bối cảnh:** Giúp phụ huynh thấu hiểu phương pháp đồng hành mà không làm kiệt sức đội ngũ khi đã có Marlins Day offline.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Mở Khóa học 4 buổi trả phí):* 26/50 điểm — Rào cản đăng ký cao, làm kiệt sức đội ngũ vận hành.
@@ -246,7 +246,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
   * *Option C (Interactive Live Tối T5 + Tự học theo Pace riêng trên Portal) ⭐:* **50/50 điểm (Approved)**.
 * **Quyết định:** Tổ chức **Marlins Workshop định kỳ hàng tuần (Tối Thứ 5, 20h00 - 22h00)** theo hình thức tương tác cao (bắt buộc bật cam/mic, 2 vòng 4F Reflection), kết hợp nền tảng **Học theo Pace riêng trên Family Portal**; tuyệt đối không mở khóa học trả phí cồng kềnh.
 
-#### 📌 DAR 11: Kỷ Luật Bật Cam/Mic & Phân Luồng Phòng Zoom (Cam/Mic Discipline & Waiting Room)
+#### DAR 11: Kỷ Luật Bật Cam/Mic & Phân Luồng Phòng Zoom (Cam/Mic Discipline & Waiting Room)
 * **Bối cảnh:** Đảm bảo chiều sâu thực hành 4F Reflection trong phòng Zoom 120 phút mà không làm mất lòng phụ huynh bận rộn.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Bắt buộc 100%, ai tắt cam thì kick ra ngoài):* 29/50 điểm — Gây ức chế và làm mất tệp phụ huynh tiềm năng bận rộn.
@@ -254,7 +254,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
   * *Option C (Phân luồng 2 tầng: Breakout 4F cho Cam/Mic + Main Room/Portal cho tắt cam) ⭐:* **48/50 điểm (Approved)**.
 * **Quyết định:** Áp dụng mô hình **Phân luồng 2 tầng**: Phụ huynh bật Cam/Mic được xếp vào Breakout Rooms thực hành 4F chuyên sâu; phụ huynh xin phép tắt cam được giữ ở Main Room nghe thụ động và điều hướng sang tự học trên Family Portal.
 
-#### 📌 DAR 12: Đóng Gói Học Liệu Phụ Huynh Tự Học (Parent Self-Paced LMS Micro-Modules)
+#### DAR 12: Đóng Gói Học Liệu Phụ Huynh Tự Học (Parent Self-Paced LMS Micro-Modules)
 * **Bối cảnh:** Giúp phụ huynh tiếp cận lộ trình chuyển hóa nhận thức giáo dục dù không thể tham gia Live Zoom tối Thứ 5 đều đặn.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Gửi toàn bộ Video Record 120 phút):* 24/50 điểm — Video quá dài, phụ huynh không có thời gian xem lại.
@@ -272,7 +272,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 06: Định Dạng Workshop: Live Zoom Tối Thứ 5 vs Khóa Học Phụ Huynh Đóng Gói Sẵn
+#### DAR 06: Định Dạng Workshop: Live Zoom Tối Thứ 5 vs Khóa Học Phụ Huynh Đóng Gói Sẵn
 * **Bối cảnh:** Lựa chọn định dạng học tập cho phụ huynh bận rộn giữa việc sản xuất khóa học video hay tổ chức Live Zoom hàng tuần.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Đóng Gói 100% Khóa Học Video Tự Học LMS | Option B: Live Zoom Tối Thứ 5 + Lưu Kho Tư Liệu Family Portal ⭐ |
@@ -285,7 +285,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Tổ chức Live Zoom tương tác trực tiếp 120 phút tối Thứ 5 hàng tuần do Anh Đắc chủ trì; toàn bộ nội dung được biên tập tinh gọn lưu trữ trên Family Portal.
 
-#### 📌 DAR 11: Thời Lượng Workshop: 120 Phút Sâu vs 60 Phút Ngắn
+#### DAR 11: Thời Lượng Workshop: 120 Phút Sâu vs 60 Phút Ngắn
 * **Bối cảnh:** Thiết kế thời lượng workshop đảm bảo đủ thời gian thực hành Breakout Room và giải đáp thấu cảm.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 60 Phút Thuyết Trình Một Chiều | Option B: 120 Phút Đa Tầng (40p Khung + 40p Breakout + 40p Q&A) ⭐ |
@@ -307,7 +307,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P03:
 
-#### 📌 DAR 06: Định Vị Workshop Trực Tuyến & Tự Học: Marlins Workshop vs Khóa Học Phụ Huynh 4 Buổi
+#### DAR 06: Định Vị Workshop Trực Tuyến & Tự Học: Marlins Workshop vs Khóa Học Phụ Huynh 4 Buổi
 * **Bối cảnh:** Giúp phụ huynh thấu hiểu phương pháp đồng hành mà không làm kiệt sức đội ngũ khi đã có Marlins Day offline.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Mở Khóa học 4 buổi trả phí):* 26/50 điểm — Rào cản đăng ký cao, làm kiệt sức đội ngũ vận hành.
@@ -315,7 +315,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
   * *Option C (Interactive Live Tối T5 + Tự học theo Pace riêng trên Portal) ⭐:* **50/50 điểm (Approved)**.
 * **Quyết định:** Tổ chức **Marlins Workshop định kỳ hàng tuần (Tối Thứ 5, 20h00 - 22h00)** theo hình thức tương tác cao (bắt buộc bật cam/mic, 2 vòng 4F Reflection), kết hợp nền tảng **Học theo Pace riêng trên Family Portal**; tuyệt đối không mở khóa học trả phí cồng kềnh.
 
-#### 📌 DAR 11: Kỷ Luật Bật Cam/Mic & Phân Luồng Phòng Zoom (Cam/Mic Discipline & Waiting Room)
+#### DAR 11: Kỷ Luật Bật Cam/Mic & Phân Luồng Phòng Zoom (Cam/Mic Discipline & Waiting Room)
 * **Bối cảnh:** Đảm bảo chiều sâu thực hành 4F Reflection trong phòng Zoom 120 phút mà không làm mất lòng phụ huynh bận rộn.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Bắt buộc 100%, ai tắt cam thì kick ra ngoài):* 29/50 điểm — Gây ức chế và làm mất tệp phụ huynh tiềm năng bận rộn.
@@ -323,7 +323,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
   * *Option C (Phân luồng 2 tầng: Breakout 4F cho Cam/Mic + Main Room/Portal cho tắt cam) ⭐:* **48/50 điểm (Approved)**.
 * **Quyết định:** Áp dụng mô hình **Phân luồng 2 tầng**: Phụ huynh bật Cam/Mic được xếp vào Breakout Rooms thực hành 4F chuyên sâu; phụ huynh xin phép tắt cam được giữ ở Main Room nghe thụ động và điều hướng sang tự học trên Family Portal.
 
-#### 📌 DAR 12: Đóng Gói Học Liệu Phụ Huynh Tự Học (Parent Self-Paced LMS Micro-Modules)
+#### DAR 12: Đóng Gói Học Liệu Phụ Huynh Tự Học (Parent Self-Paced LMS Micro-Modules)
 * **Bối cảnh:** Giúp phụ huynh tiếp cận lộ trình chuyển hóa nhận thức giáo dục dù không thể tham gia Live Zoom tối Thứ 5 đều đặn.
 * **Ma trận đánh giá (CMMI Evaluation):**
   * *Option A (Gửi toàn bộ Video Record 120 phút):* 24/50 điểm — Video quá dài, phụ huynh không có thời gian xem lại.
@@ -341,7 +341,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 06: Định Dạng Workshop: Live Zoom Tối Thứ 5 vs Khóa Học Phụ Huynh Đóng Gói Sẵn
+#### DAR 06: Định Dạng Workshop: Live Zoom Tối Thứ 5 vs Khóa Học Phụ Huynh Đóng Gói Sẵn
 * **Bối cảnh:** Lựa chọn định dạng học tập cho phụ huynh bận rộn giữa việc sản xuất khóa học video hay tổ chức Live Zoom hàng tuần.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Đóng Gói 100% Khóa Học Video Tự Học LMS | Option B: Live Zoom Tối Thứ 5 + Lưu Kho Tư Liệu Family Portal ⭐ |
@@ -354,7 +354,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Tổ chức Live Zoom tương tác trực tiếp 120 phút tối Thứ 5 hàng tuần do Anh Đắc chủ trì; toàn bộ nội dung được biên tập tinh gọn lưu trữ trên Family Portal.
 
-#### 📌 DAR 11: Thời Lượng Workshop: 120 Phút Sâu vs 60 Phút Ngắn
+#### DAR 11: Thời Lượng Workshop: 120 Phút Sâu vs 60 Phút Ngắn
 * **Bối cảnh:** Thiết kế thời lượng workshop đảm bảo đủ thời gian thực hành Breakout Room và giải đáp thấu cảm.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 60 Phút Thuyết Trình Một Chiều | Option B: 120 Phút Đa Tầng (40p Khung + 40p Breakout + 40p Q&A) ⭐ |
@@ -374,13 +374,13 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 <details>
 <summary><h3>FAQ</h3></summary>
 
-#### Nhóm 1: Về Thời Lượng & Tải Trọng Đội Ngũ (Capacity & Burnout)
+#### Capacity & Burnout
 * **Tổ chức tối Thứ 5 và Chủ Nhật hàng tuần có gây quá tải cho Host và Mentor không?**  
   👉 **A:** Nội dung Workshop xoay quanh các chủ đề nền tảng đã được chuẩn hóa khung; Mentor phối hợp đồng hành giúp chia tải và duy trì năng lượng bền bỉ.
 * **120 phút vào tối Thứ 5 có quá dài với phụ huynh bận rộn không?**  
   👉 **A:** Phụ huynh được phân bổ vào các phòng Breakout tương tác liên tục nên không khí luôn hào hứng, không gây cảm giác mệt mỏi.
 
-#### Nhóm 2: Về Tỷ Lệ Chuyển Đổi & Đo Lường Hiệu Quả (Conversion & Funnel)
+#### Conversion & Funnel
 * **Tổ chức Workshop miễn phí thì đo lường hiệu quả như thế nào?**  
   👉 **A:** Đo lường bằng tỷ lệ phụ huynh tham gia trọn vẹn, số lượng câu hỏi chất lượng và lượng phụ huynh chủ động đăng ký tham gia Marlins Day hoặc Trial Class.
 * **Nếu phụ huynh tham gia nhiều tuần nhưng chưa đăng ký khóa học thì sao?**  

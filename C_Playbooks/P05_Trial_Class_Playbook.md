@@ -141,7 +141,7 @@ Với mục tiêu của gia đình, thầy/cô thấy con hoàn toàn phù hợp
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 02: Mô Hình Đánh Giá Fit Judgment: System-Driven vs Human Insight
+#### DAR 02: Mô Hình Đánh Giá Fit Judgment: System-Driven vs Human Insight
 * **Bối cảnh:** Phân định vai trò giữa hệ thống tự động và mentor trong việc tham vấn kết quả 2 buổi học thử của học sinh.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 100% Hệ Thống Tự Động Gửi Báo Cáo | Option B: 100% Mentor Tự Nhận Xét Thủ Công | Option C: Hybrid (Hệ Thống Xuất Bằng Chứng + Mentor Tham Vấn) ⭐ |
@@ -154,7 +154,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Bằng chứng năng lực và log dữ liệu được hệ thống tự động xuất bản lên Portal (System-First); Mentor chịu trách nhiệm tham vấn trực tiếp 1-1 (Human Judgment) để đảm bảo sự đồng thuận cao nhất.
 
-#### 📌 DAR 13: Quy Chuẩn 02 Buổi Học Thử Miễn Phí & Kiểm Soát No-Show
+#### DAR 13: Quy Chuẩn 02 Buổi Học Thử Miễn Phí & Kiểm Soát No-Show
 * **Bối cảnh:** Thiết kế số lượng buổi học thử tối ưu và cơ chế nhắc lịch để đảm bảo học sinh bộc lộ đúng năng lực mà không gây lãng phí nguồn lực.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 01 Buổi Học Thử Duy Nhất | Option B: 02 Buổi Học Thử Kèm Poll Zalo Nhắc Lịch Trước 24h ⭐ | Option C: 04 Buổi Học Thử Dài Ngày |
@@ -167,7 +167,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Áp dụng mô hình 02 buổi Trial miễn phí để học sinh đủ thời gian bộc lộ phong cách tư duy; tích hợp Poll Zalo trước 24h tại Bước 1 để kiểm soát sĩ số chủ động.
 
-#### 📌 DAR 14: Nguyên Tắc Sẵn Sàng Từ Chối (Honest Gatekeeping)
+#### DAR 14: Nguyên Tắc Sẵn Sàng Từ Chối (Honest Gatekeeping)
 * **Bối cảnh:** Quy tắc ứng xử khi học sinh chưa sẵn sàng hoặc phong cách học tập không phù hợp với triết lý Nemo12.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Nhận 100% Học Sinh Để Đạt Chỉ Tiêu Tuyển Sinh | Option B: Trung Thực Từ Chối & Trao Lộ Trình Tự Học Bổ Trợ ⭐ |
@@ -242,7 +242,7 @@ Với mục tiêu của gia đình, thầy/cô thấy con hoàn toàn phù hợp
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 02: Mô Hình Đánh Giá Fit Judgment: System-Driven vs Human Insight
+#### DAR 02: Mô Hình Đánh Giá Fit Judgment: System-Driven vs Human Insight
 * **Bối cảnh:** Phân định vai trò giữa hệ thống tự động và mentor trong việc tham vấn kết quả 2 buổi học thử của học sinh.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 100% Hệ Thống Tự Động Gửi Báo Cáo | Option B: 100% Mentor Tự Nhận Xét Thủ Công | Option C: Hybrid (Hệ Thống Xuất Bằng Chứng + Mentor Tham Vấn) ⭐ |
@@ -255,7 +255,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Bằng chứng năng lực và log dữ liệu được hệ thống tự động xuất bản lên Portal (System-First); Mentor chịu trách nhiệm tham vấn trực tiếp 1-1 (Human Judgment) để đảm bảo sự đồng thuận cao nhất.
 
-#### 📌 DAR 13: Quy Chuẩn 02 Buổi Học Thử Miễn Phí & Kiểm Soát No-Show
+#### DAR 13: Quy Chuẩn 02 Buổi Học Thử Miễn Phí & Kiểm Soát No-Show
 * **Bối cảnh:** Thiết kế số lượng buổi học thử tối ưu và cơ chế nhắc lịch để đảm bảo học sinh bộc lộ đúng năng lực mà không gây lãng phí nguồn lực.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 01 Buổi Học Thử Duy Nhất | Option B: 02 Buổi Học Thử Kèm Poll Zalo Nhắc Lịch Trước 24h ⭐ | Option C: 04 Buổi Học Thử Dài Ngày |
@@ -268,7 +268,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Áp dụng mô hình 02 buổi Trial miễn phí để học sinh đủ thời gian bộc lộ phong cách tư duy; tích hợp Poll Zalo trước 24h tại Bước 1 để kiểm soát sĩ số chủ động.
 
-#### 📌 DAR 14: Nguyên Tắc Sẵn Sàng Từ Chối (Honest Gatekeeping)
+#### DAR 14: Nguyên Tắc Sẵn Sàng Từ Chối (Honest Gatekeeping)
 * **Bối cảnh:** Quy tắc ứng xử khi học sinh chưa sẵn sàng hoặc phong cách học tập không phù hợp với triết lý Nemo12.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Nhận 100% Học Sinh Để Đạt Chỉ Tiêu Tuyển Sinh | Option B: Trung Thực Từ Chối & Trao Lộ Trình Tự Học Bổ Trợ ⭐ |
@@ -290,7 +290,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 02: Mô Hình Đánh Giá Fit Judgment: System-Driven vs Human Insight
+#### DAR 02: Mô Hình Đánh Giá Fit Judgment: System-Driven vs Human Insight
 * **Bối cảnh:** Phân định vai trò giữa hệ thống tự động và mentor trong việc tham vấn kết quả 2 buổi học thử của học sinh.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 100% Hệ Thống Tự Động Gửi Báo Cáo | Option B: 100% Mentor Tự Nhận Xét Thủ Công | Option C: Hybrid (Hệ Thống Xuất Bằng Chứng + Mentor Tham Vấn) ⭐ |
@@ -303,7 +303,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Bằng chứng năng lực và log dữ liệu được hệ thống tự động xuất bản lên Portal (System-First); Mentor chịu trách nhiệm tham vấn trực tiếp 1-1 (Human Judgment) để đảm bảo sự đồng thuận cao nhất.
 
-#### 📌 DAR 13: Quy Chuẩn 02 Buổi Học Thử Miễn Phí & Kiểm Soát No-Show
+#### DAR 13: Quy Chuẩn 02 Buổi Học Thử Miễn Phí & Kiểm Soát No-Show
 * **Bối cảnh:** Thiết kế số lượng buổi học thử tối ưu và cơ chế nhắc lịch để đảm bảo học sinh bộc lộ đúng năng lực mà không gây lãng phí nguồn lực.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 01 Buổi Học Thử Duy Nhất | Option B: 02 Buổi Học Thử Kèm Poll Zalo Nhắc Lịch Trước 24h ⭐ | Option C: 04 Buổi Học Thử Dài Ngày |
@@ -316,7 +316,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 * **Quyết định:** Áp dụng mô hình 02 buổi Trial miễn phí để học sinh đủ thời gian bộc lộ phong cách tư duy; tích hợp Poll Zalo trước 24h tại Bước 1 để kiểm soát sĩ số chủ động.
 
-#### 📌 DAR 14: Nguyên Tắc Sẵn Sàng Từ Chối (Honest Gatekeeping)
+#### DAR 14: Nguyên Tắc Sẵn Sàng Từ Chối (Honest Gatekeeping)
 * **Bối cảnh:** Quy tắc ứng xử khi học sinh chưa sẵn sàng hoặc phong cách học tập không phù hợp với triết lý Nemo12.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Nhận 100% Học Sinh Để Đạt Chỉ Tiêu Tuyển Sinh | Option B: Trung Thực Từ Chối & Trao Lộ Trình Tự Học Bổ Trợ ⭐ |
@@ -336,13 +336,13 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 <details>
 <summary><h3>FAQ</h3></summary>
 
-#### Nhóm 1: Về Quy Trình Học Thử (Trial Flow & Operations)
+#### Trial Flow & Operations
 * **Học sinh vắng 1 trong 2 buổi Trial thì có được đánh giá Fit Judgment không?**  
   👉 **A:** Mentor sẽ hỗ trợ xếp lịch bù 1 buổi phù hợp để đảm bảo thu thập đủ dữ liệu 2 buổi trước khi đưa ra kết luận tham vấn chính thức.
 * **Phụ huynh có được vào dự giờ cùng con trong 2 buổi Trial không?**  
   👉 **A:** Phụ huynh hoàn toàn được khuyến khích đồng hành quan sát trong yên lặng để thấu hiểu cách tương tác sư phạm của Mentor.
 
-#### Nhóm 2: Về Tham Vấn & Quyết Định Nhập Học (Fit Judgment Consultation)
+#### Fit Judgment Consultation
 * **Nếu Mentor kết luận học sinh chưa phù hợp thì gia đình cần làm gì?**  
   👉 **A:** Mentor sẽ gửi kèm tài liệu hướng dẫn và bài tập rèn luyện tư duy nền tảng tại nhà trên Family Portal để con bổ trợ thêm trước khi thử lại.
 * **Học phí và chính sách ưu đãi sau học thử được áp dụng như thế nào?**  

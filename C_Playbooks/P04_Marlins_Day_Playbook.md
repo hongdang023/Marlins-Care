@@ -128,7 +128,7 @@ relates_to:
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 04: Mô Hình Tổ Chức Marlins Day: Năng Lực Thường Trực vs Sự Kiện Đột Xuất
+#### DAR 04: Mô Hình Tổ Chức Marlins Day: Năng Lực Thường Trực vs Sự Kiện Đột Xuất
 * **Bối cảnh:** Lựa chọn giữa việc tổ chức hội thảo quy mô lớn hàng quý hay duy trì không gian đối thoại nhóm nhỏ hàng tuần.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Hội Thảo Quy Mô Lớn Hàng Quý (> 100 người) | Option B: Đối Thoại Nhóm Nhỏ Thường Trực Chiều Chủ Nhật (≤ 10 người) ⭐ |
@@ -176,7 +176,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 04: Mô Hình Tổ Chức Marlins Day: Năng Lực Thường Trực vs Sự Kiện Đột Xuất
+#### DAR 04: Mô Hình Tổ Chức Marlins Day: Năng Lực Thường Trực vs Sự Kiện Đột Xuất
 * **Bối cảnh:** Lựa chọn giữa việc tổ chức hội thảo quy mô lớn hàng quý hay duy trì không gian đối thoại nhóm nhỏ hàng tuần.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Hội Thảo Quy Mô Lớn Hàng Quý (> 100 người) | Option B: Đối Thoại Nhóm Nhỏ Thường Trực Chiều Chủ Nhật (≤ 10 người) ⭐ |
@@ -198,7 +198,7 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### 📌 DAR 04: Mô Hình Tổ Chức Marlins Day: Năng Lực Thường Trực vs Sự Kiện Đột Xuất
+#### DAR 04: Mô Hình Tổ Chức Marlins Day: Năng Lực Thường Trực vs Sự Kiện Đột Xuất
 * **Bối cảnh:** Lựa chọn giữa việc tổ chức hội thảo quy mô lớn hàng quý hay duy trì không gian đối thoại nhóm nhỏ hàng tuần.
 
 | Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Hội Thảo Quy Mô Lớn Hàng Quý (> 100 người) | Option B: Đối Thoại Nhóm Nhỏ Thường Trực Chiều Chủ Nhật (≤ 10 người) ⭐ |
@@ -218,13 +218,13 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 <details>
 <summary><h3>FAQ</h3></summary>
 
-#### Nhóm 1: Về Địa Điểm & Trải Nghiệm Không Gian (Venue & Atmosphere)
+#### Venue & Atmosphere
 * **Tại sao lại chọn không gian Sky Lounge tại Lotte Hotel thay vì văn phòng lớp học thông thường?**  
   👉 **A:** Không gian trang nhã, riêng tư và tách biệt khỏi áp lực học đường giúp phụ huynh thả lỏng tâm lý, sẵn sàng mở lòng chia sẻ những trăn trở sâu kín nhất về con.
 * **Sự kiện có thu phí tham dự của phụ huynh không?**  
   👉 **A:** Hoàn toàn miễn phí, Nemo12 tài trợ 100% không gian và đồ uống như một lời tri ân dành cho các bậc cha mẹ luôn trăn trở đồng hành cùng con.
 
-#### Nhóm 2: Về Điều Phối Phiên Đối Thoại (Facilitation & Fishbowl)
+#### Facilitation & Fishbowl
 * **Nếu phụ huynh rụt rè không dám chia sẻ trong vòng tròn Fishbowl thì Host xử lý thế nào?**  
   👉 **A:** Host mở đầu bằng một câu chuyện quan sát thực tế và đặt câu hỏi gợi mở nhẹ nhàng, tạo bầu không khí an toàn không phán xét để từng bố mẹ tự nhiên lên tiếng.
 * **Sau buổi gặp, phụ huynh được nhận những tài liệu gì?**  

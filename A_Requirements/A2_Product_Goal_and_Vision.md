@@ -14,7 +14,7 @@ relates_to:
 
 # A2 · Product Goal, Vision & Operating Principles
 
-## 1. Mục Tiêu Sản Phẩm (Product Goal)
+## Product Goals
 
 Xây dựng **Parent Care Knowledge Hub** giúp tổ chức Nemo12 thiết kế, chuẩn hóa và thực thi công tác đồng hành cùng phụ huynh một cách nhất quán, chuyên nghiệp và tối ưu hóa tối đa giá trị con người (giảm thiểu các thao tác thủ công, cơ học).
 
@@ -34,7 +34,7 @@ Hệ thống trả lời 6 câu hỏi vận hành cốt lõi:
 > **"Automate the evidence. Humanize the meaning."**  
 > *(Tự động hóa bằng chứng. Nhân văn hóa ý nghĩa.)*
 
-### 3 Trụ cột Nguyên tắc Vận hành (Golden Principles):
+### Golden Principles
 
 | Trụ cột | Nguyên tắc Cốt lõi | Diễn giải & Chuẩn mực Hành vi |
 | :---: | :--- | :--- |
@@ -53,7 +53,7 @@ Hệ thống trả lời 6 câu hỏi vận hành cốt lõi:
 
 ---
 
-## 4. Phân Tích Các Bên Liên Quan (Stakeholders)
+## Stakeholders Analysis
 
 | Stakeholder | Vai Trò Trong Hệ Thống | Trách Nhiệm Cốt Lõi |
 |---|---|---|
