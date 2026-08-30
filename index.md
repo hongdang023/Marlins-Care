@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Xem Playbooks Vận Hành →
-      link: /playbooks/P01_Social_Media_Playbook
+      link: /C_Playbooks/P01_Social_Media_Playbook
     - theme: alt
       text: Requirements & JTBD
       link: /A_Requirements/A1_Sitemap

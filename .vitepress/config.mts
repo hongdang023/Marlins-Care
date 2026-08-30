@@ -23,57 +23,72 @@ export default defineConfig({
 
     // 1. Top Navigation Bar
     nav: [
-      { text: 'Overview', link: '/overview/why-parent-care' },
-      { text: 'Parent Journey', link: '/journey' },
-      { text: 'Playbooks', link: '/C_Playbooks/P01_Social_Media_Playbook' },
-      { text: 'Requirements', link: '/requirements/playbooks-framework' }
+      { text: 'Tổng quan', link: '/A_Requirements/A2_Product_Goal_and_Vision' },
+      { text: 'Hành trình', link: '/A_Requirements/A4_Parent_Journey_Framework' },
+      { 
+        text: 'Playbooks', 
+        items: [
+          { text: 'P01 - Social Media Playbook', link: '/C_Playbooks/P01_Social_Media_Playbook' },
+          { text: 'P02 - Community Playbook', link: '/C_Playbooks/P02_Community_Playbook' },
+          { text: 'P03 - Marlins Workshop Playbook', link: '/C_Playbooks/P03_Marlins_Workshop_Playbook' },
+          { text: 'P04 - Marlins Day Playbook', link: '/C_Playbooks/P04_Marlins_Day_Playbook' },
+          { text: 'P05 - Trial Class Playbook', link: '/C_Playbooks/P05_Trial_Class_Playbook' },
+          { text: 'P06 - Live Class Playbook', link: '/C_Playbooks/P06_Live_Class_Playbook' },
+          { text: 'P07 - Family Meeting Playbook', link: '/C_Playbooks/P07_Family_Meeting_Playbook' },
+          { text: 'P08 - Referrals Program Playbook', link: '/C_Playbooks/P08_Referrals_Program_Playbook' }
+        ]
+      },
+      { text: 'Tiêu chuẩn', link: '/A_Requirements/A7_Content_Standards' },
+      { text: 'Quyết định (DAR)', link: '/A_Requirements/A8_DAR_Template' }
     ],
 
     // 2. Sidebar Navigation
     sidebar: {
-      '/overview/': [
-        {
-          text: '1. Overview',
-          items: [
-            { text: 'Why Parent Care', link: '/overview/why-parent-care' },
-            { text: 'Parent Jobs (JTBD)', link: '/overview/parent-jobs' },
-            { text: 'Core Principles', link: '/overview/core-principles' },
-            { text: 'Capability Map', link: '/overview/capability-map' }
-          ]
-        }
-      ],
-      '/journey': [
-        {
-          text: '2. Parent Journey',
-          items: [
-            { text: 'Journey Map', link: '/journey' }
-          ]
-        }
-      ],
       '/C_Playbooks/': [
         {
-          text: '3. Playbooks',
+          text: 'Acquisition & Onboarding',
+          collapsed: false,
           items: [
-            { text: 'Social Media Playbook', link: '/C_Playbooks/P01_Social_Media_Playbook' },
-            { text: 'Community Playbook', link: '/C_Playbooks/P02_Community_Playbook' },
-            { text: 'Marlins Workshop Playbook', link: '/C_Playbooks/P03_Marlins_Workshop_Playbook' },
-            { text: 'Marlins Day Playbook', link: '/C_Playbooks/P04_Marlins_Day_Playbook' },
-            { text: 'Trial Class Playbook', link: '/C_Playbooks/P05_Trial_Class_Playbook' },
-            { text: 'Live Class Playbook', link: '/C_Playbooks/P06_Live_Class_Playbook' },
-            { text: 'Family Meeting Playbook', link: '/C_Playbooks/P07_Family_Meeting_Playbook' },
-            { text: 'Referrals Program Playbook', link: '/C_Playbooks/P08_Referrals_Program_Playbook' }
+            { text: 'P01 - Social Media', link: '/C_Playbooks/P01_Social_Media_Playbook' },
+            { text: 'P02 - Community', link: '/C_Playbooks/P02_Community_Playbook' },
+            { text: 'P03 - Marlins Workshop', link: '/C_Playbooks/P03_Marlins_Workshop_Playbook' },
+            { text: 'P04 - Marlins Day', link: '/C_Playbooks/P04_Marlins_Day_Playbook' }
+          ]
+        },
+        {
+          text: 'Core Retention & Growth',
+          collapsed: false,
+          items: [
+            { text: 'P05 - Trial Class', link: '/C_Playbooks/P05_Trial_Class_Playbook' },
+            { text: 'P06 - Live Class', link: '/C_Playbooks/P06_Live_Class_Playbook' },
+            { text: 'P07 - Family Meeting', link: '/C_Playbooks/P07_Family_Meeting_Playbook' },
+            { text: 'P08 - Referrals Program', link: '/C_Playbooks/P08_Referrals_Program_Playbook' }
           ]
         }
       ],
-      '/requirements/': [
+      '/A_Requirements/': [
         {
-          text: '4. Requirements',
+          text: 'Yêu Cầu & Định Hướng',
+          collapsed: false,
           items: [
-            { text: 'Playbooks Template', link: '/requirements/playbooks-template' },
-            { text: 'Content Standards', link: '/requirements/content-standards' },
-            { text: 'DAR Template & Governance', link: '/requirements/dar-template' },
-            { text: 'UI Design System', link: '/requirements/ui-design-system' },
-            { text: 'Tech Stack Specifications', link: '/requirements/tech-stack' }
+            { text: 'A1 - Sitemap & Kiến Trúc', link: '/A_Requirements/A1_Sitemap' },
+            { text: 'A2 - Mục Tiêu & Tầm Nhìn', link: '/A_Requirements/A2_Product_Goal_and_Vision' },
+            { text: 'A3 - JTBD & Nhu Cầu Phụ Huynh', link: '/A_Requirements/A3_Parent_JTBD_and_Needs' },
+            { text: 'A4 - Khung Hành Trình Phụ Huynh', link: '/A_Requirements/A4_Parent_Journey_Framework' },
+            { text: 'A6 - Playbooks Template', link: '/A_Requirements/A6_Playbooks_Template' },
+            { text: 'A7 - Tiêu Chuẩn Nội Dung', link: '/A_Requirements/A7_Content_Standards' },
+            { text: 'A8 - DAR Template & Quản Trị', link: '/A_Requirements/A8_DAR_Template' },
+            { text: 'A9 - Topic Library & Sư Phạm', link: '/A_Requirements/A9_Topic_Library_and_Pedagogy_Standards' }
+          ]
+        }
+      ],
+      '/B_System Design/': [
+        {
+          text: 'Thiết Kế Hệ Thống',
+          collapsed: false,
+          items: [
+            { text: 'B1 - UI Design System', link: '/B_System Design/B1_UI_Design_System' },
+            { text: 'B2 - Tech Stack Specifications', link: '/B_System Design/B2_Tech_Stack' }
           ]
         }
       ]
