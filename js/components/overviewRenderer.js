@@ -57,93 +57,47 @@ function renderWhyParentCare() {
 
 
 
-    <!-- 3. Operational Questions -->
+    <!-- 2. Purposes (4 Câu Hỏi Tác Nghiệp Tương Ứng 4 Phân Hệ) -->
     <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-3);">
-      Operational Questions
+      Purposes
     </h2>
     <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: var(--space-3);">
-      Hub này được thiết kế để giải quyết 6 câu hỏi tác nghiệp cốt lõi cho mọi thành viên trong team:
-    </p>
-    <div style="overflow-x: auto; margin-bottom: var(--space-6);">
-      <table class="sop-table">
-        <thead>
-          <tr>
-            <th style="width: 70px;">Mã</th>
-            <th style="width: 250px;">Câu hỏi cốt lõi của Bạn</th>
-            <th>Giải pháp & Nội dung chuẩn hóa trong Hub</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><span class="badge badge-system">Q1</span></td>
-            <td><strong>Nhu cầu thực sự của Phụ huynh?</strong></td>
-            <td>Giải mã toàn diện 3 tầng JTBD: Nhu cầu thực tế (Functional), Cảm xúc an tâm (Emotional) và Giá trị xã hội (Social).</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-mentor">Q2</span></td>
-            <td><strong>Máy làm gì & Người làm gì?</strong></td>
-            <td>Phân định ranh giới năng lực rõ ràng: Máy móc phát hiện tín hiệu ➔ Mentor phán đoán bối cảnh ➔ Marlins hỗ trợ chuyên sâu.</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-marlins">Q3</span></td>
-            <td><strong>Hành trình trải nghiệm ra sao?</strong></td>
-            <td>Bản đồ tương tác trực quan 7 giai đoạn xuyên suốt từ lúc đăng ký đến kết thúc khóa học và kích hoạt đại sứ.</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-hybrid">Q4</span></td>
-            <td><strong>Khi nào con người cần can thiệp?</strong></td>
-            <td>Tiêu chí kích hoạt High-touch dựa trên Khoảnh khắc ý nghĩa (Meaningful Moments) và tín hiệu học tập bất thường.</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-risk">Q5</span></td>
-            <td><strong>Thế nào là tương tác Đạt chuẩn (DoD)?</strong></td>
-            <td>Bộ tiêu chí đánh giá Rubrics 3x5 định lượng rõ ràng Level 3 = Chuẩn tối thiểu cần đạt cho mỗi điểm chạm.</td>
-          </tr>
-          <tr>
-            <td><span class="badge badge-milestone">Q6</span></td>
-            <td><strong>Kịch bản & Mẫu tin nhắn ở đâu?</strong></td>
-            <td>9 Playbooks tác nghiệp thực chiến kèm Question Bank, Do/Don't và Mẫu tin nhắn sẵn sàng copy 1-click.</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <!-- 4. Hub Architecture -->
-    <h2 style="font-size: 20px; font-weight: 700; margin: var(--space-8) 0 var(--space-3);">
-      Hub Architecture
-    </h2>
-    <p style="font-size: 14px; color: var(--text-secondary); margin-bottom: var(--space-3);">
-      Bản đồ 4 phân hệ chính giúp bạn tra cứu nhanh theo đúng ngữ cảnh công việc:
+      Marlins Care Hub được cấu trúc để giải quyết 4 câu hỏi tác nghiệp cốt lõi tương ứng với 4 phân hệ trên hệ thống:
     </p>
     <div style="overflow-x: auto; margin-bottom: var(--space-8);">
       <table class="sop-table">
         <thead>
           <tr>
-            <th style="width: 180px;">Phân hệ</th>
-            <th style="width: 220px;">Trọng tâm nội dung</th>
-            <th>Cách khai thác khi làm việc</th>
+            <th style="width: 70px;">Mã</th>
+            <th style="width: 260px;">Câu hỏi cốt lõi của Bạn</th>
+            <th style="width: 200px;">Phân hệ tương ứng</th>
+            <th>Giải pháp & Trọng tâm chuẩn hóa</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td><strong style="color: var(--color-system);">1. Overview</strong></td>
-            <td>Định vị, Ma trận JTBD, 7 Nguyên tắc vận hành, Capability Map</td>
-            <td>Đọc khi onboarding thành viên mới hoặc cần nắm vững ranh giới giữa Hệ thống và Con người.</td>
+            <td><span class="badge badge-system">Q1</span></td>
+            <td><strong>Nhu cầu thực sự của Phụ huynh là gì và ranh giới Con người vs Hệ thống ra sao?</strong></td>
+            <td><a href="#/overview" style="color: var(--color-primary-600); font-weight: 700;">1. Overview</a></td>
+            <td>Giải mã 3 tầng JTBD (Functional, Emotional, Social), 7 nguyên tắc kim chỉ nam và bản đồ phân định năng lực (Capability Map).</td>
           </tr>
           <tr>
-            <td><strong style="color: var(--color-mentor);">2. Parent Journey</strong></td>
-            <td>Bản đồ tương tác 7 giai đoạn (AARRR Pipeline)</td>
-            <td>Tra cứu bức tranh tổng thể dòng đời học sinh và vị trí các điểm chạm (Touchpoints).</td>
+            <td><span class="badge badge-mentor">Q2</span></td>
+            <td><strong>Hành trình trải nghiệm của Phụ huynh & Học sinh diễn ra như thế nào?</strong></td>
+            <td><a href="#/journey" style="color: var(--color-primary-600); font-weight: 700;">2. Parent Journey</a></td>
+            <td>Bản đồ tương tác đa chiều 3 pha vòng đời (Trước khóa học ➔ 12 buổi học ➔ Sau khóa học) và vị trí kích hoạt các điểm chạm.</td>
           </tr>
           <tr>
-            <td><strong style="color: var(--color-marlins);">3. Playbooks</strong></td>
-            <td>9 Quy trình tác nghiệp chuẩn hóa (SOP), Timeline, Kịch bản & Mẫu tin nhắn</td>
-            <td>Mở hàng ngày trước mỗi buổi Live Class, Trial Class, Family Meeting để lấy checklist và script.</td>
+            <td><span class="badge badge-marlins">Q3</span></td>
+            <td><strong>Quy trình thực thi, chuẩn mực hành vi và kịch bản chi tiết ở đâu?</strong></td>
+            <td><a href="#/playbooks/social-media" style="color: var(--color-primary-600); font-weight: 700;">3. Playbooks</a></td>
+            <td>Bộ 8 Playbooks tác nghiệp chuẩn hóa (P01 – P08) tích hợp sẵn SOPs từng bước, Do's & Don'ts, Rubrics L3 DoD ⭐, DARs và FAQs.</td>
           </tr>
           <tr>
-            <td><strong style="color: var(--color-hybrid);">4. Decision Logs</strong></td>
-            <td>5 Bản ghi quyết định kiến trúc vận hành (DAR)</td>
-            <td>Tra cứu lý do và các phân tích đánh đổi (Trade-offs) đằng sau mỗi chính sách vận hành.</td>
+            <td><span class="badge badge-hybrid">Q4</span></td>
+            <td><strong>Tiêu chuẩn kỹ thuật, khung mẫu biên soạn và kiến trúc công nghệ ra sao?</strong></td>
+            <td><a href="#/requirements/playbooks-template" style="color: var(--color-primary-600); font-weight: 700;">4. Requirements & Standards</a></td>
+            <td>Bộ tiêu chuẩn A6 Playbooks Framework, A7 Content Standards, A8 DAR Governance, B1 UI Design System và B2 Tech Stack.</td>
           </tr>
         </tbody>
       </table>
