@@ -134,11 +134,12 @@ function buildSearchIndex() {
 
   // 4. Requirements
   index.push(
-    { title: "Playbooks Framework (A6)", slug: "/requirements/playbooks-template", category: "Requirements", icon: "📖", snippet: "Quy chuẩn kiến trúc 3 Tiers, Playbook Boilerplate Markdown & DoD L3." },
-    { title: "Content Standards (A7)", slug: "/requirements/content-standards", category: "Requirements", icon: "✍️", snippet: "Tiêu chuẩn nội dung, quy tắc đặt tên tiêu đề ≤ 3 từ & văn phong thấu cảm." },
-    { title: "DAR Template & Governance (A8)", slug: "/requirements/dar-template", category: "Requirements", icon: "📐", snippet: "Khung mẫu đánh giá CMMI DAR & ma trận chấm điểm định lượng." },
-    { title: "UI Design System (B1)", slug: "/requirements/ui-design-system", category: "Requirements", icon: "🎨", snippet: "Hệ thống Design Tokens (Color, Typography) & UI Components." },
-    { title: "Tech Stack Specifications (B2)", slug: "/requirements/tech-stack", category: "Requirements", icon: "⚡", snippet: "Đặc tả kỹ thuật hệ thống, D1 DB Schema & Cloudflare Pages." }
+    { title: "Topic Library & Pedagogy", slug: "/requirements/topic-library", category: "Requirements", icon: "🧠", snippet: "Hệ thống từ điển sư phạm cốt lõi & 7 lăng kính tranh biện chuyển hóa nhận thức." },
+    { title: "Playbooks Framework", slug: "/requirements/playbooks-template", category: "Requirements", icon: "📋", snippet: "Quy chuẩn kiến trúc 3 Tiers, Playbook Boilerplate Markdown & DoD L3." },
+    { title: "Content Standards", slug: "/requirements/content-standards", category: "Requirements", icon: "📝", snippet: "Tiêu chuẩn nội dung, quy tắc đặt tên tiêu đề ≤ 3 từ & văn phong thấu cảm." },
+    { title: "DAR Template & Governance", slug: "/requirements/dar-template", category: "Requirements", icon: "📊", snippet: "Khung mẫu đánh giá CMMI DAR & ma trận chấm điểm định lượng." },
+    { title: "UI Design System", slug: "/requirements/ui-design-system", category: "Requirements", icon: "🎨", snippet: "Hệ thống Design Tokens (Color, Typography) & UI Components." },
+    { title: "Tech Stack Specifications", slug: "/requirements/tech-stack", category: "Requirements", icon: "⚡", snippet: "Đặc tả kỹ thuật hệ thống, D1 DB Schema & Cloudflare Pages." }
   );
 
   return index;

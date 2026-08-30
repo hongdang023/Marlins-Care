@@ -136,21 +136,24 @@ export function renderSidebar(currentRoute, onNavigate) {
   `;
 
   // Group 4: REQUIREMENTS & STANDARDS
+  const reqNav = SITEMAP_CONFIG.navigation.find(n => n.id === 'requirements');
+  const reqItems = reqNav && reqNav.subItems ? reqNav.subItems : [
+    { title: "Topic Library & Pedagogy", slug: "/requirements/topic-library" },
+    { title: "Playbooks Framework", slug: "/requirements/playbooks-template" },
+    { title: "Content Standards", slug: "/requirements/content-standards" },
+    { title: "DAR Template & Governance", slug: "/requirements/dar-template" },
+    { title: "UI Design System", slug: "/requirements/ui-design-system" },
+    { title: "Tech Stack Specifications", slug: "/requirements/tech-stack" }
+  ];
+
   html += `
     <div class="sidebar-group">
       <div class="sidebar-group-title">4. Requirements & Standards</div>
-      <a href="#/requirements/playbooks-framework" class="sidebar-item ${currentRoute === '/requirements/playbooks-framework' ? 'active' : ''}">
-        <span>📖 Playbooks Framework (A6)</span>
-      </a>
-      <a href="#/requirements/content-standards" class="sidebar-item ${currentRoute === '/requirements/content-standards' ? 'active' : ''}">
-        <span>✍️ Content Standards (A7)</span>
-      </a>
-      <a href="#/requirements/dar-template" class="sidebar-item ${currentRoute === '/requirements/dar-template' ? 'active' : ''}">
-        <span>📐 DAR Template (A8)</span>
-      </a>
-      <a href="#/requirements/ui-design-system" class="sidebar-item ${currentRoute === '/requirements/ui-design-system' ? 'active' : ''}">
-        <span>🎨 UI Design System (B1)</span>
-      </a>
+      ${reqItems.map(item => `
+        <a href="#${item.slug}" class="sidebar-item ${currentRoute === item.slug || (item.slug === '/requirements/playbooks-template' && currentRoute === '/requirements/playbooks-framework') ? 'active' : ''}">
+          <span>${item.title}</span>
+        </a>
+      `).join('')}
     </div>
   `;
 
