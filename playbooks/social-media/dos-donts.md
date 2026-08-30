@@ -4,7 +4,7 @@ title: "Do's & Don'ts"
 
 # Do's & Don'ts
 
-| Nên Làm (Best Practices / Do's) | Cấm Kỵ (Avoid / Don'ts) |
+| Do's | Don'ts |
 | :--- | :--- |
 | ✅ **Luôn có ảnh người thật:** Đảm bảo bài viết có hình ảnh chân thực của học sinh và Mentor để tạo cảm xúc chân thực và sự tin cậy. | ❌ **Không chèn CTA bán hàng:** Tuyệt đối không kêu gọi *"Inbox ngay để nhận ưu đãi khóa học"*, *"Đăng ký tại link này"* trên Facebook cá nhân. |
 | ✅ **Tự vấn khiêm tốn:** Thể hiện tinh thần cầu tiến, học hỏi từ chính học sinh — Mentor không phải là "thợ dạy hoàn hảo", mà là người đồng hành tận tâm. | ❌ **Không dùng thuật ngữ đao to búa lớn:** Tránh các từ ngữ hàn lâm gây e ngại (ví dụ: *kiến trúc cognitive load, thuật toán đệ quy trừu tượng...*). |

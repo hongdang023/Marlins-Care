@@ -38,7 +38,7 @@
 
 .vp-doc th, .vp-doc td {
   border: 1px solid var(--vp-c-divider);
-  padding: 8px 12px;
+  padding: 10px 14px;
 }
 
 .vp-doc th {
@@ -50,4 +50,67 @@
 .vp-doc td:nth-child(4), .vp-doc th:nth-child(4) {
   background-color: var(--vp-c-brand-soft);
   font-weight: 500;
+}
+
+/* Clean Accordion / Toggle Styling (Removes default browser blue outline) */
+.vp-doc details,
+.vp-doc details.custom-toggle {
+  margin: 1rem 0 1.25rem 0;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 12px 16px;
+  background-color: var(--vp-c-bg-soft);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.vp-doc details:hover,
+.vp-doc details.custom-toggle:hover {
+  border-color: var(--vp-c-brand-1);
+}
+
+.vp-doc details[open],
+.vp-doc details.custom-toggle[open] {
+  border-color: var(--vp-c-brand-2);
+  box-shadow: 0 2px 8px rgba(15, 118, 110, 0.08);
+}
+
+.vp-doc summary {
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--vp-c-brand-1);
+  outline: none !important;
+  user-select: none;
+  padding: 2px 0;
+}
+
+.vp-doc summary:focus,
+.vp-doc summary:focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+  color: var(--vp-c-brand-2);
+}
+
+/* Badges */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.badge-system {
+  background: rgba(2, 132, 199, 0.12);
+  color: #0284C7;
+}
+
+.badge-mentor {
+  background: rgba(13, 148, 136, 0.12);
+  color: #0D9488;
+}
+
+.badge-marlins {
+  background: rgba(234, 88, 12, 0.12);
+  color: #EA580C;
 }

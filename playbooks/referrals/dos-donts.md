@@ -4,8 +4,8 @@ title: "Do's & Don'ts"
 
 # Do's & Don'ts
 
-| Nên Làm (Best Practices / Do's) | Cấm Kỵ (Avoid / Don'ts) |
+| Do's | Don'ts |
 | :--- | :--- |
-| ✅ **Minh bạch trạng thái:** Hiển thị rõ ràng trên Family Portal trạng thái lời giới thiệu để phụ huynh dễ theo dõi. | ❌ **Tuyệt đối không biến thành mô hình đa cấp (Zero MLM):** Không tạo hoa hồng nhiều tầng, không chi trả tiền mặt. |
-| ✅ **Trân trọng lời giới thiệu:** Gửi Email cảm ơn ấm áp mang danh nghĩa Giảng viên/Mentor trực tiếp dạy con. | ❌ **Không làm phiền:** Không liên tục spam tin nhắn ép phụ huynh phải đi chia sẻ link. |
-| ✅ **Hỗ trợ kịp thời:** Giải quyết tức thời các trường hợp phụ huynh quên nhập mã giới thiệu qua kênh hỗ trợ 1-1. | ❌ **Không gây khó dễ:** Không đặt ra các điều khoản ẩn gây khó khăn khi áp dụng voucher học phí. |
+| ✅ **Tri ân song phương minh bạch:** Áp dụng tự động ưu đãi 15% - 15% Tuition Credit trực tiếp trên Family Portal. | ❌ **Chèo kéo kiếm hoa hồng:** Không biến phụ huynh thành đại lý bán hàng đa cấp hay telesale. |
+| ✅ **Tôn trọng sự tự nguyện:** Chỉ ghi nhận khi phụ huynh cảm thấy thực sự hài lòng và tự nguyện chia sẻ giá trị. | ❌ **Spam tin nhắn giới thiệu:** Không gửi tin nhắn mời gọi giới thiệu dồn dập gây phản cảm. |
+| ✅ **Chăm sóc chu đáo người được giới thiệu:** Bảo đảm gia đình mới nhận được trải nghiệm đồng hành chuẩn mực nhất. | ❌ **Phân biệt đối xử:** Tuyệt đối không ưu tiên hay bỏ bê học sinh dựa trên nguồn giới thiệu. |

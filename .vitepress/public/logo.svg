@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <defs>
+    <!-- Background / Shield Gradient -->
+    <linearGradient id="marlins-grad-bg" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F766E" />
+      <stop offset="60%" stop-color="#0D9488" />
+      <stop offset="100%" stop-color="#115E59" />
+    </linearGradient>
+
+    <!-- Accent Coral Wave Gradient -->
+    <linearGradient id="marlins-grad-accent" x1="12" y1="36" x2="38" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EA580C" />
+      <stop offset="100%" stop-color="#F97316" />
+    </linearGradient>
+
+    <!-- Teal Glow Light Wave -->
+    <linearGradient id="marlins-grad-light" x1="10" y1="10" x2="34" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#5EEAD4" />
+      <stop offset="100%" stop-color="#14B8A6" />
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="marlins-shadow" x="-10%" y="-10%" width="130%" height="130%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#042F2E" flood-opacity="0.25" />
+    </filter>
+  </defs>
+
+  <!-- Rounded Squircle Badge Base -->
+  <rect x="3" y="3" width="42" height="42" rx="12" fill="url(#marlins-grad-bg)" />
+  <rect x="3" y="3" width="42" height="42" rx="12" stroke="#2DD4BF" stroke-opacity="0.3" stroke-width="1.5" />
+
+  <!-- Dynamic Marlin Dorsal Sail & Letter 'M' stylized geometry -->
+  <!-- Back Wing / Wave (Teal Light) -->
+  <path d="M12 34V16L20 25L24 20L32 30V34H28L24 27L20 32L16 27V34H12Z" fill="url(#marlins-grad-light)" opacity="0.4" />
+
+  <!-- Main Dynamic Marlin Jump / Caring Heart Curve Structure -->
+  <g filter="url(#marlins-shadow)">
+    <!-- Primary Marlin Fin / M-Shape Left Wing -->
+    <path d="M12 34V15C12 14.1 13 13.5 13.8 14L24 24.5L34.2 14C35 13.5 36 14.1 36 15V34C36 34.6 35.6 35 35 35H31C30.4 35 30 34.6 30 34V22.5L25.2 27.8C24.5 28.5 23.5 28.5 22.8 27.8L18 22.5V34C18 34.6 17.6 35 17 35H13C12.4 35 12 34.6 12 34Z" fill="#FFFFFF" />
+
+    <!-- Accent Caring Splash / Coral Crest -->
+    <path d="M22 11C22 11 26 15 28 18C29.2 19.8 29.5 21.2 28.8 22.2C28.2 23.1 26.8 23.2 25.5 22.5L24 21.2L22.5 22.5C21.2 23.2 19.8 23.1 19.2 22.2C18.5 21.2 18.8 19.8 20 18C22 15 26 11 26 11H22Z" fill="url(#marlins-grad-accent)" />
+    
+    <!-- Marlin Sparkle Eye / Care Star -->
+    <circle cx="24" cy="14" r="2" fill="#FED7AA" />
+  </g>
+</svg>

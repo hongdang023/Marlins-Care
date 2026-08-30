@@ -6,7 +6,7 @@ export default defineConfig({
   lang: 'vi-VN',
   
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'theme-color', content: '#0F766E' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
@@ -23,10 +23,10 @@ export default defineConfig({
 
     // 1. Top Navigation Bar
     nav: [
-      { text: 'Overview', link: '/A_Requirements/A2_Product_Goal_and_Vision' },
-      { text: 'Parent Journey', link: '/A_Requirements/A4_Parent_Journey_Framework' },
-      { text: 'Playbooks', link: '/C_Playbooks/P01_Social_Media_Playbook' },
-      { text: 'Requirements', link: '/A_Requirements/A9_Topic_Library_and_Pedagogy_Standards' }
+      { text: 'Overview', link: '/overview/why-parent-care' },
+      { text: 'Parent Journey', link: '/journey/' },
+      { text: 'Playbooks', link: '/playbooks/social-media/overview' },
+      { text: 'Requirements', link: '/requirements/topic-library' }
     ],
 
     // 2. Sidebar Navigation (Unified 4-section Architecture)
@@ -35,17 +35,17 @@ export default defineConfig({
         text: '1. OVERVIEW',
         collapsed: false,
         items: [
-          { text: 'Why Parent Care', link: '/A_Requirements/A2_Product_Goal_and_Vision' },
-          { text: 'Parent Jobs (JTBD)', link: '/A_Requirements/A3_Parent_JTBD_and_Needs' },
-          { text: 'Core Principles', link: '/A_Requirements/A2_Product_Goal_and_Vision#golden-principles' },
-          { text: 'Capability Map', link: '/A_Requirements/A4_Parent_Journey_Framework#persistent-capabilities' }
+          { text: 'Why Parent Care', link: '/overview/why-parent-care' },
+          { text: 'Parent Jobs (JTBD)', link: '/overview/parent-jobs' },
+          { text: 'Core Principles', link: '/overview/core-principles' },
+          { text: 'Capability Map', link: '/overview/capability-map' }
         ]
       },
       {
         text: '2. PARENT JOURNEY',
         collapsed: false,
         items: [
-          { text: 'Journey Map', link: '/A_Requirements/A4_Parent_Journey_Framework' }
+          { text: 'Journey Map', link: '/journey/' }
         ]
       },
       {
@@ -174,12 +174,12 @@ export default defineConfig({
         text: '4. REQUIREMENTS & STANDARDS',
         collapsed: false,
         items: [
-          { text: 'Topic Library & Pedagogy', link: '/A_Requirements/A9_Topic_Library_and_Pedagogy_Standards' },
-          { text: 'Playbooks Framework', link: '/A_Requirements/A6_Playbooks_Template' },
-          { text: 'Content Standards', link: '/A_Requirements/A7_Content_Standards' },
-          { text: 'DAR Template & Governance', link: '/A_Requirements/A8_DAR_Template' },
-          { text: 'UI Design System', link: '/B_System Design/B1_UI_Design_System' },
-          { text: 'Tech Stack Specifications', link: '/B_System Design/B2_Tech_Stack' }
+          { text: 'Topic Library & Pedagogy', link: '/requirements/topic-library' },
+          { text: 'Playbooks Framework', link: '/requirements/playbooks-template' },
+          { text: 'Content Standards', link: '/requirements/content-standards' },
+          { text: 'DAR Template & Governance', link: '/requirements/dar-template' },
+          { text: 'UI Design System', link: '/requirements/ui-design-system' },
+          { text: 'Tech Stack Specifications', link: '/requirements/tech-stack' }
         ]
       }
     ],

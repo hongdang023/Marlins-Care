@@ -4,7 +4,7 @@ title: "Do's & Don'ts"
 
 # Do's & Don'ts
 
-| Nên Làm (Best Practices / Do's) | Cấm Kỵ (Avoid / Don'ts) |
+| Do's | Don'ts |
 | :--- | :--- |
 | ✅ **Tạo Poll Zalo trước buổi học:** Luôn chủ động tạo bình chọn trên nhóm Zalo lớp học để phụ huynh confirm lịch tham gia. | ❌ **Tuyệt đối không chèo kéo bán hàng:** Không gọi điện ép phụ huynh nộp học phí kiểu telesales. |
 | ✅ **Truyền thông rõ bản chất Trial:** Nhấn mạnh 2 buổi Trial là không gian để con bộc lộ phong cách tư duy, không phải bài test đỗ/trượt. | ❌ **Không nói chung chung:** Tránh khen/chê chung chung mà không dẫn chứng hành vi hay bài toán cụ thể. |
