@@ -175,13 +175,24 @@ const A9_MARKDOWN = `# A9 · Topic Library
 
 ---
 
-## Purpose & Principles
+## Strategic Purpose
 
-1. **Chuẩn mực hóa Tri thức Sư phạm:** Cung cấp nguồn tài nguyên tri thức duy nhất (Single Source of Truth) kết nối toàn bộ chuỗi chuyên đề Marlins Workshop (Online Zoom tối Thứ 5), Fishbowl Marlins Day (Offline Chủ Nhật), Kênh đúc kết Mentor và Cổng tự học Family Portal.
-2. **Mô hình 2 Lớp:**
+1. **Chuẩn mực hóa Tri thức Sư phạm (Canonical Pedagogy):** Cung cấp nguồn tài nguyên tri thức duy nhất (Single Source of Truth) kết nối toàn bộ hệ sinh thái Nemo12 và Marlins Care, bảo đảm tính nhất quán về mặt lý luận giáo dục và phương pháp sư phạm.
+2. **Định hướng Nội dung Tác nghiệp:** Làm khung tham chiếu bắt buộc cho toàn bộ đội ngũ Host, Mentor và ban vận hành khi thiết kế nội dung cho:
+   * **Marlins Workshop (\`P03\`):** Chuỗi chuyên đề Online Zoom tối Thứ 5 dành cho cộng đồng phụ huynh.
+   * **Marlins Day (\`P04\`):** Phiên đối thoại Fishbowl Offline Chủ Nhật giải mã hành vi và năng lực học sinh.
+   * **Mentor Insights (\`P01\`):** Các bài viết đúc kết, phân tích ca học sinh thực tế trên kênh truyền thông.
+   * **Family Portal:** Cổng tự học và hệ thống khuyến nghị dành cho phụ huynh đồng hành tại nhà.
+
+---
+
+## Core Principles
+
+1. **Mô hình 2 Lớp (Two-Layer Architecture):**
    * **Lớp Dẫn Nhập (Argument Angles):** 7 Luận điểm tranh luận sắc bén dùng để kích hoạt tư duy, bóc tách ngộ nhận bề mặt của cha mẹ tại các buổi đối thoại.
    * **Lớp Bản Chất (Core Concepts):** Kho tàng khái niệm chuẩn mực quốc tế giải thích tận gốc cơ chế học tập và đưa ra giải pháp thực hành.
-3. **Ngôn ngữ bình dân, chuẩn xác bản chất:** Giữ nguyên thuật ngữ tiếng Anh chuẩn quốc tế và diễn giải bằng góc nhìn đời sống thực tế, giúp phụ huynh dễ dàng chuyển hóa thành hành vi đồng hành cùng con tại nhà.
+2. **Thực chứng & Dữ liệu sống (Evidence-Based Rigor):** Mọi đánh giá và khuyến nghị đều phải dựa trên bằng chứng quan sát cụ thể (Evidence) và sản phẩm thực tế của học sinh, tuyệt đối không dùng lời khen cảm tính hay định kiến chủ quan.
+3. **Ngôn ngữ bình dân, chuẩn xác bản chất (Democratized Pedagogy):** Giữ nguyên thuật ngữ tiếng Anh chuẩn quốc tế và diễn giải bằng góc nhìn đời sống thực tế, giúp phụ huynh dễ dàng thấu hiểu và chuyển hóa thành hành vi nuôi dạy con mỗi ngày.
 
 ---
 
