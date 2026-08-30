@@ -63,6 +63,7 @@ export default defineConfig({
               { text: "Do's & Don'ts", link: '/playbooks/social-media/dos-donts' },
               { text: 'Assessment Rubrics', link: '/playbooks/social-media/assessment-rubrics' },
               { text: 'Privacy Guidelines', link: '/playbooks/social-media/privacyguidelines' },
+              { text: 'FAQ', link: '/playbooks/social-media/faq' },
               { text: 'Decision Logs', link: '/playbooks/social-media/decision-logs' }
             ]
           },

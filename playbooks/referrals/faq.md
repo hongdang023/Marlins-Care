@@ -6,47 +6,47 @@ title: "FAQ"
 
 Giải đáp các câu hỏi tác nghiệp, chiến lược và xử lý tình huống thực tế.
 
-### Scheduling & Preparation
+### Program Rules & Eligibility
 
 <details class="custom-toggle" style="margin-bottom: 12px; border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 10px 16px;">
 <summary style="font-weight: 600; cursor: pointer; color: var(--vp-c-brand-1);">
-Buổi Family Meeting kéo dài bao lâu và diễn ra ở đâu?
+Mã giới thiệu cá nhân của phụ huynh lấy ở đâu?
 </summary>
 
 
-👉 **A:** Thời lượng tiêu chuẩn là 60 phút, diễn ra trực tiếp tại nhà học sinh hoặc không gian yên tĩnh phù hợp do gia đình lựa chọn.
+👉 **A:** Phụ huynh chỉ cần đăng nhập Family Portal, mã giới thiệu độc bản kèm link chia sẻ nhanh sẽ hiển thị ngay tại mục Tri Ân Đồng Hành.
 
 </details>
 
 <details class="custom-toggle" style="margin-bottom: 12px; border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 10px 16px;">
 <summary style="font-weight: 600; cursor: pointer; color: var(--vp-c-brand-1);">
-Cả bố và mẹ có bắt buộc phải cùng tham dự không?
+Tuition Credit 15% có thời hạn sử dụng trong bao lâu?
 </summary>
 
 
-👉 **A:** Nemo12 khuyến khích cả bố, mẹ và học sinh cùng hiện diện trọn vẹn để tạo sự thấu hiểu đồng thuận đa chiều trong gia đình.
+👉 **A:** Credit có giá trị tích lũy vĩnh viễn và được tự động khấu trừ vào học phí các khóa học nâng cao kế tiếp của con hoặc chuyển tặng cho người thân.
 
 </details>
 
-### Family Notes & Next Steps
+### Automation & Tracking
 
 <details class="custom-toggle" style="margin-bottom: 12px; border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 10px 16px;">
 <summary style="font-weight: 600; cursor: pointer; color: var(--vp-c-brand-1);">
-Bản Family Notes 6 trục bao gồm những nội dung gì?
+Làm sao phụ huynh biết bạn bè của mình đã sử dụng mã giới thiệu thành công?
 </summary>
 
 
-👉 **A:** Ghi nhận 6 chiều kích: Điểm mạnh cốt lõi, Rào cản tâm lý, Phong cách tư duy, Mục tiêu gia đình, Thỏa thuận đồng hành và Kế hoạch 30 ngày tiếp theo.
+👉 **A:** Hệ thống tự động gửi thông báo chúc mừng qua Zalo và cập nhật trạng thái voucher vào ví điện tử trên Portal của phụ huynh ngay khi giao dịch hoàn tất.
 
 </details>
 
 <details class="custom-toggle" style="margin-bottom: 12px; border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 10px 16px;">
 <summary style="font-weight: 600; cursor: pointer; color: var(--vp-c-brand-1);">
-Sau buổi gặp, Mentor sẽ theo dõi tiến độ như thế nào?
+Gia đình mới được nhận ưu đãi như thế nào khi đăng ký qua link giới thiệu?
 </summary>
 
 
-👉 **A:** Mentor cập nhật Family Notes lên Portal và định kỳ nhắn tin chia sẻ những chuyển biến nhỏ của con theo đúng cam kết đã thống nhất.
+👉 **A:** Học sinh mới được tự động giảm trực tiếp 15% học phí ngay tại bước thanh toán học phí chính thức.
 
 </details>
 
