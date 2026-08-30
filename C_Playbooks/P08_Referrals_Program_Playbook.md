@@ -30,50 +30,14 @@ relates_to:
 ---
 
 <details open>
-<summary><h3>Purpose & JTBD</h3></summary>
-
-Giải quyết bài toán tâm lý và mong muốn lan tỏa của phụ huynh (JTBD):
-* **`S2` (Beyond Grades):** Tự hào chia sẻ sự tiến bộ và môi trường học tập văn minh của con cho những người bạn có cùng nỗi trăn trở giáo dục.
-* **`S4` (Belonging):** Cảm nhận mình là một phần của cộng đồng cha mẹ đồng hành tích cực cùng Nemo12.
-* **`E5` (Worthwhile Investment):** Tối ưu chi phí học tập của con cho các khóa tiếp theo một cách xứng đáng và minh bạch.
-
-</details>
-
----
-
-<details open>
-<summary><h3>SOP Steps</h3></summary>
-
-Quy trình vận hành tự động hóa 100% của hệ thống Referral:
-
-```mermaid
-graph TD
-    A["Phụ huynh đăng nhập Family Portal"] --> B["1. Nhận Referral Link / Mã Giới Thiệu độc bản"]
-    B --> C["2. Phụ huynh copy link gửi cho bạn bè/người quen"]
-    C --> D["3. Người mới đăng ký qua Link ➡️ Tự động gắn tag Giới thiệu"]
-    D --> E["4. Người mới hoàn tất thanh toán 12 buổi (Live Class)"]
-    E --> F["5. Hệ thống tự động kích hoạt Ưu đãi 15% - 15%<br><i>(Giảm học phí người mới & Cộng voucher cho người giới thiệu)</i>"]
-```
-
-| Bước | Hành động Hệ thống (System Action) | Hành động Phụ huynh (Parent Action) |
-| :--- | :--- | :--- |
-| **1. Cấp mã độc bản** | Tự động tạo `Referral_Code` và đường dẫn cá nhân hóa hiển thị sẵn trên Family Portal. | Đăng nhập Portal, bấm 1 chạm để sao chép link giới thiệu. |
-| **2. Gắn tag tự động** | Khi người mới click link và điền thông tin đăng ký ➔  Hệ thống tự động liên kết ID của người giới thiệu vào hồ sơ học sinh mới. | Gửi link qua tin nhắn cho bạn bè/người thân có con trong độ tuổi. |
-| **3. Xác thực thanh toán** | Khi người mới thanh toán thành công khóa 12 buổi ➔  Hệ thống tự động áp dụng mức giảm 15% học phí cho hóa đơn của người mới. | Người mới nhận ưu đãi 15% ngay trên màn hình thanh toán. |
-| **4. Trả thưởng người giới thiệu** | Tự động cộng Voucher 15% vào ví tài khoản Family Portal của người giới thiệu + Gửi Email chúc mừng và cảm ơn tự động. | Người giới thiệu nhận thông báo qua Email/Portal, dùng voucher cho kỳ học tiếp theo của con. |
-
-</details>
-
----
-
-<details>
 <summary><h3>Do's & Don'ts</h3></summary>
 
-| Nên Làm (Best Practices / Do's) | Cấm Kỵ (Avoid / Don'ts) |
+| Do's | Don'ts |
 | :--- | :--- |
-| ✅ **Minh bạch trạng thái:** Hiển thị rõ ràng trên Family Portal trạng thái lời giới thiệu để phụ huynh dễ theo dõi. | ❌ **Tuyệt đối không biến thành mô hình đa cấp (Zero MLM):** Không tạo hoa hồng nhiều tầng, không chi trả tiền mặt. |
-| ✅ **Trân trọng lời giới thiệu:** Gửi Email cảm ơn ấm áp mang danh nghĩa Giảng viên/Mentor trực tiếp dạy con. | ❌ **Không làm phiền:** Không liên tục spam tin nhắn ép phụ huynh phải đi chia sẻ link. |
-| ✅ **Hỗ trợ kịp thời:** Giải quyết tức thời các trường hợp phụ huynh quên nhập mã giới thiệu qua kênh hỗ trợ 1-1. | ❌ **Không gây khó dễ:** Không đặt ra các điều khoản ẩn gây khó khăn khi áp dụng voucher học phí. |
+| ✅ **Minh bạch trạng thái:** Hiển thị rõ ràng trên Family Portal trạng thái lời giới thiệu để phụ huynh dễ dàng theo dõi. | ❌ **Tuyệt đối không biến tướng MLM:** Không tạo hoa hồng đa tầng, không chi trả tiền mặt làm giảm giá trị giáo dục. |
+| ✅ **Tri ân chân thành:** Gửi thư cảm ơn ấm áp mang danh nghĩa Mentor trực tiếp dạy con khi có phụ huynh mới đồng hành. | ❌ **Không spam làm phiền:** Không liên tục gửi tin nhắn hối thúc hay ép buộc phụ huynh phải đi chia sẻ link. |
+| ✅ **Hỗ trợ kịp thời 1-1:** Giải quyết ngay các trường hợp phụ huynh quên nhập mã giới thiệu qua kênh hỗ trợ trực tiếp. | ❌ **Không gây khó dễ:** Không đặt ra các điều khoản ẩn phức tạp gây khó khăn khi gia đình áp dụng Tuition Credit. |
+| ✅ **Tự động kích hoạt ưu đãi:** Hệ thống tự động giảm trực tiếp 15% học phí cho cả gia đình mới và gia đình giới thiệu. | ❌ **Không phân biệt đối xử:** Đảm bảo 100% học sinh được giới thiệu đều nhận được trải nghiệm học tập chuẩn mực. |
 
 </details>
 

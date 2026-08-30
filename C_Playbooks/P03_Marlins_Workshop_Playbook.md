@@ -30,103 +30,14 @@ relates_to:
 ---
 
 <details open>
-<summary><h3>Core Mindset</h3></summary>
-
-> **"Không thuyết giảng một chiều — Chuyển hóa bằng trải nghiệm & Tự phản tư (4F Reflection)."**
-
-Phụ huynh không cần nghe thêm những bài giảng lý thuyết hàn lâm xa rời thực tế. Họ cần một **không gian an toàn để soi chiếu bản thân, mổ xẻ những bế tắc hàng ngày khi kèm con học và tìm thấy công cụ thực hành cụ thể**.
-
-| Trọng tâm | Định hướng thực thi |
-| :--- | :--- |
-| **High-Commitment Culture** | Thiết lập tiêu chuẩn tham gia nghiêm túc ngay từ cửa phòng Zoom (Bật cam/mic 100%). Ai không sẵn sàng hiện diện sẽ xem tài liệu tự học trên Portal. |
-| **Concept Deep-Dive** | Mỗi buổi chọn đúng **1 Concept / 1 Ngộ nhận** trong Thư viện để đào thật sâu qua case study thực tế của học sinh Nemo12 (Một concept có thể đào nhiều lần ở các lứa tuổi khác nhau). |
-| **Zero Hard-Selling** | Không biến Workshop thành buổi telesale chèo kéo khóa học. Giá trị tri thức và sự thấu cảm tự khắc chuyển hóa phụ huynh thành người đồng hành tại Marlins Day. |
-
-</details>
-
----
-
-<details open>
-<summary><h3>📚 Concept Repository</h3></summary>
-
-Thư viện các khái niệm và trường phái sư phạm được khai thác luân phiên trong các buổi Workshop tối Thứ 5:
-
-#### 1. Bảy Câu Đáng Đổi Cách Nghĩ (7 Mindset Shifts & Misconceptions)
-1. **Điểm cao ≠  Hiểu sâu:** Bốn cách đạt điểm cao mà đầu óc rỗng tuếch (Học vẹt, học tủ, luyện mẹo, áp lực gia đình).
-2. **Làm nhiều bài ≠  Học tốt:** Khối lượng bài tập là thứ dễ đo nhất nhưng cũng dễ gây ảo tưởng và triệt tiêu hứng thú tự học nhất.
-3. **Test không phải để phán xét learner:** Một bài kiểm tra là câu hỏi dành cho hệ thống dạy học, không phải bản án kết tội đứa trẻ.
-4. **Mọi learner model đều có uncertainty:** Một hệ thống dám nói *"Tôi chưa biết rõ điểm này ở con"* đáng tin cậy hơn hệ thống lúc nào cũng phán số liệu chắc nịch.
-5. **Không phải cuộc thi nào cũng đáng tham gia:** Mỗi cuộc thi đều có cái giá phải trả về thời gian và tâm lý. Câu hỏi then chốt: *"Nó mua được gì thực chất cho sự trưởng thành của con?"*
-6. **Mục tiêu cuối cùng không chỉ là thi đỗ:** Đỗ vào trường chuyên/chọn là một cánh cửa mở ra, không phải đích đến. Chuyện gì xảy ra với tâm lý và năng lực tự học của con sau khi cánh cửa đó mở?
-7. **Student Portrait quan trọng hơn danh sách KPI:** Cái gì đo được sẽ được tối ưu hóa. Phải cẩn trọng tối đa với thứ mình chọn để đo lường con trẻ.
-
-#### 2. Các Trường Phái Sư Phạm Ứng Dụng
-* **Constructivism (Thuyết Kiến tạo) & Inquiry-Based Learning:** Dạy con bằng cách đặt câu hỏi gợi mở, để con tự xây dựng tri thức thay vì nhồi nhét đáp án có sẵn.
-* **Mastery Learning & AoPS (Art of Problem Solving):** Học sâu bản chất, làm chủ từng nấc thang tư duy logic trước khi bước sang chủ đề mới.
-* **Competency-Based & IB (Tú tài Quốc tế):** Đo lường sự tiến bộ dựa trên năng lực giải quyết vấn đề thực tế, tư duy phản biện và phẩm chất cá nhân.
-
-#### 3. Bộ Công Cụ Đồng Hành Cùng Con Tại Nhà
-* **NVC (Nonviolent Communication):** 4 bước giao tiếp thấu cảm không phán xét, không áp đặt, không bạo lực ngôn từ với con.
-* **BEM Model:** Thấu hiểu sự tương hỗ giữa *Behavior (Hành vi)* ≤ ftrightarrow *Experience (Trải nghiệm)* ≤ ftrightarrow *Mental Model (Mô hình tư duy)* của trẻ.
-* **Building 21 & Family Learning Environment:** Cách kiến tạo không gian và nhịp sinh hoạt nuôi dưỡng tính tự giác tự học tại nhà.
-
-</details>
-
----
-
-<details open>
-<summary><h3>⏱️ Session Agenda</h3></summary>
-
-Cấu trúc chuẩn 120 phút (20h00 – 22h00) thiết kế theo mô hình **Double Reflection Loops**:
-
-```mermaid
-graph TD
-    A["20h00 - 20h15: Check-in & Breakout 1 (Làm quen & Chia sẻ bế tắc)"] --> B["20h15 - 20h45: Concept 1 & Bài tập Mini"]
-    B --> C["20h45 - 21h00: Breakout Room: 4F Reflection 1"]
-    C --> D["21h00 - 21h30: Concept 2 & Case Study Sâu (NVC/BEM)"]
-    D --> E["21h30 - 21h45: Breakout Room: 4F Reflection 2"]
-    E --> F["21h45 - 22h00: Harvesting, Portal Guidance & Lời mời Marlins Day"]
-```
-
-| Khung giờ | Nội dung hoạt động | Hình thức | Mục tiêu & Phương pháp |
-| :---: | :--- | :---: | :--- |
-| **20:00 – 20:15** (15') | **Warm-up & Breakout Check-in** | Nhóm nhỏ<br>(3-4 người) | • Điểm danh Cam/Mic.<br>• Phụ huynh chia sẻ 1 "cơn đau đầu / cảm giác bất lực" gần nhất khi kèm con học tại nhà. |
-| **20:15 – 20:45** (30') | **Chuyên đề 1 & Bài tập Mini** | Toàn phòng | • Anh Đắc mổ xẻ 1 Ngộ nhận trọng tâm.<br>• Giao bài tập tình huống thực tế (tình huống con lười học / trốn tránh bài khó). |
-| **20:45 – 21:00** (15') | **Breakout 4F Reflection 1** | Nhóm nhỏ | Thực hành khung **4F**:<br>• **Facts:** Sự thật con đã làm gì?<br>• **Feelings:** Cảm xúc lúc đó của bố/mẹ là gì?<br>• **Findings:** Ngộ nhận nào đang chi phối phản ứng của mình?<br>• **Future:** Lần tới sẽ phản ứng khác đi như thế nào? |
-| **21:00 – 21:30** (30') | **Chuyên đề 2 & Case Study Thực Chiến** | Toàn phòng | • Mentor Hồng chia sẻ góc nhìn sư phạm thực tế từ lớp học Nemo12.<br>• Hướng dẫn công cụ NVC / BEM xử lý triệt để bế tắc. |
-| **21:30 – 21:45** (15') | **Breakout 4F Reflection 2** | Nhóm nhỏ | Áp dụng giải pháp mới vào đúng trường hợp cụ thể của con mình; các bố mẹ góp ý chéo cho nhau. |
-| **21:45 – 22:00** (15') | **Harvesting & Call To Action** | Toàn phòng | • Đại diện 2 phụ huynh chia sẻ bài học tâm đắc nhất.<br>• Hướng dẫn làm bài tập theo pace riêng trên **Family Portal**.<br>• Mời tham gia **Marlins Day** chiều Chủ Nhật tại Lotte Hotel. |
-
-</details>
-
----
-
-<details open>
-<summary><h3>SOP Steps</h3></summary>
-
-| Giai đoạn | Thao tác Hệ thống (System Action via Portal/Zalo) | Thao tác Con người (Host & Mentor Action) | Thời gian chuẩn |
-| :--- | :--- | :--- | :---: |
-| **1. Pre-Workshop** *(Trước 72h - 24h)* | • Tự động gửi thông báo chủ đề tuần và form đăng ký vào 3 Group Zalo.<br>• Nhắc nhở quy định bất biến: **100% Bật Cam/Mic suốt 120 phút**. | • Host & Mentor thống nhất Concept trọng tâm và chuẩn bị 2 bài tập tình huống.<br>• Duyệt danh sách phụ huynh đăng ký. | ≤  30 phút |
-| **2. In-Workshop** *(20h00 - 22h00)* | • Phân phòng tự động (Breakout Rooms 3-4 phụ huynh/phòng theo [DAR 11]).<br>• Chuyển các tài khoản tắt cam vào Main Room nghe thụ động. | • Host dẫn dắt nội dung, điều phối năng lượng phòng Zoom.<br>• Mentor Hồng đảo qua các breakout rooms hỗ trợ phụ huynh thảo luận 4F. | 120 phút |
-| **3. Post-Workshop** *(Sáng hôm sau)* | • Cập nhật bài tập trắc nghiệm và case study lên mục **Parent Self-Paced** trên Family Portal ([DAR 12]).<br>• Gửi thông điệp cảm ơn và Infographic tóm tắt vào 3 Group Zalo. | • Mentor nhắn tin Zalo cảm ơn các phụ huynh đã phát biểu tích cực.<br>• Phân luồng phụ huynh có nhu cầu gặp chuyên sâu để gửi thư mời **Marlins Day**. | ≤  15 phút |
-
-</details>
-
----
-
-<details>
 <summary><h3>Do's & Don'ts</h3></summary>
 
-#### ✅ Do's (Nên làm)
-* **Tôn trọng sự an toàn tâm lý (Psychological Safety):** Tạo không gian để cha mẹ dám thừa nhận sai lầm và sự bất lực của mình mà không sợ bị phán xét.
-* **Giữ vững kỷ luật Cam/Mic:** Nghiêm túc duy trì văn hóa hiện diện trọn vẹn để nâng cao chất lượng thảo luận nhóm theo [DAR 11].
-* **Đưa ra công cụ hành động tức thì:** Sau mỗi buổi, phụ huynh phải có ít nhất 1 câu hỏi hoặc 1 mẫu câu NVC cụ thể để về nói chuyện ngay với con vào sáng hôm sau.
-* **Khuyến khích tự học theo pace riêng:** Nhắc phụ huynh truy cập Family Portal để tự làm bài tập trắc nghiệm và đo lường sự chuyển biến của chính mình theo [DAR 12].
-
-#### ❌ Don'ts (Không được làm)
-* **Không biến thành buổi bán hàng (Zero Hard-selling):** Cấm chào bán khóa học, cấm đưa bảng giá hoặc gây áp lực chốt sale trong phòng Zoom.
-* **Không độc thoại slide:** Cấm Host nói liên tục quá 30 phút mà không có bài tập tương tác hoặc thảo luận breakout.
-* **Không làm phụ huynh cảm thấy tội lỗi:** Tránh dùng ngôn từ chỉ trích cách dạy con của phụ huynh; luôn tiếp cận bằng sự đồng cảm và thấu hiểu bối cảnh.
+| Do's | Don'ts |
+| :--- | :--- |
+| ✅ **Tôn trọng an toàn tâm lý:** Tạo không gian an toàn để cha mẹ dám thừa nhận khó khăn và bộc lộ cảm xúc mà không sợ bị phán xét. | ❌ **Không biến thành buổi bán hàng:** Cấm chào bán khóa học, cấm đưa bảng giá hoặc gây áp lực chốt sale trong phòng Zoom. |
+| ✅ **Giữ vững kỷ luật Cam/Mic:** Nghiêm túc duy trì văn hóa hiện diện trọn vẹn để nâng cao chất lượng thảo luận nhóm nhỏ. | ❌ **Không độc thoại slide:** Cấm Host nói liên tục quá 30 phút mà không có bài tập tương tác hoặc chia phòng thảo luận. |
+| ✅ **Đưa ra công cụ hành động tức thì:** Cung cấp ít nhất 1 câu hỏi hoặc mẫu câu NVC cụ thể để bố mẹ thực hành ngay sáng hôm sau. | ❌ **Không làm phụ huynh cảm thấy tội lỗi:** Tránh dùng ngôn từ chỉ trích cách dạy con của cha mẹ; luôn thấu cảm bối cảnh. |
+| ✅ **Khuyến khích tự học theo nhịp riêng:** Hướng dẫn phụ huynh truy cập Portal để tự làm bài tập trắc nghiệm và đo lường sự tiến bộ. | ❌ **Không để phòng Breakout bị nguội:** Host và Mentor luôn luân phiên ghé thăm các phòng để gợi mở và hỗ trợ kết nối. |
 
 </details>
 

@@ -30,85 +30,14 @@ relates_to:
 ---
 
 <details open>
-<summary><h3>Core Mindset</h3></summary>
-
-> **"Nhẹ nhàng phổ thông — Không giáo điều học thuật — Minh bạch bằng người thật việc thật."**
-
-Facebook cá nhân là không gian kết nối cảm xúc và lan tỏa giá trị sư phạm. Phụ huynh không cần nghe những thuật ngữ công nghệ đao to búa lớn, họ cần thấy **con họ được yêu thương, được lắng nghe và người thầy đang dạy con mình là một người tử tế, luôn trăn trở để tiến bộ mỗi ngày**.
-
-| Priority | Trọng tâm | Định hướng thực thi |
-| :--- | :--- | :--- |
-| ⭐⭐⭐ | **Reflections của Mentor** | Khởi đầu từ việc tự vấn: *"Hôm nay học sinh đã dạy lại tôi điều gì?"* hoặc góc nhìn tâm lý trẻ thơ gần gũi. |
-| ⭐⭐⭐ | **Evidence Mặt Người Thật** | Ưu tiên ảnh chụp khoảnh khắc tương tác thật, nụ cười, ánh mắt tập trung của học sinh và Mentor. |
-| ⭐⭐⭐ | **Zero Hard-selling** | Hoàn toàn không chèn link bán khóa học; uy tín và sự chân thành tự chuyển hóa thành inbox hỏi thăm tự nhiên. |
-
-</details>
-
----
-
-<details open>
-<summary><h3>Content Framework</h3></summary>
-
-Mọi bài viết đều được triển khai theo cấu trúc logic chuẩn **T-A-C-E (Thesis – Argument – Claim – Evidence)** nhưng được diễn đạt bằng ngôn từ đời thường, mềm mại:
-
-```mermaid
-graph TD
-    T["1. Thesis (Mở bài - Câu chuyện khởi phát)"] --> A["2. Argument (Diễn tiến - Điểm kẹt hoặc thử thách)"]
-    A --> C["3. Claim (Tự vấn / Đúc kết của Mentor)"]
-    C --> E["4. Evidence (Bằng chứng sống & Tương tác)"]
-```
-
-| Cấu phần | Vai trò trong bài viết | Cách viết mẫu gợi ý |
-| :--- | :--- | :--- |
-| **1. Thesis** *(Mở bài)* | Đưa ra ngay tình huống hoặc một câu nói ngây ngô nhưng sâu sắc của học sinh. Vào đề trực diện, không lan man. | *"Chiều nay bạn Bơ (10 tuổi) hỏi tôi một câu làm tôi đứng hình mất 5 giây..."* |
-| **2. Argument** *(Diễn tiến)* | Kể lại khoảnh khắc con gặp khó khăn khi làm web và cách con tự tìm cách vượt qua (hoặc cách Mentor đồng hành). | *"Bạn ấy loay hoay mãi với cái nút bấm trên trang web tự làm. Tôi định nhảy vào sửa hộ, nhưng rồi quyết định lùi lại..."* |
-| **3. Claim** *(Đúc kết/Tự vấn)* | Bài học sâu sắc mà Mentor nhận được; góc nhìn tâm lý nhẹ nhàng, dễ hiểu cho bố mẹ. | *"Hóa ra tụi nhỏ không sợ bài khó, tụi nhỏ chỉ sợ người lớn không đủ kiên nhẫn để chờ chúng tự tìm ra lời giải."* |
-| **4. Evidence** *(Bằng chứng)* | Ảnh mặt người thật (khoảnh khắc cười/tập trung), ảnh sản phẩm website con tự làm, hoặc ảnh chụp mẩu ghi chú dễ thương. | Ảnh chụp Mentor và học sinh bên chiếc laptop hiển thị giao diện web do chính tay con hoàn thiện. |
-
-</details>
-
----
-
-<details open>
-<summary><h3>SOP Steps</h3></summary>
-
-| Giai đoạn | Thao tác cụ thể | Thời lượng | Deliverable / Ghi chú |
-| :--- | :--- | :---: | :--- |
-| **1. Thu thập dữ liệu** *(Ngay sau buổi học)* | • Chụp lại 2–3 bức ảnh khoảnh khắc đẹp (ưu tiên ảnh có mặt học sinh & Mentor).<br>• Lưu lại link sản phẩm website hoặc chụp màn hình thành quả của các con.<br>• Ghi nhanh 2–3 câu thoại hoặc chi tiết đắt giá vào sổ tay/notion. | 10p | Kho tư liệu thực tế (Evidences bạt ngàn) |
-| **2. Chọn lọc & Soạn thảo** *(Trước ngày đăng)* | • Chọn 1 câu chuyện chạm nhất theo khung **T-A-C-E**.<br>• Kiểm tra lại ngôn từ: Đảm bảo nhẹ nhàng, giản dị, không dùng từ ngữ học thuật đao to búa lớn.<br>• Áp dụng quy tắc bảo mật danh tính học sinh. | 20p | Bản nháp bài viết hoàn chỉnh |
-| **3. Đăng bài đúng lịch** *(Thứ 3 & Thứ 6)* | • Xuất bản bài viết vào khung giờ vàng trên Facebook cá nhân.<br>• Đính kèm ảnh mặt người thật + link/ảnh sản phẩm con làm. | 5p | Bài post hiển thị công khai |
-| **4. Chăm sóc tương tác** *(Post-publishing)* | • **Comment Handling:** Trả lời 100% bình luận của phụ huynh với sự trân trọng, chia sẻ thêm chi tiết đáng yêu về con.<br>• Nếu có phụ huynh inbox hỏi thăm ➔ đón tiếp thấu cảm, giải đáp chân thành 1-1. | Linh hoạt | Tương tác gắn kết & Chuyển đổi tự nhiên |
-
-</details>
-
----
-
-<details>
-<summary><h3>Privacy Guidelines</h3></summary>
-
-Bảo vệ an toàn hình ảnh và thông tin của học sinh theo nguyên tắc đạo đức sư phạm:
-1. **Quy tắc gọi tên:** 
-   * Dùng tên gọi ở nhà / biệt danh dễ thương của con (ví dụ: *Bé Bơ, bạn Tít, bạn Sâu*).
-   * Hoặc chỉ nhắc chung: *"Một bạn nhỏ lớp Sư Tử Con chiều nay..."*.
-2. **Quy tắc Tag phụ huynh:** 
-   * **Chỉ tag Facebook của bố mẹ khi đã được phụ huynh đồng ý trước** (hoặc khi bố mẹ chủ động tương tác trước).
-   * Không tự ý tag phụ huynh vào các bài viết có nội dung nhạy cảm về tâm lý hay lỗi sai của con.
-3. **Quy tắc hình ảnh:** 
-   * Ưu tiên các góc chụp tự nhiên, ấm áp, rạng rỡ. Không đăng ảnh dìm hàng hoặc gây ảnh hưởng tiêu cực đến tâm lý của con.
-
-</details>
-
----
-
-<details>
 <summary><h3>Do's & Don'ts</h3></summary>
 
-| Nên Làm (Best Practices / Do's) | Cấm Kỵ (Avoid / Don'ts) |
+| Do's | Don'ts |
 | :--- | :--- |
-| ✅ **Luôn có ảnh người thật:** Đảm bảo bài viết có hình ảnh chân thực của học sinh và Mentor để tạo cảm xúc chân thực và sự tin cậy. | ❌ **Không chèn CTA bán hàng:** Tuyệt đối không kêu gọi *"Inbox ngay để nhận ưu đãi khóa học"*, *"Đăng ký tại link này"* trên Facebook cá nhân. |
-| ✅ **Tự vấn khiêm tốn:** Thể hiện tinh thần cầu tiến, học hỏi từ chính học sinh — Mentor không phải là "thợ dạy hoàn hảo", mà là người đồng hành tận tâm. | ❌ **Không dùng thuật ngữ đao to búa lớn:** Tránh các từ ngữ hàn lâm gây e ngại (ví dụ: *kiến trúc cognitive load, thuật toán đệ quy trừu tượng...*). |
-| ✅ **Ngôn ngữ bình dân:** Giải thích mọi vấn đề tư duy/công nghệ bằng góc nhìn đời sống mà bất kỳ ông bố bà mẹ nào đọc cũng hiểu ngay. | ❌ **Không than phiền:** Không biến trang cá nhân thành nơi phàn nàn về học sinh nghịch hay phụ huynh khó tính. |
-| ✅ **Phản hồi bình luận có tâm:** Coi phần comment như một buổi trò chuyện thân mật với từng phụ huynh. | ❌ **Không bỏ rơi bình luận:** Không để phụ huynh bình luận mà chỉ thả like hời hợt hoặc phớt lờ. |
+| ✅ **Luôn có ảnh người thật:** Đảm bảo bài viết có hình ảnh chân thực của học sinh và Mentor để tạo cảm xúc chân thực và sự tin cậy. | ❌ **Không chèn CTA bán hàng:** Tuyệt đối không kêu gọi inbox nhận ưu đãi khóa học hay đăng ký link trên trang cá nhân. |
+| ✅ **Tự vấn khiêm tốn:** Thể hiện tinh thần cầu tiến, học hỏi từ chính học sinh — Mentor là người đồng hành tận tâm. | ❌ **Không dùng thuật ngữ đao to búa lớn:** Tránh các từ ngữ hàn lâm gây e ngại như kiến trúc cognitive load, thuật toán đệ quy... |
+| ✅ **Ngôn ngữ bình dân:** Giải thích mọi vấn đề tư duy và công nghệ bằng góc nhìn đời sống gần gũi dễ hiểu. | ❌ **Không than phiền:** Không biến trang cá nhân thành nơi phàn nàn về học sinh nghịch hay phụ huynh khó tính. |
+| ✅ **Phản hồi bình luận có tâm:** Coi phần comment như một buổi trò chuyện thân mật, trả lời 100% trong ngày. | ❌ **Không bỏ rơi bình luận:** Không để phụ huynh bình luận mà chỉ thả like hời hợt hoặc phớt lờ. |
 
 </details>
 

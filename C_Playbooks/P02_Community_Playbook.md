@@ -30,114 +30,14 @@ relates_to:
 ---
 
 <details open>
-<summary><h3>Community Architecture</h3></summary>
-
-```mermaid
-graph TD
-    Viral["Bài viết Viral / Phụ huynh tham gia"] --> G_Pub["2 Group Zalo Public (Broadcast 1 chiều · Low Maintenance)"]
-    G_Pub --> G1["Group 1: Vào Chuyên Chọn Cấp 2<br><i>Chỉ Trưởng nhóm đăng tin · Chia sẻ Case Study</i>"]
-    G_Pub --> G2["Group 2: Vào Chuyên Chọn Cấp 3<br><i>Chỉ Trưởng nhóm đăng tin · Chia sẻ Case Study</i>"]
-    
-    G_Pub -->|Tham gia Offline Chủ Nhật| MD["Marlins Day (Lotte Hotel)"]
-    MD -->|Onboarding sau sự kiện| G_Priv["Group Zalo Private: Nemo12 - Marlins (Interactive 2 chiều)<br><i>Chăm sóc sâu · Thảo luận Reflection Report · Đồng hành 1-1</i>"]
-```
-
-| Loại Group | Tên Group & Link | Chế độ gửi tin | Trọng tâm nội dung & Hoạt động |
-| :--- | :--- | :---: | :--- |
-| **🌐 Public Group 1** | **Nemo12 - Vào Chuyên Chọn Cấp 2** | 📢 **Broadcast**<br>*(Chỉ Admin nhắn)* | • Nội dung chia sẻ chung với Group 2 (Case Study tuần, góc nhìn tâm lý, thông báo Marlins Day).<br>• Phân tách tệp phụ huynh cấp 2 để dễ quản trị danh sách. |
-| **🌐 Public Group 2** | **Nemo12 - Vào Chuyên Chọn Cấp 3** | 📢 **Broadcast**<br>*(Chỉ Admin nhắn)* | • Nội dung chia sẻ chung với Group 1 (Case Study tuần, góc nhìn tâm lý, thông báo Marlins Day).<br>• Phân tách tệp phụ huynh cấp 3 để dễ quản trị danh sách. |
-| **🔒 Private Group** | **Nemo12 - Marlins**<br>[Link Private](https://zalo.me/g/6zdmxy3dtjwzy7r5iscs) | 💬 **Interactive**<br>*(Mở chat 2 chiều)* | • Thảo luận chuyên sâu về **Reflection Report** sau Marlins Day.<br>• Phụ huynh tự do đặt câu hỏi, chia sẻ trăn trở gia đình.<br>• Mentor & Host đồng hành và chăm sóc cá nhân hóa. |
-
-</details>
-
----
-
-<details open>
-<summary><h3>Case Study Engine</h3></summary>
-
-Quy chuẩn chuyển hóa dữ liệu quan sát thực tế thành **Serial Case Study Ẩn Danh** đăng đồng thời trên 2 Group Public:
-
-```mermaid
-graph TD
-    A["Nguồn: Marlins Day / Call Tư Vấn / Live Class"] --> B["1. Ẩn danh hóa thông tin (Bảo mật)"]
-    B --> C["2. Bóc tách: Triệu chứng bề mặt vs Nguyên nhân gốc"]
-    C --> D["3. Đăng Broadcast đồng loạt lên 2 Group Public (Low Maintenance)"]
-```
-
-#### Công Thức Bóc Tách "Khám Bệnh":
-* **Triệu chứng phụ huynh thấy (Symptom):** *"Con lớp 8, mẹ bảo lười học, không chịu làm bài tập, điểm toán tụt dốc..."*
-* **Khám bệnh ra sự thật (Root Cause):** Hệ thống Nemo12 soi ra con không hề lười, mà bị **hổng kiến thức Bất đẳng thức & Biến đổi đại số từ tận kỳ 2 Lớp 7**, dẫn tới việc lên lớp 8 nghe giảng như "vịt nghe sấm" và sinh ra phản ứng phòng vệ là buông xuôi.
-* **Kê đơn & Chuyển biến (Prescription):** Lộ trình vá đúng mắt xích bị hổng trong 3 tuần ➔  Con tự tin lấy lại nhịp học.
-
-</details>
-
----
-
-<details open>
-<summary><h3>SOP Steps</h3></summary>
-
-| Giai đoạn | Thao tác chi tiết | Người phụ trách | Chu kỳ & Thời lượng |
-| :--- | :--- | :--- | :---: |
-| **1. Thu thập & Chọn Case** | • Trích xuất 1 case điển hình từ nhật ký Marlins Day, Call 1-1 hoặc Live Class.<br>• Ẩn danh 100% tên học sinh và thông tin gia đình. | Hồng | Thứ 2 hàng tuần (15p) |
-| **2. Đăng Broadcast lên 2 Group Public** | • Đăng bài Case Study đồng loạt vào 2 Group Public (*Vào Chuyên Chọn Cấp 2 & Cấp 3*).<br>• Chế độ chỉ Admin nhắn tin giúp vận hành cực kỳ tinh gọn, không tốn thời gian kiểm duyệt chat. | Anh Đắc (Host) | Thứ 3 & Thứ 5 (10p) |
-| **3. Vận hành Group Private Marlins** | • Sau sự kiện Marlins Day (17h00 Chủ Nhật), add phụ huynh tham gia vào Group Private.<br>• Đăng bài tổng hợp Reflection, mở không gian chat 2 chiều để tương tác thân mật với các bố mẹ. | Anh Đắc & Hồng | Chiều CN & Thứ 2 (20p) |
-| **4. Đồng hành & Lắng nghe Private** | • Trực tiếp trả lời, tâm sự và tháo gỡ băn khoăn cho các phụ huynh trong nhóm Private. | Toàn team | Hàng ngày |
-
-</details>
-
----
-
-<details>
-<summary><h3>💬 Content Templates</h3></summary>
-
-#### Mẫu 1: Bài Đăng Broadcast Cho 2 Group Public (Không CTA)
-```text
-[GÓC KHÁM BỆNH HỌC TẬP #CASE_08] 
-"Mẹ bảo con lười, nhưng khi khám ra thì sự thật lại hoàn toàn khác..."
-
-Chào các bố mẹ trong group Nemo12!
-
-Tuần vừa rồi trong buổi Marlins Day, em có gặp một người mẹ rất trăn trở: "Con chị dạo này lười lắm, cứ ngồi vào bàn học Toán là ngáp ngắn ngáp dài, điểm kiểm tra tụt dốc không phanh...".
-
-Nhưng khi đưa con vào hệ thống Nemo12 để "khám" chi tiết từng mắt xích tư duy, kết quả làm cả mẹ lẫn con đều giật mình:
-👉 Con KHÔNG HỀ LƯỜI.
-👉 Điểm nghẽn thực sự: Con bị hổng đúng phần "Biến đổi đại số & Bất đẳng thức" từ học kỳ trước. 
-
-Vì mắt xích đó bị gãy, nên khi học đến phần phân thức phức tạp, con hoàn toàn không theo kịp thầy cô trên lớp. Cảm giác bất lực kéo dài khiến con chọn cách "buông xuôi" để đỡ bị cảm giác thất bại — điều mà người lớn chúng ta rất dễ quy chụp thành chữ "LƯỜI".
-
-💡 Bài học rút ra: Đừng vội mắng con khi điểm số tụt dốc. Hãy tìm đúng mắt xích kiến thức bị đứt gãy để nối lại cho con trước!
-Chúc các bố mẹ một tuần mới nhiều năng lượng tích cực bên con!
-```
-
-#### Mẫu 2: Bài Đăng Dành Riêng Cho Group Private (Nemo12 - Marlins)
-```text
-Chào các bố mẹ trong gia đình Nemo12 - Marlins! 🌿
-
-Sau buổi gặp gỡ Marlins Day chiều Chủ Nhật vừa rồi tại Sky Lounge Lotte Hotel, em và bạn Hồng có ngồi lại để hoàn thiện bản Reflection Report. 
-
-Điều đọng lại sâu sắc nhất với team là chia sẻ của ba mẹ về "Khoảng cách thế hệ khi con bước vào tuổi dậy thì". Chúng ta ai cũng muốn tốt cho con, nhưng đôi khi sự kỳ vọng vô tình tạo thành một bức tường vô hình...
-
-Team đã tổng hợp lại 3 góc nhìn quan sát quan trọng nhất từ buổi gặp vừa rồi. Mời cả nhà cùng đọc và chia sẻ thêm cảm nhận, tâm sự của mình vào nhóm nhé ạ!
-```
-
-</details>
-
----
-
-<details>
 <summary><h3>Do's & Don'ts</h3></summary>
 
-#### ✅ Do's (Nên làm)
-* **Khóa chat ở 2 Group Public:** Giữ đúng thiết lập "Chỉ Trưởng/Phó nhóm gửi tin nhắn" để duy trì chất lượng thông tin sạch sẽ, tránh spam quảng cáo và giảm thiểu chi phí quản trị (Low Maintenance).
-* **Mở tương tác ở Group Private:** Tạo không gian thân mật, tôn trọng để các phụ huynh đã đi offline thoải mái giãi bày tâm tư.
-* **Kể chuyện thật, việc thật:** Dùng 100% dữ liệu quan sát thật từ Marlins Day, các buổi call tư vấn và Live Class.
-* **Tôn trọng cảm xúc của bố mẹ:** Luôn chia sẻ với tinh thần gỡ rối, không phán xét cách nuôi dạy con.
-
-#### ❌ Don'ts (Không được làm)
-* **Không mở chat đại trà ở Public Group:** Tránh để các nhóm cộng đồng hàng nghìn người thành nơi gửi link rác, tin nhắn dạo gây phiền hà cho phụ huynh.
-* **Không chèn bất kỳ CTA bán hàng nào:** Tuyệt đối không gắn link kêu gọi mua hàng, không chèn link phễu hay ép phụ huynh làm bài test.
-* **Không biến group thành chợ rao vặt:** Cấm đăng các banner khuyến mãi, giảm giá sốc, chèo kéo đóng học phí kiểu telesale.
-* **Không bịa đặt câu chuyện:** Tuyệt đối không tự bịa ra các case ảo thiếu logic sư phạm.
+| Do's | Don'ts |
+| :--- | :--- |
+| ✅ **Khóa chat ở 2 Group Public:** Giữ đúng thiết lập chỉ Trưởng/Phó nhóm gửi tin nhắn để thông tin sạch sẽ, tránh spam quảng cáo. | ❌ **Không mở chat đại trà ở Public Group:** Tránh biến nhóm cộng đồng thành nơi gửi link rác gây phiền hà cho phụ huynh. |
+| ✅ **Mở tương tác ở Group Private:** Tạo không gian thân mật, tôn trọng để các phụ huynh đã đi offline thoải mái giãi bày tâm tư. | ❌ **Không chèn bất kỳ CTA bán hàng nào:** Tuyệt đối không gắn link kêu gọi mua hàng hay ép phụ huynh làm bài test. |
+| ✅ **Kể chuyện thật, việc thật:** Dùng 100% dữ liệu quan sát thật từ Marlins Day, các buổi call tư vấn và Live Class. | ❌ **Không biến group thành chợ rao vặt:** Cấm đăng banner khuyến mãi, giảm giá sốc, chèo kéo đóng học phí. |
+| ✅ **Tôn trọng cảm xúc của bố mẹ:** Luôn chia sẻ với tinh thần thấu hiểu gỡ rối, không phán xét cách nuôi dạy con. | ❌ **Không bịa đặt câu chuyện:** Tuyệt đối không tự bịa ra các case ảo thiếu logic sư phạm. |
 
 </details>
 

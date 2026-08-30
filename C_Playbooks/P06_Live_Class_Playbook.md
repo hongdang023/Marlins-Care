@@ -30,67 +30,14 @@ relates_to:
 ---
 
 <details open>
-<summary><h3>Purpose & JTBD</h3></summary>
-
-Giải quyết các bài toán trọng tâm của phụ huynh trong hành trình 12 buổi học (JTBD):
-* **`F1` (Accurate Assessment):** Nắm rõ mức độ tiến bộ thực chất và các điểm con đang làm chủ hoặc còn hổng qua dữ liệu minh bạch trên Portal.
-* **`F4` (Early Warning):** Nhận được cảnh báo sớm từ Mentor khi con có dấu hiệu chán nản, kẹt bài hoặc sụt giảm nỗ lực.
-* **`E2` (Reduced Pressure):** Phụ huynh hoàn toàn an tâm, giải tỏa áp lực đôn đốc hay quát tháo con mỗi tối.
-* **`S2` (Beyond Grades):** Tự hào sở hữu câu chuyện chuyển biến tư duy và phẩm chất của con vượt trên điểm số vô cảm.
-* **`S5` (Shared Moments):** Cùng con ghi nhận và tự hào về những cột mốc bứt phá trong quá trình học.
-
-</details>
-
----
-
-<details open>
-<summary><h3>SOP Steps</h3></summary>
-
-```mermaid
-graph TD
-    A["Buổi 1 ➡️ 11: Live Class Routine"] --> B["1. Weekly Pulse Tự Động<br><i>Email + Portal</i>"]
-    A --> C["2. Risk Detection Engine<br><i>System gắn cờ ➡️ Mentor can thiệp Zalo 1-1</i>"]
-    
-    A -->|Buổi 12 - Kết thúc khóa| D["3. Growth Story Publishing"]
-    D --> D1["Máy kết xuất data: Where I Started ➔ What I Did ➔ How I Changed"]
-    D --> D2["Mentor viết nhận xét thấu cảm: What We Learned About You ➔ What's Next"]
-    D --> E["4. Xuất bản trên Portal & Mentor gửi thiệp chúc mừng qua Zalo"]
-```
-
-| Quy trình con | Hành động Hệ thống (System Action) | Hành động Con người (Mentor Action qua Zalo) | Chu kỳ & Thời lượng |
-| :--- | :--- | :--- | :---: |
-| **1. Báo cáo tuần** *(Weekly Progress Pulse)* | • Tự động trích xuất log: số bài hoàn thành, thời lượng tự học, điểm làm chủ kiến thức.<br>• Cập nhật dashboard trên **Family Portal**.<br>• Gửi **Email Weekly Pulse** tóm tắt vào sáng hôm sau. | • Mentor **không phải gõ báo cáo hành chính** lặp lại.<br>• Mentor chỉ gửi 1 tin nhắn ấm áp trên nhóm Zalo chia sẻ không khí lớp học và ghi nhận nỗ lực chung. | Hàng tuần (≤  5 phút/lớp) |
-| **2. Can thiệp rủi ro** *(Risk Intervention)* | • **Phát hiện tín hiệu (Signal):** Tự động gắn cờ cảnh báo nội bộ khi học sinh vắng 2 buổi liên tiếp, trễ bài tập 2 tuần hoặc sụt giảm nỗ lực ≥  30\%.<br>• Tuyệt đối **không gửi tin nhắn bot cảnh báo thô** sang Zalo phụ huynh. | • **Review & Judgment:** Mentor kiểm tra bối cảnh (con ốm, áp lực thi ở trường...).<br>• **Action:** Mentor trực tiếp nhắn tin/gọi điện riêng cho phụ huynh qua Zalo để thấu hiểu và phối hợp gỡ rối nhẹ nhàng. | Khi phát sinh tín hiệu (≤  15 phút/case) |
-| **3. Xuất bản Growth Story** *(Buổi 12)* | • Tự động tổng hợp dữ liệu 12 buổi (Portfolio, bài tập, biểu đồ năng lực) thành 3 phần đầu của ấn phẩm.<br>• Xuất bản ấn phẩm hoàn chỉnh lên Family Portal và gửi Email thông báo tốt nghiệp. | • **Viết nhận xét thấu cảm (Phần 4 & 5):** Mentor dành 10 phút/bé viết góc nhìn độc bản về sự chuyển hóa tính cách & gợi ý chặng đường tiếp theo.<br>• Gửi tin nhắn chúc mừng ấm áp trên Zalo. | Buổi 12 (≤  10 phút/bé) |
-
-</details>
-
----
-
-<details open>
-<summary><h3>Mentor Growth Narrative</h3></summary>
-
-Hướng dẫn kỹ năng viết nhận xét thấu cảm cho Mentor trong ấn phẩm **Growth Story (Phần 4 & 5)**:
-
-#### Cấu Trúc 5 Phần Của Ấn Phẩm Growth Story:
-* **Phần 1: Where I Started (Máy xuất):** Vị trí xuất phát điểm và các điểm nghẽn ban đầu của con.
-* **Phần 2: What I Did (Máy xuất):** Các dự án, bài toán thực tế con đã tự tay hoàn thành.
-* **Phần 3: How I Changed (Máy xuất):** Biểu đồ đo lường sự tiến bộ về năng lực logic và thời gian giải quyết vấn đề.
-* **Phần 4: What We Learned About You (Mentor viết):** Quan sát độc bản về tính cách, khoảnh khắc con vượt qua sự nản chí, phẩm chất kiên trì của riêng con.
-* **Phần 5: What's Next (Mentor viết):** Lời khuyên định hướng chuyên môn chân thành cho chặng đường tiếp theo của con.
-
-</details>
-
----
-
-<details>
 <summary><h3>Do's & Don'ts</h3></summary>
 
-| Nên Làm (Best Practices / Do's) | Cấm Kỵ (Avoid / Don'ts) |
+| Do's | Don'ts |
 | :--- | :--- |
-| ✅ Tận dụng tối đa dữ liệu tự động của Portal để giảm tải công việc hành chính. | ❌ Để bot tự động gửi tin nhắn báo lỗi làm phụ huynh lo âu. |
-| ✅ Can thiệp rủi ro bằng sự thấu hiểu bối cảnh (ốm đau, thi cử ở trường). | ❌ Đổ lỗi cho học sinh hoặc phụ huynh khi con bị trễ tiến độ. |
-| ✅ Nhận xét Growth Story bằng câu chuyện cụ thể và lời văn ấm áp. | ❌ Sao chép nhận xét mẫu rập khuôn hàng loạt cho cả lớp. |
+| ✅ **Tận dụng dữ liệu Portal tự động:** Giảm thiểu thủ tục hành chính để Mentor tập trung hoàn toàn vào thấu cảm sư phạm. | ❌ **Không để bot gửi tin báo lỗi cứng nhắc:** Tránh làm phụ huynh hoang mang bằng những thông báo tự động vô cảm. |
+| ✅ **Can thiệp rủi ro bằng sự thấu cảm:** Lắng nghe bối cảnh gia đình khi con bị trễ tiến độ để cùng tìm giải pháp gỡ rối. | ❌ **Không đổ lỗi cho gia đình:** Tuyệt đối không trách móc học sinh hay phụ huynh khi con gặp khó khăn học tập. |
+| ✅ **Đúc kết Growth Story ấm áp:** Kể lại sự chuyển biến tư duy 5 chặng của con bằng những chi tiết chân thực, xúc động. | ❌ **Không nhận xét rập khuôn hàng loạt:** Cấm sao chép một câu nhận xét chung chung cho toàn bộ học sinh trong lớp. |
+| ✅ **Gửi Weekly Pulse 3 dòng đúng hạn:** Cập nhật súc tích tiến độ tuần qua Zalo vào mỗi sáng Thứ 2 hàng tuần. | ❌ **Không viết báo cáo dài dòng:** Tránh gửi văn bản dài hàng trang gây quá tải cho các bậc cha mẹ bận rộn. |
 
 </details>
 
