@@ -1,4 +1,4 @@
-import { initNavigation, renderBreadcrumbs, renderSidebar } from "./components/navigation.js";
+import { initNavigation, renderBreadcrumbs } from "./components/navigation.js";
 import { initSearch } from "./components/search.js";
 import { renderJourneyMap } from "./components/journeyMap.js";
 import { renderPlaybook } from "./components/playbookRenderer.js";
@@ -8,7 +8,7 @@ import { renderDecisionLogs } from "./components/decisionLogsRenderer.js";
 import { renderRequirements } from "./components/requirementsRenderer.js";
 import { SITEMAP_CONFIG } from "./data.js";
 
-class App {
+export class App {
   constructor() {
     this.currentRoute = this.getRouteFromHash();
     this.initTheme();
@@ -117,7 +117,7 @@ class App {
     this.buildRightToc();
   }
 
-    buildRightToc() {
+  buildRightToc() {
     const tocList = document.getElementById("toc-list");
     if (!tocList) return;
 
@@ -274,104 +274,11 @@ class App {
       tocList.appendChild(li);
     });
   }
-          a.addEventListener("click", (e) => {
-            e.preventDefault();
-            this.navigateTo(sec.slug);
-          });
-
-          li.appendChild(a);
-          tocList.appendChild(li);
-        });
-
-        // Also query sub-items inside current active view (e.g. DAR items, H3 headings)
-        const subHeadings = document.querySelectorAll("#main-viewport-content h3, #main-viewport-content summary h3");
-        if (subHeadings.length > 0) {
-          const subHeaderLi = document.createElement("li");
-          subHeaderLi.innerHTML = `<span style="font-size: 11px; font-weight: 800; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; display: block; margin: 16px 0 6px; padding-top: 10px; border-top: 1px dashed var(--border-subtle);">In This Section</span>`;
-          tocList.appendChild(subHeaderLi);
-
-          subHeadings.forEach((sh, idx) => {
-            const title = sh.textContent.trim();
-            if (!sh.id) sh.id = `sub-sec-${idx}`;
-            const sli = document.createElement("li");
-            const sa = document.createElement("a");
-            sa.className = "toc-link";
-            sa.href = `#${sh.id}`;
-            sa.textContent = title;
-            sa.style.paddingLeft = "10px";
-            sa.style.fontSize = "12.5px";
-            sa.style.color = "var(--text-muted)";
-
-            sa.addEventListener("click", (e) => {
-              e.preventDefault();
-              const detailsParent = sh.closest("details");
-              if (detailsParent && !detailsParent.open) {
-                detailsParent.open = true;
-              }
-              sh.scrollIntoView({ behavior: "smooth", block: "start" });
-            });
-
-            sli.appendChild(sa);
-            tocList.appendChild(sli);
-          });
-        }
-
-        const container = document.getElementById("right-toc-container");
-        if (container) container.style.display = "block";
-        return;
-      }
-    }
-
-    // 2. Default fallback for other pages (Overview, Requirements, Journey)
-    const items = [];
-    const headings = document.querySelectorAll("#main-viewport-content h2, #main-viewport-content h3");
-    headings.forEach((heading, idx) => {
-      const title = heading.textContent.trim();
-      if (!heading.id) heading.id = `heading-sec-${idx}`;
-      const level = heading.tagName.toLowerCase() === "h2" ? 1 : 2;
-      items.push({ id: heading.id, title: title, level: level, element: heading });
-    });
-
-    if (items.length === 0) {
-      const container = document.getElementById("right-toc-container");
-      if (container) container.style.display = "none";
-      return;
-    }
-
-    const container = document.getElementById("right-toc-container");
-    if (container) container.style.display = "block";
-
-    items.forEach(item => {
-      const li = document.createElement("li");
-      const a = document.createElement("a");
-      a.className = "toc-link";
-      a.href = `#${item.id}`;
-      a.textContent = item.title;
-
-      if (item.level === 2) {
-        a.style.paddingLeft = "14px";
-        a.style.fontSize = "12px";
-        a.style.color = "var(--text-muted)";
-      } else {
-        a.style.fontWeight = "600";
-      }
-
-      a.addEventListener("click", (e) => {
-        e.preventDefault();
-        const detailsParent = item.element.closest("details");
-        if (detailsParent && !detailsParent.open) {
-          detailsParent.open = true;
-        }
-        item.element.scrollIntoView({ behavior: "smooth", block: "start" });
-      });
-
-      li.appendChild(a);
-      tocList.appendChild(li);
-    });
-  }
 }
 
 // Start Application on DOM Ready
-document.addEventListener("DOMContentLoaded", () => {
-  new App();
-});
+if (typeof document !== "undefined") {
+  document.addEventListener("DOMContentLoaded", () => {
+    new App();
+  });
+}
