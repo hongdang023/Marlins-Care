@@ -230,19 +230,21 @@ function formatFaqSection(md) {
     const line = lines[i].trim();
     if (!line) continue;
     
+    // Group Header: #### or ###
     if (line.startsWith("#### ") || line.startsWith("### ")) {
       const rawTitle = line.replace(/^#+\s*/, "").trim();
       const title = cleanTitle(rawTitle);
       
       html += `
-        <h3 style="font-size: 12.5px; font-weight: 800; color: var(--color-primary-700); text-transform: uppercase; letter-spacing: 0.08em; margin: 32px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border-subtle);">
+        <h3 style="font-size: 13px; font-weight: 800; color: var(--color-primary-700); text-transform: uppercase; letter-spacing: 0.08em; margin: 28px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border-subtle);">
           ${title}
         </h3>
       `;
-    } else if (line.startsWith("* **Q") || line.startsWith("**Q") || line.startsWith("* Q")) {
+    } else if (line.startsWith("* **") || line.startsWith("**") || (line.startsWith("* ") && line.includes("?"))) {
       let q = "";
       let a = "";
       
+      // Check if inline Q and A on same line
       const splitMatches = ["👉 **A:**", "**A:**", "👉 A:", "A:"];
       let splitIdx = -1;
       let matchedSplit = "";
@@ -256,23 +258,54 @@ function formatFaqSection(md) {
       }
       
       if (splitIdx !== -1) {
-        q = line.substring(0, splitIdx).replace(/^[\*\s]+/, "").replace(/^\*\*Q[0-9]*:\*\*/, "").replace(/^Q[0-9]*:\s*/, "").replace(/\"/g, "").replace(/\*/g, "").trim();
+        q = line.substring(0, splitIdx)
+          .replace(/^\*\s*/, "")
+          .replace(/^\*\*/, "")
+          .replace(/\*\*$/, "")
+          .replace(/^\*\*Q[0-9]*:\*\*/i, "")
+          .replace(/^Q[0-9]*:\s*/i, "")
+          .trim();
         a = line.substring(splitIdx + matchedSplit.length).trim();
       } else {
-        q = line.replace(/^[\*\s]+/, "").replace(/^\*\*Q[0-9]*:\*\*/, "").replace(/^Q[0-9]*:\s*/, "").replace(/\"/g, "").replace(/\*/g, "").trim();
-        if (i + 1 < lines.length) {
+        q = line
+          .replace(/^\*\s*/, "")
+          .replace(/^\*\*/, "")
+          .replace(/\*\*$/, "")
+          .replace(/^\*\*Q[0-9]*:\*\*/i, "")
+          .replace(/^Q[0-9]*:\s*/i, "")
+          .trim();
+        
+        const answerLines = [];
+        while (i + 1 < lines.length) {
+          const nextLine = lines[i + 1].trim();
+          if (!nextLine) {
+            i++;
+            continue;
+          }
+          if (nextLine.startsWith("#") || nextLine.startsWith("* **") || (nextLine.startsWith("* ") && nextLine.includes("?"))) {
+            break;
+          }
           i++;
-          a = lines[i].trim().replace(/^[\*\s]+/, "").replace(/^👉\s*/, "").replace(/^\*\*A:\*\*\s*/, "").replace(/^A:\s*/, "").trim();
+          const cleanAnswerLine = nextLine
+            .replace(/^👉\s*/, "")
+            .replace(/^\*\*A:\*\*\s*/, "")
+            .replace(/^A:\s*/, "")
+            .replace(/^\*\s*/, "")
+            .trim();
+          answerLines.push(cleanAnswerLine);
         }
+        a = answerLines.join(" ");
       }
       
+      if (q.endsWith("**")) q = q.slice(0, -2).trim();
+      
       html += `
-        <details class="faq-minimal-item" style="border-bottom: 1px solid var(--border-subtle); margin-bottom: 0; padding: 0;">
-          <summary style="padding: 16px 0; font-weight: 600; font-size: 14.5px; color: var(--text-primary); cursor: pointer; display: flex; justify-content: space-between; align-items: center; list-style: none; user-select: none;">
+        <details class="faq-minimal-item" style="border-bottom: 1px solid var(--border-subtle); margin-bottom: 0; padding: 0;" open>
+          <summary style="padding: 14px 0; font-weight: 600; font-size: 14px; color: var(--text-primary); cursor: pointer; display: flex; justify-content: space-between; align-items: center; list-style: none; user-select: none;">
             <span style="line-height: 1.5; padding-right: 16px;">${q}</span>
             <span style="color: var(--text-muted); font-size: 11px; flex-shrink: 0;">▼</span>
           </summary>
-          <div style="padding: 0 0 16px 0; font-size: 14px; line-height: 1.65; color: var(--text-secondary);">
+          <div style="padding: 0 0 14px 0; font-size: 13.5px; line-height: 1.65; color: var(--text-secondary);">
             ${renderMarkdownFragment(a)}
           </div>
         </details>
