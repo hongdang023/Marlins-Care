@@ -229,6 +229,7 @@ Tham chiếu chuẩn mực: [Pearl · Từ điển những khái niệm xuyên s
 | **Worked Examples** | Bài toán mẫu giải sẵn. Khi gặp bài khó, phân tích chi tiết từng bước giải mẫu giúp giải phóng bộ nhớ làm việc (Working Memory), ngăn ngừa tình trạng quá tải nhận thức (Cognitive Load). |
 | **Mastery** | Mức độ người học đạt tới ở một mảng kiến thức theo quan sát gần nhất. Mastery không tự giảm theo thời gian. |
 | **Retention** | Trạng thái trí nhớ hiện tại. *"Từng vững"* (Mastery) và *"hiện còn nhớ"* (Retention) là hai chiều đo riêng biệt. |
+| **Key Concepts-Based Learning** | **Học tập dựa trên khái niệm then chốt:** Tập trung làm chủ các khái niệm nền tảng bản chất và nguyên lý đầu tiên (First Principles), giúp học sinh hiểu sâu và có khả năng liên kết, chuyển giao tri thức linh hoạt sang nhiều bối cảnh mới (Transfer of Learning), thay vì học vẹt hay ghi nhớ dạng bài rời rạc. |
 | **Bloom's Taxonomy** | Thang đo 6 bậc tư duy từ cơ bản (Nhớ, Hiểu, Vận dụng công thức) đến bản chất (Phân tích, Đánh giá, Sáng tạo sản phẩm mới). |
 | **Knowledge Node** | Điểm nút / mảnh kiến thức cụ thể (định lý, hằng đẳng thức, ngôi kể) trong mạng lưới tri thức. |
 | **Module & Unit** | **Module** là mảnh năng lực đo riêng được (3–6 unit); **Unit** là cụm học trọn vẹn trong một lần ngồi gắn 1–2 key concepts. |
@@ -242,8 +243,10 @@ Tham chiếu chuẩn mực: [Pearl · Từ điển những khái niệm xuyên s
 
 | Concept | Definition |
 | :--- | :--- |
-| Thuật Ngữ / Khái Niệm | Giải Nghĩa Sư Phạm & Ứng Dụng Thực Tiễn |
-| :--- | :--- |
+| **Student Portrait** | **Chân dung học sinh:** Bức tranh tương lai mà gia đình và học sinh cùng dựng lên: con muốn trở thành người như thế nào, sở trường độc bản ở đâu, giá trị sống và niềm đam mê cốt lõi là gì (*"Chúng ta mong con trở thành ai trong tương lai"*). |
+| **Learner Model** | Bức tranh có cấu trúc mà hệ thống dựng về một người học: mảng kiến thức đang ở mức nào, độ tin cậy tới đâu, phong cách học và thói quen làm bài (*"Con hiện tại đang ở đâu"*). |
+| **Competency-Based Education** | **Giáo dục dựa trên năng lực:** Đánh giá sự tiến bộ dựa trên khả năng làm chủ kiến thức và giải quyết vấn đề thực tế (*"Tôi làm được gì"*), người học tiến bộ theo nhịp độ làm chủ thực chất (Mastery) thay vì số giờ ngồi trên lớp hay điểm số thi mẹo. |
+| **Inquiry-Based Learning** | **Học tập qua truy vấn:** Phương pháp giáo dục lấy người học làm trung tâm, bắt đầu bằng việc đặt câu hỏi sâu, giải quyết vấn đề thực tế và tự khám phá bản chất quy luật, thay vì chỉ tiếp nhận thụ động câu trả lời có sẵn từ thầy cô. |
 | **ZPD (Vygotsky)** | Vùng phát triển gần nhất: Thiết kế bài toán vừa sức với sự trợ giúp nhẹ của Mentor. |
 | **Scaffolding** | Giàn giáo sư phạm: Đặt câu hỏi gợi mở từng nấc thang, rút dần sự trợ giúp để con tự đứng vững. |
 | **Cognitive Load Theory** | Thuyết tải trọng nhận thức: Tránh nhồi nhét quá nhiều khái niệm trừu tượng cùng một lúc. |

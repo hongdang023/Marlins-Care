@@ -25,13 +25,16 @@ description: "Thư viện khái niệm sư phạm cốt lõi & 7 lăng kính tra
 
 ## 2. Core Concepts (Kho Tàng Khái Niệm Cốt Lõi)
 
-### 2.1 Learning Science
+### 2.1 Learning Science & Pedagogy
 
 | Khái Niệm | Diễn Giải Bản Chất |
 | :--- | :--- |
 | **Learning Experience** | Hoạt động được thiết kế để **làm cho learner giỏi hơn** (giải thích, ví dụ, bài mẫu giải sẵn, luyện tập có gợi ý, câu hỏi phản tư). Thành công đo bằng *"con có học được gì mới không"*, không phải *"đúng bao nhiêu câu"*. |
 | **Assessment Experience** | Hoạt động được thiết kế để **biết learner đang ở đâu**. Nó không dạy mà thu thập thông tin để giảm độ bất định với số câu hỏi ít nhất. |
 | **Assessment ≠ Learning** | Đo lường chỉ là phép đo, không thể thay thế cho quá trình chuyển hóa tri thức và rèn luyện tư duy bên trong não bộ. |
+| **Key Concepts-Based Learning** | **Học tập dựa trên khái niệm then chốt:** Tập trung làm chủ các khái niệm nền tảng bản chất và nguyên lý đầu tiên (First Principles), giúp học sinh hiểu sâu và có khả năng liên kết, chuyển giao tri thức linh hoạt sang nhiều bối cảnh mới (Transfer of Learning), thay vì học vẹt hay ghi nhớ dạng bài rời rạc. |
+| **Inquiry-Based Learning** | **Học tập qua truy vấn:** Phương pháp giáo dục lấy người học làm trung tâm, bắt đầu bằng việc đặt câu hỏi sâu, giải quyết vấn đề thực tế và tự khám phá bản chất quy luật, thay vì chỉ tiếp nhận thụ động câu trả lời có sẵn từ thầy cô. |
+| **Competency-Based Education** | **Giáo dục dựa trên năng lực:** Đánh giá sự tiến bộ dựa trên khả năng làm chủ kiến thức và giải quyết vấn đề thực tế (*"Tôi làm được gì"*), người học tiến bộ theo nhịp độ làm chủ thực chất (Mastery) thay vì số giờ ngồi trên lớp hay điểm số thi mẹo. |
 | **Scaffolding** | Kỹ thuật bắc giàn giáo sư phạm: Người lớn hỗ trợ đúng mức tại Vùng phát triển gần nhất (ZPD), sau đó từng bước rút giàn giáo để đứa trẻ tự đứng vững và làm chủ năng lực. |
 | **Retrieval Practice** | Luyện tập chủ động truy xuất trí nhớ (Active Recall). Đọc lại sách nhiều lần chỉ tạo ảo tưởng quen thuộc; chủ động gập sách lại cố nhớ ra và tự giải thích giúp kiến thức khắc sâu vào trí nhớ dài hạn gấp 3 lần. |
 | **Spaced Practice** | Luyện tập ngắt quãng/giãn cách. Phân bổ các phiên học ngắn cách nhau vài ngày thay vì dồn toàn bộ thời gian cày cuốc trong một đêm, tạo điều kiện cho não bộ củng cố liên kết thần kinh. |
@@ -44,6 +47,7 @@ description: "Thư viện khái niệm sư phạm cốt lõi & 7 lăng kính tra
 
 | Khái Niệm | Diễn Giải Bản Chất |
 | :--- | :--- |
+| **Student Portrait** | **Chân dung học sinh:** Bức tranh tương lai mà gia đình và học sinh cùng dựng lên: con muốn trở thành người như thế nào, sở trường độc bản ở đâu, giá trị sống và niềm đam mê cốt lõi là gì. Portrait trả lời *"Chúng ta mong con trở thành ai trong tương lai"*, trong khi Learner Model trả lời *"Năng lực và trạng thái của con ở hiện tại"*. |
 | **Learner Model** | Bức tranh có cấu trúc mà hệ thống dựng về một người học: mảng kiến thức đang ở mức nào, độ tin cậy tới đâu, phong cách học và thói quen làm bài. |
 | **BEM Model** | Cơ chế hình thành hành vi: $\text{Mental Model} \longrightarrow \text{Experience} \longrightarrow \text{Behavior}$. Muốn sửa hành vi "lười học", cha mẹ phải gỡ từ Trải nghiệm bất lực và Niềm tin sợ thất bại bên trong. |
 | **NVC** | Bộ công cụ 4 bước đối thoại không phán xét: **Facts** (Sự thật) ➔ **Feelings** (Cảm xúc) ➔ **Needs** (Nhu cầu) ➔ **Requests** (Đề xuất cụ thể). |
