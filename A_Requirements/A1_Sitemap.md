@@ -22,7 +22,7 @@ relates_to:
 > Bản đồ website mô tả chính xác hệ thống điều hướng trực quan người dùng trên giao diện web (Top Navbar & Left Sidebar), bao gồm **4 phân hệ chính**:
 > 1. **`1. OVERVIEW`**: Định vị triết lý, JTBD của phụ huynh, nguyên tắc cốt lõi và bản đồ phân định năng lực.
 > 2. **`2. PARENT JOURNEY`**: Bản đồ hành trình trải nghiệm của phụ huynh và học sinh qua các giai đoạn.
-> 3. **`3. PLAYBOOKS`**: 7 Cẩm nang tác nghiệp chuẩn hóa cho đội ngũ Mentors, Hosts và Care Specialists.
+> 3. **`3. PLAYBOOKS`**: 6 Cẩm nang tác nghiệp chuẩn hóa cho đội ngũ Mentors, Hosts và Care Specialists.
 > 4. **`4. REQUIREMENTS`**: Bộ tiêu chuẩn kỹ thuật, Playbooks Template, DAR Template, UI Design System và Tech Stack.
 
 ---
@@ -83,7 +83,7 @@ NEMO12 & MARLINS CARE KNOWLEDGE HUB
 ---
 
 ### 2.3 Navigation 3: PLAYBOOKS (`/playbooks`)
-*Trọng tâm tác nghiệp chuẩn hóa gồm **7 Playbooks Full-Pack** tích hợp sẵn SOPs, Rubrics, FAQ và Decision Logs.*
+*Trọng tâm tác nghiệp chuẩn hóa gồm **6 Playbooks Full-Pack** tích hợp sẵn SOPs, Rubrics, FAQ và Decision Logs.*
 
 | Trang (Page Title) | Route Slug | Phạm vi & Điểm chạm nghiệp vụ |
 | :--- | :--- | :--- |

@@ -120,6 +120,7 @@ export default defineConfig({
               { text: 'Session Agenda', link: '/playbooks/family-meeting/session-agenda' },
               { text: 'SOP Steps', link: '/playbooks/family-meeting/sop-steps' },
               { text: 'Family Notes Template', link: '/playbooks/family-meeting/family-notes-template' },
+              { text: 'Reflection Report', link: '/playbooks/family-meeting/reflection-report' },
               { text: "Do's & Don'ts", link: '/playbooks/family-meeting/dos-donts' },
               { text: 'Assessment Rubrics', link: '/playbooks/family-meeting/assessment-rubrics' },
               { text: 'FAQ', link: '/playbooks/family-meeting/faq' },
