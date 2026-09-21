@@ -104,7 +104,7 @@ function buildSearchIndex() {
 
   // 1. Overview pages
   index.push(
-    { title: "Why Parent Care", slug: "/overview/why-parent-care", category: "Overview", icon: "🧭", snippet: "Lý do tồn tại của Parent Care, bối cảnh 12 buổi học và Marlins Day." },
+    { title: "Why Parent Care", slug: "/overview/why-parent-care", category: "Overview", icon: "🧭", snippet: "Lý do tồn tại của Parent Care, bối cảnh 12 buổi học và Marlins Workshop." },
     { title: "Parent Jobs (JTBD)", slug: "/overview/parent-jobs", category: "Overview", icon: "🎯", snippet: "Ma trận Functional, Emotional và Social Jobs của phụ huynh." },
     { title: "Core Principles", slug: "/overview/core-principles", category: "Overview", icon: "⭐", snippet: "Triết lý 'Automate the evidence. Humanize the meaning' và 7 nguyên tắc." },
     { title: "Capability Map", slug: "/overview/capability-map", category: "Overview", icon: "🗺️", snippet: "Phân định năng lực System vs Mentor vs Marlins Care." }
@@ -119,13 +119,11 @@ function buildSearchIndex() {
     snippet: "Bản đồ trải nghiệm 3 Pha Vòng Đời phụ huynh Nemo12."
   });
 
-  // 3. Playbooks (8 Playbooks chuẩn theo A1_Sitemap.md)
+  // 3. Playbooks
   const playbooks = [
     { title: "Social Media Playbook (P01)", slug: "/playbooks/social-media", category: "Playbook", icon: "📱", snippet: "Kể chuyện phản tư & bằng chứng học tập trên Facebook cá nhân Mentor.", tags: ["P01", "Social Media", "Facebook", "Branding"] },
     { title: "Community Playbook (P02)", slug: "/playbooks/community", category: "Playbook", icon: "👥", snippet: "Vận hành hệ thống 3 nhóm Zalo cộng đồng đa tầng và serial case study.", tags: ["P02", "Community", "Zalo", "Case Study"] },
-    { title: "Marlins Workshop Playbook (P03)", slug: "/playbooks/marlins-workshop", category: "Playbook", icon: "💡", snippet: "Live Zoom tương tác tối Thứ 5 và cổng tự học Family Portal.", tags: ["P03", "Workshop", "Zoom", "Parent LMS"] },
-    { title: "Marlins Day Playbook (P04)", slug: "/playbooks/marlins-day", category: "Playbook", icon: "☀️", snippet: "Không gian đối thoại thấu cảm Fishbowl chiều Chủ Nhật tại Lotte Hotel.", tags: ["P04", "Marlins Day", "Chủ Nhật", "Fishbowl"] },
-    { title: "Trial Class Playbook (P05)", slug: "/playbooks/trial-class", category: "Playbook", icon: "🧪", snippet: "Quy trình học thử 2 buổi và tham vấn Fit Judgment dựa trên dữ liệu thật.", tags: ["P05", "Trial Class", "Học thử", "Fit Judgment"] },
+    { title: "Marlins Workshop Playbook (P03)", slug: "/playbooks/marlins-workshop", category: "Playbook", icon: "💡", snippet: "Live Zoom tương tác chiều Chủ Nhật (15h00 - 17h00) và cổng tự học Family Portal.", tags: ["P03", "Workshop", "Zoom", "Parent LMS"] },
     { title: "Live Class Playbook (P06)", slug: "/playbooks/live-class", category: "Playbook", icon: "📚", snippet: "Vận hành 12 buổi học chính thức, báo cáo tuần và Growth Story kết khóa.", tags: ["P06", "Live Class", "Growth Story", "Weekly Pulse"] },
     { title: "Family Meeting Playbook (P07)", slug: "/playbooks/family-meeting", category: "Playbook", icon: "🏡", snippet: "Gặp gỡ trực tiếp gia đình theo khoảnh khắc ý nghĩa và lập Family Notes.", tags: ["P07", "Family Meeting", "Family Tour", "Family Notes"] },
     { title: "Referrals Program Playbook (P08)", slug: "/playbooks/referrals", category: "Playbook", icon: "🎁", snippet: "Chính sách tri ân song phương 15% - 15% Tuition Credit cho phụ huynh.", tags: ["P08", "Referrals", "Tuition Credit", "Tri ân"] }

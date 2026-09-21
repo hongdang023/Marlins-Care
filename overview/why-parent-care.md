@@ -1,6 +1,6 @@
 ---
 title: "Why Parent Care"
-description: "Lý do tồn tại & Bối cảnh 12 buổi học + Marlins Day"
+description: "Lý do tồn tại & Bối cảnh 12 buổi học + Marlins Workshop"
 ---
 
 # Why Parent Care
@@ -25,7 +25,7 @@ Hệ thống trả lời và giải quyết 4 câu hỏi tác nghiệp cốt lõ
 | :---: | :--- | :--- | :--- |
 | **Q1** | **Nhu cầu thực sự của Phụ huynh là gì và ranh giới Con người vs Hệ thống ra sao?** | [1. Overview](/overview/why-parent-care) | Giải mã 3 tầng JTBD (Functional, Emotional, Social), 7 nguyên tắc kim chỉ nam và bản đồ phân định năng lực (Capability Map). |
 | **Q2** | **Hành trình trải nghiệm của Phụ huynh & Học sinh diễn ra như thế nào?** | [2. Parent Journey](/journey/) | Bản đồ tương tác đa chiều 3 pha vòng đời (Trước khóa học ➔ 12 buổi học ➔ Sau khóa học) và vị trí kích hoạt các điểm chạm. |
-| **Q3** | **Quy trình thực thi, chuẩn mực hành vi và kịch bản chi tiết ở đâu?** | [3. Playbooks](/playbooks/social-media/overview) | Bộ 8 Playbooks tác nghiệp chuẩn hóa (P01 – P08) tích hợp sẵn SOPs từng bước, Do's & Don'ts, Rubrics L3 DoD ⭐, DARs và FAQs. |
+| **Q3** | **Quy trình thực thi, chuẩn mực hành vi và kịch bản chi tiết ở đâu?** | [3. Playbooks](/playbooks/social-media/overview) | Bộ 7 Playbooks tác nghiệp chuẩn hóa (P01 – P08) tích hợp sẵn SOPs từng bước, Do's & Don'ts, Rubrics L3 DoD ⭐, DARs và FAQs. |
 | **Q4** | **Tiêu chuẩn kỹ thuật, khung mẫu biên soạn và kiến trúc công nghệ ra sao?** | [4. Requirements](/requirements/playbooks-template) | Bộ tiêu chuẩn Playbooks Framework, Content Standards, DAR Governance, UI Design System và Tech Stack. |
 
 ---

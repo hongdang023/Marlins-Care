@@ -4,7 +4,7 @@ title: "Framework"
 
 # Framework
 
-Thư viện các khái niệm và trường phái sư phạm được khai thác luân phiên trong các buổi Workshop tối Thứ 5:
+Thư viện các khái niệm và trường phái sư phạm được khai thác luân phiên trong các buổi Marlins Workshop (15h00 – 17h00 Chủ Nhật hàng tuần):
 
 #### 1. Bảy Câu Đáng Đổi Cách Nghĩ (7 Mindset Shifts & Misconceptions)
 1. **Điểm cao $\ne$ Hiểu sâu:** Bốn cách đạt điểm cao mà đầu óc rỗng tuếch (Học vẹt, học tủ, luyện mẹo, áp lực gia đình).

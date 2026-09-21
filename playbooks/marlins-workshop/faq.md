@@ -6,37 +6,34 @@ title: "FAQ"
 
 Giải đáp các câu hỏi tác nghiệp, chiến lược và xử lý tình huống thực tế.
 
-### Capacity & Burnout
+### Capacity & Logistics
 
 <details class="custom-toggle" style="margin-bottom: 12px; border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 10px 16px;">
 <summary style="font-weight: 600; cursor: pointer; color: var(--vp-c-brand-1);">
-Tổ chức tối Thứ 5 và Chủ Nhật hàng tuần có gây quá tải cho Host và Mentor không?
+Tổ chức chiều Chủ Nhật hàng tuần (15h00 - 17h00) có thuận tiện cho phụ huynh không?
 </summary>
 
-
-👉 **A:** Nội dung Workshop xoay quanh các chủ đề nền tảng đã được chuẩn hóa khung; Mentor phối hợp đồng hành giúp chia tải và duy trì năng lượng bền bỉ.
+👉 **A:** Khung giờ 15h00 – 17h00 chiều Chủ Nhật là thời điểm phụ huynh thư thả nhất trong tuần, dễ dàng tập trung tham gia trọn vẹn và chuẩn bị tâm thế tốt nhất trước khi bước vào tuần học tập mới của con.
 
 </details>
 
 <details class="custom-toggle" style="margin-bottom: 12px; border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 10px 16px;">
 <summary style="font-weight: 600; cursor: pointer; color: var(--vp-c-brand-1);">
-120 phút vào tối Thứ 5 có quá dài với phụ huynh bận rộn không?
+Sau buổi workshop phụ huynh có thể trao đổi và chia sẻ thêm ở đâu?
 </summary>
 
-
-👉 **A:** Phụ huynh được phân bổ vào các phòng Breakout tương tác liên tục nên không khí luôn hào hứng, không gây cảm giác mệt mỏi.
+👉 **A:** Ngay sau khi kết thúc buổi chia sẻ trên Zoom, ban tổ chức sẽ mở quyền chat trên group Zalo cộng đồng để các phụ huynh tiếp tục chia sẻ các reflection, trao đổi bài học thực tế và nhận hỗ trợ từ đội ngũ Marlins Care.
 
 </details>
 
-### Conversion & Funnel
+### Conversion & Engagement
 
 <details class="custom-toggle" style="margin-bottom: 12px; border: 1px solid var(--vp-c-divider); border-radius: 8px; padding: 10px 16px;">
 <summary style="font-weight: 600; cursor: pointer; color: var(--vp-c-brand-1);">
 Tổ chức Workshop miễn phí thì đo lường hiệu quả như thế nào?
 </summary>
 
-
-👉 **A:** Đo lường bằng tỷ lệ phụ huynh tham gia trọn vẹn, số lượng câu hỏi chất lượng và lượng phụ huynh chủ động đăng ký tham gia Marlins Day hoặc Trial Class.
+👉 **A:** Đo lường bằng tỷ lệ phụ huynh tham gia trọn vẹn 120 phút, số lượng reflection chất lượng trong Zoom/Zalo và lượng phụ huynh chủ động đăng ký tham gia Trial Class.
 
 </details>
 
@@ -45,8 +42,6 @@ Tổ chức Workshop miễn phí thì đo lường hiệu quả như thế nào?
 Nếu phụ huynh tham gia nhiều tuần nhưng chưa đăng ký khóa học thì sao?
 </summary>
 
-
-👉 **A:** Workshop phục vụ mục tiêu lan tỏa tri thức cộng đồng; sự hiện diện đều đặn của phụ huynh là minh chứng cho niềm tin ngày càng sâu sắc.
+👉 **A:** Workshop phục vụ mục tiêu lan tỏa tri thức cộng đồng; sự hiện diện đều đặn của phụ huynh là minh chứng cho niềm tin ngày càng sâu sắc và họ sẽ trở thành những đại sứ tự nhiên của cộng đồng.
 
 </details>
-

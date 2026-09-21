@@ -26,7 +26,8 @@ export default defineConfig({
       { text: 'Overview', link: '/overview/why-parent-care' },
       { text: 'Parent Journey', link: '/journey/' },
       { text: 'Playbooks', link: '/playbooks/social-media/overview' },
-      { text: 'Requirements', link: '/requirements/topic-library' }
+      { text: 'Requirements', link: '/requirements/topic-library' },
+      { text: 'GTM Plan', link: '/gtm-plan/sep-2026' }
     ],
 
     // 2. Sidebar Navigation (Unified 4-section Architecture)
@@ -96,45 +97,13 @@ export default defineConfig({
               { text: 'Decision Logs', link: '/playbooks/marlins-workshop/decision-logs' }
             ]
           },
-          {
-            text: 'Marlins Day',
-            collapsed: true,
-            items: [
-              { text: 'Overview', link: '/playbooks/marlins-day/overview' },
-              { text: 'Core Mindset', link: '/playbooks/marlins-day/core-mindset' },
-              { text: 'Stakeholder Mapping', link: '/playbooks/marlins-day/stakeholder-mapping' },
-              { text: 'Session Agenda', link: '/playbooks/marlins-day/session-agenda' },
-              { text: 'SOP Steps', link: '/playbooks/marlins-day/sop-steps' },
-              { text: "Do's & Don'ts", link: '/playbooks/marlins-day/dos-donts' },
-              { text: 'Assessment Rubrics', link: '/playbooks/marlins-day/assessment-rubrics' },
-              { text: 'FAQ', link: '/playbooks/marlins-day/faq' },
-              { text: 'Decision Logs', link: '/playbooks/marlins-day/decision-logs' }
-            ]
-          },
-          {
-            text: 'Trial Class',
-            collapsed: true,
-            items: [
-              { text: 'Overview', link: '/playbooks/trial-class/overview' },
-              { text: 'Stakeholder Mapping', link: '/playbooks/trial-class/stakeholder-mapping' },
-              { text: 'Session Agenda', link: '/playbooks/trial-class/session-agenda' },
-              { text: 'SOP Steps', link: '/playbooks/trial-class/sop-steps' },
-              { text: 'School Adapters', link: '/playbooks/trial-class/school-adapters' },
-              { text: "Do's & Don'ts", link: '/playbooks/trial-class/dos-donts' },
-              { text: 'Assessment Rubrics', link: '/playbooks/trial-class/assessment-rubrics' },
-              { text: 'FAQ', link: '/playbooks/trial-class/faq' },
-              { text: 'Decision Logs', link: '/playbooks/trial-class/decision-logs' }
-            ]
-          },
+
           {
             text: 'Live Class',
             collapsed: true,
             items: [
               { text: 'Overview', link: '/playbooks/live-class/overview' },
-              { text: 'Stakeholder Mapping', link: '/playbooks/live-class/stakeholder-mapping' },
-              { text: 'Session Agenda', link: '/playbooks/live-class/session-agenda' },
               { text: 'SOP Steps', link: '/playbooks/live-class/sop-steps' },
-              { text: 'School Adapters', link: '/playbooks/live-class/school-adapters' },
               { text: "Do's & Don'ts", link: '/playbooks/live-class/dos-donts' },
               { text: 'Assessment Rubrics', link: '/playbooks/live-class/assessment-rubrics' },
               { text: 'FAQ', link: '/playbooks/live-class/faq' },
@@ -147,8 +116,10 @@ export default defineConfig({
             items: [
               { text: 'Overview', link: '/playbooks/family-meeting/overview' },
               { text: 'Stakeholder Mapping', link: '/playbooks/family-meeting/stakeholder-mapping' },
+              { text: 'Needed Information', link: '/playbooks/family-meeting/needed-information' },
               { text: 'Session Agenda', link: '/playbooks/family-meeting/session-agenda' },
               { text: 'SOP Steps', link: '/playbooks/family-meeting/sop-steps' },
+              { text: 'Family Notes Template', link: '/playbooks/family-meeting/family-notes-template' },
               { text: "Do's & Don'ts", link: '/playbooks/family-meeting/dos-donts' },
               { text: 'Assessment Rubrics', link: '/playbooks/family-meeting/assessment-rubrics' },
               { text: 'FAQ', link: '/playbooks/family-meeting/faq' },
@@ -180,6 +151,13 @@ export default defineConfig({
           { text: 'DAR Template & Governance', link: '/requirements/dar-template' },
           { text: 'UI Design System', link: '/requirements/ui-design-system' },
           { text: 'Tech Stack Specifications', link: '/requirements/tech-stack' }
+        ]
+      },
+      {
+        text: '5. GTM PLAN',
+        collapsed: false,
+        items: [
+          { text: 'Sep 2026', link: '/gtm-plan/sep-2026' }
         ]
       }
     ],

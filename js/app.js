@@ -6,6 +6,7 @@ import { renderMasterFramework } from "./components/masterFrameworkRenderer.js";
 import { renderOverview } from "./components/overviewRenderer.js";
 import { renderDecisionLogs } from "./components/decisionLogsRenderer.js";
 import { renderRequirements } from "./components/requirementsRenderer.js";
+import { renderGtmPlan } from "./components/gtmPlanRenderer.js";
 import { SITEMAP_CONFIG } from "./data.js";
 
 export class App {
@@ -107,6 +108,8 @@ export class App {
       mainViewport.appendChild(renderPlaybook(this.currentRoute, (slug) => this.navigateTo(slug)));
     } else if (this.currentRoute.startsWith("/requirements")) {
       mainViewport.appendChild(renderRequirements(this.currentRoute, (slug) => this.navigateTo(slug)));
+    } else if (this.currentRoute.startsWith("/gtm-plan")) {
+      mainViewport.appendChild(renderGtmPlan(this.currentRoute, (slug) => this.navigateTo(slug)));
     } else if (this.currentRoute.startsWith("/decision-logs")) {
       mainViewport.appendChild(renderDecisionLogs(this.currentRoute, (slug) => this.navigateTo(slug)));
     } else {

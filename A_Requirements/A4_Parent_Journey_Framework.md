@@ -28,7 +28,7 @@ Hành trình **không phải là một checklist cứng nhắc** bắt buộc m�
 
 | Pha (Phase) | Cột Mốc Thời Gian | JTBD Trọng Tâm | Trải Nghiệm Mong Muốn Của Phụ Huynh | Vai Trò Hệ Thống (System) | Vai Trò Con Người (Human) | Playbooks Vận Hành |
 |---|---|---|---|---|---|:---:|
-| **Pha 1: Trước Khóa Học** *(Pre-enrollment)* | Cân nhắc & 2 buổi Học thử | `F5`, `E1`, `S3`, `F1` | Hiểu rõ phương pháp, an tâm chuẩn bị tâm thế cho con và nhận tư vấn trung thực dựa trên bằng chứng. | Tự động hóa đăng ký, gửi thông tin chuẩn bị Trial, trích xuất log dữ liệu học sinh. | Xây dựng thương hiệu cá nhân (**P01**), Quản trị cộng đồng (**P02**), Tổ chức Workshop Zoom (**P03**), Host **Marlins Day** (**P04**), Tư vấn Fit Judgment (**P05**). | **P01, P02, P03, P04, P05** |
+| **Pha 1: Trước Khóa Học** *(Pre-enrollment)* | Cân nhắc & 2 buổi Học thử | `F5`, `E1`, `S3`, `F1` | Hiểu rõ phương pháp, an tâm chuẩn bị tâm thế cho con và nhận tư vấn trung thực dựa trên bằng chứng. | Tự động hóa đăng ký, gửi thông tin chuẩn bị Trial, trích xuất log dữ liệu học sinh. | Xây dựng thương hiệu cá nhân (**P01**), Quản trị cộng đồng (**P02**), Tổ chức Workshop Zoom (**P03**), Tư vấn Fit Judgment (**P05**). | **P01, P02, P03, P05** |
 | **Pha 2: Trong Khóa Học** *(Active 12-session Journey)* | 12 Buổi Live Class | `F1`, `F4`, `E2`, `F2`, `S5` | Thấy con tiến bộ thực chất bằng dữ liệu, cảm nhận con được thấu hiểu qua Mentor, có kỷ niệm gia đình ý nghĩa và nhận Growth Story kết khóa. | Gửi báo cáo tiến độ tuần tự động, phát hiện sụt giảm nỗ lực / kẹt bài tập (**P06**). | **Live Class Mentoring Routine** (**P06**) quan sát độc bản, tổ chức **Family Meeting** (**P07**) tại khoảnh khắc ý nghĩa. | **P06, P07** |
 | **Pha 3: Sau Khóa Học** *(Post-course & Retention)* | Tái tục & Lan tỏa cộng đồng | `S2`, `E5`, `F3`, `S4` | Tiếp tục đồng hành dài hạn và trở thành đại sứ lan tỏa giá trị giáo dục Nemo12 đến bạn bè. | Quản trị mã liên kết và ghi nhận ưu đãi tự động 15% - 15% trên Family Portal (**P08**). | Chăm sóc và tri ân phụ huynh đại sứ (**P08**). | **P08** |
 
@@ -52,4 +52,4 @@ graph TD
 
 ## Persistent Capabilities
 
-* **Marlins Day (Playbook P04 - Chiều Chủ Nhật):** Không phải là sự kiện một lần duy nhất trong giai đoạn Trial. Đây là **năng lực hỗ trợ thường trực (Persistent Capability)** sẵn sàng tiếp đón phụ huynh ở bất kỳ giai đoạn nào khi họ cần gỡ rối định kiến hoặc muốn trao đổi phương pháp giáo dục.
+* **Marlins Workshop (Playbook P03 - 15h00 - 17h00 Chủ Nhật):** Không phải là sự kiện một lần duy nhất. Đây là **năng lực hỗ trợ thường trực (Persistent Capability)** trên Zoom sẵn sàng tiếp đón phụ huynh ở bất kỳ giai đoạn nào khi họ cần gỡ rối định kiến hoặc muốn trao đổi phương pháp giáo dục.

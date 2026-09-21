@@ -19,7 +19,7 @@ function renderTopNav(currentRoute, onNavigate) {
       Parent Journey
     </a>
     <div class="mega-menu-wrapper">
-      <a href="#/playbooks/marlins-day" class="nav-link-item ${currentCategory === 'playbooks' ? 'active' : ''}" data-nav="playbooks">
+      <a href="#/playbooks/social-media" class="nav-link-item ${currentCategory === 'playbooks' ? 'active' : ''}" data-nav="playbooks">
         Playbooks
       </a>
       <div class="mega-menu-panel">
@@ -28,6 +28,9 @@ function renderTopNav(currentRoute, onNavigate) {
     </div>
     <a href="#/decision-logs/midpoint-pulse" class="nav-link-item ${currentCategory === 'decision-logs' ? 'active' : ''}" data-nav="decision-logs">
       Decision Logs
+    </a>
+    <a href="#/gtm-plan/sep-2026" class="nav-link-item ${currentCategory === 'gtm-plan' ? 'active' : ''}" data-nav="gtm-plan">
+      GTM Plan
     </a>
   `;
 
@@ -157,6 +160,23 @@ export function renderSidebar(currentRoute, onNavigate) {
     </div>
   `;
 
+  // Group 5: GTM PLAN
+  const gtmNav = SITEMAP_CONFIG.navigation.find(n => n.id === 'gtm-plan');
+  const gtmItems = gtmNav && gtmNav.subItems ? gtmNav.subItems : [
+    { title: "Sep 2026", slug: "/gtm-plan/sep-2026" }
+  ];
+
+  html += `
+    <div class="sidebar-group">
+      <div class="sidebar-group-title">5. GTM Plan</div>
+      ${gtmItems.map(item => `
+        <a href="#${item.slug}" class="sidebar-item ${currentRoute === item.slug ? 'active' : ''}">
+          <span>${item.title}</span>
+        </a>
+      `).join('')}
+    </div>
+  `;
+
   sidebar.innerHTML = html;
 
   sidebar.querySelectorAll('a').forEach(link => {
@@ -196,6 +216,8 @@ export function renderBreadcrumbs(currentRoute) {
     }
   } else if (parts[0] === 'requirements') {
     crumbsHtml += ` <span class="breadcrumb-sep">/</span> <a href="#/requirements/playbooks-framework">Requirements</a> <span class="breadcrumb-sep">/</span> <span style="color:var(--text-primary); font-weight:600;">${formatSlugTitle(parts[1])}</span>`;
+  } else if (parts[0] === 'gtm-plan') {
+    crumbsHtml += ` <span class="breadcrumb-sep">/</span> <a href="#/gtm-plan/sep-2026">GTM Plan</a> <span class="breadcrumb-sep">/</span> <span style="color:var(--text-primary); font-weight:600;">${formatSlugTitle(parts[1])}</span>`;
   }
 
   container.innerHTML = crumbsHtml;
@@ -206,6 +228,7 @@ function getActiveCategory(slug) {
   if (slug.startsWith('/journey')) return 'journey';
   if (slug.startsWith('/playbooks')) return 'playbooks';
   if (slug.startsWith('/requirements')) return 'requirements';
+  if (slug.startsWith('/gtm-plan')) return 'gtm-plan';
   return 'overview';
 }
 

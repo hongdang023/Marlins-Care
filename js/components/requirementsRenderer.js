@@ -180,8 +180,7 @@ const A9_MARKDOWN = `# A9 · Topic Library
 
 1. **Chuẩn mực hóa Tri thức Sư phạm (Canonical Pedagogy):** Cung cấp nguồn tài nguyên tri thức duy nhất (Single Source of Truth) kết nối toàn bộ hệ sinh thái Nemo12 và Marlins Care, bảo đảm tính nhất quán về mặt lý luận giáo dục và phương pháp sư phạm.
 2. **Định hướng Nội dung Tác nghiệp:** Làm khung tham chiếu bắt buộc cho toàn bộ đội ngũ Host, Mentor và ban vận hành khi thiết kế nội dung cho:
-   * **Marlins Workshop (\`P03\`):** Chuỗi chuyên đề Online Zoom tối Thứ 5 dành cho cộng đồng phụ huynh.
-   * **Marlins Day (\`P04\`):** Phiên đối thoại Fishbowl Offline Chủ Nhật giải mã hành vi và năng lực học sinh.
+   * **Marlins Workshop (\`P03\`):** Chuỗi chuyên đề Online Zoom chiều Chủ Nhật (15h00 - 17h00) dành cho cộng đồng phụ huynh.
    * **Mentor Insights (\`P01\`):** Các bài viết đúc kết, phân tích ca học sinh thực tế trên kênh truyền thông.
    * **Family Portal:** Cổng tự học và hệ thống khuyến nghị dành cho phụ huynh đồng hành tại nhà.
 
@@ -243,28 +242,12 @@ Tham chiếu chuẩn mực: [Pearl · Từ điển những khái niệm xuyên s
 
 | Concept | Definition |
 | :--- | :--- |
-| **Learner Model** | Bức tranh có cấu trúc mà hệ thống dựng về một người học: mảng kiến thức đang ở mức nào, độ tin cậy tới đâu, phong cách học và thói quen làm bài. Đây là kết luận suy ra, luôn kèm mức chắc chắn, không phải hồ sơ cố định. |
-| **Context Model** | Bối cảnh học tập thực tế: thời gian làm bài, thiết bị sử dụng, mức độ mệt mỏi, áp lực thi cử tại trường. |
-| **Confidence Score** | Điểm đo lường mức độ chắc chắn của hệ thống về một kết luận năng lực của học sinh. |
-| **Uncertainty** | Vùng bất định. Hệ thống dám thừa nhận *"chưa đủ dữ liệu"* để tiếp tục quan sát thay vì vội vã dán nhãn định kiến lên học sinh. |
-| **Student Portrait** | Chân dung tương lai mà gia đình và con cùng dựng lên: con muốn trở thành người như thế nào, mạnh ở đâu, quan tâm gì. Portrait trả lời *"Chúng ta mong con trở thành ai"*, trong khi Learner Model trả lời *"Con hiện tại là ai"*. |
-| **Mental Model** | Cách một người hiểu ngầm về việc gì đó vận hành (ví dụ: *"học nhiều bài thì giỏi lên"* là một mental model chi phối mọi quyết định). Nâng cấp mental model là chìa khóa chuyển hóa bền vững. |
-| **Evidence** | Quan sát cụ thể, gần với sự thật: *“Sai 4/5 câu phân tích đa thức, hơn 3 phút mỗi câu, dùng gợi ý ở 3 câu”*. Evidence không phải là kết luận cảm tính (*"yếu đại số"*), giúp hệ thống tự động điều chỉnh khi có quan sát mới. |
-| **Readiness** | Khoảng cách từ năng lực hiện tại của con tới một mục tiêu cụ thể (kỳ thi này, ngày này, dạng đề này). |
-| **Recommendation** | Việc hệ thống đề xuất làm tiếp theo (học bài này, ôn phần kia, nghỉ ngơi), luôn lưu rõ lý do và phiên bản dữ liệu đã dùng. |
-| **Continuous Calibration** | Hiệu chỉnh liên tục. Hồ sơ năng lực được cập nhật theo thời gian thực sau mỗi bài tập và sản phẩm hoàn thành. |
-
----
-
-### Environment Design
-
-| Concept | Definition |
+| Thuật Ngữ / Khái Niệm | Giải Nghĩa Sư Phạm & Ứng Dụng Thực Tiễn |
 | :--- | :--- |
-| **BEM Model** | Cơ chế hình thành hành vi: $$\text{Mental Model (Mô hình tư duy ẩn)} \longrightarrow \text{Experience (Trải nghiệm cảm xúc)} \longrightarrow \text{Behavior (Hành vi bề mặt)}$$ Muốn sửa hành vi "lười học / chống đối" của con, cha mẹ phải gỡ từ Trải nghiệm bất lực và Niềm tin sợ thất bại bên trong. |
-| **NVC (Nonviolent Communication)** | Bộ công cụ 4 bước đối thoại với con không phán xét: **Facts** (Sự thật khách quan) ➔ **Feelings** (Cảm xúc chân thật) ➔ **Needs** (Nhu cầu thực sự) ➔ **Requests** (Đề xuất cụ thể). |
-| **Building 21** | Khung năng lực dùng làm xương sống cho toàn bộ curriculum: Mô tả người học bằng câu *"Tôi làm được gì"* ở từng mức độ, thay vì bằng khối lớp đang ngồi. |
-| **Competency-Based Education** | Giáo dục dựa trên năng lực thực chiến: Đánh giá qua năng lực giải quyết vấn đề và sản phẩm hoàn thiện, không dựa trên điểm số thi mẹo hay thời gian ngồi học. |
-| **Inquiry-Based Learning** | Học qua truy vấn: Thúc đẩy học sinh tự đặt câu hỏi sâu, giải các bài toán phi quy ước và khám phá bản chất tri thức. |
+| **ZPD (Vygotsky)** | Vùng phát triển gần nhất: Thiết kế bài toán vừa sức với sự trợ giúp nhẹ của Mentor. |
+| **Scaffolding** | Giàn giáo sư phạm: Đặt câu hỏi gợi mở từng nấc thang, rút dần sự trợ giúp để con tự đứng vững. |
+| **Cognitive Load Theory** | Thuyết tải trọng nhận thức: Tránh nhồi nhét quá nhiều khái niệm trừu tượng cùng một lúc. |
+| **Learner Agency** | Quyền tự chủ của người học: Con được lựa chọn đề tài dự án và tự chịu trách nhiệm về tiến độ. |
 | **AoPS Mindset** | Tư duy bản chất Toán học và Công nghệ xuất phát từ nguyên lý đầu tiên (First Principles), không học mẹo. |
 | **Constructivism vs Direct Instruction** | Phối hợp hài hòa giữa việc để con tự kiến tạo mô hình tư duy (Constructivism) và sự chỉ dẫn trực tiếp, khúc chiết của Mentor khi gặp điểm nghẽn (Direct Instruction). |
 | **Psychological Safety** | Vùng an toàn tâm lý: Không gian gia đình nơi đứa trẻ cảm thấy an toàn khi nói lên suy nghĩ thật, dám chia sẻ sai lầm mà không sợ bị trừng phạt hay so sánh độc hại. |
@@ -275,8 +258,7 @@ Tham chiếu chuẩn mực: [Pearl · Từ điển những khái niệm xuyên s
 
 | Điểm Chạm | Hướng Dẫn Áp Dụng |
 | :--- | :--- |
-| **Marlins Workshop (\`P03\`)** | Mỗi tối Thứ 5 chọn **1 Luận điểm trong Argument Angles** làm chủ đề thảo luận, sau đó kết nối sang **2–3 Concepts trong Core Concepts** để phụ huynh thực hành trong Breakout Room 4F. |
-| **Marlins Day (\`P04\`)** | Dùng các Luận điểm tranh biện làm câu hỏi mồi trong phiên **Fishbowl Dialogue**, sau đó Mentor demo giải pháp bằng chứng thực tế trên màn hình Nemo12. |
+| **Marlins Workshop (\`P03\`)** | Mỗi chiều Chủ Nhật chọn **1 Luận điểm trong Argument Angles** làm chủ đề thảo luận, sau đó kết nối sang **2–3 Concepts trong Core Concepts** để phụ huynh tương tác theo Fishbowl & Reflection. |
 | **Social Media (\`P01\`)** | Mentor trích xuất 1 Concept sâu sắc (như Scaffolding hay BEM Model) kết hợp với 1 câu chuyện thật tại lớp Sư Tử Con để viết bài phản tư theo khung \`T-A-C-E\`. |
 | **Family Meeting (\`P07\`)** | Mentor áp dụng mô hình \`BEM\` và công cụ \`NVC\` để giải mã bối cảnh gia đình và thiết lập cam kết đồng hành 3 bên. |
 `;
@@ -284,14 +266,14 @@ Tham chiếu chuẩn mực: [Pearl · Từ điển những khái niệm xuyên s
 const A6_MARKDOWN = `# A6 · Playbooks Standard Template & Boilerplate
 
 > **Bộ khung mẫu chuẩn mực để biên soạn, cập nhật và ban hành Playbook tác nghiệp**  
-> **Áp dụng cho:** Toàn bộ 8 Playbooks hiện tại (\`P01\` – \`P08\`) và các Playbooks mới trong tương lai.
+> **Áp dụng cho:** Toàn bộ 7 Playbooks hiện tại (\`P01\` – \`P08\`) và các Playbooks mới trong tương lai.
 
 ---
 
 ## 1. Nguyên Tắc & Quy Chuẩn Cấu Trúc (Core Principles)
 
 1. **3 Hình thái Phân loại Playbook (3 Tiers & Archetypes):**
-   * **Tier 1: High-Touch (Archetype C):** Tương tác trực tiếp, đối thoại sâu (\`Marlins Workshop\`, \`Marlins Day\`, \`Family Meeting\`). Bắt buộc có \`Session Agenda\` và \`Stakeholder Mapping\`.
+   * **Tier 1: High-Touch (Archetype C):** Tương tác trực tiếp, đối thoại sâu (\`Marlins Workshop\`, \`Family Meeting\`). Bắt buộc có \`Session Agenda\` và \`Stakeholder Mapping\`.
    * **Tier 2: Routine & Hybrid (Archetype B):** Vận hành lớp học tuần hoàn kết hợp máy và người (\`Trial Class\`, \`Live Class\`). Không có \`Session Agenda\`.
    * **Tier 3: Outreach & Policy (Archetype A):** Kênh mạng xã hội, cộng đồng và chính sách (\`Social Media\`, \`Community\`, \`Referrals Program\`). Không có \`Session Agenda\`.
 2. **Quy tắc độ dài & định dạng tiêu đề (Lean Section Title Rule):** Tiêu đề Section (\`##\`, \`###\`) bắt buộc là **Pure English, Title Case, ≤ 3 words, TUYỆT ĐỐI KHÔNG CHÈN EMOJI** theo [A7_Content_Standards.md](#/requirements/content-standards).
@@ -302,7 +284,7 @@ const A6_MARKDOWN = `# A6 · Playbooks Standard Template & Boilerplate
 
 ## 2. Ma Trận Cấu Trúc Khối Nội Dung & Sub-Navigation (Structure Matrix)
 
-| Cấu Trúc Section (Pure English ≤ 3 words) | Tier 1: High-Touch (\`P03, P04, P07\`) | Tier 2: Routine (\`P05, P06\`) | Tier 3: Outreach (\`P01, P02, P08\`) | Ghi chú vai trò |
+| Cấu Trúc Section (Pure English ≤ 3 words) | Tier 1: High-Touch (\`P03, P07\`) | Tier 2: Routine (\`P05, P06\`) | Tier 3: Outreach (\`P01, P02, P08\`) | Ghi chú vai trò |
 | :--- | :---: | :---: | :---: | :--- |
 | **\`Overview\`** *(Metadata Header)* | Bắt buộc | Bắt buộc | Bắt buộc | Mục tiêu, điều kiện kích hoạt, thời lượng, chủ sở hữu, đầu ra. |
 | **\`Stakeholder Mapping\`** | Bắt buộc | Bắt buộc | Tùy chọn | Bản đồ tương tác và kỳ vọng 3 bên: Phụ huynh – Học sinh – Mentor. |
@@ -367,7 +349,7 @@ relates_to:
 <details open>
 <summary><h3>Session Agenda</h3></summary>
 
-*(Chỉ áp dụng cho Tier 1: Marlins Workshop, Marlins Day, Family Meeting)*
+*(Chỉ áp dụng cho Tier 1: Marlins Workshop, Family Meeting)*
 
 | Thời Lượng | Giai Đoạn (Stage) | Hoạt Động Cốt Lõi | Người Phụ Trách |
 | :---: | :--- | :--- | :--- |

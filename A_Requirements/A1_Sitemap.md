@@ -22,7 +22,7 @@ relates_to:
 > Bản đồ website mô tả chính xác hệ thống điều hướng trực quan người dùng trên giao diện web (Top Navbar & Left Sidebar), bao gồm **4 phân hệ chính**:
 > 1. **`1. OVERVIEW`**: Định vị triết lý, JTBD của phụ huynh, nguyên tắc cốt lõi và bản đồ phân định năng lực.
 > 2. **`2. PARENT JOURNEY`**: Bản đồ hành trình trải nghiệm của phụ huynh và học sinh qua các giai đoạn.
-> 3. **`3. PLAYBOOKS`**: 8 Cẩm nang tác nghiệp chuẩn hóa cho đội ngũ Mentors, Hosts và Care Specialists.
+> 3. **`3. PLAYBOOKS`**: 7 Cẩm nang tác nghiệp chuẩn hóa cho đội ngũ Mentors, Hosts và Care Specialists.
 > 4. **`4. REQUIREMENTS`**: Bộ tiêu chuẩn kỹ thuật, Playbooks Template, DAR Template, UI Design System và Tech Stack.
 
 ---
@@ -45,8 +45,6 @@ NEMO12 & MARLINS CARE KNOWLEDGE HUB
 │   ├── Social Media Playbook               --> (/playbooks/social-media)
 │   ├── Community Playbook                  --> (/playbooks/community)
 │   ├── Marlins Workshop Playbook           --> (/playbooks/marlins-workshop)
-│   ├── Marlins Day Playbook                --> (/playbooks/marlins-day)
-│   ├── Trial Class Playbook                --> (/playbooks/trial-class)
 │   ├── Live Class Playbook                 --> (/playbooks/live-class)
 │   ├── Family Meeting Playbook             --> (/playbooks/family-meeting)
 │   └── Referrals Program Playbook          --> (/playbooks/referrals)
@@ -85,18 +83,16 @@ NEMO12 & MARLINS CARE KNOWLEDGE HUB
 ---
 
 ### 2.3 Navigation 3: PLAYBOOKS (`/playbooks`)
-*Trọng tâm tác nghiệp chuẩn hóa gồm **8 Playbooks Full-Pack** tích hợp sẵn SOPs, Rubrics, FAQ và Decision Logs.*
+*Trọng tâm tác nghiệp chuẩn hóa gồm **7 Playbooks Full-Pack** tích hợp sẵn SOPs, Rubrics, FAQ và Decision Logs.*
 
 | Trang (Page Title) | Route Slug | Phạm vi & Điểm chạm nghiệp vụ |
 | :--- | :--- | :--- |
 | **Social Media Playbook** | `/playbooks/social-media` | Kể chuyện phản tư & bằng chứng học tập trên mạng xã hội cá nhân của Mentor. |
 | **Community Playbook** | `/playbooks/community` | Vận hành hệ thống 3 nhóm Zalo đa tầng (2 Broadcast Public + 1 Private Interactive). |
-| **Marlins Workshop Playbook** | `/playbooks/marlins-workshop` | Tổ chức Live Workshop trực tuyến tối Thứ 5 và điều phối cổng tự học. |
-| **Marlins Day Playbook** | `/playbooks/marlins-day` | Đối thoại trực tiếp & điều phối không gian Fishbowl chiều Chủ Nhật tại khách sạn. |
-| **Trial Class Playbook** | `/playbooks/trial-class` | Quy trình học thử 2 buổi và tham vấn độ phù hợp dựa trên bằng chứng dữ liệu. |
+| **Marlins Workshop Playbook** | `/playbooks/marlins-workshop` | Tổ chức Live Workshop trực tuyến chiều Chủ Nhật và điều phối cổng tự học. |
 | **Live Class Playbook** | `/playbooks/live-class` | Vận hành 12 buổi học chính thức, báo cáo tuần và ấn phẩm Growth Story 5 phần. |
 | **Family Meeting Playbook** | `/playbooks/family-meeting` | Gặp gỡ trực tiếp gia đình theo khoảnh khắc ý nghĩa (Family Tour) và lập Family Notes. |
-| **Referrals Program Playbook** | `/playbooks/referrals` | Chính sách tri ân song phương 15% - 15% dạng Tuition Credit cho phụ huynh giới thiệu. |
+| **Referrals Program Playbook** | `/playbooks/referrals` | Chính sách tri ấn song phương 15% - 15% dạng Tuition Credit cho phụ huynh giới thiệu. |
 
 ---
 
@@ -126,8 +122,6 @@ NEMO12 & MARLINS CARE KNOWLEDGE HUB
 | **3. Playbooks** | Social Media Playbook | `/playbooks/social-media` |
 | **3. Playbooks** | Community Playbook | `/playbooks/community` |
 | **3. Playbooks** | Marlins Workshop Playbook | `/playbooks/marlins-workshop` |
-| **3. Playbooks** | Marlins Day Playbook | `/playbooks/marlins-day` |
-| **3. Playbooks** | Trial Class Playbook | `/playbooks/trial-class` |
 | **3. Playbooks** | Live Class Playbook | `/playbooks/live-class` |
 | **3. Playbooks** | Family Meeting Playbook | `/playbooks/family-meeting` |
 | **3. Playbooks** | Referrals Program Playbook | `/playbooks/referrals` |

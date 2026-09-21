@@ -8,7 +8,7 @@ Quy chuẩn chuyển hóa dữ liệu quan sát thực tế thành **Serial Case
 
 ```mermaid
 graph TD
-    A["Nguồn: Marlins Day / Call Tư Vấn / Live Class"] --> B["1. Ẩn danh hóa thông tin (Bảo mật)"]
+    A["Nguồn: Marlins Workshop / Call Tư Vấn / Live Class"] --> B["1. Ẩn danh hóa thông tin (Bảo mật)"]
     B --> C["2. Bóc tách: Triệu chứng bề mặt vs Nguyên nhân gốc"]
     C --> D["3. Đăng Broadcast đồng loạt lên 2 Group Public (Low Maintenance)"]
 ```

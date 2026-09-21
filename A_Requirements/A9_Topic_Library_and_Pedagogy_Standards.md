@@ -22,8 +22,7 @@ relates_to:
 
 1. **Chuẩn mực hóa Tri thức Sư phạm (Canonical Pedagogy):** Cung cấp nguồn tài nguyên tri thức duy nhất (Single Source of Truth) kết nối toàn bộ hệ sinh thái Nemo12 và Marlins Care, bảo đảm tính nhất quán về mặt lý luận giáo dục và phương pháp sư phạm.
 2. **Định hướng Nội dung Tác nghiệp:** Làm khung tham chiếu bắt buộc cho toàn bộ đội ngũ Host, Mentor và ban vận hành khi thiết kế nội dung cho:
-   * **Marlins Workshop (`P03`):** Chuỗi chuyên đề Online Zoom tối Thứ 5 dành cho cộng đồng phụ huynh.
-   * **Marlins Day (`P04`):** Phiên đối thoại Fishbowl Offline Chủ Nhật giải mã hành vi và năng lực học sinh.
+   * **Marlins Workshop (`P03`):** Chuỗi chuyên đề Online Zoom chiều Chủ Nhật (15h00 - 17h00) dành cho cộng đồng phụ huynh.
    * **Mentor Insights (`P01`):** Các bài viết đúc kết, phân tích ca học sinh thực tế trên kênh truyền thông.
    * **Family Portal:** Cổng tự học và hệ thống khuyến nghị dành cho phụ huynh đồng hành tại nhà.
 
@@ -117,7 +116,6 @@ Tham chiếu chuẩn mực: [Pearl · Từ điển những khái niệm xuyên s
 
 | Điểm Chạm | Hướng Dẫn Áp Dụng |
 | :--- | :--- |
-| **Marlins Workshop (`P03`)** | Mỗi tối Thứ 5 chọn **1 Luận điểm trong Argument Angles** làm chủ đề thảo luận, sau đó kết nối sang **2–3 Concepts trong Core Concepts** để phụ huynh thực hành trong Breakout Room 4F. |
-| **Marlins Day (`P04`)** | Dùng các Luận điểm tranh biện làm câu hỏi mồi trong phiên **Fishbowl Dialogue**, sau đó Mentor demo giải pháp bằng chứng thực tế trên màn hình Nemo12. |
+| **Marlins Workshop (`P03`)** | Mỗi chiều Chủ Nhật chọn **1 Luận điểm trong Argument Angles** làm chủ đề thảo luận, sau đó kết nối sang **2–3 Concepts trong Core Concepts** để phụ huynh tương tác theo Fishbowl & Reflection. |
 | **Social Media (`P01`)** | Mentor trích xuất 1 Concept sâu sắc (như Scaffolding hay BEM Model) kết hợp với 1 câu chuyện thật tại lớp Sư Tử Con để viết bài phản tư theo khung `T-A-C-E`. |
 | **Family Meeting (`P07`)** | Mentor áp dụng mô hình `BEM` và công cụ `NVC` để giải mã bối cảnh gia đình và thiết lập cam kết đồng hành 3 bên. |

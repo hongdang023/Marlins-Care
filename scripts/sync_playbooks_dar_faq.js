@@ -86,7 +86,7 @@ const fullFaqAndDarSpecs = {
           { name: "Option B: Chỉ Dùng Kênh Thông Báo Zalo OA / Fanpage", desc: "Mất đi cảm giác ấm áp, thiếu không gian tương tác gần gũi cho phụ huynh thân thiết." },
           { name: "Option C: 2 Public Broadcast + 1 Private Interactive ⭐", desc: "Cần phân quyền quản trị viên chuẩn hóa giữa 2 nhóm phát tin và 1 nhóm tương tác chiều sâu.", approved: true }
         ],
-        decision: "Áp dụng mô hình 02 Public Groups cài đặt Broadcast 1 chiều (Low Maintenance, không spam) để phát Case Study tuần + 01 Private Group (Nemo12 - Marlins) mở chat 2 chiều cho phụ huynh sau sự kiện Marlins Day để chăm sóc sâu."
+        decision: "Áp dụng mô hình 02 Public Groups cài đặt Broadcast 1 chiều (Low Maintenance, không spam) để phát Case Study tuần + 01 Private Group (Nemo12 - Marlins) mở chat 2 chiều cho phụ huynh sau sự kiện Marlins Workshop để chăm sóc sâu."
       }
     ],
     faqs: [
@@ -109,7 +109,7 @@ const fullFaqAndDarSpecs = {
   "P03_Marlins_Workshop_Playbook.md": {
     dars: [
       {
-        title: "📌 DAR 06: Định Dạng Workshop: Live Zoom Tối Thứ 5 vs Khóa Học Phụ Huynh Đóng Gói Sẵn",
+        title: "📌 DAR 06: Định Dạng Workshop: Live Zoom Chiều Chủ Nhật vs Khóa Học Phụ Huynh Đóng Gói Sẵn",
         context: "Lựa chọn định dạng học tập cho phụ huynh bận rộn giữa việc sản xuất khóa học video hay tổ chức Live Zoom hàng tuần.",
         criteria: [
           { name: "C1: Tương Tác Trực Tiếp & Giải Tỏa Nỗi Đau (Live Empathy)", weight: "W4", scores: ["2.0 / 5 (8.0)", "5.0 / 5 (20.0)"] },
@@ -119,74 +119,39 @@ const fullFaqAndDarSpecs = {
         total: ["36.5 / 50", "48.8 / 50 (Approved ⭐)"],
         options: [
           { name: "Option A: Đóng Gói 100% Khóa Học Video Tự Học LMS", desc: "Tỷ lệ hoàn thành dưới 5%, thiếu sự đồng cảm và không giải quyết được vướng mắc tức thì." },
-          { name: "Option B: Live Zoom Tối Thứ 5 + Lưu Kho Tư Liệu Family Portal ⭐", desc: "Đòi hỏi Host cam kết lịch trực tiếp tối Thứ 5 và đội ngũ kỹ thuật cắt ghép video lưu trữ Portal.", approved: true }
+          { name: "Option B: Live Zoom Chiều Chủ Nhật + Lưu Kho Tư Liệu Family Portal ⭐", desc: "Đòi hỏi Host cam kết lịch trực tiếp 15h00 - 17h00 Chủ Nhật và đội ngũ kỹ thuật lưu trữ tư liệu Portal.", approved: true }
         ],
-        decision: "Tổ chức Live Zoom tương tác trực tiếp 120 phút tối Thứ 5 hàng tuần do Anh Đắc chủ trì; toàn bộ nội dung được biên tập tinh gọn lưu trữ trên Family Portal."
+        decision: "Tổ chức Live Zoom tương tác trực tiếp 120 phút (15h00 - 17h00 Chủ Nhật hàng tuần) do Anh Đắc chủ trì; toàn bộ nội dung được biên tập tinh gọn lưu trữ trên Family Portal."
       },
       {
-        title: "📌 DAR 11: Thời Lượng Workshop: 120 Phút Sâu vs 60 Phút Ngắn",
-        context: "Thiết kế thời lượng workshop đảm bảo đủ thời gian thực hành Breakout Room và giải đáp thấu cảm.",
+        title: "📌 DAR 11: Thời Lượng & Format Workshop: Fishbowl + Double Reflection Loops vs Thuyết Trình Một Chiều",
+        context: "Thiết kế format workshop đảm bảo giải quyết đúng trăn trở thực tế của phụ huynh tham dự.",
         criteria: [
           { name: "C1: Chiều Sâu Giải Quyết Vấn Đề (Problem Solving Depth)", weight: "W4", scores: ["2.0 / 5 (8.0)", "5.0 / 5 (20.0)"] },
           { name: "C2: Khả Năng Tập Trung Của Phụ Huynh (Parent Attention)", weight: "W3", scores: ["4.5 / 5 (13.5)", "4.5 / 5 (13.5)"] },
-          { name: "C3: Hoạt Động Thấu Cảm Đa Chiều (Breakout Facilitation)", weight: "W3", scores: ["1.5 / 5 (4.5)", "4.8 / 5 (14.4)"] }
+          { name: "C3: Hoạt Động Thấu Cảm Đa Chiều (Dialogue & Reflection)", weight: "W3", scores: ["1.5 / 5 (4.5)", "4.8 / 5 (14.4)"] }
         ],
         total: ["26.0 / 50", "47.9 / 50 (Approved ⭐)"],
         options: [
-          { name: "Option A: 60 Phút Thuyết Trình Một Chiều", desc: "Chỉ kịp nói lý thuyết bề mặt, không có thời gian đối thoại và chia phòng thực hành." },
-          { name: "Option B: 120 Phút Đa Tầng (40p Khung + 40p Breakout + 40p Q&A) ⭐", desc: "Yêu cầu Host điều phối Breakout Room linh hoạt và phân bổ thời gian kỷ luật để không cháy giáo án.", approved: true }
+          { name: "Option A: 60 Phút Thuyết Trình Một Chiều", desc: "Chỉ kịp nói lý thuyết bề mặt, không có thời gian đối thoại và nắm bắt bối cảnh thật của người tham dự." },
+          { name: "Option B: 120 Phút (Fishbowl Mở Đầu + 2 Phiên Concept + 2 Vòng Reflection) ⭐", desc: "Yêu cầu Host ứng biến linh hoạt để kết nối Key Concept với các vấn đề vừa được phụ huynh chia sẻ ở phần Fishbowl.", approved: true }
         ],
-        decision: "Chuẩn hóa thời lượng 120 phút (20h00 - 22h00 tối Thứ 5) với cấu trúc 3 chặng cân bằng giữa truyền đạt kiến thức, thực hành nhóm nhỏ và giải đáp cá nhân hóa."
+        decision: "Chuẩn hóa thời lượng 120 phút (15h00 - 17h00 Chủ Nhật) với cấu trúc Fishbowl mở đầu, 2 phiên Key Concept và 2 vòng Reflection qua Zoom Chat / Bật mic trực tiếp; mở chat Group Zalo sau buổi chia sẻ."
       }
     ],
     faqs: [
       {
-        group: "Nhóm 1: Về Thời Lượng & Tải Trọng Đội Ngũ (Capacity & Burnout)",
+        group: "Nhóm 1: Về Thời Lượng & Logistics (Capacity & Logistics)",
         items: [
-          { q: "Tổ chức tối Thứ 5 và Chủ Nhật hàng tuần có gây quá tải cho Host và Mentor không?", a: "Nội dung Workshop xoay quanh các chủ đề nền tảng đã được chuẩn hóa khung; Mentor phối hợp đồng hành giúp chia tải và duy trì năng lượng bền bỉ." },
-          { q: "120 phút vào tối Thứ 5 có quá dài với phụ huynh bận rộn không?", a: "Phụ huynh được phân bổ vào các phòng Breakout tương tác liên tục nên không khí luôn hào hứng, không gây cảm giác mệt mỏi." }
+          { q: "Tổ chức vào chiều Chủ Nhật hàng tuần (15h00 - 17h00) có thuận tiện cho phụ huynh không?", a: "Khung giờ 15h00 – 17h00 chiều Chủ Nhật là thời điểm phụ huynh thư thả nhất trong tuần, dễ dàng tập trung tham gia trọn vẹn và chuẩn bị tâm thế tốt nhất cho tuần mới của con." },
+          { q: "Sau buổi workshop phụ huynh có thể trao đổi thêm ở đâu?", a: "Ngay sau buổi chia sẻ trên Zoom, ban tổ chức sẽ mở quyền chat trên group Zalo cộng đồng để các phụ huynh tiếp tục chia sẻ các reflection, trao đổi bài học và thảo luận sâu hơn." }
         ]
       },
       {
-        group: "Nhóm 2: Về Tỷ Lệ Chuyển Đổi & Đo Lường Hiệu Quả (Conversion & Funnel)",
+        group: "Nhóm 2: Về Tỷ Lệ Chuyển Đổi & Tương Tác (Conversion & Engagement)",
         items: [
-          { q: "Tổ chức Workshop miễn phí thì đo lường hiệu quả như thế nào?", a: "Đo lường bằng tỷ lệ phụ huynh tham gia trọn vẹn, số lượng câu hỏi chất lượng và lượng phụ huynh chủ động đăng ký tham gia Marlins Day hoặc Trial Class." },
+          { q: "Tổ chức Workshop miễn phí thì đo lường hiệu quả như thế nào?", a: "Đo lường bằng tỷ lệ phụ huynh tham gia trọn vẹn 120 phút, số lượng reflection chất lượng trong Zoom/Zalo và lượng phụ huynh chủ động đăng ký tham gia Trial Class." },
           { q: "Nếu phụ huynh tham gia nhiều tuần nhưng chưa đăng ký khóa học thì sao?", a: "Workshop phục vụ mục tiêu lan tỏa tri thức cộng đồng; sự hiện diện đều đặn của phụ huynh là minh chứng cho niềm tin ngày càng sâu sắc." }
-        ]
-      }
-    ]
-  },
-  "P04_Marlins_Day_Playbook.md": {
-    dars: [
-      {
-        title: "📌 DAR 04: Mô Hình Tổ Chức Marlins Day: Năng Lực Thường Trực vs Sự Kiện Đột Xuất",
-        context: "Lựa chọn giữa việc tổ chức hội thảo quy mô lớn hàng quý hay duy trì không gian đối thoại nhóm nhỏ hàng tuần.",
-        criteria: [
-          { name: "C1: Chiều Sâu Thấu Cảm & Tương Tác 1-1 (Empathy Depth)", weight: "W4", scores: ["2.0 / 5 (8.0)", "4.8 / 5 (19.2)"] },
-          { name: "C2: Tính Ổn Định & Dễ Dự Đoán (Predictability)", weight: "W3", scores: ["2.5 / 5 (7.5)", "5.0 / 5 (15.0)"] },
-          { name: "C3: Tối Ưu Chi Phí & Nhân Sự Vận Hành (Cost & Ops)", weight: "W3", scores: ["3.0 / 5 (9.0)", "4.6 / 5 (13.8)"] }
-        ],
-        total: ["24.5 / 50", "48.0 / 50 (Approved ⭐)"],
-        options: [
-          { name: "Option A: Hội Thảo Quy Mô Lớn Hàng Quý (> 100 người)", desc: "Chi phí tổ chức cao, loãng cảm xúc và không thể lắng nghe từng phụ huynh." },
-          { name: "Option B: Đối Thoại Nhóm Nhỏ Thường Trực Chiều Chủ Nhật (≤ 10 người) ⭐", desc: "Giới hạn sĩ số ≤ 10 phụ huynh/buổi, đòi hỏi tổ chức đều đặn hàng tuần thay vì làm sự kiện dồn cục.", approved: true }
-        ],
-        decision: "Duy trì Marlins Day định kỳ 15h00 – 17h00 Chủ Nhật hàng tuần tại Lotte Hotel với quy mô giới hạn ≤ 10 người/buổi. Đây là năng lực chăm sóc trực tiếp thường trực (Persistent Capability) nuôi dưỡng niềm tin chiều sâu."
-      }
-    ],
-    faqs: [
-      {
-        group: "Nhóm 1: Về Địa Điểm & Trải Nghiệm Không Gian (Venue & Atmosphere)",
-        items: [
-          { q: "Tại sao lại chọn không gian Sky Lounge tại Lotte Hotel thay vì văn phòng lớp học thông thường?", a: "Không gian trang nhã, riêng tư và tách biệt khỏi áp lực học đường giúp phụ huynh thả lỏng tâm lý, sẵn sàng mở lòng chia sẻ những trăn trở sâu kín nhất về con." },
-          { q: "Sự kiện có thu phí tham dự của phụ huynh không?", a: "Hoàn toàn miễn phí, Nemo12 tài trợ 100% không gian và đồ uống như một lời tri ân dành cho các bậc cha mẹ luôn trăn trở đồng hành cùng con." }
-        ]
-      },
-      {
-        group: "Nhóm 2: Về Điều Phối Phiên Đối Thoại (Facilitation & Fishbowl)",
-        items: [
-          { q: "Nếu phụ huynh rụt rè không dám chia sẻ trong vòng tròn Fishbowl thì Host xử lý thế nào?", a: "Host mở đầu bằng một câu chuyện quan sát thực tế và đặt câu hỏi gợi mở nhẹ nhàng, tạo bầu không khí an toàn không phán xét để từng bố mẹ tự nhiên lên tiếng." },
-          { q: "Sau buổi gặp, phụ huynh được nhận những tài liệu gì?", a: "Mentor tổng hợp bản Dory Notes cá nhân hóa ghi nhận điểm mạnh và lộ trình gợi ý cho con gửi riêng cho gia đình trong vòng 24h." }
         ]
       }
     ]

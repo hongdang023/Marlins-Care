@@ -11,7 +11,7 @@ export const SITEMAP_CONFIG = {
       title: "Overview",
       slug: "/overview",
       subItems: [
-        { title: "Why Parent Care", slug: "/overview/why-parent-care", desc: "Lý do tồn tại & Bối cảnh 12 buổi học + Marlins Day" },
+        { title: "Why Parent Care", slug: "/overview/why-parent-care", desc: "Lý do tồn tại & Bối cảnh 12 buổi học + Marlins Workshop" },
         { title: "Parent Jobs", slug: "/overview/parent-jobs", desc: "Ma trận JTBD toàn diện: Functional, Emotional, Social" },
         { title: "Core Principles", slug: "/overview/core-principles", desc: "7 Triết lý & Nguyên tắc kim chỉ nam" },
         { title: "Capability Map", slug: "/overview/capability-map", desc: "Phân định năng lực: System vs Mentor vs Marlins" }
@@ -77,39 +77,7 @@ export const SITEMAP_CONFIG = {
             { name: "FAQ", slug: "/playbooks/marlins-workshop/faq" }
           ]
         },
-        {
-          id: "marlins-day",
-          title: "Marlins Day",
-          slug: "/playbooks/marlins-day",
-          touchpoints: ["T3"],
-          tier: "Tier 1",
-          sections: [
-            { name: "Overview", slug: "/playbooks/marlins-day/overview" },
-            { name: "Stakeholder Mapping", slug: "/playbooks/marlins-day/stakeholder-mapping" },
-            { name: "Session Agenda", slug: "/playbooks/marlins-day/session-agenda" },
-            { name: "SOP Steps", slug: "/playbooks/marlins-day/sop-steps" },
-            { name: "Do's & Don'ts", slug: "/playbooks/marlins-day/dos-donts" },
-            { name: "Assessment Rubrics", slug: "/playbooks/marlins-day/assessment-rubrics" },
-            { name: "Decision Logs", slug: "/playbooks/marlins-day/decision-logs" },
-            { name: "FAQ", slug: "/playbooks/marlins-day/faq" }
-          ]
-        },
-        {
-          id: "trial-class",
-          title: "Trial Class",
-          slug: "/playbooks/trial-class",
-          touchpoints: ["T1", "T2", "T4"],
-          tier: "Tier 2",
-          sections: [
-            { name: "Overview", slug: "/playbooks/trial-class/overview" },
-            { name: "Stakeholder Mapping", slug: "/playbooks/trial-class/stakeholder-mapping" },
-            { name: "SOP Steps", slug: "/playbooks/trial-class/sop-steps" },
-            { name: "Do's & Don'ts", slug: "/playbooks/trial-class/dos-donts" },
-            { name: "Assessment Rubrics", slug: "/playbooks/trial-class/assessment-rubrics" },
-            { name: "Decision Logs", slug: "/playbooks/trial-class/decision-logs" },
-            { name: "FAQ", slug: "/playbooks/trial-class/faq" }
-          ]
-        },
+
         {
           id: "live-class",
           title: "Live Class",
@@ -118,7 +86,6 @@ export const SITEMAP_CONFIG = {
           tier: "Tier 2",
           sections: [
             { name: "Overview", slug: "/playbooks/live-class/overview" },
-            { name: "Stakeholder Mapping", slug: "/playbooks/live-class/stakeholder-mapping" },
             { name: "SOP Steps", slug: "/playbooks/live-class/sop-steps" },
             { name: "Do's & Don'ts", slug: "/playbooks/live-class/dos-donts" },
             { name: "Assessment Rubrics", slug: "/playbooks/live-class/assessment-rubrics" },
@@ -172,6 +139,14 @@ export const SITEMAP_CONFIG = {
         { darId: "B1", title: "UI Design System", slug: "/requirements/ui-design-system", desc: "Hệ thống Design Tokens & Component giao diện" },
         { darId: "B2", title: "Tech Stack Specifications", slug: "/requirements/tech-stack", desc: "Đặc tả kỹ thuật hệ thống, D1 DB Schema & Cloudflare Pages" }
       ]
+    },
+    {
+      id: "gtm-plan",
+      title: "GTM Plan",
+      slug: "/gtm-plan",
+      subItems: [
+        { title: "Sep 2026", slug: "/gtm-plan/sep-2026", desc: "Kế hoạch truyền thông tháng 9/2026 — Student Portrait & BEM Model" }
+      ]
     }
   ],
 
@@ -188,9 +163,7 @@ export const SITEMAP_CONFIG = {
       actionPlaybooks: [
         { id: "social-media", title: "Social Media Playbook", code: "P01", role: "Mentor", trigger: "2 bài/tuần trên Facebook cá nhân", slug: "/playbooks/social-media" },
         { id: "community", title: "Community Playbook", code: "P02", role: "Mentor & System", trigger: "Thường trực tương tác hàng ngày", slug: "/playbooks/community" },
-        { id: "marlins-workshop", title: "Marlins Workshop", code: "P03", role: "Anh Đắc (Host) & Mentor", trigger: "Tối Thứ 5 trực tuyến Zoom", slug: "/playbooks/marlins-workshop" },
-        { id: "marlins-day", title: "Marlins Day", code: "P04", role: "Anh Đắc (Host) & Mentor", trigger: "Chiều Chủ Nhật tại Lotte Hotel", slug: "/playbooks/marlins-day" },
-        { id: "trial-class", title: "Trial Class", code: "P05", role: "Mentor & System", trigger: "Khi đăng ký & hoàn thành 2 buổi học thử", slug: "/playbooks/trial-class", highlight: true }
+        { id: "marlins-workshop", title: "Marlins Workshop", code: "P03", role: "Anh Đắc (Host) & Mentor", trigger: "15h00 - 17h00 Chủ Nhật trực tuyến Zoom", slug: "/playbooks/marlins-workshop" }
       ]
     },
     {

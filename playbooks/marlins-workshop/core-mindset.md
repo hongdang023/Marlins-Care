@@ -12,4 +12,4 @@ Phụ huynh không cần nghe thêm những bài giảng lý thuyết hàn lâm 
 | :--- | :--- |
 | **High-Commitment Culture** | Thiết lập tiêu chuẩn tham gia nghiêm túc ngay từ cửa phòng Zoom (Bật cam/mic 100%). Ai không sẵn sàng hiện diện sẽ xem tài liệu tự học trên Portal. |
 | **Concept Deep-Dive** | Mỗi buổi chọn đúng **1 Concept / 1 Ngộ nhận** trong Thư viện để đào thật sâu qua case study thực tế của học sinh Nemo12 (Một concept có thể đào nhiều lần ở các lứa tuổi khác nhau). |
-| **Zero Hard-Selling** | Không biến Workshop thành buổi telesale chèo kéo khóa học. Giá trị tri thức và sự thấu cảm tự khắc chuyển hóa phụ huynh thành người đồng hành tại Marlins Day. |
+| **Zero Hard-Selling** | Không biến Workshop thành buổi telesale chèo kéo khóa học. Giá trị tri thức và sự thấu cảm tự khắc chuyển hóa phụ huynh thành người đồng hành tại Nemo12. |

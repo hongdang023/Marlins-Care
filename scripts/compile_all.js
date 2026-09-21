@@ -124,6 +124,7 @@ function parseMetadataHeader(rawMeta) {
   lines.forEach(line => {
     const l = line.trim();
     if (l.startsWith("* **Objective:**")) data.objective = l.replace("* **Objective:**", "").trim();
+    else if (l.startsWith("* **Trigger / Lịch Zoom:**")) data.trigger = l.replace("* **Trigger / Lịch Zoom:**", "").trim();
     else if (l.startsWith("* **Trigger:**")) data.trigger = l.replace("* **Trigger:**", "").trim();
     else if (l.startsWith("* **Standard Time:**")) data.standardTime = l.replace("* **Standard Time:**", "").trim();
     else if (l.startsWith("* **Target Audience:**")) data.targetAudience = l.replace("* **Target Audience:**", "").trim();
@@ -143,7 +144,7 @@ function renderFormattedMetadataCard(metaObj) {
             Objective
           </div>
           <div style="font-size: 15.5px; color: var(--text-primary); line-height: 1.6; font-weight: 500;">
-            ${metaObj.objective}
+            ${renderMarkdownFragment(metaObj.objective)}
           </div>
         </div>
       ` : ""}
@@ -153,10 +154,10 @@ function renderFormattedMetadataCard(metaObj) {
         ${metaObj.trigger ? `
           <div>
             <div style="font-size: 11px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px;">
-              Trigger
+              Trigger / Lịch Zoom
             </div>
             <div style="font-size: 13px; color: var(--text-secondary); line-height: 1.5;">
-              ${metaObj.trigger}
+              ${renderMarkdownFragment(metaObj.trigger)}
             </div>
           </div>
         ` : ""}
@@ -497,7 +498,6 @@ const fileMap = {
   "social-media": "C_Playbooks/P01_Social_Media_Playbook.md",
   "community": "C_Playbooks/P02_Community_Playbook.md",
   "marlins-workshop": "C_Playbooks/P03_Marlins_Workshop_Playbook.md",
-  "marlins-day": "C_Playbooks/P04_Marlins_Day_Playbook.md",
   "trial-class": "C_Playbooks/P05_Trial_Class_Playbook.md",
   "live-class": "C_Playbooks/P06_Live_Class_Playbook.md",
   "family-meeting": "C_Playbooks/P07_Family_Meeting_Playbook.md",
@@ -552,4 +552,4 @@ Object.entries(fileMap).forEach(([slug, filePath]) => {
 
 const outJs = "export const FULL_PLAYBOOKS_COMPILED = " + JSON.stringify(fullCompiled, null, 2) + ";\n";
 fs.writeFileSync("data/full_playbooks_compiled.js", outJs);
-console.log("Successfully rebuilt and compiled all 8 playbooks with DARs & FAQs!");
+console.log("Successfully rebuilt and compiled all 7 playbooks with DARs & FAQs!");

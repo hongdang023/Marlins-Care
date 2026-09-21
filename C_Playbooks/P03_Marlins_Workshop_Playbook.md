@@ -2,8 +2,8 @@
 id: P03-WORKSHOP
 title: "P03 · Marlins Workshop Playbook — Nemo12 & Marlins Care"
 status: approved
-version: "2.0.0"
-date: "2026-08-30"
+version: "2.1.0"
+date: "2026-09-21"
 authors: ["Marlins Care Ops", "Anh Đắc", "Mentor Hồng"]
 domain: "Operational Playbooks / Acquisition & Nurturing"
 relates_to:
@@ -14,155 +14,35 @@ relates_to:
 
 # P03 · Marlins Workshop Playbook
 
-> **Quy trình tổ chức Workshop trực tuyến tương tác cao tối Thứ 5 hàng tuần qua Zoom (120 phút) kết hợp cổng tự học Family Portal.**  
+> **Quy trình tổ chức Workshop trực tuyến tương tác cao 15h00 – 17h00 Chủ Nhật hàng tuần qua Zoom (120 phút) kết hợp cổng tự học Family Portal.**  
 > **Triết lý:** *"Automate the evidence. Humanize the meaning."*
 
 ---
 
 ## Metadata Header
-* **Objective:** Giúp phụ huynh thấu hiểu triết lý giáo dục kiến tạo, tháo gỡ 7 ngộ nhận và tạo cầu nối đưa gia đình đến Marlins Day hoặc Trial Class.
-* **Trigger:** Định kỳ **20h00 – 22h00 Tối Thứ 5 hàng tuần** qua Zoom.
-* **Standard Time:** 120 phút Live Zoom tương tác; chuẩn bị ≤  30 phút; hậu kỳ ≤  15 phút.
+* **Objective:** Giúp phụ huynh thấu hiểu triết lý giáo dục kiến tạo, tháo gỡ 7 ngộ nhận và tạo cầu nối đưa gia đình đến Trial Class.
+* **Trigger / Lịch Zoom:** Định kỳ **15h00 – 17h00 Chủ Nhật hàng tuần** qua Zoom ([Tham gia Zoom](https://us06web.zoom.us/j/81372488652?pwd=tjvgLcPElhRkM6G3OFbdPUS3P96yKG.1) | ID: `813 7248 8652` | Passcode: `nemo12`).
+* **Standard Time:** 120 phút Live Zoom tương tác; chuẩn bị ≤ 30 phút; hậu kỳ ≤ 15 phút.
 * **Target Audience:** Phụ huynh từ 3 Group Zalo, phụ huynh theo dõi Mentor và phụ huynh học sinh hiện tại.
-* **Owner:** Host: Anh Đắc, Co-Host: Mentor.
-* **Output:** 1 buổi Zoom chuyển hóa chất lượng cao + Cập nhật học liệu trắc nghiệm lên Family Portal.
+* **Owner:** Host: Anh Đắc, Co-Host: Mentor Hồng.
+* **Output:** 1 buổi Zoom chuyển hóa chất lượng cao + Cập nhật học liệu trắc nghiệm lên Family Portal + Mở trao đổi reflection trên Group Zalo.
 
 ---
 
-<details open>
-<summary><h3>Stakeholder Mapping</h3></summary>
 
-| Stakeholder | Job cần giải quyết (JTBD) | Marlins Workshop mang lại giá trị gì? (Delivered Value) |
-| :--- | :--- | :--- |
-| **Phụ huynh tham dự** | Tìm kiếm phương pháp đồng hành đúng đắn, giải tỏa âu lo áp lực học tập và định hướng năng lực AI cho con. | Không gian an toàn để tự phản tư (4F Reflection), thấu hiểu ngộ nhận giáo dục và nhận công cụ giao tiếp NVC/BEM thực tế. |
-| **Host & Mentor** | Lan tỏa tri thức sư phạm bản chất, lắng nghe trăn trở thực tế của phụ huynh và kết nối các gia đình cùng hệ giá trị. | Thấu hiểu các điểm mù tâm lý phụ huynh, nuôi dưỡng niềm tin tự nhiên và chuyển hóa sang Marlins Day / Trial Class. |
-| **Học sinh (Gián tiếp)** | Cần sự thấu hiểu và cách tiếp cận giáo dục tôn trọng, không áp đặt từ bố mẹ tại nhà. | Bố mẹ thay đổi góc nhìn, giảm áp lực kỳ vọng độc hại và tạo môi trường tự giác học tập tại gia đình. |
-
-</details>
 
 ---
 
-<details open>
-<summary><h3>Session Agenda</h3></summary>
 
-| Khung giờ | Nội dung hoạt động | Hình thức | Mục tiêu & Phương pháp |
-| :---: | :--- | :---: | :--- |
-| **20:00 – 20:15** (15') | **Warm-up & Breakout Check-in** | Nhóm nhỏ<br>(3-4 người) | • Điểm danh Cam/Mic.<br>• Phụ huynh chia sẻ 1 "cơn đau đầu / cảm giác bất lực" gần nhất khi kèm con học tại nhà. |
-| **20:15 – 20:45** (30') | **Chuyên đề 1 & Bài tập Mini** | Toàn phòng | • Anh Đắc mổ xẻ 1 Ngộ nhận trọng tâm.<br>• Giao bài tập tình huống thực tế (tình huống con lười học / trốn tránh bài khó). |
-| **20:45 – 21:00** (15') | **Breakout 4F Reflection 1** | Nhóm nhỏ | Thực hành khung **4F**:<br>• **Facts:** Sự thật con đã làm gì?<br>• **Feelings:** Cảm xúc lúc đó của bố/mẹ là gì?<br>• **Findings:** Ngộ nhận nào đang chi phối phản ứng của mình?<br>• **Future:** Lần tới sẽ phản ứng khác đi như thế nào? |
-| **21:00 – 21:30** (30') | **Chuyên đề 2 & Case Study Thực Chiến** | Toàn phòng | • Mentor Hồng chia sẻ góc nhìn sư phạm thực tế từ lớp học Nemo12.<br>• Hướng dẫn công cụ NVC / BEM xử lý triệt để bế tắc. |
-| **21:30 – 21:45** (15') | **Breakout 4F Reflection 2** | Nhóm nhỏ | Áp dụng giải pháp mới vào đúng trường hợp cụ thể của con mình; các bố mẹ góp ý chéo cho nhau. |
-| **21:45 – 22:00** (15') | **Harvesting & Call To Action** | Toàn phòng | • Đại diện 2 phụ huynh chia sẻ bài học tâm đắc nhất.<br>• Hướng dẫn làm bài tập theo pace riêng trên **Family Portal**.<br>• Mời tham gia **Marlins Day** chiều Chủ Nhật tại Lotte Hotel. |
-
-</details>
 
 ---
 
-<details open>
-<summary><h3>SOP Steps</h3></summary>
-
-| Giai đoạn | Thao tác Hệ thống (System Action via Portal/Zalo) | Thao tác Con người (Host & Mentor Action) | Thời gian chuẩn |
-| :--- | :--- | :--- | :---: |
-| **1. Pre-Workshop** *(Trước 72h - 24h)* | • Tự động gửi thông báo chủ đề tuần và form đăng ký vào 3 Group Zalo.<br>• Nhắc nhở quy định bất biến: **100% Bật Cam/Mic suốt 120 phút**. | • Host & Mentor thống nhất Concept trọng tâm và chuẩn bị 2 bài tập tình huống.<br>• Duyệt danh sách phụ huynh đăng ký. | $\le$ 30 phút |
-| **2. In-Workshop** *(20h00 - 22h00)* | • Phân phòng tự động (Breakout Rooms 3-4 phụ huynh/phòng theo [DAR 11]).<br>• Chuyển các tài khoản tắt cam vào Main Room nghe thụ động. | • Host dẫn dắt nội dung, điều phối năng lượng phòng Zoom.<br>• Mentor Hồng đảo qua các breakout rooms hỗ trợ phụ huynh thảo luận 4F. | 120 phút |
-| **3. Post-Workshop** *(Sáng hôm sau)* | • Cập nhật bài tập trắc nghiệm và case study lên mục **Parent Self-Paced** trên Family Portal ([DAR 12]).<br>• Gửi thông điệp cảm ơn và Infographic tóm tắt vào 3 Group Zalo. | • Mentor nhắn tin Zalo cảm ơn các phụ huynh đã phát biểu tích cực.<br>• Phân luồng phụ huynh có nhu cầu gặp chuyên sâu để gửi thư mời **Marlins Day**. | $\le$ 15 phút |
-
-</details>
-
 ---
 
-<details open>
-<summary><h3>Do's & Don'ts</h3></summary>
 
-| Do's | Don'ts |
-| :--- | :--- |
-| ✅ **Tôn trọng an toàn tâm lý (Psychological Safety):** Tạo không gian an toàn để cha mẹ dám thừa nhận sai lầm và sự bất lực khi kèm con mà không sợ bị phán xét. | ❌ **Không biến thành buổi bán hàng (Zero Hard-selling):** Cấm chào bán khóa học, cấm đưa bảng giá hoặc gây áp lực chốt sale trong phòng Zoom. |
-| ✅ **Giữ vững kỷ luật Cam/Mic:** Nghiêm túc duy trì văn hóa hiện diện trọn vẹn để nâng cao chất lượng thảo luận nhóm theo [DAR 11]. | ❌ **Không độc thoại slide:** Cấm Host nói liên tục quá 30 phút mà không có bài tập tương tác hoặc thảo luận breakout. |
-| ✅ **Đưa ra công cụ hành động tức thì:** Sau mỗi buổi, phụ huynh có ít nhất 1 câu hỏi hoặc 1 mẫu câu NVC cụ thể để về nói chuyện ngay với con vào sáng hôm sau. | ❌ **Không làm phụ huynh cảm thấy tội lỗi:** Tránh dùng ngôn từ chỉ trích cách dạy con của phụ huynh; luôn tiếp cận bằng sự đồng cảm. |
-| ✅ **Khuyến khích tự học theo pace riêng:** Nhắc phụ huynh truy cập Family Portal để tự làm bài tập trắc nghiệm và đo lường sự chuyển biến của chính mình. | ❌ **Không ép buộc phụ huynh bật cam nếu bất khả kháng:** Điều hướng linh hoạt phụ huynh bận rộn sang chế độ nghe thụ động tại Main Room hoặc tự học trên Portal. |
 
-</details>
 
 ---
-
-<details>
-<summary><h3>Assessment Rubrics</h3></summary>
-
-Đánh giá chất lượng vận hành Marlins Workshop theo 5 cấp độ (Chuẩn **L3 DoD ⭐**):
-
-| Cấp độ | Execution & Discipline | Insight & Transformation Quality | Conversion & Parent Engagement |
-| :---: | :--- | :--- | :--- |
-| **L1** | Phòng Zoom lộn xộn, nhiều người tắt cam, trễ giờ, breakout room không hoạt động. | Nói lý thuyết suông, không có bài tập tình huống, phụ huynh không đọng lại gì. | Phụ huynh rời phòng sớm $>50\%$; không ai quan tâm đến bước tiếp theo. |
-| **L2** | Tổ chức đúng giờ nhưng không kiểm soát được cam/mic; thảo luận nhóm gượng gạo. | Nội dung còn chung chung, chưa chạm vào nỗi đau thật của việc kèm con học. | Phụ huynh nghe thụ động, ít tương tác trong phần Q&A và bài tập 4F. |
-| **L3 (DoD ⭐)** | **100% bật cam/mic; phân phòng breakout mượt mà; tuân thủ đúng khung 120 phút.** | **Mổ xẻ trúng 1 Concept ngộ nhận; phụ huynh hoàn thành 2 vòng 4F Reflection tại chỗ.** | **$\ge 75\%$ phụ huynh ở lại đến cuối; có phụ huynh chủ động đăng ký tham gia Marlins Day / Trial Class.** |
-| **L4** | Không khí sôi nổi, điều phối breakout nhịp nhàng; Mentor hỗ trợ tháo gỡ bế tắc nhóm xuất sắc. | Phụ huynh vỡ òa nhận thức, nhiều bố mẹ xúc động chia sẻ câu chuyện gia đình thật. | Nhiều phụ huynh truy cập Portal làm bài tập tự học và đề xuất mời bạn bè tham gia buổi sau. |
-| **L5** | Buổi workshop trở thành một không gian chuyển hóa tâm lý sâu sắc; cộng đồng gắn kết mạnh mẽ. | Tạo ra bước ngoặt tư duy lâu dài trong cách cha mẹ giao tiếp và tôn trọng con cái. | Tỷ lệ chuyển đổi tự nhiên sang Marlins Day và Trial Class đạt mức kỷ lục mà không cần sale. |
-
-</details>
-
----
-
-<details open>
-<summary><h3>Do's & Don'ts</h3></summary>
-
-| Do's | Don'ts |
-| :--- | :--- |
-| ✅ **Tôn trọng an toàn tâm lý (Psychological Safety):** Tạo không gian an toàn để cha mẹ dám thừa nhận sai lầm và sự bất lực khi kèm con mà không sợ bị phán xét. | ❌ **Không biến thành buổi bán hàng (Zero Hard-selling):** Cấm chào bán khóa học, cấm đưa bảng giá hoặc gây áp lực chốt sale trong phòng Zoom. |
-| ✅ **Giữ vững kỷ luật Cam/Mic:** Nghiêm túc duy trì văn hóa hiện diện trọn vẹn để nâng cao chất lượng thảo luận nhóm theo [DAR 11]. | ❌ **Không độc thoại slide:** Cấm Host nói liên tục quá 30 phút mà không có bài tập tương tác hoặc thảo luận breakout. |
-| ✅ **Đưa ra công cụ hành động tức thì:** Sau mỗi buổi, phụ huynh có ít nhất 1 câu hỏi hoặc 1 mẫu câu NVC cụ thể để về nói chuyện ngay với con vào sáng hôm sau. | ❌ **Không làm phụ huynh cảm thấy tội lỗi:** Tránh dùng ngôn từ chỉ trích cách dạy con của phụ huynh; luôn tiếp cận bằng sự đồng cảm. |
-| ✅ **Khuyến khích tự học theo pace riêng:** Nhắc phụ huynh truy cập Family Portal để tự làm bài tập trắc nghiệm và đo lường sự chuyển biến của chính mình. | ❌ **Không ép buộc phụ huynh bật cam nếu bất khả kháng:** Điều hướng linh hoạt phụ huynh bận rộn sang chế độ nghe thụ động tại Main Room hoặc tự học trên Portal. |
-
-</details>
-
----
-
-<details>
-<summary><h3>Assessment Rubrics</h3></summary>
-
-Đánh giá chất lượng vận hành Marlins Workshop theo 5 cấp độ (Chuẩn **L3 DoD ⭐**):
-
-| Cấp độ | Execution & Discipline | Insight & Transformation Quality | Conversion & Parent Engagement |
-| :---: | :--- | :--- | :--- |
-| **L1** | Phòng Zoom lộn xộn, nhiều người tắt cam, trễ giờ, breakout room không hoạt động. | Nói lý thuyết suông, không có bài tập tình huống, phụ huynh không đọng lại gì. | Phụ huynh rời phòng sớm $>50\%$; không ai quan tâm đến bước tiếp theo. |
-| **L2** | Tổ chức đúng giờ nhưng không kiểm soát được cam/mic; thảo luận nhóm gượng gạo. | Nội dung còn chung chung, chưa chạm vào nỗi đau thật của việc kèm con học. | Phụ huynh nghe thụ động, ít tương tác trong phần Q&A và bài tập 4F. |
-| **L3 (DoD ⭐)** | **100% bật cam/mic; phân phòng breakout mượt mà; tuân thủ đúng khung 120 phút.** | **Mổ xẻ trúng 1 Concept ngộ nhận; phụ huynh hoàn thành 2 vòng 4F Reflection tại chỗ.** | **$\ge 75\%$ phụ huynh ở lại đến cuối; có phụ huynh chủ động đăng ký tham gia Marlins Day / Trial Class.** |
-| **L4** | Không khí sôi nổi, điều phối breakout nhịp nhàng; Mentor hỗ trợ tháo gỡ bế tắc nhóm xuất sắc. | Phụ huynh vỡ òa nhận thức, nhiều bố mẹ xúc động chia sẻ câu chuyện gia đình thật. | Nhiều phụ huynh truy cập Portal làm bài tập tự học và đề xuất mời bạn bè tham gia buổi sau. |
-| **L5** | Buổi workshop trở thành một không gian chuyển hóa tâm lý sâu sắc; cộng đồng gắn kết mạnh mẽ. | Tạo ra bước ngoặt tư duy lâu dài trong cách cha mẹ giao tiếp và tôn trọng con cái. | Tỷ lệ chuyển đổi tự nhiên sang Marlins Day và Trial Class đạt mức kỷ lục mà không cần sale. |
-
-</details>
-
----
-
-<details open>
-<summary><h3>🏛️ Decision Logs</h3></summary>
-
-Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P03:
-
-#### DAR 06: Định Vị Workshop Trực Tuyến & Tự Học: Marlins Workshop vs Khóa Học Phụ Huynh 4 Buổi
-* **Bối cảnh:** Giúp phụ huynh thấu hiểu phương pháp đồng hành mà không làm kiệt sức đội ngũ khi đã có Marlins Day offline.
-* **Ma trận đánh giá (CMMI Evaluation):**
-  * *Option A (Mở Khóa học 4 buổi trả phí):* 26/50 điểm — Rào cản đăng ký cao, làm kiệt sức đội ngũ vận hành.
-  * *Option B (Chỉ làm Webinar thuyết giảng 1 chiều):* 25/50 điểm — Tương tác kém, người nghe quên ngay sau buổi học.
-  * *Option C (Interactive Live Tối T5 + Tự học theo Pace riêng trên Portal) ⭐:* **50/50 điểm (Approved)**.
-* **Quyết định:** Tổ chức **Marlins Workshop định kỳ hàng tuần (Tối Thứ 5, 20h00 - 22h00)** theo hình thức tương tác cao (bắt buộc bật cam/mic, 2 vòng 4F Reflection), kết hợp nền tảng **Học theo Pace riêng trên Family Portal**; tuyệt đối không mở khóa học trả phí cồng kềnh.
-
-#### DAR 11: Kỷ Luật Bật Cam/Mic & Phân Luồng Phòng Zoom (Cam/Mic Discipline & Waiting Room)
-* **Bối cảnh:** Đảm bảo chiều sâu thực hành 4F Reflection trong phòng Zoom 120 phút mà không làm mất lòng phụ huynh bận rộn.
-* **Ma trận đánh giá (CMMI Evaluation):**
-  * *Option A (Bắt buộc 100%, ai tắt cam thì kick ra ngoài):* 29/50 điểm — Gây ức chế và làm mất tệp phụ huynh tiềm năng bận rộn.
-  * *Option B (Thả nổi cam/mic):* 23/50 điểm — Phòng breakout bị "chết" không khí vì không ai mở lời.
-  * *Option C (Phân luồng 2 tầng: Breakout 4F cho Cam/Mic + Main Room/Portal cho tắt cam) ⭐:* **48/50 điểm (Approved)**.
-* **Quyết định:** Áp dụng mô hình **Phân luồng 2 tầng**: Phụ huynh bật Cam/Mic được xếp vào Breakout Rooms thực hành 4F chuyên sâu; phụ huynh xin phép tắt cam được giữ ở Main Room nghe thụ động và điều hướng sang tự học trên Family Portal.
-
-#### DAR 12: Đóng Gói Học Liệu Phụ Huynh Tự Học (Parent Self-Paced LMS Micro-Modules)
-* **Bối cảnh:** Giúp phụ huynh tiếp cận lộ trình chuyển hóa nhận thức giáo dục dù không thể tham gia Live Zoom tối Thứ 5 đều đặn.
-* **Ma trận đánh giá (CMMI Evaluation):**
-  * *Option A (Gửi toàn bộ Video Record 120 phút):* 24/50 điểm — Video quá dài, phụ huynh không có thời gian xem lại.
-  * *Option B (Viết tài liệu PDF cẩm nang dài):* 25/50 điểm — Khô khan, tỷ lệ đọc hết dưới 10%.
-  * *Option C (Micro-modules 3–5 phút + Trắc nghiệm tình huống trên Family Portal) ⭐:* **49/50 điểm (Approved)**.
-* **Quyết định:** Số hóa Thư viện 7 Ngộ nhận và Bộ công cụ NVC/BEM thành các **Micro-modules 3–5 phút (Video ngắn + Trắc nghiệm tình huống + Mẫu câu thực hành)** trên **Family Portal (`marlins.nemo12.com`)** để cha mẹ tự học theo nhịp riêng.
-
-</details>
 
 ---
 
@@ -172,200 +52,31 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ c
 
 Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
 
-#### DAR 06: Định Dạng Workshop: Live Zoom Tối Thứ 5 vs Khóa Học Phụ Huynh Đóng Gói Sẵn
+#### 📌 DAR 06: Định Dạng Workshop: Live Zoom Chiều Chủ Nhật vs Khóa Học Phụ Huynh Đóng Gói Sẵn
 * **Bối cảnh:** Lựa chọn định dạng học tập cho phụ huynh bận rộn giữa việc sản xuất khóa học video hay tổ chức Live Zoom hàng tuần.
 
-| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Đóng Gói 100% Khóa Học Video Tự Học LMS | Option B: Live Zoom Tối Thứ 5 + Lưu Kho Tư Liệu Family Portal ⭐ |
+| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Đóng Gói 100% Khóa Học Video Tự Học LMS | Option B: Live Zoom Chiều Chủ Nhật + Lưu Kho Tư Liệu Family Portal ⭐ |
 | :--- | :---: | :---: | :---: |
 | **C1: Tương Tác Trực Tiếp & Giải Tỏa Nỗi Đau (Live Empathy)** | W4 | 2.0 / 5 (8.0) | 5.0 / 5 (20.0) |
 | **C2: Tối Ưu Tải Trọng Đội Ngũ (Team Workload)** | W3 | 4.5 / 5 (13.5) | 4.8 / 5 (14.4) |
 | **C3: Tính Kế Thừa Dữ Liệu & Xem Lại (Reusability)** | W3 | 5.0 / 5 (15.0) | 4.8 / 5 (14.4) |
 | **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 36.5 / 50 | 48.8 / 50 (Approved ⭐) |
-| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Tỷ lệ hoàn thành dưới 5%, thiếu sự đồng cảm và không giải quyết được vướng mắc tức thì. | Đòi hỏi Host cam kết lịch trực tiếp tối Thứ 5 và đội ngũ kỹ thuật cắt ghép video lưu trữ Portal. |
+| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Tỷ lệ hoàn thành dưới 5%, thiếu sự đồng cảm và không giải quyết được vướng mắc tức thì. | Đòi hỏi Host cam kết lịch trực tiếp 15h00 - 17h00 Chủ Nhật và đội ngũ kỹ thuật lưu trữ tư liệu Portal. |
 
-* **Quyết định:** Tổ chức Live Zoom tương tác trực tiếp 120 phút tối Thứ 5 hàng tuần do Anh Đắc chủ trì; toàn bộ nội dung được biên tập tinh gọn lưu trữ trên Family Portal.
+* **Quyết định:** Tổ chức Live Zoom tương tác trực tiếp 120 phút (15h00 - 17h00 Chủ Nhật hàng tuần) do Anh Đắc chủ trì; toàn bộ nội dung được biên tập tinh gọn lưu trữ trên Family Portal.
 
-#### DAR 11: Thời Lượng Workshop: 120 Phút Sâu vs 60 Phút Ngắn
-* **Bối cảnh:** Thiết kế thời lượng workshop đảm bảo đủ thời gian thực hành Breakout Room và giải đáp thấu cảm.
+#### 📌 DAR 11: Thời Lượng & Format Workshop: Fishbowl + Double Reflection Loops vs Thuyết Trình Một Chiều
+* **Bối cảnh:** Thiết kế format workshop đảm bảo giải quyết đúng trăn trở thực tế của phụ huynh tham dự.
 
-| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 60 Phút Thuyết Trình Một Chiều | Option B: 120 Phút Đa Tầng (40p Khung + 40p Breakout + 40p Q&A) ⭐ |
+| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 60 Phút Thuyết Trình Một Chiều | Option B: 120 Phút (Fishbowl Mở Đầu + 2 Phiên Concept + 2 Vòng Reflection) ⭐ |
 | :--- | :---: | :---: | :---: |
 | **C1: Chiều Sâu Giải Quyết Vấn Đề (Problem Solving Depth)** | W4 | 2.0 / 5 (8.0) | 5.0 / 5 (20.0) |
 | **C2: Khả Năng Tập Trung Của Phụ Huynh (Parent Attention)** | W3 | 4.5 / 5 (13.5) | 4.5 / 5 (13.5) |
-| **C3: Hoạt Động Thấu Cảm Đa Chiều (Breakout Facilitation)** | W3 | 1.5 / 5 (4.5) | 4.8 / 5 (14.4) |
+| **C3: Hoạt Động Thấu Cảm Đa Chiều (Dialogue & Reflection)** | W3 | 1.5 / 5 (4.5) | 4.8 / 5 (14.4) |
 | **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 26.0 / 50 | 47.9 / 50 (Approved ⭐) |
-| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Chỉ kịp nói lý thuyết bề mặt, không có thời gian đối thoại và chia phòng thực hành. | Yêu cầu Host điều phối Breakout Room linh hoạt và phân bổ thời gian kỷ luật để không cháy giáo án. |
+| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Chỉ kịp nói lý thuyết bề mặt, không có thời gian đối thoại và nắm bắt bối cảnh thật của người tham dự. | Yêu cầu Host ứng biến linh hoạt để kết nối Key Concept với các vấn đề vừa được phụ huynh chia sẻ ở phần Fishbowl. |
 
-* **Quyết định:** Chuẩn hóa thời lượng 120 phút (20h00 - 22h00 tối Thứ 5) với cấu trúc 3 chặng cân bằng giữa truyền đạt kiến thức, thực hành nhóm nhỏ và giải đáp cá nhân hóa.
-
-</details>
-
----
-
-<details open>
-<summary><h3>Do's & Don'ts</h3></summary>
-
-| Do's | Don'ts |
-| :--- | :--- |
-| ✅ **Tôn trọng an toàn tâm lý (Psychological Safety):** Tạo không gian an toàn để cha mẹ dám thừa nhận sai lầm và sự bất lực khi kèm con mà không sợ bị phán xét. | ❌ **Không biến thành buổi bán hàng (Zero Hard-selling):** Cấm chào bán khóa học, cấm đưa bảng giá hoặc gây áp lực chốt sale trong phòng Zoom. |
-| ✅ **Giữ vững kỷ luật Cam/Mic:** Nghiêm túc duy trì văn hóa hiện diện trọn vẹn để nâng cao chất lượng thảo luận nhóm theo [DAR 11]. | ❌ **Không độc thoại slide:** Cấm Host nói liên tục quá 30 phút mà không có bài tập tương tác hoặc thảo luận breakout. |
-| ✅ **Đưa ra công cụ hành động tức thì:** Sau mỗi buổi, phụ huynh có ít nhất 1 câu hỏi hoặc 1 mẫu câu NVC cụ thể để về nói chuyện ngay với con vào sáng hôm sau. | ❌ **Không làm phụ huynh cảm thấy tội lỗi:** Tránh dùng ngôn từ chỉ trích cách dạy con của phụ huynh; luôn tiếp cận bằng sự đồng cảm. |
-| ✅ **Khuyến khích tự học theo pace riêng:** Nhắc phụ huynh truy cập Family Portal để tự làm bài tập trắc nghiệm và đo lường sự chuyển biến của chính mình. | ❌ **Không ép buộc phụ huynh bật cam nếu bất khả kháng:** Điều hướng linh hoạt phụ huynh bận rộn sang chế độ nghe thụ động tại Main Room hoặc tự học trên Portal. |
-
-</details>
-
----
-
-<details>
-<summary><h3>Assessment Rubrics</h3></summary>
-
-Đánh giá chất lượng vận hành Marlins Workshop theo 5 cấp độ (Chuẩn **L3 DoD ⭐**):
-
-| Cấp độ | Execution & Discipline | Insight & Transformation Quality | Conversion & Parent Engagement |
-| :---: | :--- | :--- | :--- |
-| **L1** | Phòng Zoom lộn xộn, nhiều người tắt cam, trễ giờ, breakout room không hoạt động. | Nói lý thuyết suông, không có bài tập tình huống, phụ huynh không đọng lại gì. | Phụ huynh rời phòng sớm $>50\%$; không ai quan tâm đến bước tiếp theo. |
-| **L2** | Tổ chức đúng giờ nhưng không kiểm soát được cam/mic; thảo luận nhóm gượng gạo. | Nội dung còn chung chung, chưa chạm vào nỗi đau thật của việc kèm con học. | Phụ huynh nghe thụ động, ít tương tác trong phần Q&A và bài tập 4F. |
-| **L3 (DoD ⭐)** | **100% bật cam/mic; phân phòng breakout mượt mà; tuân thủ đúng khung 120 phút.** | **Mổ xẻ trúng 1 Concept ngộ nhận; phụ huynh hoàn thành 2 vòng 4F Reflection tại chỗ.** | **$\ge 75\%$ phụ huynh ở lại đến cuối; có phụ huynh chủ động đăng ký tham gia Marlins Day / Trial Class.** |
-| **L4** | Không khí sôi nổi, điều phối breakout nhịp nhàng; Mentor hỗ trợ tháo gỡ bế tắc nhóm xuất sắc. | Phụ huynh vỡ òa nhận thức, nhiều bố mẹ xúc động chia sẻ câu chuyện gia đình thật. | Nhiều phụ huynh truy cập Portal làm bài tập tự học và đề xuất mời bạn bè tham gia buổi sau. |
-| **L5** | Buổi workshop trở thành một không gian chuyển hóa tâm lý sâu sắc; cộng đồng gắn kết mạnh mẽ. | Tạo ra bước ngoặt tư duy lâu dài trong cách cha mẹ giao tiếp và tôn trọng con cái. | Tỷ lệ chuyển đổi tự nhiên sang Marlins Day và Trial Class đạt mức kỷ lục mà không cần sale. |
-
-</details>
-
----
-
-<details open>
-<summary><h3>🏛️ Decision Logs</h3></summary>
-
-Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P03:
-
-#### DAR 06: Định Vị Workshop Trực Tuyến & Tự Học: Marlins Workshop vs Khóa Học Phụ Huynh 4 Buổi
-* **Bối cảnh:** Giúp phụ huynh thấu hiểu phương pháp đồng hành mà không làm kiệt sức đội ngũ khi đã có Marlins Day offline.
-* **Ma trận đánh giá (CMMI Evaluation):**
-  * *Option A (Mở Khóa học 4 buổi trả phí):* 26/50 điểm — Rào cản đăng ký cao, làm kiệt sức đội ngũ vận hành.
-  * *Option B (Chỉ làm Webinar thuyết giảng 1 chiều):* 25/50 điểm — Tương tác kém, người nghe quên ngay sau buổi học.
-  * *Option C (Interactive Live Tối T5 + Tự học theo Pace riêng trên Portal) ⭐:* **50/50 điểm (Approved)**.
-* **Quyết định:** Tổ chức **Marlins Workshop định kỳ hàng tuần (Tối Thứ 5, 20h00 - 22h00)** theo hình thức tương tác cao (bắt buộc bật cam/mic, 2 vòng 4F Reflection), kết hợp nền tảng **Học theo Pace riêng trên Family Portal**; tuyệt đối không mở khóa học trả phí cồng kềnh.
-
-#### DAR 11: Kỷ Luật Bật Cam/Mic & Phân Luồng Phòng Zoom (Cam/Mic Discipline & Waiting Room)
-* **Bối cảnh:** Đảm bảo chiều sâu thực hành 4F Reflection trong phòng Zoom 120 phút mà không làm mất lòng phụ huynh bận rộn.
-* **Ma trận đánh giá (CMMI Evaluation):**
-  * *Option A (Bắt buộc 100%, ai tắt cam thì kick ra ngoài):* 29/50 điểm — Gây ức chế và làm mất tệp phụ huynh tiềm năng bận rộn.
-  * *Option B (Thả nổi cam/mic):* 23/50 điểm — Phòng breakout bị "chết" không khí vì không ai mở lời.
-  * *Option C (Phân luồng 2 tầng: Breakout 4F cho Cam/Mic + Main Room/Portal cho tắt cam) ⭐:* **48/50 điểm (Approved)**.
-* **Quyết định:** Áp dụng mô hình **Phân luồng 2 tầng**: Phụ huynh bật Cam/Mic được xếp vào Breakout Rooms thực hành 4F chuyên sâu; phụ huynh xin phép tắt cam được giữ ở Main Room nghe thụ động và điều hướng sang tự học trên Family Portal.
-
-#### DAR 12: Đóng Gói Học Liệu Phụ Huynh Tự Học (Parent Self-Paced LMS Micro-Modules)
-* **Bối cảnh:** Giúp phụ huynh tiếp cận lộ trình chuyển hóa nhận thức giáo dục dù không thể tham gia Live Zoom tối Thứ 5 đều đặn.
-* **Ma trận đánh giá (CMMI Evaluation):**
-  * *Option A (Gửi toàn bộ Video Record 120 phút):* 24/50 điểm — Video quá dài, phụ huynh không có thời gian xem lại.
-  * *Option B (Viết tài liệu PDF cẩm nang dài):* 25/50 điểm — Khô khan, tỷ lệ đọc hết dưới 10%.
-  * *Option C (Micro-modules 3–5 phút + Trắc nghiệm tình huống trên Family Portal) ⭐:* **49/50 điểm (Approved)**.
-* **Quyết định:** Số hóa Thư viện 7 Ngộ nhận và Bộ công cụ NVC/BEM thành các **Micro-modules 3–5 phút (Video ngắn + Trắc nghiệm tình huống + Mẫu câu thực hành)** trên **Family Portal (`marlins.nemo12.com`)** để cha mẹ tự học theo nhịp riêng.
-
-</details>
-
----
-
-
-<details open>
-<summary><h3>Decision Logs</h3></summary>
-
-Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
-
-#### DAR 06: Định Dạng Workshop: Live Zoom Tối Thứ 5 vs Khóa Học Phụ Huynh Đóng Gói Sẵn
-* **Bối cảnh:** Lựa chọn định dạng học tập cho phụ huynh bận rộn giữa việc sản xuất khóa học video hay tổ chức Live Zoom hàng tuần.
-
-| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Đóng Gói 100% Khóa Học Video Tự Học LMS | Option B: Live Zoom Tối Thứ 5 + Lưu Kho Tư Liệu Family Portal ⭐ |
-| :--- | :---: | :---: | :---: |
-| **C1: Tương Tác Trực Tiếp & Giải Tỏa Nỗi Đau (Live Empathy)** | W4 | 2.0 / 5 (8.0) | 5.0 / 5 (20.0) |
-| **C2: Tối Ưu Tải Trọng Đội Ngũ (Team Workload)** | W3 | 4.5 / 5 (13.5) | 4.8 / 5 (14.4) |
-| **C3: Tính Kế Thừa Dữ Liệu & Xem Lại (Reusability)** | W3 | 5.0 / 5 (15.0) | 4.8 / 5 (14.4) |
-| **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 36.5 / 50 | 48.8 / 50 (Approved ⭐) |
-| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Tỷ lệ hoàn thành dưới 5%, thiếu sự đồng cảm và không giải quyết được vướng mắc tức thì. | Đòi hỏi Host cam kết lịch trực tiếp tối Thứ 5 và đội ngũ kỹ thuật cắt ghép video lưu trữ Portal. |
-
-* **Quyết định:** Tổ chức Live Zoom tương tác trực tiếp 120 phút tối Thứ 5 hàng tuần do Anh Đắc chủ trì; toàn bộ nội dung được biên tập tinh gọn lưu trữ trên Family Portal.
-
-#### DAR 11: Thời Lượng Workshop: 120 Phút Sâu vs 60 Phút Ngắn
-* **Bối cảnh:** Thiết kế thời lượng workshop đảm bảo đủ thời gian thực hành Breakout Room và giải đáp thấu cảm.
-
-| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 60 Phút Thuyết Trình Một Chiều | Option B: 120 Phút Đa Tầng (40p Khung + 40p Breakout + 40p Q&A) ⭐ |
-| :--- | :---: | :---: | :---: |
-| **C1: Chiều Sâu Giải Quyết Vấn Đề (Problem Solving Depth)** | W4 | 2.0 / 5 (8.0) | 5.0 / 5 (20.0) |
-| **C2: Khả Năng Tập Trung Của Phụ Huynh (Parent Attention)** | W3 | 4.5 / 5 (13.5) | 4.5 / 5 (13.5) |
-| **C3: Hoạt Động Thấu Cảm Đa Chiều (Breakout Facilitation)** | W3 | 1.5 / 5 (4.5) | 4.8 / 5 (14.4) |
-| **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 26.0 / 50 | 47.9 / 50 (Approved ⭐) |
-| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Chỉ kịp nói lý thuyết bề mặt, không có thời gian đối thoại và chia phòng thực hành. | Yêu cầu Host điều phối Breakout Room linh hoạt và phân bổ thời gian kỷ luật để không cháy giáo án. |
-
-* **Quyết định:** Chuẩn hóa thời lượng 120 phút (20h00 - 22h00 tối Thứ 5) với cấu trúc 3 chặng cân bằng giữa truyền đạt kiến thức, thực hành nhóm nhỏ và giải đáp cá nhân hóa.
-
-</details>
-
----
-
-<details open>
-<summary><h3>🏛️ Decision Logs</h3></summary>
-
-Tổng hợp các quyết định kiến trúc và đánh giá CMMI bảo vệ cho phương pháp tiếp cận của Playbook P03:
-
-#### DAR 06: Định Vị Workshop Trực Tuyến & Tự Học: Marlins Workshop vs Khóa Học Phụ Huynh 4 Buổi
-* **Bối cảnh:** Giúp phụ huynh thấu hiểu phương pháp đồng hành mà không làm kiệt sức đội ngũ khi đã có Marlins Day offline.
-* **Ma trận đánh giá (CMMI Evaluation):**
-  * *Option A (Mở Khóa học 4 buổi trả phí):* 26/50 điểm — Rào cản đăng ký cao, làm kiệt sức đội ngũ vận hành.
-  * *Option B (Chỉ làm Webinar thuyết giảng 1 chiều):* 25/50 điểm — Tương tác kém, người nghe quên ngay sau buổi học.
-  * *Option C (Interactive Live Tối T5 + Tự học theo Pace riêng trên Portal) ⭐:* **50/50 điểm (Approved)**.
-* **Quyết định:** Tổ chức **Marlins Workshop định kỳ hàng tuần (Tối Thứ 5, 20h00 - 22h00)** theo hình thức tương tác cao (bắt buộc bật cam/mic, 2 vòng 4F Reflection), kết hợp nền tảng **Học theo Pace riêng trên Family Portal**; tuyệt đối không mở khóa học trả phí cồng kềnh.
-
-#### DAR 11: Kỷ Luật Bật Cam/Mic & Phân Luồng Phòng Zoom (Cam/Mic Discipline & Waiting Room)
-* **Bối cảnh:** Đảm bảo chiều sâu thực hành 4F Reflection trong phòng Zoom 120 phút mà không làm mất lòng phụ huynh bận rộn.
-* **Ma trận đánh giá (CMMI Evaluation):**
-  * *Option A (Bắt buộc 100%, ai tắt cam thì kick ra ngoài):* 29/50 điểm — Gây ức chế và làm mất tệp phụ huynh tiềm năng bận rộn.
-  * *Option B (Thả nổi cam/mic):* 23/50 điểm — Phòng breakout bị "chết" không khí vì không ai mở lời.
-  * *Option C (Phân luồng 2 tầng: Breakout 4F cho Cam/Mic + Main Room/Portal cho tắt cam) ⭐:* **48/50 điểm (Approved)**.
-* **Quyết định:** Áp dụng mô hình **Phân luồng 2 tầng**: Phụ huynh bật Cam/Mic được xếp vào Breakout Rooms thực hành 4F chuyên sâu; phụ huynh xin phép tắt cam được giữ ở Main Room nghe thụ động và điều hướng sang tự học trên Family Portal.
-
-#### DAR 12: Đóng Gói Học Liệu Phụ Huynh Tự Học (Parent Self-Paced LMS Micro-Modules)
-* **Bối cảnh:** Giúp phụ huynh tiếp cận lộ trình chuyển hóa nhận thức giáo dục dù không thể tham gia Live Zoom tối Thứ 5 đều đặn.
-* **Ma trận đánh giá (CMMI Evaluation):**
-  * *Option A (Gửi toàn bộ Video Record 120 phút):* 24/50 điểm — Video quá dài, phụ huynh không có thời gian xem lại.
-  * *Option B (Viết tài liệu PDF cẩm nang dài):* 25/50 điểm — Khô khan, tỷ lệ đọc hết dưới 10%.
-  * *Option C (Micro-modules 3–5 phút + Trắc nghiệm tình huống trên Family Portal) ⭐:* **49/50 điểm (Approved)**.
-* **Quyết định:** Số hóa Thư viện 7 Ngộ nhận và Bộ công cụ NVC/BEM thành các **Micro-modules 3–5 phút (Video ngắn + Trắc nghiệm tình huống + Mẫu câu thực hành)** trên **Family Portal (`marlins.nemo12.com`)** để cha mẹ tự học theo nhịp riêng.
-
-</details>
-
----
-
-
-<details open>
-<summary><h3>Decision Logs</h3></summary>
-
-Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo vệ cho phương pháp tiếp cận của Playbook:
-
-#### DAR 06: Định Dạng Workshop: Live Zoom Tối Thứ 5 vs Khóa Học Phụ Huynh Đóng Gói Sẵn
-* **Bối cảnh:** Lựa chọn định dạng học tập cho phụ huynh bận rộn giữa việc sản xuất khóa học video hay tổ chức Live Zoom hàng tuần.
-
-| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: Đóng Gói 100% Khóa Học Video Tự Học LMS | Option B: Live Zoom Tối Thứ 5 + Lưu Kho Tư Liệu Family Portal ⭐ |
-| :--- | :---: | :---: | :---: |
-| **C1: Tương Tác Trực Tiếp & Giải Tỏa Nỗi Đau (Live Empathy)** | W4 | 2.0 / 5 (8.0) | 5.0 / 5 (20.0) |
-| **C2: Tối Ưu Tải Trọng Đội Ngũ (Team Workload)** | W3 | 4.5 / 5 (13.5) | 4.8 / 5 (14.4) |
-| **C3: Tính Kế Thừa Dữ Liệu & Xem Lại (Reusability)** | W3 | 5.0 / 5 (15.0) | 4.8 / 5 (14.4) |
-| **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 36.5 / 50 | 48.8 / 50 (Approved ⭐) |
-| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Tỷ lệ hoàn thành dưới 5%, thiếu sự đồng cảm và không giải quyết được vướng mắc tức thì. | Đòi hỏi Host cam kết lịch trực tiếp tối Thứ 5 và đội ngũ kỹ thuật cắt ghép video lưu trữ Portal. |
-
-* **Quyết định:** Tổ chức Live Zoom tương tác trực tiếp 120 phút tối Thứ 5 hàng tuần do Anh Đắc chủ trì; toàn bộ nội dung được biên tập tinh gọn lưu trữ trên Family Portal.
-
-#### DAR 11: Thời Lượng Workshop: 120 Phút Sâu vs 60 Phút Ngắn
-* **Bối cảnh:** Thiết kế thời lượng workshop đảm bảo đủ thời gian thực hành Breakout Room và giải đáp thấu cảm.
-
-| Tiêu Chí Đánh Giá (Criteria) | Trọng Số | Option A: 60 Phút Thuyết Trình Một Chiều | Option B: 120 Phút Đa Tầng (40p Khung + 40p Breakout + 40p Q&A) ⭐ |
-| :--- | :---: | :---: | :---: |
-| **C1: Chiều Sâu Giải Quyết Vấn Đề (Problem Solving Depth)** | W4 | 2.0 / 5 (8.0) | 5.0 / 5 (20.0) |
-| **C2: Khả Năng Tập Trung Của Phụ Huynh (Parent Attention)** | W3 | 4.5 / 5 (13.5) | 4.5 / 5 (13.5) |
-| **C3: Hoạt Động Thấu Cảm Đa Chiều (Breakout Facilitation)** | W3 | 1.5 / 5 (4.5) | 4.8 / 5 (14.4) |
-| **TỔNG ĐIỂM (TOTAL SCORE)** | **Sum: 10** | 26.0 / 50 | 47.9 / 50 (Approved ⭐) |
-| **Phân Tích & Đánh Đổi (Trade-offs)** | — | Chỉ kịp nói lý thuyết bề mặt, không có thời gian đối thoại và chia phòng thực hành. | Yêu cầu Host điều phối Breakout Room linh hoạt và phân bổ thời gian kỷ luật để không cháy giáo án. |
-
-* **Quyết định:** Chuẩn hóa thời lượng 120 phút (20h00 - 22h00 tối Thứ 5) với cấu trúc 3 chặng cân bằng giữa truyền đạt kiến thức, thực hành nhóm nhỏ và giải đáp cá nhân hóa.
+* **Quyết định:** Chuẩn hóa thời lượng 120 phút (15h00 - 17h00 Chủ Nhật) với cấu trúc Fishbowl mở đầu, 2 phiên Key Concept và 2 vòng Reflection qua Zoom Chat / Bật mic trực tiếp; mở chat Group Zalo sau buổi chia sẻ.
 
 </details>
 
@@ -374,15 +85,15 @@ Tổng hợp các quyết định kiến trúc và đánh giá CMMI DAR bảo v�
 <details>
 <summary><h3>FAQ</h3></summary>
 
-#### Capacity & Burnout
-* **Tổ chức tối Thứ 5 và Chủ Nhật hàng tuần có gây quá tải cho Host và Mentor không?**  
-  👉 **A:** Nội dung Workshop xoay quanh các chủ đề nền tảng đã được chuẩn hóa khung; Mentor phối hợp đồng hành giúp chia tải và duy trì năng lượng bền bỉ.
-* **120 phút vào tối Thứ 5 có quá dài với phụ huynh bận rộn không?**  
-  👉 **A:** Phụ huynh được phân bổ vào các phòng Breakout tương tác liên tục nên không khí luôn hào hứng, không gây cảm giác mệt mỏi.
+#### Nhóm 1: Về Thời Lượng & Logistics (Capacity & Logistics)
+* **Tổ chức vào chiều Chủ Nhật hàng tuần (15h00 - 17h00) có thuận tiện cho phụ huynh không?**  
+  👉 **A:** Khung giờ 15h00 – 17h00 chiều Chủ Nhật là thời điểm phụ huynh thư thả nhất trong tuần, dễ dàng tập trung tham gia trọn vẹn và chuẩn bị tâm thế tốt nhất cho tuần mới của con.
+* **Sau buổi workshop phụ huynh có thể trao đổi thêm ở đâu?**  
+  👉 **A:** Ngay sau buổi chia sẻ trên Zoom, ban tổ chức sẽ mở quyền chat trên group Zalo cộng đồng để các phụ huynh tiếp tục chia sẻ các reflection, trao đổi bài học và thảo luận sâu hơn.
 
-#### Conversion & Funnel
+#### Nhóm 2: Về Tỷ Lệ Chuyển Đổi & Tương Tác (Conversion & Engagement)
 * **Tổ chức Workshop miễn phí thì đo lường hiệu quả như thế nào?**  
-  👉 **A:** Đo lường bằng tỷ lệ phụ huynh tham gia trọn vẹn, số lượng câu hỏi chất lượng và lượng phụ huynh chủ động đăng ký tham gia Marlins Day hoặc Trial Class.
+  👉 **A:** Đo lường bằng tỷ lệ phụ huynh tham gia trọn vẹn 120 phút, số lượng reflection chất lượng trong Zoom/Zalo và lượng phụ huynh chủ động đăng ký tham gia Trial Class.
 * **Nếu phụ huynh tham gia nhiều tuần nhưng chưa đăng ký khóa học thì sao?**  
   👉 **A:** Workshop phục vụ mục tiêu lan tỏa tri thức cộng đồng; sự hiện diện đều đặn của phụ huynh là minh chứng cho niềm tin ngày càng sâu sắc.
 

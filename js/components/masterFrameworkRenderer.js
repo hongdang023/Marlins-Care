@@ -61,7 +61,7 @@ export function renderMasterFramework(onNavigate) {
         <div style="background: var(--bg-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-lg); padding: var(--space-4);">
           <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: var(--space-2);">
             <strong style="font-size: 15px; color: var(--color-primary-700);">Tier 1: High-Touch / Human-Led</strong>
-            <span class="badge badge-mentor">Family Meeting · Marlins Day · Workshop</span>
+            <span class="badge badge-mentor">Family Meeting · Marlins Workshop</span>
           </div>
           <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5; margin-bottom: var(--space-2);">
             Tương tác trực tiếp chiều sâu, đối thoại mở và thấu cảm gia đình. Yêu cầu kịch bản Agenda chi tiết, câu hỏi đào sâu và quan sát thực địa.

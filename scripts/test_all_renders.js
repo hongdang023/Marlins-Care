@@ -79,15 +79,14 @@ async function runAudit() {
     errors++;
   }
 
-  // 2. Test All 8 Playbooks
-  console.log("\n--- 2. Testing 8 Playbooks ---");
+  // 2. Test All 7 Playbooks
+  console.log("\n--- 2. Testing 7 Playbooks ---");
   try {
     const { renderPlaybook } = await import("../js/components/playbookRenderer.js");
     const playbookSlugs = [
       "social-media",
       "community",
       "marlins-workshop",
-      "marlins-day",
       "trial-class",
       "live-class",
       "family-meeting",
@@ -114,7 +113,7 @@ async function runAudit() {
     console.error(`\n🚨 AUDIT FAILED with ${errors} error(s)! Please fix immediately.`);
     process.exit(1);
   } else {
-    console.log("\n🎉 FULL AUDIT COMPLETE: 100% of all pages (7 Requirements & 8 Playbooks) render non-empty HTML with 0 errors!");
+    console.log("\n🎉 FULL AUDIT COMPLETE: 100% of all pages (7 Requirements & 7 Playbooks) render non-empty HTML with 0 errors!");
   }
 }
 

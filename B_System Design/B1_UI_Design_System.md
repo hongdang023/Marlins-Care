@@ -105,7 +105,7 @@ graph LR
 | :--- | :--- | :--- |
 | `System` | `.badge-system` | Bằng chứng / quy trình tự động hóa bởi hệ thống |
 | `Mentor` | `.badge-mentor` | Tương tác trực tiếp & phán đoán chuyên môn của Mentor |
-| `Marlins` | `.badge-marlins` | Hoạt động định hướng phụ huynh, Marlins Day |
+| `Marlins` | `.badge-marlins` | Hoạt động định hướng phụ huynh, Marlins Workshop |
 | `Hybrid` | `.badge-hybrid` | Phối hợp Người + Máy (Máy phát hiện ➔ Người can thiệp) |
 | `Risk` | `.badge-risk` | Tín hiệu cảnh báo nguy cơ học tập hoặc vướng mắc |
 | `Milestone` | `.badge-milestone` | Cột mốc tiến bộ vượt bậc, hoàn thành xuất sắc |

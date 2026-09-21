@@ -23,8 +23,8 @@ relates_to:
 ## 1. Nguyên Tắc & Quy Chuẩn Cấu Trúc (Core Principles)
 
 1. **3 Hình thái Phân loại Playbook (3 Tiers & Archetypes):**
-   * **Tier 1: High-Touch (Archetype C):** Tương tác trực tiếp, đối thoại sâu (`Marlins Workshop`, `Marlins Day`, `Family Meeting`). Bắt buộc có `Session Agenda` và `Stakeholder Mapping`.
-   * **Tier 2: Routine & Hybrid (Archetype B):** Vận hành lớp học tuần hoàn kết hợp máy và người (`Trial Class`, `Live Class`). Không có `Session Agenda`.
+   * **Tier 1: High-Touch (Archetype C):** Tương tác trực tiếp, đối thoại sâu (`Marlins Workshop`, `Family Meeting`). Bắt buộc có `Session Agenda` và `Stakeholder Mapping`.
+   * **Tier 2: Routine & Hybrid (Archetype B):** Vận hành lớp học tuần hoàn kết hợp máy và người (`Live Class`). Không có `Session Agenda`.
    * **Tier 3: Outreach & Policy (Archetype A):** Kênh mạng xã hội, cộng đồng và chính sách (`Social Media`, `Community`, `Referrals Program`). Không có `Session Agenda`.
 2. **Quy tắc độ dài & định dạng tiêu đề (Lean Section Title Rule):** Tiêu đề Section (`##`, `###`) bắt buộc là **Pure English, Title Case, $\le 3$ words, TUYỆT ĐỐI KHÔNG CHÈN EMOJI** theo [A7_Content_Standards.md](file:///Users/danghong/Documents/Marlins%20Care/A_Requirements/A7_Content_Standards.md).
 3. **Thứ tự khối nội dung bất biến:** Mọi Playbook đều kết thúc bằng `Decision Logs` và cuối cùng là `FAQ`.
@@ -34,7 +34,7 @@ relates_to:
 
 ## 2. Ma Trận Cấu Trúc Khối Nội Dung & Sub-Navigation (Structure Matrix)
 
-| Cấu Trúc Section (Pure English ≤ 3 words) | Tier 1: High-Touch (`P03, P04, P07`) | Tier 2: Routine (`P05, P06`) | Tier 3: Outreach (`P01, P02, P08`) | Ghi chú vai trò |
+| Cấu Trúc Section (Pure English ≤ 3 words) | Tier 1: High-Touch (`P03, P04, P07`) | Tier 2: Routine (`P06`) | Tier 3: Outreach (`P01, P02, P08`) | Ghi chú vai trò |
 | :--- | :---: | :---: | :---: | :--- |
 | **`Overview`** *(Metadata Header)* | Bắt buộc | Bắt buộc | Bắt buộc | Mục tiêu, điều kiện kích hoạt, thời lượng, chủ sở hữu, đầu ra. |
 | **`Stakeholder Mapping`** | Bắt buộc | Bắt buộc | Tùy chọn | Bản đồ tương tác và kỳ vọng 3 bên: Phụ huynh – Học sinh – Mentor. |
@@ -99,7 +99,7 @@ relates_to:
 <details open>
 <summary><h3>Session Agenda</h3></summary>
 
-*(Chỉ áp dụng cho Tier 1: Marlins Workshop, Marlins Day, Family Meeting)*
+*(Chỉ áp dụng cho Tier 1: Marlins Workshop, Family Meeting)*
 
 | Thời Lượng | Giai Đoạn (Stage) | Hoạt Động Cốt Lõi | Người Phụ Trách |
 | :---: | :--- | :--- | :--- |

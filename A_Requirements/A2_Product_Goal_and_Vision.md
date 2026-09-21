@@ -46,10 +46,10 @@ Hệ thống trả lời 6 câu hỏi vận hành cốt lõi:
 
 ## 3. Bối Cảnh Mô Hình Học Tập (Context & Learning Model)
 
-- **Cấu trúc khóa học:** 2 buổi Offline Trial + 12 buổi Core Online Zoom (có hỗ trợ Offline linh hoạt).
+- **Cấu trúc khóa học:** 2 buổi Online Trial + 12 buổi Core Online Zoom.
 - **Kênh tương tác số:** Email gửi báo cáo tiến độ tự động; Zalo được dùng linh hoạt như một kênh truyền thông khi có tín hiệu ý nghĩa (không coi "Zalo hàng tuần" là một touchpoint).
-- **Marlins Day:** Diễn ra định kỳ **chiều Chủ Nhật hàng tuần**, song song với giờ học của con. Đây là năng lực đồng hành phụ huynh liên tục và bền bỉ, không phải sự kiện một lần.
-- **Hoạt động High-Touch (Family Tour, Gặp gỡ thân mật):** Được kích hoạt dựa trên **Khoảnh khắc ý nghĩa (Meaningful Moments)**, tuyệt đối không kích hoạt theo lịch cứng hay mức chi tiêu tài chính.
+- **Marlins Workshop:** Diễn ra định kỳ **15h00 - 17h00 Chủ Nhật hàng tuần** trên Zoom. Đây là năng lực đồng hành phụ huynh trực tuyến liên tục và bền bỉ.
+- **Hoạt động High-Touch (Family Meeting, Gặp gỡ thân mật):** Được kích hoạt dựa trên **Khoảnh khắc ý nghĩa (Meaningful Moments)**, tuyệt đối không kích hoạt theo lịch cứng hay mức chi tiêu tài chính.
 
 ---
 

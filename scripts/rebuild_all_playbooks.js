@@ -12,7 +12,7 @@ const standardizedDosDonts = {
 | :--- | :--- |
 | ✅ **Khóa chat ở 2 Group Public:** Giữ đúng thiết lập "Chỉ Trưởng/Phó nhóm gửi tin nhắn" để duy trì chất lượng thông tin sạch sẽ, tránh spam quảng cáo (Low Maintenance). | ❌ **Không mở chat đại trà ở Public Group:** Tránh để các nhóm cộng đồng hàng nghìn người thành nơi gửi link rác, tin nhắn dạo gây phiền hà cho phụ huynh. |
 | ✅ **Mở tương tác ở Group Private:** Tạo không gian thân mật, tôn trọng để các phụ huynh đã đi offline thoải mái giãi bày tâm tư và thảo luận Reflection. | ❌ **Không chèn bất kỳ CTA bán hàng nào:** Tuyệt đối không gắn link kêu gọi mua hàng, không chèn link phễu hay ép phụ huynh làm bài test. |
-| ✅ **Kể chuyện thật, việc thật:** Dùng 100% dữ liệu quan sát thật từ Marlins Day, các buổi call tư vấn và Live Class với danh tính ẩn danh hóa. | ❌ **Không biến group thành chợ rao vặt:** Cấm đăng các banner khuyến mãi, giảm giá sốc, chèo kéo đóng học phí kiểu telesale. |
+| ✅ **Kể chuyện thật, việc thật:** Dùng 100% dữ liệu quan sát thật từ Marlins Workshop, các buổi call tư vấn và Live Class với danh tính ẩn danh hóa. | ❌ **Không biến group thành chợ rao vặt:** Cấm đăng các banner khuyến mãi, giảm giá sốc, chèo kéo đóng học phí kiểu telesale. |
 | ✅ **Tôn trọng cảm xúc của bố mẹ:** Luôn chia sẻ với tinh thần gỡ rối, không phán xét cách nuôi dạy con của gia đình. | ❌ **Không bịa đặt câu chuyện:** Tuyệt đối không tự bịa ra các case ảo thiếu logic sư phạm. |`,
 
   "marlins-workshop": `| Do's | Don'ts |
@@ -21,12 +21,6 @@ const standardizedDosDonts = {
 | ✅ **Giữ vững kỷ luật Cam/Mic:** Nghiêm túc duy trì văn hóa hiện diện trọn vẹn để nâng cao chất lượng thảo luận nhóm theo [DAR 11]. | ❌ **Không độc thoại slide:** Cấm Host nói liên tục quá 30 phút mà không có bài tập tương tác hoặc thảo luận breakout. |
 | ✅ **Đưa ra công cụ hành động tức thì:** Sau mỗi buổi, phụ huynh có ít nhất 1 câu hỏi hoặc 1 mẫu câu NVC cụ thể để về nói chuyện ngay với con vào sáng hôm sau. | ❌ **Không làm phụ huynh cảm thấy tội lỗi:** Tránh dùng ngôn từ chỉ trích cách dạy con của phụ huynh; luôn tiếp cận bằng sự đồng cảm. |
 | ✅ **Khuyến khích tự học theo pace riêng:** Nhắc phụ huynh truy cập Family Portal để tự làm bài tập trắc nghiệm và đo lường sự chuyển biến của chính mình. | ❌ **Không ép buộc phụ huynh bật cam nếu bất khả kháng:** Điều hướng linh hoạt phụ huynh bận rộn sang chế độ nghe thụ động tại Main Room hoặc tự học trên Portal. |`,
-
-  "marlins-day": `| Do's | Don'ts |
-| :--- | :--- |
-| ✅ **Lắng nghe tích cực (Listen First):** Dành 70% thời lượng để phụ huynh giãi bày tâm sự và nỗi lo âu giáo dục. | ❌ **Không biến thành hội thảo bán hàng:** Tuyệt đối không phát tờ rơi, không chốt sale khóa học tại sự kiện. |
-| ✅ **Tôn trọng tính chân thực:** Chia sẻ thẳng thắn cả những điểm chưa hoàn hảo và giới hạn của hệ thống Nemo12. | ❌ **Không phán xét phụ huynh:** Tuyệt đối không chỉ trích phương pháp dạy con của bố mẹ trước mặt người khác. |
-| ✅ **Tập trung vào giải pháp sư phạm:** Hướng dẫn phụ huynh cách tháo gỡ điểm nghẽn nhận thức bằng bộ công cụ thực hành. | ❌ **Không hứa hẹn điểm số viển vông:** Tránh cam kết điểm thi đỗ chuyên mà tập trung vào năng lực tự học bền vững. |`,
 
   "trial-class": `| Do's | Don'ts |
 | :--- | :--- |
@@ -64,22 +58,16 @@ const standardizedSopSteps = {
 
   "community": `| Giai đoạn | Thao tác chi tiết | Người phụ trách | Chu kỳ & Thời lượng |
 | :--- | :--- | :--- | :---: |
-| **1. Thu thập & Chọn Case** | • Trích xuất 1 case điển hình từ nhật ký Marlins Day, Call 1-1 hoặc Live Class.<br>• Ẩn danh 100% tên học sinh và thông tin gia đình. | Hồng | Thứ 2 hàng tuần (15p) |
+| **1. Thu thập & Chọn Case** | • Trích xuất 1 case điển hình từ nhật ký Marlins Workshop, Call 1-1 hoặc Live Class.<br>• Ẩn danh 100% tên học sinh và thông tin gia đình. | Hồng | Thứ 2 hàng tuần (15p) |
 | **2. Đăng Broadcast lên 2 Group Public** | • Đăng bài Case Study đồng loạt vào 2 Group Public (*Vào Chuyên Chọn Cấp 2 & Cấp 3*).<br>• Chế độ chỉ Admin nhắn tin giúp vận hành cực kỳ tinh gọn, không tốn thời gian kiểm duyệt chat. | Anh Đắc (Host) | Thứ 3 & Thứ 5 (10p) |
-| **3. Vận hành Group Private Marlins** | • Sau sự kiện Marlins Day (17h00 Chủ Nhật), add phụ huynh tham gia vào Group Private.<br>• Đăng bài tổng hợp Reflection, mở không gian chat 2 chiều để tương tác thân mật với các bố mẹ. | Anh Đắc & Hồng | Chiều CN & Thứ 2 (20p) |
+| **3. Vận hành Group Private Marlins** | • Sau sự kiện Marlins Workshop (17h00 Chủ Nhật), add phụ huynh tham gia vào Group Private.<br>• Đăng bài tổng hợp Reflection, mở không gian chat 2 chiều để tương tác thân mật với các bố mẹ. | Anh Đắc & Hồng | Chiều CN & Thứ 2 (20p) |
 | **4. Đồng hành & Lắng nghe Private** | • Trực tiếp trả lời, tâm sự và tháo gỡ băn khoăn cho các phụ huynh trong nhóm Private. | Toàn team | Hàng ngày |`,
 
   "marlins-workshop": `| Giai đoạn | Thao tác Hệ thống (System Action via Portal/Zalo) | Thao tác Con người (Host & Mentor Action) | Thời gian chuẩn |
 | :--- | :--- | :--- | :---: |
-| **1. Pre-Workshop** *(Trước 72h - 24h)* | • Tự động gửi thông báo chủ đề tuần và form đăng ký vào 3 Group Zalo.<br>• Nhắc nhở quy định bất biến: **100% Bật Cam/Mic suốt 120 phút**. | • Host & Mentor thống nhất Concept trọng tâm và chuẩn bị 2 bài tập tình huống.<br>• Duyệt danh sách phụ huynh đăng ký. | $\\le$ 30 phút |
-| **2. In-Workshop** *(20h00 - 22h00)* | • Phân phòng tự động (Breakout Rooms 3-4 phụ huynh/phòng theo [DAR 11]).<br>• Chuyển các tài khoản tắt cam vào Main Room nghe thụ động. | • Host dẫn dắt nội dung, điều phối năng lượng phòng Zoom.<br>• Mentor Hồng đảo qua các breakout rooms hỗ trợ phụ huynh thảo luận 4F. | 120 phút |
-| **3. Post-Workshop** *(Sáng hôm sau)* | • Cập nhật bài tập trắc nghiệm và case study lên mục **Parent Self-Paced** trên Family Portal ([DAR 12]).<br>• Gửi thông điệp cảm ơn và Infographic tóm tắt vào 3 Group Zalo. | • Mentor nhắn tin Zalo cảm ơn các phụ huynh đã phát biểu tích cực.<br>• Phân luồng phụ huynh có nhu cầu gặp chuyên sâu để gửi thư mời **Marlins Day**. | $\\le$ 15 phút |`,
-
-  "marlins-day": `| Giai đoạn | Thao tác chi tiết | Thời lượng | Deliverable / Ghi chú |
-| :--- | :--- | :---: | :--- |
-| **1. Pre-Event** *(Thứ 6 & Thứ 7)* | • Chốt danh sách $\\le 10$ phụ huynh tham dự qua Form đăng ký.<br>• Gửi tin nhắn Zalo xác nhận địa điểm (Lotte Hotel, Tầng 38 Sky Lounge) và lưu ý gửi xe.<br>• Chuẩn bị sẵn 10 bản in Phiếu Phản Tư 4F và 2 laptop kết nối sẵn hệ sinh thái Nemo12. | 30p | Danh sách chốt & Học liệu in ấn |
-| **2. In-Event** *(15h00 – 17h00 Chủ Nhật)* | • Tuân thủ nghiêm ngặt khung thời lượng Session Agenda (Fishbowl & Live Demo).<br>• Co-host Hồng liên tục ghi chép các câu thoại, trăn trở đắt giá của phụ huynh vào sổ Dory Notes. | 120p | Phiên đối thoại thấu cảm & Live demo |
-| **3. Post-Event** *(Tối Chủ Nhật & Thứ 2)* | • Gửi lời cảm ơn chân thành và gửi tặng file tổng hợp ảnh/Reflection Report.<br>• Mời phụ huynh tham gia **Group Zalo Private: Nemo12 - Marlins** để tiếp tục đồng hành sâu. | 20p | Reflection Report & Kết nối Group Private |`,
+| **1. Pre-Workshop** *(Trước 72h - 24h)* | • Tự động gửi thông báo chủ đề tuần và form đăng ký vào 3 Group Zalo.<br>• Nhắc nhở quy định bất biến: **100% Bật Cam/Mic suốt 120 phút**. | • Host & Mentor thống nhất Concept trọng tâm và chuẩn bị bài tập tình huống.<br>• Duyệt danh sách phụ huynh đăng ký. | $\\le$ 30 phút |
+| **2. In-Workshop** *(15h00 - 17h00 Chủ Nhật)* | • Hỗ trợ kỹ thuật phòng Zoom, tiếp nhận chat và điều phối spotlight.<br>• Chuyển các tài khoản tắt cam vào Main Room nghe thụ động. | • Host dẫn dắt nội dung theo Fishbowl & 2 phiên chia sẻ Concept.<br>• Mentor Hồng điều phối tương tác chat, tổng hợp Reflection và hỗ trợ mời phụ huynh bật mic chia sẻ. | 120 phút |
+| **3. Post-Workshop** *(Sau buổi chia sẻ & Sáng hôm sau)* | • **Mở quyền chat trên Group Zalo** để các phụ huynh vào chia sẻ các reflection sau phần vừa rồi.<br>• Cập nhật bài tập trắc nghiệm và case study lên mục **Parent Self-Paced** trên Family Portal ([DAR 12]).<br>• Gửi thông điệp cảm ơn và Infographic tóm tắt vào 3 Group Zalo. | • Mentor nhắn tin Zalo cảm ơn các phụ huynh đã phát biểu tích cực.<br>• Phân luồng phụ huynh có nhu cầu gặp chuyên sâu để gửi thư mời tham gia **Trial Class** / tư vấn 1-1. | $\\le$ 15 phút |`,
 
   "trial-class": `| Giai đoạn | Hành động Hệ thống (System Action) | Hành động Con người (Mentor Action qua Zalo) | Thời lượng |
 | :--- | :--- | :--- | :---: |
@@ -111,14 +99,8 @@ const stakeholderMappings = {
   "marlins-workshop": `| Stakeholder | Job cần giải quyết (JTBD) | Marlins Workshop mang lại giá trị gì? (Delivered Value) |
 | :--- | :--- | :--- |
 | **Phụ huynh tham dự** | Tìm kiếm phương pháp đồng hành đúng đắn, giải tỏa âu lo áp lực học tập và định hướng năng lực AI cho con. | Không gian an toàn để tự phản tư (4F Reflection), thấu hiểu ngộ nhận giáo dục và nhận công cụ giao tiếp NVC/BEM thực tế. |
-| **Host & Mentor** | Lan tỏa tri thức sư phạm bản chất, lắng nghe trăn trở thực tế của phụ huynh và kết nối các gia đình cùng hệ giá trị. | Thấu hiểu các điểm mù tâm lý phụ huynh, nuôi dưỡng niềm tin tự nhiên và chuyển hóa sang Marlins Day / Trial Class. |
+| **Host & Mentor** | Lan tỏa tri thức sư phạm bản chất, lắng nghe trăn trở thực tế của phụ huynh và kết nối các gia đình cùng hệ giá trị. | Thấu hiểu các điểm mù tâm lý phụ huynh, nuôi dưỡng niềm tin tự nhiên và chuyển hóa sang Trial Class. |
 | **Học sinh (Gián tiếp)** | Cần sự thấu hiểu và cách tiếp cận giáo dục tôn trọng, không áp đặt từ bố mẹ tại nhà. | Bố mẹ thay đổi góc nhìn, giảm áp lực kỳ vọng độc hại và tạo môi trường tự giác học tập tại gia đình. |`,
-
-  "marlins-day": `| Stakeholder | Job cần giải quyết (JTBD) | Marlins Day mang lại giá trị gì? (Delivered Value) |
-| :--- | :--- | :--- |
-| **Phụ huynh tham dự** | Tìm phương pháp đúng đắn giúp con tự giác, học hiệu quả và đỗ chuyên Cấp 3 mà gia đình không bị kiệt sức. | Sự đồng cảm từ cộng đồng PH cùng mục tiêu, giải tỏa áp lực, nhìn thấy giải pháp học tập cá nhân hóa rõ ràng qua Nemo12. |
-| **Marlins Care / Nemo12** | Thấu hiểu chân dung, nỗi đau và kỳ vọng thật của phụ huynh; chọn lọc các gia đình cùng hệ giá trị để đồng hành. | Dữ liệu định tính sâu sắc cho Dory Sensemaking; mở rộng tệp phụ huynh nòng cốt cho cộng đồng Private. |
-| **Học sinh (Gián tiếp)** | Cần cha mẹ thấu hiểu tâm lý lứa tuổi và phương pháp học không gây kiệt quệ tinh thần. | Bố mẹ thay đổi góc nhìn, giảm áp lực kỳ vọng sai lệch và tìm được công cụ học tập đúng đắn cho con. |`,
 
   "trial-class": `| Stakeholder | Job cần giải quyết (JTBD) | Trial Class mang lại giá trị gì? (Delivered Value) |
 | :--- | :--- | :--- |
@@ -142,19 +124,15 @@ const stakeholderMappings = {
 const sessionAgendas = {
   "marlins-workshop": `| Khung giờ | Nội dung hoạt động | Hình thức | Mục tiêu & Phương pháp |
 | :---: | :--- | :---: | :--- |
-| **20:00 – 20:15** (15') | **Warm-up & Breakout Check-in** | Nhóm nhỏ<br>(3-4 người) | • Điểm danh Cam/Mic.<br>• Phụ huynh chia sẻ 1 "cơn đau đầu / cảm giác bất lực" gần nhất khi kèm con học tại nhà. |
-| **20:15 – 20:45** (30') | **Chuyên đề 1 & Bài tập Mini** | Toàn phòng | • Anh Đắc mổ xẻ 1 Ngộ nhận trọng tâm.<br>• Giao bài tập tình huống thực tế (tình huống con lười học / trốn tránh bài khó). |
-| **20:45 – 21:00** (15') | **Breakout 4F Reflection 1** | Nhóm nhỏ | Thực hành khung **4F**:<br>• **Facts:** Sự thật con đã làm gì?<br>• **Feelings:** Cảm xúc lúc đó của bố/mẹ là gì?<br>• **Findings:** Ngộ nhận nào đang chi phối phản ứng của mình?<br>• **Future:** Lần tới sẽ phản ứng khác đi như thế nào? |
-| **21:00 – 21:30** (30') | **Chuyên đề 2 & Case Study Thực Chiến** | Toàn phòng | • Mentor Hồng chia sẻ góc nhìn sư phạm thực tế từ lớp học Nemo12.<br>• Hướng dẫn công cụ NVC / BEM xử lý triệt để bế tắc. |
-| **21:30 – 21:45** (15') | **Breakout 4F Reflection 2** | Nhóm nhỏ | Áp dụng giải pháp mới vào đúng trường hợp cụ thể của con mình; các bố mẹ góp ý chéo cho nhau. |
-| **21:45 – 22:00** (15') | **Harvesting & Call To Action** | Toàn phòng | • Đại diện 2 phụ huynh chia sẻ bài học tâm đắc nhất.<br>• Hướng dẫn làm bài tập theo pace riêng trên **Family Portal**.<br>• Mời tham gia **Marlins Day** chiều Chủ Nhật tại Lotte Hotel. |`,
+| **15:00 – 15:10** (10') | **Giới thiệu Agenda & Buffer** | Toàn phòng | • Giới thiệu Agenda của buổi chia sẻ.<br>• Buffer thêm thời gian (khoảng 5 phút) chờ thêm phụ huynh vào phòng Zoom ổn định. |
+| **15:10 – 15:20** (10') | **Check-in & Giới thiệu bản thân** | Zoom Chat & Toàn phòng | Phụ huynh giới thiệu bản thân trong Zoom theo prompt:<br>**(1)** Thông tin về bố mẹ: *Tên, Năm sinh*<br>**(2)** Thông tin về các con: *Tên, Năm sinh, Học lớp mấy, Trường*<br>**(3)** *Mục tiêu của bố mẹ khi vào workshop này?* |
+| **15:20 – 15:40** (20') | **Fishbowl Format: Lắng nghe lo lắng mở đầu** | Đối thoại Fishbowl | • Mời 1–2 bố/mẹ tình nguyện chia sẻ mở đầu về nỗi lo lắng, trăn trở của mình khi kèm con học.<br>• **Mục tiêu:** Hiểu mong muốn của các bố mẹ khi tham gia buổi này, làm dữ liệu để điều chỉnh các phần chia sẻ sau cho phù hợp. |
+| **15:40 – 16:00** (20') | **Chuyên đề Phiên 01: Key Concept 1** | Thuyết trình tương tác | • Anh Đắc chia sẻ phiên 01 về 1 Key Concept có thể hỗ trợ các bố mẹ dựa trên data từ vấn đề vừa được chia sẻ. |
+| **16:00 – 16:15** (15') | **Reflection ngắn 1 & Đối thoại** | Chat & Bật mic | • Reflection ngắn cho bố mẹ comment vào chat câu hỏi: *"Anh/Chị thu được điều gì mới sau phiên chia sẻ vừa rồi?"*<br>• Gọi 2–3 bố mẹ bật mic chia sẻ các reflection trực tiếp. |
+| **16:15 – 16:45** (30') | **Chuyên đề Phiên 02: Key Concept 2** | Thuyết trình tương tác | • Anh Đắc chia sẻ phiên 02 về 1 Key Concept có thể hỗ trợ các bố mẹ dựa trên data từ vấn đề vừa rồi. |
+| **16:45 – 17:00** (15') | **Reflection ngắn 2 & Tổng kết** | Chat & Toàn phòng | • Reflection ngắn cho bố mẹ comment vào chat câu hỏi: *"Anh/Chị thu được điều gì mới sau phiên chia sẻ vừa rồi?"*<br>• Đúc kết bài học, gửi lời cảm ơn và kết thúc buổi chia sẻ. |
 
-  "marlins-day": `| Khung giờ | Nội dung hoạt động | Hình thức | Mục tiêu & Phương pháp |
-| :---: | :--- | :---: | :--- |
-| **15:00 – 15:20** (20') | **Đón tiếp & Tea-break Thân mật** | Tự do | Đón tiếp ấm áp, tạo cảm giác như những người bạn gặp nhau cuối tuần tại Sky Lounge. |
-| **15:20 – 16:10** (50') | **Fishbowl Dialogue: Tháo gỡ ngộ nhận** | Vòng tròn Fishbowl | Anh Đắc điều phối vòng tròn đối thoại, mời 2-3 phụ huynh ngồi giữa chia sẻ sâu sắc. |
-| **16:10 – 16:40** (30') | **Live Demo: Soi sáng lộ trình Nemo12** | Trực quan trên màn hình | Mentor Hồng demo trực tiếp cách hệ thống phát hiện lỗ hổng và cá nhân hóa lộ trình. |
-| **16:40 – 17:00** (20') | **Reflection & Kết nối Private** | Trò chuyện 1-1 | Phụ huynh ghi nhận cảm nhận vào Phiếu 4F; mời tham gia Group Zalo Private. |`,
+> 💬 **Sau buổi chia sẻ:** Mở quyền chat trên group Zalo để các phụ huynh vào chia sẻ các reflection sau phần vừa rồi.`,
 
   "family-meeting": `| Phần | Thời lượng | Nội dung chính | Lưu ý thực thi cho Mentor |
 | :--- | :---: | :--- | :--- |
@@ -181,7 +159,7 @@ const rubrics = {
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1. Execution & Compliance** | Quên khóa chat ở nhóm Public để spam tràn lan; không đăng case tuần; bỏ rơi nhóm Private. | Đăng bài thất thường, nội dung sao chép qua loa, chưa phân biệt rõ cách chăm sóc nhóm Private. | **Khóa chat 2 nhóm Public chuẩn xác (Low Maintenance); đăng đều đặn 1 case/tuần; nhóm Private chăm sóc ấm áp; 100% không CTA bán hàng.** | Vận hành cực kỳ tinh gọn, tiết kiệm thời gian; nội dung case hấp dẫn, tạo độ tin cậy tự nhiên cao. | Hệ thống cộng đồng vận hành tự động mượt mà, trở thành kênh lan tỏa tri thức cốt lõi của thương hiệu. |
 | **2. Insight & Diagnosis Depth** | Phân tích hời hợt, quy chụp nguyên nhân cảm tính, không chỉ ra được mắt xích gãy. | Chỉ ra được lỗi sai nhưng chưa thuyết phục về mặt phương pháp sư phạm. | **Bóc tách chuẩn xác giữa Triệu chứng bề mặt vs Nguyên nhân gốc rễ; đưa ra bài học nhân văn, thực tế cho cha mẹ.** | Insight sắc sảo, đánh trúng điểm mù tâm lý của đại đa số phụ huynh có con học cấp 2/3. | Phụ huynh đọc case thấy hình ảnh con mình trong đó và thay đổi hoàn toàn thái độ đồng hành cùng con. |
-| **3. Trust & Organic Connection** | Phụ huynh rời nhóm vì cảm thấy bị làm phiền hoặc bị bán hàng lộ liễu. | Phụ huynh đọc bài nhưng chỉ im lặng, chưa có sự gắn kết cảm xúc. | **Phụ huynh tin tưởng, đón đọc bài chia sẻ; phụ huynh nhóm Private chủ động chia sẻ tâm sự sâu sắc với Mentor.** | Nhiều phụ huynh nhóm Private chủ động cảm ơn; tự nguyện giới thiệu bạn bè tham gia sự kiện Marlins Day. | Nuôi dưỡng niềm tin tuyệt đối; cộng đồng tự vận hành và lan tỏa uy tín giáo dục của Nemo12 một cách bền vững. |`,
+| **3. Trust & Organic Connection** | Phụ huynh rời nhóm vì cảm thấy bị làm phiền hoặc bị bán hàng lộ liễu. | Phụ huynh đọc bài nhưng chỉ im lặng, chưa có sự gắn kết cảm xúc. | **Phụ huynh tin tưởng, đón đọc bài chia sẻ; phụ huynh nhóm Private chủ động chia sẻ tâm sự sâu sắc với Mentor.** | Nhiều phụ huynh nhóm Private chủ động cảm ơn; tự nguyện giới thiệu bạn bè tham gia sự kiện Marlins Workshop. | Nuôi dưỡng niềm tin tuyệt đối; cộng đồng tự vận hành và lan tỏa uy tín giáo dục của Nemo12 một cách bền vững. |`,
 
   "marlins-workshop": `Đánh giá chất lượng vận hành Marlins Workshop theo 5 cấp độ (Chuẩn **L3 DoD ⭐**):
 
@@ -189,17 +167,9 @@ const rubrics = {
 | :---: | :--- | :--- | :--- |
 | **L1** | Phòng Zoom lộn xộn, nhiều người tắt cam, trễ giờ, breakout room không hoạt động. | Nói lý thuyết suông, không có bài tập tình huống, phụ huynh không đọng lại gì. | Phụ huynh rời phòng sớm $>50\\%$; không ai quan tâm đến bước tiếp theo. |
 | **L2** | Tổ chức đúng giờ nhưng không kiểm soát được cam/mic; thảo luận nhóm gượng gạo. | Nội dung còn chung chung, chưa chạm vào nỗi đau thật của việc kèm con học. | Phụ huynh nghe thụ động, ít tương tác trong phần Q&A và bài tập 4F. |
-| **L3 (DoD ⭐)** | **100% bật cam/mic; phân phòng breakout mượt mà; tuân thủ đúng khung 120 phút.** | **Mổ xẻ trúng 1 Concept ngộ nhận; phụ huynh hoàn thành 2 vòng 4F Reflection tại chỗ.** | **$\\ge 75\\%$ phụ huynh ở lại đến cuối; có phụ huynh chủ động đăng ký tham gia Marlins Day / Trial Class.** |
+| **L3 (DoD ⭐)** | **100% bật cam/mic; phân phòng breakout mượt mà; tuân thủ đúng khung 120 phút.** | **Mổ xẻ trúng 1 Concept ngộ nhận; phụ huynh hoàn thành 2 vòng 4F Reflection tại chỗ.** | **$\\ge 75\\%$ phụ huynh ở lại đến cuối; có phụ huynh chủ động đăng ký tham gia Trial Class.** |
 | **L4** | Không khí sôi nổi, điều phối breakout nhịp nhàng; Mentor hỗ trợ tháo gỡ bế tắc nhóm xuất sắc. | Phụ huynh vỡ òa nhận thức, nhiều bố mẹ xúc động chia sẻ câu chuyện gia đình thật. | Nhiều phụ huynh truy cập Portal làm bài tập tự học và đề xuất mời bạn bè tham gia buổi sau. |
-| **L5** | Buổi workshop trở thành một không gian chuyển hóa tâm lý sâu sắc; cộng đồng gắn kết mạnh mẽ. | Tạo ra bước ngoặt tư duy lâu dài trong cách cha mẹ giao tiếp và tôn trọng con cái. | Tỷ lệ chuyển đổi tự nhiên sang Marlins Day và Trial Class đạt mức kỷ lục mà không cần sale. |`,
-
-  "marlins-day": `Đánh giá chất lượng thực thi Marlins Day theo 3 tiêu chuẩn phổ quát (Thang đo L1 – L5, **L3 là Definition of Done ⭐**):
-
-| Trụ Cột Đánh Giá | L1 (Chưa Đạt) | L2 (Cơ Bản) | L3 (Đạt Chuẩn - DoD ⭐) | L4 (Tốt) | L5 (Xuất Sắc) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Execution & Atmosphere** | Sự kiện lộn xộn, trễ giờ, không gian ồn ào; phụ huynh cảm thấy bị gò bó. | Đúng giờ nhưng không khí trang trọng gượng gạo như hội thảo thương mại. | **Không gian ấm cúng, đúng giờ, quy mô chuẩn $\\le 10$ người; tuân thủ đúng kịch bản Fishbowl.** | Không khí vô cùng xúc động, ấm áp; kết nối tự nhiên và thân tình giữa các gia đình. | Trở thành sự kiện biểu tượng tạo ra ấn tượng sâu sắc không thể quên cho phụ huynh. |
-| **2. Insight & Empathy** | Host nói lấn át, không lắng nghe phụ huynh; trả lời chung chung mang tính quảng cáo. | Lắng nghe nhưng chưa chạm vào nỗi đau thật của việc định hướng học tập cho con. | **Tạo Psychological Safety tuyệt đối; phụ huynh cởi mở chia sẻ bế tắc và tìm thấy sự đồng cảm.** | Bóc tách xuất sắc các ngộ nhận giáo dục, giúp phụ huynh tháo gỡ gánh nặng tâm lý ngay tại chỗ. | Chuyển biến hoàn toàn nhận thức của phụ huynh về phương pháp đồng hành cùng con. |
-| **3. Community Conversion** | Phụ huynh về ngay sau sự kiện, không ai muốn tham gia Group Private. | Có phụ huynh vào nhóm nhưng tương tác mờ nhạt, không duy trì được ngọn lửa kết nối. | **$\\ge 80\\%$ phụ huynh tham gia Group Private; hào hứng đọc và bình luận bản Reflection Report.** | Nhiều phụ huynh chủ động đăng ký Trial Class cho con và rủ bạn bè cùng tham gia buổi sau. | Phụ huynh trở thành hạt nhân tích cực, tự nguyện lan tỏa uy tín giáo dục của Nemo12. |`,
+| **L5** | Buổi workshop trở thành một không gian chuyển hóa tâm lý sâu sắc; cộng đồng gắn kết mạnh mẽ. | Tạo ra bước ngoặt tư duy lâu dài trong cách cha mẹ giao tiếp và tôn trọng con cái. | Tỷ lệ chuyển đổi tự nhiên sang Trial Class đạt mức kỷ lục mà không cần sale. |`,
 
   "trial-class": `Đánh giá chất lượng thực thi Trial Class theo 3 tiêu chuẩn phổ quát (Thang đo L1 – L5, **L3 là Definition of Done ⭐**):
 
@@ -238,7 +208,6 @@ const fileMap = {
   "social-media": "P01_Social_Media_Playbook.md",
   "community": "P02_Community_Playbook.md",
   "marlins-workshop": "P03_Marlins_Workshop_Playbook.md",
-  "marlins-day": "P04_Marlins_Day_Playbook.md",
   "trial-class": "P05_Trial_Class_Playbook.md",
   "live-class": "P06_Live_Class_Playbook.md",
   "family-meeting": "P07_Family_Meeting_Playbook.md",

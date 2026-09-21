@@ -4,10 +4,32 @@ title: "Assessment Rubrics"
 
 # Assessment Rubrics
 
-Đánh giá chất lượng thực thi Family Meeting theo 3 trụ cột chuẩn hóa (Thang đo L1 – L5, **L3 là chuẩn Definition of Done ⭐**):
+Bộ tiêu chuẩn đánh giá chất lượng toàn diện của **Family Tour (Family Meeting)** bao gồm 2 thang đo chuẩn hóa: **Rubrics 01 (Outcome Rubrics)** đo lường giá trị thực tế tạo ra và **Rubrics 02 (SOP Rubrics)** đo lường tính chuyên nghiệp trong quy trình tổ chức. Thang đo từ L1 đến L5 (**Level 3 là chuẩn Đạt / Definition of Done ⭐**).
 
-| Trụ Cột Đánh Giá | L1 (Chưa Đạt) | L2 (Cơ Bản) | L3 (Đạt Chuẩn - DoD ⭐) | L4 (Tốt) | L5 (Xuất Sắc) |
+---
+
+## Rubrics 01: Outcome Rubrics
+
+> **Câu hỏi trọng tâm:** *Buổi Family Tour có tạo ra giá trị không?*
+
+| Tiêu chí | Level 1<br>(Chưa đạt) | Level 2<br>(Bắt đầu) | Level 3<br>(Đạt - DoD ⭐) | Level 4<br>(Tốt) | Level 5<br>(Xuất sắc) |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1. Kỹ năng Điều phối & Tác phong (Execution)** | Trễ hẹn, biến thành buổi hỏi đáp tra khảo, học sinh bị gạt ra ngoài lề. | Giao tiếp đúng quy trình nhưng gượng gạo, chủ yếu nói nhiều hơn nghe. | **Đúng giờ, tạo không khí thân mật tự nhiên; tuân thủ tỷ lệ Listen 70% - Ask 20% - Talk 10%; cả PH và con đều được chia sẻ.** | Dẫn dắt mượt mà, xử lý tinh tế các tình huống nhạy cảm, giúp gia đình cởi mở hoàn toàn. | Tạo ra một cuộc trò chuyện truyền cảm hứng sâu sắc, xóa tan khoảng cách thế hệ trong gia đình. |
-| **2. Độ sâu Insight & Ghi chép Dory (Sensemaking)** | Không ghi chép, bỏ sót thông tin hoặc ghi chép suy diễn cảm tính. | Ghi lại thông tin hành chính bề nổi, không có gì mới so với form đăng ký. | **Khai thác đủ 3 insight (Dynamics, Environment, Motivation); cập nhật Family Notes & gắn tag 6 trục Dory trong 24h.** | Phát hiện được những điểm mù sư phạm và động lực nội tại độc đáo của học sinh có bằng chứng rõ ràng. | Insight có giá trị định hình lại toàn bộ chiến lược đồng hành, giúp cả team hiểu sâu sắc học sinh. |
-| **3. Mức độ Tin cậy & Gắn kết (Parent Value)** | Phụ huynh cảm thấy bị soi mói, khó chịu hoặc mất thời gian. | Phụ huynh lịch sự tiếp đón nhưng vẫn giữ khoảng cách phòng thủ. | **Gia đình an tâm, cảm nhận rõ sự tận tâm của Mentor; đồng thuận với mục tiêu và bước hành động tiếp theo.** | Phụ huynh chủ động chia sẻ những khó khăn sâu kín và đặt niềm tin trọn vẹn vào định hướng của Mentor. | Phụ huynh xem Mentor như người đồng hành tri kỷ của gia đình, chủ động kết nối và giới thiệu thêm các gia đình khác. |
+| **1. Family Understanding**<br>*Hiểu gia đình và học sinh* | Chỉ thu thập thông tin hành chính hoặc lặp lại Family Portal. | Hiểu được một vài thông tin mới nhưng còn rời rạc. | **Xác định được 3 insight cốt lõi:**<br>1. Family Dynamics<br>2. Learning Environment<br>3. Hidden Motivation. | Có bằng chứng (quan sát hoặc câu chuyện) minh chứng cho từng insight. | Insight đủ sâu để thay đổi cách mentor đồng hành; mentor có thể giải thích rõ *vì sao* học sinh cư xử như vậy. |
+| **2. Trust & Relationship**<br>*Xây dựng niềm tin* | Buổi gặp mang tính hỏi đáp; phụ huynh và học sinh ít chia sẻ. | Có trao đổi hai chiều nhưng còn dè dặt. | **Phụ huynh và học sinh chủ động chia sẻ suy nghĩ, câu chuyện hoặc khó khăn.** | Hai bên cảm thấy được lắng nghe; cuộc trò chuyện diễn ra tự nhiên. | Gia đình chủ động mong muốn tiếp tục đồng hành, sẵn sàng liên hệ mentor khi cần và giới thiệu thêm những điều quan trọng về con. |
+| **3. Student Connection**<br>*Kết nối với học sinh* | Học sinh hầu như không tham gia. | Học sinh chỉ trả lời khi được hỏi. | **Học sinh chủ động chia sẻ ít nhất một sở thích, trải nghiệm hoặc mong muốn.** | Mentor xây dựng được sự tin tưởng; học sinh thoải mái trò chuyện. | Học sinh cảm thấy mentor *"hiểu mình"* và thể hiện sự hào hứng với hành trình học phía trước. |
+| **4. Mentoring Readiness**<br>*Sẵn sàng cho mentoring* | Mentor chưa biết sẽ hỗ trợ học sinh như thế nào. | Có nhận định chung nhưng chưa cụ thể. | **Sau buổi gặp, mentor xác định được các ưu tiên mentoring và cách phối hợp với gia đình.** | Có kế hoạch hành động rõ ràng cho 4–6 tuần đầu, dựa trên insight từ Family Tour. | Kế hoạch được cá nhân hóa, có giả thuyết rõ ràng và tiêu chí quan sát để kiểm chứng trong quá trình học. |
+| **5. Documentation & Knowledge Capture**<br>*Lưu trữ tri thức* | Không ghi chép hoặc ghi chép thiếu. | Có ghi chép nhưng khó sử dụng. | **Hồ sơ Family Tour đầy đủ, rõ ràng và có thể sử dụng cho mentor khác.** | Insight được chuẩn hóa thành dữ liệu trong Simba và liên kết với Learner Profile. | Hồ sơ đủ chất lượng để bất kỳ mentor nào đọc cũng hiểu học sinh và có thể tiếp tục đồng hành mà không cần gặp lại gia đình. |
+
+---
+
+## Rubrics 02: SOP Rubrics
+
+> **Câu hỏi trọng tâm:** *Buổi Family Tour được tổ chức có chuyên nghiệp không?*
+
+| Tiêu chí | Level 1<br>(Chưa đạt) | Level 2<br>(Cần cải thiện) | Level 3<br>(Đạt - DoD ⭐) | Level 4<br>(Tốt) | Level 5<br>(Xuất sắc) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1. Preparation**<br>*Chuẩn bị trước buổi gặp* | Không chuẩn bị hoặc thiếu nhiều thông tin cơ bản. | Đã xem Family Portal nhưng chưa xác định mục tiêu buổi gặp. | **Đã đọc Family Portal, chuẩn bị agenda và câu hỏi phù hợp với gia đình.** | Chuẩn bị dựa trên dữ liệu học sinh, có giả thuyết cần kiểm chứng. | Chuẩn bị kỹ lưỡng, cá nhân hóa hoàn toàn; mentor biết rõ điều gì cần quan sát, hỏi và xác minh. |
+| **2. Communication & Facilitation**<br>*Điều phối và giao tiếp* | Giao tiếp rời rạc, chủ yếu hỏi đáp theo checklist. | Có trao đổi hai chiều nhưng chưa tạo được dòng hội thoại tự nhiên. | **Điều phối tốt, cả phụ huynh và học sinh đều có cơ hội chia sẻ.** | Chủ động lắng nghe, đặt câu hỏi mở và xử lý linh hoạt các tình huống phát sinh. | Tạo được cuộc trò chuyện tự nhiên, mọi thành viên đều cảm thấy được tôn trọng và chủ động chia sẻ. |
+| **3. Professionalism**<br>*Tác phong chuyên nghiệp* | Trễ hẹn, thiếu chuẩn bị hoặc có hành vi thiếu chuyên nghiệp. | Đúng quy trình nhưng còn thiếu chỉn chu hoặc chưa tạo được thiện cảm. | **Đúng giờ, lịch sự, tôn trọng không gian và thời gian của gia đình.** | Chủ động xác nhận lịch, quản lý thời gian tốt và tạo trải nghiệm tích cực. | Gia đình cảm nhận rõ sự chuyên nghiệp, tận tâm và mong muốn tiếp tục đồng hành. |
+| **4. Observation & Documentation**<br>*Quan sát và ghi nhận* | Ghi chép thiếu hoặc chỉ ghi thông tin bề mặt. | Có ghi chép nhưng bỏ sót nhiều quan sát quan trọng. | **Ghi nhận đầy đủ các quan sát và cập nhật hồ sơ sau buổi gặp.** | Quan sát có hệ thống, phân biệt rõ Fact – Observation – Interpretation. | Ghi chép chất lượng cao, có bằng chứng cụ thể và đủ để mentor khác tiếp tục đồng hành. |
+| **5. Follow-up**<br>*Hành động sau Family Tour* | Không có follow-up sau buổi gặp. | Có follow-up nhưng chậm hoặc chưa rõ ràng. | **Gửi lời cảm ơn, cập nhật Simba và chia sẻ các bước tiếp theo đúng thời hạn.** | Chủ động duy trì kết nối, xác nhận sự thống nhất với gia đình và chuyển hóa insight thành kế hoạch mentoring. | Follow-up tạo được động lực tiếp tục hợp tác; phụ huynh biết rõ vai trò của mình và mentor bắt đầu triển khai ngay các hành động đã thống nhất. |

@@ -81,7 +81,7 @@ Hệ thống phân rã nhu cầu của phụ huynh thành 3 nhóm việc chính:
 | **E3 Gắn kết** | Cung cấp cổng thông tin minh bạch (Portal) | Mời phụ huynh vào các phiên đối thoại phù hợp | **System-first** |
 | **E4 Đồng hành** | Cung cấp dữ liệu lịch sử chăm sóc | Lắng nghe, thấu cảm, cùng tháo gỡ khó khăn | **Mentor** |
 | **E5 Đáng giá** | Lưu trữ toàn bộ bằng chứng năng lực xuyên suốt | Kết nối các bằng chứng thành câu chuyện ý nghĩa | **Hybrid** |
-| **S1-S4 Giá trị** | Hạ tầng tài liệu, video chia sẻ, thông tin sự kiện | Điều phối Marlins Day, chia sẻ trải nghiệm thực | **Hybrid (Host)** |
+| **S1-S4 Giá trị** | Hạ tầng tài liệu, video chia sẻ, thông tin sự kiện | Điều phối Marlins Workshop, chia sẻ trải nghiệm thực | **Hybrid (Host)** |
 | **S5 Kỷ niệm** | Gắn cờ các cột mốc hoàn thành xuất sắc | Tổ chức Family Tour, lễ vinh danh, kỷ niệm | **Human-led** |
 
 > **Quy luật bất biến về niềm tin:**  

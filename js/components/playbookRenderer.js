@@ -26,13 +26,6 @@ const PLAYBOOKS_MAP = {
     badge: 'badge-marlins',
     touchpointIds: ['WS']
   },
-  'marlins-day': {
-    title: 'Marlins Day Playbook',
-    group: 'Acquisition',
-    summary: 'Không gian đối thoại tháo gỡ ngộ nhận và chuẩn bị tâm thế đồng hành cho phụ huynh.',
-    badge: 'badge-marlins',
-    touchpointIds: ['T3']
-  },
 
   // 2. ACTIVATION
   'trial-class': {

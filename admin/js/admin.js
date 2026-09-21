@@ -6,11 +6,10 @@ const API_BASE_URL = window.location.hostname === "localhost"
 // Dữ liệu mẫu khởi tạo khi chưa kết nối Worker Live
 let playbooksCache = [
   { id: "community", title: "Community & Social", tier: "Tier 3", touchpoints: ["COM"], owner: "Community Specialist", standard_time: "15m/day", objective: "Vận hành hệ thống nhóm Zalo tương tác và kênh mạng xã hội gắn kết." },
-  { id: "marlins-workshop", title: "Marlins Workshop", tier: "Tier 1", touchpoints: ["WS"], owner: "Host / Mentor", standard_time: "60m", objective: "Tổ chức Live Workshop trực tuyến tối Thứ 5 và giải đáp sư phạm." },
-  { id: "marlins-day", title: "Marlins Day", tier: "Tier 1", touchpoints: ["T3"], owner: "Care Lead / Mentor", standard_time: "120m", objective: "Đối thoại trực tiếp chiều Chủ Nhật tại không gian khách sạn." },
+  { id: "marlins-workshop", title: "Marlins Workshop", tier: "Tier 1", touchpoints: ["WS"], owner: "Host / Mentor", standard_time: "120m", objective: "Tổ chức Live Workshop trực tuyến 15h00 - 17h00 Chủ Nhật và giải đáp sư phạm." },
   { id: "trial-class", title: "Trial Class", tier: "Tier 2", touchpoints: ["T1", "T2", "T4"], owner: "Trial Mentor", standard_time: "2 buổi × 90m", objective: "Quy trình học thử 2 buổi và tham vấn độ phù hợp dựa trên bằng chứng dữ liệu." },
   { id: "live-class", title: "Live Class", tier: "Tier 2", touchpoints: ["T5", "T6", "T7", "T8", "T9", "T13"], owner: "Primary Mentor", standard_time: "12 buổi", objective: "Vận hành 12 buổi học chính thức, báo cáo tuần và ấn phẩm Growth Story 5 phần." },
-  { id: "family-meeting", title: "Family Meeting", tier: "Tier 1", touchpoints: ["T10"], owner: "Mentor & Care Lead", standard_time: "45m", objective: "Gặp gỡ trực tiếp gia đình theo khoảnh khắc ý nghĩa (Family Tour)." },
+  { id: "family-meeting", title: "Family Meeting", tier: "Tier 1", touchpoints: ["T10"], owner: "Mentor & Care Lead", standard_time: "60m", objective: "Gặp gỡ trực tiếp gia đình theo khoảnh khắc ý nghĩa." },
   { id: "referrals", title: "Referrals Program", tier: "Tier 3", touchpoints: ["REF"], owner: "System / Care Lead", standard_time: "Tức thì", objective: "Chính sách tri ân song phương 15% - 15% Tuition Credit cho phụ huynh." }
 ];
 

@@ -23,7 +23,7 @@ graph TD
     subgraph HumanLayer["🤝 HUMAN LAYER (Humanize the Meaning)"]
         H1["Thấu cảm bối cảnh tâm lý gia đình"]
         H2["Phán đoán nguyên nhân gốc rễ (Root Cause)"]
-        H3["Hội thoại gỡ rối tại Marlins Day / Family Meeting"]
+        H3["Hội thoại gỡ rối tại Marlins Workshop / Family Meeting"]
         H4["Viết Growth Story độc bản kết khóa"]
     end
 
@@ -38,5 +38,5 @@ graph TD
 | :--- | :---: | :--- |
 | **Ghi nhận & Cảnh báo dữ liệu** | **Nemo12 System** | Tự động quét tiến độ LMS, gửi thông báo nhắc lịch và cảnh báo rủi ro học tập. |
 | **Quan sát hành vi định tính** | **Dolphin Mentor** | Ghi nhận thái độ, mức độ tập trung và phản ứng cảm xúc của học sinh trong giờ học. |
-| **Đối thoại chuyên sâu với phụ huynh** | **Marlins Care Host** | Điều phối phiên thảo luận Fishbowl tại Marlins Day và tham vấn 1-1 cho gia đình. |
+| **Đối thoại chuyên sâu với phụ huynh** | **Marlins Care Host** | Điều phối phiên thảo luận Fishbowl tại Marlins Workshop và tham vấn 1-1 cho gia đình. |
 | **Bảo mật & Quyền riêng tư** | **Hệ thống & Mentor** | Ẩn danh hóa 100% dữ liệu trước khi trích xuất case study chia sẻ cộng đồng. |

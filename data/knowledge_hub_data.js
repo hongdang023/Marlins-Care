@@ -156,7 +156,7 @@ export const KNOWLEDGE_HUB_DATA = {
       "id": "DAR-01",
       "title": "Mid-point Parent Pulse",
       "decision": "Pilot khảo sát siêu nhẹ (~Session 6, ≤3 câu hỏi, ≤3 phút). Không tạo cuộc họp bắt buộc.",
-      "rationale": "Dò tìm các khoảng trống kỳ vọng âm thầm (silent expectation gaps) mà data hệ thống và Marlins Day tự nguyện có thể bỏ sót."
+      "rationale": "Dò tìm các khoảng trống kỳ vọng âm thầm (silent expectation gaps) mà data hệ thống và Marlins Workshop tự nguyện có thể bỏ sót."
     },
     {
       "id": "DAR-02",
@@ -208,7 +208,7 @@ export const KNOWLEDGE_HUB_DATA = {
         {
           "step": 2,
           "title": "Cung cấp Mental Model",
-          "desc": "Nêu rõ mục tiêu Trial (Khám phá tư duy & trải nghiệm, không áp lực điểm số), hướng dẫn thiết bị và gửi lời mời Marlins Day."
+          "desc": "Nêu rõ mục tiêu Trial (Khám phá tư duy & trải nghiệm, không áp lực điểm số), hướng dẫn thiết bị và gửi lời mời Marlins Workshop."
         },
         {
           "step": 3,
@@ -224,7 +224,7 @@ export const KNOWLEDGE_HUB_DATA = {
       "doGuidelines": [
         "Nêu rõ Trial là để tìm hiểu phong cách tư duy của con, giảm áp lực bài thi.",
         "Hướng dẫn thiết bị trực quan bằng hình ảnh ngắn gọn.",
-        "Giới thiệu Marlins Day như một đặc quyền dành cho phụ huynh vào chiều Chủ Nhật."
+        "Giới thiệu Marlins Workshop như một đặc quyền dành cho phụ huynh vào chiều Chủ Nhật."
       ],
       "dontGuidelines": [
         "Không gửi tài liệu PDF dài dòng hàng chục trang.",
@@ -232,7 +232,7 @@ export const KNOWLEDGE_HUB_DATA = {
       ],
       "template": {
         "channel": "Zalo ZNS / SMS tự động",
-        "content": "[Nemo12] Chào Anh/Chị {Parent_Name}, Nemo12 đã nhận lịch trải nghiệm 02 buổi học thử của bé {Student_Name}:\n📅 Buổi 1: {Time_1} - {Date_1}\n📅 Buổi 2: {Time_2} - {Date_2}\n📍 Hình thức: {Location_or_Zoom_Link}\n\n💡 Tại Nemo12, 02 buổi Trial là không gian để con tự do khám phá và bộc lộ phong cách tư duy tự nhiên nhất, hoàn toàn không phải bài thi áp lực. \nAnh/Chị có thể xem hướng dẫn chuẩn bị thiết bị và lịch trình chi tiết tại: {Portal_Link}\n\nĐặc biệt, kính mời Anh/Chị tham gia buổi trò chuyện \"Marlins Day\" vào chiều Chủ Nhật tuần này để cùng trao đổi về phương pháp đồng hành cùng con.\nHotline hỗ trợ kỹ thuật: 09xx.xxx.xxx"
+        "content": "[Nemo12] Chào Anh/Chị {Parent_Name}, Nemo12 đã nhận lịch trải nghiệm 02 buổi học thử của bé {Student_Name}:\n📅 Buổi 1: {Time_1} - {Date_1}\n📅 Buổi 2: {Time_2} - {Date_2}\n📍 Hình thức: {Location_or_Zoom_Link}\n\n💡 Tại Nemo12, 02 buổi Trial là không gian để con tự do khám phá và bộc lộ phong cách tư duy tự nhiên nhất, hoàn toàn không phải bài thi áp lực. \nAnh/Chị có thể xem hướng dẫn chuẩn bị thiết bị và lịch trình chi tiết tại: {Portal_Link}\n\nĐặc biệt, kính mời Anh/Chị tham gia buổi trò chuyện \"Marlins Workshop\" vào chiều Chủ Nhật tuần này để cùng trao đổi về phương pháp đồng hành cùng con.\nHotline hỗ trợ kỹ thuật: 09xx.xxx.xxx"
       },
       "rubric": [
         {
@@ -339,84 +339,6 @@ export const KNOWLEDGE_HUB_DATA = {
       ]
     },
     {
-      "id": "T3",
-      "name": "Marlins Day",
-      "category": "Parent → Human",
-      "owner": "Human (Anh Đắc / Marlins Care)",
-      "stage": "Persistent Support (Toàn bộ hành trình)",
-      "jobs": [
-        "F4",
-        "E4",
-        "S1",
-        "S4"
-      ],
-      "trigger": "Định kỳ chiều Chủ Nhật hàng tuần; Thư mời Trial; Phụ huynh tự đăng ký hoặc Mentor đề xuất",
-      "purpose": "Tháo gỡ hiểu lầm, giải tỏa lo lắng, và trang bị mô hình tư duy (mental models) đúng đắn cho phụ huynh trong việc đồng hành cùng con.",
-      "sopTime": "60 - 90 phút (Thao tác chuẩn bị ≤15 min)",
-      "sopSteps": [
-        {
-          "step": 1,
-          "title": "Tiếp nhận & Phân nhóm băn khoăn",
-          "desc": "Tra cứu thẻ gia đình trên Dolphin và phân loại mối bận tâm trước 24h."
-        },
-        {
-          "step": 2,
-          "title": "Tổ chức đối thoại & Reframing",
-          "desc": "Mở đầu bằng bối cảnh thực tế -> Lắng nghe -> Tìm giả định ngầm -> Tái định hình góc nhìn (Reframing)."
-        },
-        {
-          "step": 3,
-          "title": "Đúc kết Micro-action",
-          "desc": "Hướng dẫn mỗi phụ huynh chọn đúng 01 hành động nhỏ cụ thể để áp dụng tại nhà trong tuần."
-        },
-        {
-          "step": 4,
-          "title": "Lưu trữ Dory Insight & Chuyển giao",
-          "desc": "Lưu ghi chú vào thẻ Bố/Mẹ trên Dolphin gắn tag belief, need, pain, nâng chỉ số Understanding Scorecard."
-        }
-      ],
-      "doGuidelines": [
-        "Đặt câu hỏi truy vấn nguyên nhân gốc rễ phía sau nỗi lo của phụ huynh.",
-        "Chia sẻ câu chuyện thật, chân thành, bình đẳng giữa những người làm cha mẹ.",
-        "Tôn trọng sự khác biệt trong hoàn cảnh mỗi gia đình."
-      ],
-      "dontGuidelines": [
-        "Tuyệt đối không biến thành hội thảo bán hàng (Sales webinar).",
-        "Không phán xét hay đổ lỗi cho cách dạy con của phụ huynh.",
-        "Không đưa ra lời khuyên giáo điều, sáo rỗng thiếu tính thực thi."
-      ],
-      "template": {
-        "channel": "Offline Hub (14h00 - 17h00 Chủ Nhật hàng tuần)",
-        "content": "AGENDA MARLINS DAY (14h00 - 17h00 CHỦ NHẬT HÀNG TUẦN):\n1. Giới thiệu bản thân & Kết nối phụ huynh (15 min).\n2. Fishbowl Round 1 - Lắng nghe & Bóc tách câu chuyện thực tế (30 min).\n3. 4F Reflection Round 1 - Fact, Feeling, Finding, Future (15 min).\n4. Fishbowl Round 2 - Đào sâu & Tái định hình góc nhìn Reframing (30 min).\n5. 4F Reflection Round 2 (15 min).\n6. Demo trực tiếp hệ thống Nemo12 & Bằng chứng dữ liệu (30 min).\n7. 4F Reflection tổng kết & Xác lập 01 Micro-action tại nhà (30 min)."
-      },
-      "rubric": [
-        {
-          "criterion": "Understanding Parent ",
-          "l1": "Trả lời bộp chộp, ngắt lời hoặc áp đặt câu trả lời ngay lập tức.",
-          "l2": "Chỉ hiểu câu hỏi bề mặt trên câu chữ của phụ huynh.",
-          "l3": "Hiểu đúng nỗi lo âu và băn khoăn thực tế của gia đình.",
-          "l4": "Bóc tách và chỉ ra được giả định ngầm sai lệch phía sau lo âu đó.",
-          "l5": "Phụ huynh tự giật mình nhận ra gốc rễ vấn đề nằm ở mô hình tương tác gia đình."
-        },
-        {
-          "criterion": "Reframing ",
-          "l1": "Đưa ra lời khuyên chung chung kiểu 'về bảo ban cháu'.",
-          "l2": "Giải thích lý thuyết giáo dục một chiều.",
-          "l3": "Đưa ra góc nhìn mới giúp phụ huynh nhìn nhận hành vi của con khác đi.",
-          "l4": "Thay đổi hoàn toàn cách phụ huynh hiểu về vấn đề của con (chuyển lo âu thành cơ hội).",
-          "l5": "Trang bị cho phụ huynh mô hình tư duy bền vững có thể tự áp dụng cho mọi tình huống sau này."
-        },
-        {
-          "criterion": "Actionability ",
-          "l1": "Không có giải pháp tiếp theo, phụ huynh thêm hoang mang.",
-          "l2": "Đưa ra lời khuyên chung chung khó áp dụng.",
-          "l3": "Có 1-2 hành động cụ thể, khả thi để phụ huynh làm thử ở nhà.",
-          "l4": "Hành động được thiết kế riêng vừa vặn với bối cảnh từng gia đình.",
-          "l5": "Phụ huynh tự tin thử nghiệm hành động, tự quan sát và tự điều chỉnh cách phản ứng với con."
-        }
-      ]
-    },
-    {
       "id": "T4",
       "name": "Post-Trial Decision Support",
       "category": "Journey / Relationship",
@@ -427,7 +349,7 @@ export const KNOWLEDGE_HUB_DATA = {
         "E5",
         "S3"
       ],
-      "trigger": "Sau khi gửi báo cáo T2 và phụ huynh tham gia Marlins Day T3",
+      "trigger": "Sau khi gửi báo cáo T2 và hoàn thành trải nghiệm Trial Class",
       "purpose": "Đồng hành cùng phụ huynh đưa ra quyết định học tập sáng suốt dựa trên sự phù hợp thực tế của học sinh (Fit Judgment), sẵn sàng từ chối nhận nếu chưa phù hợp.",
       "sopTime": "10 - 15 phút tư vấn",
       "sopSteps": [
@@ -666,7 +588,7 @@ export const KNOWLEDGE_HUB_DATA = {
         {
           "step": 3,
           "title": "Phán đoán & Chọn hành động",
-          "desc": "Lựa chọn: (1) Quan sát thêm, (2) Điều chỉnh sư phạm trong lớp, (3) Trao đổi với phụ huynh, (4) Giới thiệu Marlins Day."
+          "desc": "Lựa chọn: (1) Quan sát thêm, (2) Điều chỉnh sư phạm trong lớp, (3) Trao đổi với phụ huynh, (4) Giới thiệu Marlins Workshop."
         },
         {
           "step": 4,
@@ -1219,12 +1141,12 @@ export const KNOWLEDGE_HUB_DATA = {
     },
     {
       "id": "WS",
-      "name": "Marlins Workshop (Online Zoom tối Thứ 5)",
+      "name": "Marlins Workshop (Online Zoom Chủ Nhật)",
       "category": "Acquisition / Workshop",
       "owner": "Human (Marlins Care / Anh Đắc & Mentors)",
       "stage": "Acquisition (Trước khóa học)",
       "jobs": ["F5", "E1", "S3", "S4"],
-      "trigger": "Định kỳ 20h00 - 22h00 Thứ 5 hàng tuần qua Zoom",
+      "trigger": "Định kỳ 15h00 - 17h00 Chủ Nhật hàng tuần qua Zoom",
       "purpose": "Tổ chức các buổi Workshop chuyên đề chuyên sâu theo cụm chủ đề (Tư duy lập trình, Định hướng chuyên cấp 2/3, Ứng dụng AI thực chiến cho Teen), giải tỏa lo âu của cha mẹ và dẫn dắt phụ huynh đăng ký 2 buổi Trial Class Offline Chủ Nhật.",
       "sopTime": "120 phút trực tiếp (Chuẩn bị ≤30 min)",
       "sopSteps": [
@@ -1236,17 +1158,17 @@ export const KNOWLEDGE_HUB_DATA = {
         {
           "step": 2,
           "title": "Điều phối Workshop chuyên sâu",
-          "desc": "20h00 - 22h00: Chia sẻ góc nhìn thực chiến, giải mã tâm lý lứa tuổi và đối thoại trực tiếp cùng phụ huynh."
+          "desc": "15h00 - 17h00: Chia sẻ góc nhìn thực chiến theo Fishbowl & 2 phiên Concept, giải mã tâm lý lứa tuổi và đối thoại trực tiếp cùng phụ huynh."
         },
         {
           "step": 3,
           "title": "Demo hệ thống Nemo12 & Lời mời Trial",
-          "desc": "Trình chiếu cách Nemo12 cá nhân hóa việc học và trao vé mời tham gia 2 buổi Trial Class Offline chiều Chủ Nhật."
+          "desc": "Trình chiếu cách Nemo12 cá nhân hóa việc học và trao vé mời tham gia 2 buổi Trial Class Offline."
         },
         {
           "step": 4,
           "title": "Chăm sóc hậu Workshop & Nurturing",
-          "desc": "Gửi tài liệu tóm tắt vào 3 Group Zalo Community và phân luồng hỗ trợ phụ huynh đặt lịch Trial Class."
+          "desc": "Mở quyền chat trên Group Zalo để phụ huynh chia sẻ reflection; gửi tài liệu tóm tắt và phân luồng hỗ trợ phụ huynh đặt lịch Trial Class."
         }
       ],
       "doGuidelines": [

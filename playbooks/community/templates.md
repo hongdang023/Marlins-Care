@@ -11,7 +11,7 @@ title: "Templates"
 
 Chào các bố mẹ trong group Nemo12!
 
-Tuần vừa rồi trong buổi Marlins Day, em có gặp một người mẹ rất trăn trở: "Con chị dạo này lười lắm, cứ ngồi vào bàn học Toán là ngáp ngắn ngáp dài, điểm kiểm tra tụt dốc không phanh...".
+Tuần vừa rồi trong buổi Marlins Workshop, em có gặp một người mẹ rất trăn trở: "Con chị dạo này lười lắm, cứ ngồi vào bàn học Toán là ngáp ngắn ngáp dài, điểm kiểm tra tụt dốc không phanh...".
 
 Nhưng khi đưa con vào hệ thống Nemo12 để "khám" chi tiết từng mắt xích tư duy, kết quả làm cả mẹ lẫn con đều giật mình:
 👉 Con KHÔNG HỀ LƯỜI.
@@ -27,7 +27,7 @@ Chúc các bố mẹ một tuần mới nhiều năng lượng tích cực bên 
 ```text
 Chào các bố mẹ trong gia đình Nemo12 - Marlins! 🌿
 
-Sau buổi gặp gỡ Marlins Day chiều Chủ Nhật vừa rồi tại Sky Lounge Lotte Hotel, em và bạn Hồng có ngồi lại để hoàn thiện bản Reflection Report. 
+Sau buổi Marlins Workshop chiều Chủ Nhật vừa rồi, em và bạn Hồng có ngồi lại để hoàn thiện bản Reflection Report. 
 
 Điều đọng lại sâu sắc nhất với team là chia sẻ của ba mẹ về "Khoảng cách thế hệ khi con bước vào tuổi dậy thì". Chúng ta ai cũng muốn tốt cho con, nhưng đôi khi sự kỳ vọng vô tình tạo thành một bức tường vô hình...
 
